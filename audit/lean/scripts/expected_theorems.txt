@@ -7,3 +7,8 @@ ATK.RHExplosion.explosion_refutes
 ATK.RHExplosion.rh_iff_no_explosion
 ATK.RHExplosion.explosion_of_not_rh
 ATK.RHExplosion.explosion_location
+ATK.RHStrip.zero_re_lt_one
+ATK.RHStrip.nontrivial_zero_re_pos
+ATK.RHStrip.critical_strip
+ATK.RHStrip.zero_reflection
+ATK.RHStrip.trivial_zeros
