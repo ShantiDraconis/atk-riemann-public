@@ -35,6 +35,25 @@ Mesmo formato do Navier–Stokes (`clayC_of_fc : FCBreakdownR3 → ClayC`):
 Fechar por explosão = exibir uma testemunha (OPEN_MATH → false, RH falsa). Fechar pelo lado
 regular = provar `IsEmpty OffLineZero` (= H da ponte).
 
+## 0c. Linha de fechamento — CLOSED_MATH calculado pelo kernel
+
+Mesmo formato das linhas condicional e de explosão: **alvo exato** → **certificado** (declaração
+sem hipóteses, de tipo exatamente o alvo) → **portão** (`audit/lean/scripts/closure_gate.py`:
+kernel + axiomas padrão + controles) → **bandeira** calculada, nunca escrita à mão.
+
+| Alegação | Alvo exato | CLOSED_MATH | Certificado | Rotas certificadas até ela |
+|---|---|---|---|---|
+| RH | `RiemannHypothesis` | **false** | — | ponte `rh_of_noZerosRightOfHalf` (H aberta) |
+| ¬RH | `¬ RiemannHypothesis` | **false** | — | explosão `explosion_refutes` (sem testemunha) |
+
+Controles do portão (todos OK, run `38387833807`): aceita uma decisão verdadeira de problema-brinquedo;
+recusa alvo como `axiom`; recusa `sorry`; recusa a ponte e a linha de explosão oferecidas como
+certificado (falta H / falta a testemunha); recusa `alvo ∨ ¬alvo` (teorema vazio).
+
+Para mudar uma bandeira para `true`, basta acrescentar a `audit/lean/closure/registry.json`
+uma declaração que o kernel aceite com o tipo exato — vinda de uma prova de H (pela ponte) ou de
+uma testemunha (pela explosão). Nenhuma outra edição altera o resultado.
+
 ## 1. Alvo exato
 
 `RiemannHypothesis` (Mathlib): todo zero `s` de `ζ`, não trivial e `s ≠ 1`, tem `Re s = 1/2`.
