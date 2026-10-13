@@ -21,6 +21,20 @@ Mesmo formato do Navier–Stokes (`clayC_of_fc : FCBreakdownR3 → ClayC`):
 | Próximo elo | Nyman–Beurling/Báez-Duarte: `χ` no fecho `L²` da família `ρ(1/(kx))` ⇒ H (itens R1–R3) |
 | Kernel | **5/5 CERTIFIED** — Lean 4.34.1 + Mathlib v4.34.1, só `propext`/`Classical.choice`/`Quot.sound` (workflow `audit-kernel`) |
 
+## 0b. Linha de explosão — certificada no kernel
+
+| Peça | Declaração (`audit/lean/ATK/RHExplosion.lean`) |
+|---|---|
+| Testemunha de explosão | `OffLineZero`: zero de `ζ` com `Re s > 1/2` |
+| Refutação | `explosion_refutes : OffLineZero → ¬ RiemannHypothesis` |
+| Dicotomia | `rh_iff_no_explosion : RiemannHypothesis ↔ IsEmpty OffLineZero` |
+| Normalização | `explosion_of_not_rh`: todo contraexemplo de RH vira uma testemunha (reflexão `s ↦ 1 − s`) |
+| Localização | `explosion_location`: uma explosão só existe em `1/2 < Re s < 1` |
+| Estado | **nenhuma testemunha conhecida**; zeros verificados na reta até altura `3·10¹²` (Platt–Trudgian 2021) |
+
+Fechar por explosão = exibir uma testemunha (OPEN_MATH → false, RH falsa). Fechar pelo lado
+regular = provar `IsEmpty OffLineZero` (= H da ponte).
+
 ## 1. Alvo exato
 
 `RiemannHypothesis` (Mathlib): todo zero `s` de `ζ`, não trivial e `s ≠ 1`, tem `Re s = 1/2`.
