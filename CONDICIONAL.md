@@ -7,13 +7,27 @@ Legenda: **ABERTO** = alvo exato enunciável, nenhuma declaração desse tipo no
 **CONDICIONAL** = existe resultado que fecharia o alvo *se* uma hipótese explícita for
 demonstrada · **NÃO_ENUNCIÁVEL** = o alvo exato não existe na Mathlib v4.34.1.
 
+## 0. Ponte no formato NS — certificada no kernel
+
+Mesmo formato do Navier–Stokes (`clayC_of_fc : FCBreakdownR3 → ClayC`):
+
+| Peça | Declaração (`audit/lean/ATK/RHBridge.lean`) |
+|---|---|
+| Alvo exato | `RiemannHypothesis` (Mathlib) |
+| Hipótese H | `ATK.RHBridge.NoZerosRightOfHalf` — `ζ(s) ≠ 0` para `Re s > 1/2` |
+| Ponte | `rh_of_noZerosRightOfHalf : NoZerosRightOfHalf → RiemannHypothesis` (equação funcional `riemannZeta_one_sub`; os zeros que a reflexão `s ↦ 1 − s` não alcança são exatamente os triviais) |
+| Força de H | **equivalente** ao alvo (`rh_iff_noZerosRightOfHalf`); como a Mathlib já prova `ζ ≠ 0` em `Re s ≥ 1`, o que falta é a faixa `1/2 < Re s < 1` |
+| Falsificador | `not_rh_of_zero`: um zero com `Re s > 1/2` |
+| Próximo elo | Nyman–Beurling/Báez-Duarte: `χ` no fecho `L²` da família `ρ(1/(kx))` ⇒ H (itens R1–R3) |
+| Kernel | **5/5 CERTIFIED** — Lean 4.34.1 + Mathlib v4.34.1, só `propext`/`Classical.choice`/`Quot.sound` (workflow `audit-kernel`) |
+
 ## 1. Alvo exato
 
 `RiemannHypothesis` (Mathlib): todo zero `s` de `ζ`, não trivial e `s ≠ 1`, tem `Re s = 1/2`.
 Enunciável. No portão de fechamento ATK (M-Core, `closure/closure_gate.py`) só contam
 declarações de tipo exatamente `RiemannHypothesis` ou `¬ RiemannHypothesis`.
 
-**Estado no portão: ABERTO.**
+**Estado no portão: CONDICIONAL** — ponte certificada; H em aberto (equivalente ao alvo).
 
 ## 2. Varredura do conteúdo
 
@@ -38,13 +52,13 @@ Um zero `s` de `ζ` com `s ≠ 1`, não trivial e `Re s ≠ 1/2` — necessariam
 
 ## 5. Condição para mudar o estado
 
-ABERTO → FECHADO somente com uma declaração de tipo `RiemannHypothesis` (ou a negação) aceita
+CONDICIONAL → FECHADO somente com uma declaração de tipo `RiemannHypothesis` (ou a negação) aceita
 pelo portão: compilada no kernel, sem `sorry`, só com `propext`, `Classical.choice`,
 `Quot.sound`, e sem a conclusão entre as hipóteses.
 
 ---
 
-**English summary.** Status CONDITIONAL / gate OPEN. The imported `RHClosure DN` takes `DN` as a
+**English summary.** Status CONDITIONAL: kernel-checked bridge `NoZerosRightOfHalf → RiemannHypothesis` via Mathlib's functional equation (H is equivalent to RH; the remaining region is `1/2 < Re s < 1`). The imported `RHClosure DN` takes `DN` as a
 free parameter (trivially inhabited with `DN := 0`); to matter it must be the actual
 Nyman–Beurling/Báez-Duarte distance (R1), the criterion "bound ⇒ RH" must be formalized (R2), and
 the uniform upper bound `D_N ≤ K0/log N` itself is the open content (R3). Numerics are evidence,
