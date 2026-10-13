@@ -1,0 +1,52 @@
+{
+  "_doc": "Linha de fechamento: CLOSED_MATH é calculado por scripts/closure_gate.py a partir destas entradas. Um certificado é uma declaração SEM hipóteses de tipo exatamente um dos alvos. Pontes e explosões são rotas.",
+  "problem": "Riemann",
+  "imports": [
+    "ATK"
+  ],
+  "main_claim": "RH",
+  "targets": {
+    "RH": "RiemannHypothesis",
+    "¬RH": "¬ RiemannHypothesis"
+  },
+  "negations": {
+    "RH": "¬RH"
+  },
+  "closures": [],
+  "bridges": [
+    {
+      "claim": "RH",
+      "decl": "ATK.RHBridge.rh_of_noZerosRightOfHalf",
+      "hypothesis": "ATK.RHBridge.NoZerosRightOfHalf",
+      "status": "aberta (equivalente ao alvo)"
+    }
+  ],
+  "explosions": [
+    {
+      "claim": "¬RH",
+      "decl": "ATK.RHExplosion.explosion_refutes",
+      "hypothesis": "ATK.RHExplosion.OffLineZero",
+      "status": "nenhuma testemunha conhecida"
+    }
+  ],
+  "subtargets": [
+    {
+      "name": "Faixa crítica: zeros não triviais em 0 < Re s < 1",
+      "decl": "ATK.RHStrip.critical_strip",
+      "type": "∀ s : ℂ, riemannZeta s = 0 → (¬∃ n : ℕ, s = -2 * (n + 1)) → s ≠ 1 → 0 < s.re ∧ s.re < 1",
+      "relation": "RH pede Re s = 1/2; isto prova só 0 < Re s < 1"
+    },
+    {
+      "name": "Simetria s ↔ 1 − s dos zeros",
+      "decl": "ATK.RHStrip.zero_reflection",
+      "type": "∀ s : ℂ, riemannZeta s = 0 → 0 < s.re → s ≠ 1 → riemannZeta (1 - s) = 0",
+      "relation": "estrutura clássica; compatível com RH e com sua negação"
+    },
+    {
+      "name": "Zeros triviais −2(n+1)",
+      "decl": "ATK.RHStrip.trivial_zeros",
+      "type": "∀ n : ℕ, riemannZeta (-2 * (n + 1)) = 0",
+      "relation": "fato clássico"
+    }
+  ]
+}
