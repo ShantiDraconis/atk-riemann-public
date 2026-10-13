@@ -49,8 +49,8 @@ theorem left_zero_reflects {s : ℂ} (hs : riemannZeta s = 0) (hre : s.re < 1 / 
   have h1t : 1 - t = s := by rw [ht]; ring
   have hfe := riemannZeta_one_sub htn ht1
   rw [h1t, hs] at hfe
-  have h2pi : 2 * (π : ℂ) ≠ 0 := mod_cast by positivity
-  have hpow : (2 * (π : ℂ)) ^ (-t) ≠ 0 := by
+  have h2pi : 2 * (Real.pi : ℂ) ≠ 0 := mod_cast by positivity
+  have hpow : (2 * (Real.pi : ℂ)) ^ (-t) ≠ 0 := by
     rw [Ne, cpow_eq_zero_iff]
     rintro ⟨h, -⟩
     exact h2pi h
@@ -64,9 +64,9 @@ theorem left_zero_reflects {s : ℂ} (hs : riemannZeta s = 0) (hre : s.re < 1 / 
       · exact absurd h hG
     · -- `cos(π t / 2) = 0` ⇒ `t = 2k + 1` ⇒ `s = −2k`
       right
-      obtain ⟨k, hk⟩ := cos_eq_zero_iff.mp h
-      have hpi : (π : ℂ) ≠ 0 := ofReal_ne_zero.mpr Real.pi_ne_zero
-      have hk2 : (π : ℂ) * t = (π : ℂ) * (2 * k + 1) := by linear_combination 2 * hk
+      obtain ⟨k, hk⟩ := Complex.cos_eq_zero_iff.mp h
+      have hpi : (Real.pi : ℂ) ≠ 0 := ofReal_ne_zero.mpr Real.pi_ne_zero
+      have hk2 : (Real.pi : ℂ) * t = (Real.pi : ℂ) * (2 * k + 1) := by linear_combination 2 * hk
       have htk : t = 2 * k + 1 := mul_left_cancel₀ hpi hk2
       have hsk : s = -2 * (k : ℂ) := by rw [← h1t, htk]; ring
       have hkre := congrArg Complex.re hsk
