@@ -1,0 +1,32 @@
+{
+  "_doc": "Linha de fechamento: CLOSED_MATH é calculado por scripts/closure_gate.py a partir destas entradas. Um certificado é uma declaração SEM hipóteses de tipo exatamente um dos alvos. Pontes e explosões são rotas.",
+  "problem": "Riemann",
+  "imports": [
+    "ATK"
+  ],
+  "main_claim": "RH",
+  "targets": {
+    "RH": "RiemannHypothesis",
+    "¬RH": "¬ RiemannHypothesis"
+  },
+  "negations": {
+    "RH": "¬RH"
+  },
+  "closures": [],
+  "bridges": [
+    {
+      "claim": "RH",
+      "decl": "ATK.RHBridge.rh_of_noZerosRightOfHalf",
+      "hypothesis": "ATK.RHBridge.NoZerosRightOfHalf",
+      "status": "aberta (equivalente ao alvo)"
+    }
+  ],
+  "explosions": [
+    {
+      "claim": "¬RH",
+      "decl": "ATK.RHExplosion.explosion_refutes",
+      "hypothesis": "ATK.RHExplosion.OffLineZero",
+      "status": "nenhuma testemunha conhecida"
+    }
+  ]
+}
