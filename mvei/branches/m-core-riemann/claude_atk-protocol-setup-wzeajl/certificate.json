@@ -1,0 +1,466 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "claude/atk-protocol-setup-wzeajl",
+ "branch_state": "em andamento",
+ "head_commit": "c21f9a9fb43489ff7f526f394392734e523cd98a",
+ "head_commit_date": "2026-10-23T10:19:20+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "c21f9a9fb43489ff7f526f394392734e523cd98a",
+   "date": "2026-10-23T10:19:20+02:00",
+   "subject": "atk-kernel: RealZeta.lean - toca riemannZeta real do Mathlib, sem sorry"
+  },
+  {
+   "commit": "5b44d85e830161e07c6e62a9cf0465cfd3c8a01e",
+   "date": "2026-10-23T03:23:12+02:00",
+   "subject": "atk-kernel: corrige JensenDegreeTwo.lean (evita cancelamento a*a^-1 em ring)"
+  },
+  {
+   "commit": "b73c7393d163dab282515b8ae407c0c4ba4b763b",
+   "date": "2026-10-23T03:11:36+02:00",
+   "subject": "atk-kernel: criterio de Jensen grau 2 e grupo Z2xZ2 (Refl/Conj), sem sorry"
+  },
+  {
+   "commit": "bb28d8c14aa9bb70aaaf7aa752377a09ff807155",
+   "date": "2026-10-23T02:56:41+02:00",
+   "subject": "atk-kernel: corrige PairSum.lean (forma dobrada sem divisao)"
+  },
+  {
+   "commit": "b32a3a85cd780d8834be99bcad73f3d04117de71",
+   "date": "2026-10-23T02:47:58+02:00",
+   "subject": "atk-kernel: identidade soma sobre pares (PairSum), sem sorry"
+  },
+  {
+   "commit": "c2334c15d5c825d8366a0bc3fa063cd121138f49",
+   "date": "2026-10-23T02:44:45+02:00",
+   "subject": "atk-kernel: reflexao, inversao de Mobius, triangular inversa (Estimates), sem sorry"
+  },
+  {
+   "commit": "96e3abe7a0b2b7e3a58925e127a1a6c916b61cdb",
+   "date": "2026-10-23T02:38:35+02:00",
+   "subject": "atk-kernel: projetores complementares de S^2=I (Involution), sem sorry"
+  },
+  {
+   "commit": "630511403fe34070ac178c8231ad7b232fc86e43",
+   "date": "2026-10-23T02:35:53+02:00",
+   "subject": "atk-kernel: ponte de multiplicidade (B17) e cancelamento removivel, sem sorry"
+  },
+  {
+   "commit": "227f5cf28fad4caa2fe9970b710306defbae34b6",
+   "date": "2026-10-23T02:23:50+02:00",
+   "subject": "atk-kernel: dicotomia classificatoria (Dichotomy) e familia G_lambda (CrossingFamily)"
+  },
+  {
+   "commit": "fe200f76af413a3555310d1e547e218929595e97",
+   "date": "2026-10-23T02:02:58+02:00",
+   "subject": "atk-kernel: corrige Hex.lean (marcar defs reais como noncomputable)"
+  },
+  {
+   "commit": "d6286f239cd82bc431c27222b6c954bc798d0f85",
+   "date": "2026-10-23T01:52:18+02:00",
+   "subject": "atk-kernel: lemas elementares de geometria (Hex, Transport)"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.34.1"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.CrossingFamily.degenerate_at_zero",
+   "file": "atk-kernel/ATK/CrossingFamily.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (gam x : ℝ), ATK.CrossingFamily.quarticG 0 gam x = (x ^ 2 + gam ^ 2) ^ 2"
+  },
+  {
+   "name": "ATK.CrossingFamily.factorization",
+   "file": "atk-kernel/ATK/CrossingFamily.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (lam gam x : ℝ), ATK.CrossingFamily.quarticG lam gam x = ((x - lam) ^ 2 + gam ^ 2) * ((x + lam) ^ 2 + gam ^ 2)"
+  },
+  {
+   "name": "ATK.CrossingFamily.quarticG_nonneg",
+   "file": "atk-kernel/ATK/CrossingFamily.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (lam gam x : ℝ), 0 ≤ ATK.CrossingFamily.quarticG lam gam x"
+  },
+  {
+   "name": "ATK.Dichotomy.all_critical_iff_no_noncritical",
+   "file": "atk-kernel/ATK/Dichotomy.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F : ℂ → ℂ), ATK.Dichotomy.AllZerosCritical F ↔ ¬ATK.Dichotomy.HasNonCriticalZero F"
+  },
+  {
+   "name": "ATK.Dichotomy.no_point_both_critical_and_external",
+   "file": "atk-kernel/ATK/Dichotomy.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F : ℂ → ℂ) (s : ℂ), ¬((F s = 0 ∧ ATK.Dichotomy.Critical s) ∧ F s = 0 ∧ ¬ATK.Dichotomy.Critical s)"
+  },
+  {
+   "name": "ATK.Dichotomy.not_both",
+   "file": "atk-kernel/ATK/Dichotomy.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F : ℂ → ℂ), ¬(ATK.Dichotomy.HasNonCriticalZero F ∧ ATK.Dichotomy.AllZerosCritical F)"
+  },
+  {
+   "name": "ATK.Dichotomy.pointwise_classification",
+   "file": "atk-kernel/ATK/Dichotomy.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F : ℂ → ℂ) (s : ℂ),   F s = 0 ∧ ATK.Dichotomy.Critical s ∨     F s = 0 ∧ ¬ATK.Dichotomy.Critical s ∨ F s ≠ 0 ∧ ATK.Dichotomy.Critical s ∨ F s ≠ 0 ∧ ¬ATK.Dichotomy.Critical s"
+  },
+  {
+   "name": "ATK.Estimates.D_R_eq_neg_D",
+   "file": "atk-kernel/ATK/Estimates.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℝ × ℝ), ATK.Estimates.D (ATK.Estimates.R s) = -ATK.Estimates.D s"
+  },
+  {
+   "name": "ATK.Estimates.R_involutive",
+   "file": "atk-kernel/ATK/Estimates.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℝ × ℝ), ATK.Estimates.R (ATK.Estimates.R s) = s"
+  },
+  {
+   "name": "ATK.Estimates.inv_sq_reciprocal",
+   "file": "atk-kernel/ATK/Estimates.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (w : ℝ), w ≠ 0 → 1 / (1 / w) ^ 2 = w ^ 2"
+  },
+  {
+   "name": "ATK.Estimates.nonzero_from_bounds",
+   "file": "atk-kernel/ATK/Estimates.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F P L E : ℝ), L ≤ |P| → |F - P| ≤ E → E < L → F ≠ 0"
+  },
+  {
+   "name": "ATK.Estimates.reverse_triangle_bound",
+   "file": "atk-kernel/ATK/Estimates.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F P : ℝ), |P| - |F - P| ≤ |F|"
+  },
+  {
+   "name": "ATK.Hex.P5_eq_midpoint",
+   "file": "atk-kernel/ATK/Hex.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d t : ℝ),   ATK.Hex.P5 d t = (((ATK.Hex.P1 d t).1 + (ATK.Hex.P2 d t).1) / 2, ((ATK.Hex.P1 d t).2 + (ATK.Hex.P2 d t).2) / 2)"
+  },
+  {
+   "name": "ATK.Hex.P6_eq_midpoint",
+   "file": "atk-kernel/ATK/Hex.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d t : ℝ),   ATK.Hex.P6 d t = (((ATK.Hex.P3 d t).1 + (ATK.Hex.P4 d t).1) / 2, ((ATK.Hex.P3 d t).2 + (ATK.Hex.P4 d t).2) / 2)"
+  },
+  {
+   "name": "ATK.Hex.d_eq_half_diff",
+   "file": "atk-kernel/ATK/Hex.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d t : ℝ), d = ((ATK.Hex.P1 d t).1 - (ATK.Hex.P2 d t).1) / 2"
+  },
+  {
+   "name": "ATK.Hex.horizontalEnergy_eq_zero_iff",
+   "file": "atk-kernel/ATK/Hex.lean",
+   "line": 85,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : ℝ), ATK.Hex.horizontalEnergy d = 0 ↔ d = 0"
+  },
+  {
+   "name": "ATK.Hex.k6_energy",
+   "file": "atk-kernel/ATK/Hex.lean",
+   "line": 68,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d t : ℝ),   ATK.Hex.sqDist (ATK.Hex.P1 d t) (ATK.Hex.P2 d t) + ATK.Hex.sqDist (ATK.Hex.P1 d t) (ATK.Hex.P3 d t) +                               ATK.Hex.sqDist (ATK.Hex.P1 d t) (ATK.Hex.P4 d t) +                             ATK.Hex.sqDist (ATK.Hex.P1 d t) (ATK.Hex.P5 d t) +                           ATK.Hex.sqDist (ATK.Hex.P1 d t) (ATK.Hex.P6 d t) +                         ATK.Hex.sqDist (ATK.He"
+  },
+  {
+   "name": "ATK.Hex.t_eq_half_diff",
+   "file": "atk-kernel/ATK/Hex.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d t : ℝ), t = ((ATK.Hex.P1 d t).2 - (ATK.Hex.P4 d t).2) / 2"
+  },
+  {
+   "name": "ATK.Involution.Pminus_idem",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : ℝ), S ^ 2 = 1 → ATK.Involution.Pminus S ^ 2 = ATK.Involution.Pminus S"
+  },
+  {
+   "name": "ATK.Involution.Pplus_add_Pminus",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : ℝ), ATK.Involution.Pplus S + ATK.Involution.Pminus S = 1"
+  },
+  {
+   "name": "ATK.Involution.Pplus_idem",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : ℝ), S ^ 2 = 1 → ATK.Involution.Pplus S ^ 2 = ATK.Involution.Pplus S"
+  },
+  {
+   "name": "ATK.Involution.Pplus_mul_Pminus",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : ℝ), S ^ 2 = 1 → ATK.Involution.Pplus S * ATK.Involution.Pminus S = 0"
+  },
+  {
+   "name": "ATK.Involution.doubled_idempotent_minus",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} [inst : CommRing α] (S : α), S ^ 2 = 1 → (1 - S) * (1 - S) = 2 * (1 - S)"
+  },
+  {
+   "name": "ATK.Involution.doubled_idempotent_plus",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} [inst : CommRing α] (S : α), S ^ 2 = 1 → (1 + S) * (1 + S) = 2 * (1 + S)"
+  },
+  {
+   "name": "ATK.Involution.product_zero",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} [inst : CommRing α] (S : α), S ^ 2 = 1 → (1 + S) * (1 - S) = 0"
+  },
+  {
+   "name": "ATK.Involution.sum_doubled",
+   "file": "atk-kernel/ATK/Involution.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} [inst : CommRing α] (S : α), 1 + S + (1 - S) = 2"
+  },
+  {
+   "name": "ATK.JensenDegreeTwo.jensen_degree_two_has_real_root",
+   "file": "atk-kernel/ATK/JensenDegreeTwo.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a_k a_k1 a_k2 : ℝ), a_k2 ≠ 0 → a_k2 * a_k ≤ a_k1 ^ 2 → ∃ X, a_k2 * X ^ 2 + 2 * a_k1 * X + a_k = 0"
+  },
+  {
+   "name": "ATK.JensenDegreeTwo.quadratic_has_real_root",
+   "file": "atk-kernel/ATK/JensenDegreeTwo.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b c : ℝ), a ≠ 0 → a * c ≤ b ^ 2 → ∃ x, a * x ^ 2 + 2 * b * x + c = 0"
+  },
+  {
+   "name": "ATK.Multiplicity.cofactor_nonzero",
+   "file": "atk-kernel/ATK/Multiplicity.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} [inst : Field α] {h u : α → α} (a : α), h a ≠ 0 → u a ≠ 0 → u a * h a ≠ 0"
+  },
+  {
+   "name": "ATK.Multiplicity.factor_preserved",
+   "file": "atk-kernel/ATK/Multiplicity.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} [inst : Field α] {h u F : α → α} (a : α) (m : ℕ),   (∀ (z : α), F z = (z - a) ^ m * h z) → ∀ (z : α), u z * F z = (z - a) ^ m * (u z * h z)"
+  },
+  {
+   "name": "ATK.Multiplicity.removable_example",
+   "file": "atk-kernel/ATK/Multiplicity.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : ℝ), x ≠ 1 → (x ^ 2 - 1) / (x - 1) = x + 1"
+  },
+  {
+   "name": "ATK.Multiplicity.zero_iff_of_nonzero_factor",
+   "file": "atk-kernel/ATK/Multiplicity.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} [inst : Field α] {F G u : α → α} (a : α), (∀ (z : α), G z = u z * F z) → u a ≠ 0 → (F a = 0 ↔ G a = 0)"
+  },
+  {
+   "name": "ATK.PairSum.pair_sum_symmetric_three",
+   "file": "atk-kernel/ATK/PairSum.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (f : ℕ → ℕ → ℝ),   (∀ (x y : ℕ), f x y = f y x) →     ∀ (a b c : ℕ), f a b + f a c + f b c = (f a b + f b a + f a c + f c a + f b c + f c b) / 2"
+  },
+  {
+   "name": "ATK.PairSum.pair_sum_symmetric_three_doubled",
+   "file": "atk-kernel/ATK/PairSum.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {β : Type u_1} [inst : CommRing β] (f : ℕ → ℕ → β),   (∀ (x y : ℕ), f x y = f y x) →     ∀ (a b c : ℕ), 2 * (f a b + f a c + f b c) = f a b + f b a + f a c + f c a + f b c + f c b"
+  },
+  {
+   "name": "ATK.RealZeta.riemannZeta_neg_four",
+   "file": "atk-kernel/ATK/RealZeta.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "riemannZeta (-4) = 0"
+  },
+  {
+   "name": "ATK.RealZeta.riemannZeta_neg_six",
+   "file": "atk-kernel/ATK/RealZeta.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "riemannZeta (-6) = 0"
+  },
+  {
+   "name": "ATK.RealZeta.riemannZeta_neg_two",
+   "file": "atk-kernel/ATK/RealZeta.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "riemannZeta (-2) = 0"
+  },
+  {
+   "name": "ATK.RealZeta.riemannZeta_zero_ne_riemannZeta_neg_two",
+   "file": "atk-kernel/ATK/RealZeta.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "riemannZeta 0 ≠ riemannZeta (-2)"
+  },
+  {
+   "name": "ATK.RealZeta.riemannZeta_zero_ne_zero",
+   "file": "atk-kernel/ATK/RealZeta.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "riemannZeta 0 ≠ 0"
+  },
+  {
+   "name": "ATK.SymmetryGroup.Conj_involutive",
+   "file": "atk-kernel/ATK/SymmetryGroup.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℝ × ℝ), ATK.SymmetryGroup.Conj (ATK.SymmetryGroup.Conj s) = s"
+  },
+  {
+   "name": "ATK.SymmetryGroup.ReflConj_involutive",
+   "file": "atk-kernel/ATK/SymmetryGroup.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℝ × ℝ), ATK.SymmetryGroup.Refl (ATK.SymmetryGroup.Conj (ATK.SymmetryGroup.Refl (ATK.SymmetryGroup.Conj s))) = s"
+  },
+  {
+   "name": "ATK.SymmetryGroup.Refl_comm_Conj",
+   "file": "atk-kernel/ATK/SymmetryGroup.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℝ × ℝ), ATK.SymmetryGroup.Refl (ATK.SymmetryGroup.Conj s) = ATK.SymmetryGroup.Conj (ATK.SymmetryGroup.Refl s)"
+  },
+  {
+   "name": "ATK.SymmetryGroup.Refl_involutive",
+   "file": "atk-kernel/ATK/SymmetryGroup.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℝ × ℝ), ATK.SymmetryGroup.Refl (ATK.SymmetryGroup.Refl s) = s"
+  },
+  {
+   "name": "ATK.Transport.torus_identifies_half_and_three_half",
+   "file": "atk-kernel/ATK/Transport.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (t : ℝ) {γ : Type u_3} (Φ : ℝ × ℝ → γ), (∀ (σ s : ℝ), Φ (σ + 1, s) = Φ (σ, s)) → Φ (3 / 2, t) = Φ (1 / 2, t)"
+  },
+  {
+   "name": "ATK.Transport.torus_sigma_periodicity_breaks_injectivity",
+   "file": "atk-kernel/ATK/Transport.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {γ : Type u_3} (Φ : ℝ × ℝ → γ), (∀ (σ t : ℝ), Φ (σ + 1, t) = Φ (σ, t)) → ∀ (t : ℝ), ¬Function.Injective Φ"
+  },
+  {
+   "name": "ATK.Transport.zero_at_point_preserved_by_transport",
+   "file": "atk-kernel/ATK/Transport.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type u_1} {β : Type u_2} {F : α → β} {Ftil : β → β} {Φ : α → β},   (∀ (s : α), Ftil (Φ s) = F s) → ∀ (z : β) (s : α), Ftil (Φ s) = z ↔ F s = z"
+  }
+ ],
+ "closed": 46,
+ "files_sha256": {
+  "atk-kernel/ATK/CrossingFamily.lean": "2f8e5d0652cd635e36cf898200fd3a5a54179799934e73c5a3b281e8e188188f",
+  "atk-kernel/ATK/Dichotomy.lean": "3d19f180c1b39d162d5e348bbad53e05be31a5952346e5ae5e2b4db089b686a5",
+  "atk-kernel/ATK/Estimates.lean": "a924785851f7ae11feb7a368c44de1ecae8c915b699ab3ffb078687ea9f6a677",
+  "atk-kernel/ATK/Hex.lean": "a7a1fa972e5b667f0e9febc71db6051388ccd8181c045c1feada8ce221c18e1c",
+  "atk-kernel/ATK/Involution.lean": "b27a86b8d8bea3be4523953af1e054005cc17cad2549123a0112406d6e5cb30b",
+  "atk-kernel/ATK/JensenDegreeTwo.lean": "9b819faa984768a30373d29e5f195db1981e65d28f9e149c849b493872696540",
+  "atk-kernel/ATK/Multiplicity.lean": "96b15da0a8b5cdf005a46bcad7920e1caae112b08fecbfa486391d75a2e8cac1",
+  "atk-kernel/ATK/PairSum.lean": "4cd46760250d2ee38f8bd5b93dcfa647736488663112b0a236349cb38b97e5ba",
+  "atk-kernel/ATK/RealZeta.lean": "38e5d228ce2eef3d111dd13b8822ba8d8cbdb60a3716084409cdd8b536ad8e5a",
+  "atk-kernel/ATK/SymmetryGroup.lean": "f3c89c0053c1a859f7322cde0de03ab29c94974fc08ff9105791a4d9d7fde9b2",
+  "atk-kernel/ATK/Transport.lean": "3c391e0ab9e7a3bb1abf577242584e68b4d5f6221de6c582272d8bd7e9465006",
+  "atk-kernel/lakefile.toml": "139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d",
+  "atk-kernel/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "294342322b4158e1fb467741c81f497dd1d5c051433c8a33a67fedba4c2faa71"
+}

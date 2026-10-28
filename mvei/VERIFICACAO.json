@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T16:41:02+00:00",
+ "generated_at": "2026-10-28T19:11:15+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 10.4,
+   "build_seconds": 13.6,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -1280,7 +1280,7 @@
      "nome": "MCore.Audit.real_frontier_is_final_statement",
      "status": "nao_alcancado",
      "axioms": [],
-     "motivo": "unknown module prefix 'audit' No directory 'audit' or file 'audit.olean' in the search path entries: ././.lake/build/lib/lean /mnt/w/elan/toolchains/leanprover--lean4---v4.19.0/lib/lean /mnt/w/elan/to"
+     "motivo": "unknown module prefix 'audit' No directory 'audit' or file 'audit.olean' in the search path entries: ././.lake/build/lib/lean /mnt/w/elan/toolchains/leanprover--lean4---v4.19.0/lib/lean /mnt/w/mvei/tr"
     },
     {
      "arquivo": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
@@ -1360,7 +1360,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 71.5,
+   "build_seconds": 107.6,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,

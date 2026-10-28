@@ -1,0 +1,136 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "atk-kernel-check",
+ "branch_state": "parada",
+ "head_commit": "a27833ada7d7438b9807ac1ad82c98eeedcab877",
+ "head_commit_date": "2026-10-12T21:14:40+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "a27833ada7d7438b9807ac1ad82c98eeedcab877",
+   "date": "2026-10-12T21:14:40+01:00",
+   "subject": "atk-ficha: FICHA de matemática nova formalizada (ISK refinado, leis de escala, portões por problema) + propostas de 12/10 avaliadas"
+  },
+  {
+   "commit": "bd0944a3dc49bd353b0387963a4dc8f94538656d",
+   "date": "2026-10-12T01:46:21+01:00",
+   "subject": "atk-kernel: certificado v2 (13/13) do commit a9cf4ac"
+  },
+  {
+   "commit": "a9cf4ac4f99648cad6e41fd88ba579d86acdf89d",
+   "date": "2026-10-12T01:39:30+01:00",
+   "subject": "atk-kernel: RHConvergence (verificado 48/48 no M-Core)"
+  },
+  {
+   "commit": "6dc72e453d896b6933d018949d9b8d28d5a88823",
+   "date": "2026-10-12T00:52:14+01:00",
+   "subject": "atk-kernel: certificado v1 (8/8) do commit bed63e8, congelado na tag atk-kernel-cert-v1"
+  },
+  {
+   "commit": "bed63e8e13170b6a98a8263c6d62d0473c237119",
+   "date": "2026-10-12T00:43:57+01:00",
+   "subject": "atk-kernel: novos lemas de Riemann (mesmos já verificados no M-Core)"
+  },
+  {
+   "commit": "5a4e002b8ef4ffae4320cc2924e7e157ed67a505",
+   "date": "2026-10-12T00:22:53+01:00",
+   "subject": "atk-kernel: mapa dos 72 parâmetros (cópia do M-Core)"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.34.1"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.RHConvergence.bdDistSq_antitone",
+   "file": "atk-kernel/ATK/RHConvergence.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Antitone ATK.Riemann.bdDistSq"
+  },
+  {
+   "name": "ATK.RHConvergence.bdDistSq_converges",
+   "file": "atk-kernel/ATK/RHConvergence.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Filter.Tendsto ATK.Riemann.bdDistSq Filter.atTop (nhds (⨅ N, ATK.Riemann.bdDistSq N))"
+  },
+  {
+   "name": "ATK.RHConvergence.bdDistSq_limit_nonneg",
+   "file": "atk-kernel/ATK/RHConvergence.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "0 ≤ ⨅ N, ATK.Riemann.bdDistSq N"
+  },
+  {
+   "name": "ATK.RHConvergence.bdDistSq_succ_le",
+   "file": "atk-kernel/ATK/RHConvergence.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : ℕ), ATK.Riemann.bdDistSq (n + 1) ≤ ATK.Riemann.bdDistSq n"
+  },
+  {
+   "name": "ATK.RHConvergence.rh_iff_limit_zero_of_criterion",
+   "file": "atk-kernel/ATK/RHConvergence.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(Filter.Tendsto ATK.Riemann.bdDistSq Filter.atTop (nhds 0) ↔ RiemannHypothesis) →   (RiemannHypothesis ↔ ⨅ N, ATK.Riemann.bdDistSq N = 0)"
+  },
+  {
+   "name": "ATK.Riemann.abstract_bound_vacuous",
+   "file": "atk-kernel/ATK/Riemann.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ K, 0 ≤ K ∧ ∀ (N : ℕ), (fun x => 0) N ≤ K / Real.log (↑N + 2)"
+  },
+  {
+   "name": "ATK.Riemann.bdDistSq_nonneg",
+   "file": "atk-kernel/ATK/Riemann.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (N : ℕ), 0 ≤ ATK.Riemann.bdDistSq N"
+  },
+  {
+   "name": "ATK.Riemann.bd_bound_tendsto",
+   "file": "atk-kernel/ATK/Riemann.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "ATK.Riemann.ConcreteBDUniformLogBound → Filter.Tendsto ATK.Riemann.bdDistSq Filter.atTop (nhds 0)"
+  },
+  {
+   "name": "ATK.Riemann.rh_of_bd_bound",
+   "file": "atk-kernel/ATK/Riemann.lean",
+   "line": 95,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(Filter.Tendsto ATK.Riemann.bdDistSq Filter.atTop (nhds 0) → RiemannHypothesis) →   ATK.Riemann.ConcreteBDUniformLogBound → RiemannHypothesis"
+  }
+ ],
+ "closed": 9,
+ "files_sha256": {
+  "atk-kernel/ATK/RHConvergence.lean": "6fdbb416a0da44f1440215049f35040d8832fd4cde5daa7f9381070e49a73ab1",
+  "atk-kernel/ATK/Riemann.lean": "a19a276b551b6cb17598022d427dbb96466057148b27b1e66871728ac23a29d2",
+  "atk-kernel/lakefile.toml": "139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d",
+  "atk-kernel/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "66c2f58b566ef50893cb17e7b829cd89746498c7d4b948e80d643497422c949f"
+}

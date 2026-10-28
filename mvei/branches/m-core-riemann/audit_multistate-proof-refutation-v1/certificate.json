@@ -1,0 +1,168 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "audit/multistate-proof-refutation-v1",
+ "branch_state": "parada",
+ "head_commit": "5c9cf706ddb206aa57c45de8bab6f89ebbd779c3",
+ "head_commit_date": "2026-09-19T10:39:28+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "5c9cf706ddb206aa57c45de8bab6f89ebbd779c3",
+   "date": "2026-09-19T10:39:28+02:00",
+   "subject": "ci: remove umbrella clean rebuild from normal certification"
+  },
+  {
+   "commit": "14fe5f0b222acc15131b4a4b60014e61f7bba9c8",
+   "date": "2026-09-19T09:42:20+02:00",
+   "subject": "ci: enforce targeted fast-fail certification builds"
+  },
+  {
+   "commit": "a7c72753e2cbd4f6ce315a5288613e5d55b290f0",
+   "date": "2026-09-19T09:42:18+02:00",
+   "subject": "ci: add global NO-UMBRELLA regression firewall"
+  },
+  {
+   "commit": "ba4daba42aa2d5138cfa30cb2c36e7898b8b3969",
+   "date": "2026-09-18T23:20:06+02:00",
+   "subject": "ci: launch isolated 8x5 audit batch"
+  },
+  {
+   "commit": "95af03f9170decf4de4bb2bfafbb45a9c848bce4",
+   "date": "2026-09-18T20:06:08+02:00",
+   "subject": "audit(rh): start 8x5 fail-closed endpoint classification"
+  },
+  {
+   "commit": "197b62de742c68219ee0556ea0c6b98244afa42d",
+   "date": "2026-09-18T11:52:36+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "40aced1d4ed357b7aa10b42e08139704468e94b1",
+   "date": "2026-09-18T11:52:30+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "a0913604cd2f92a0cabe06c2af8ba7239b412be5",
+   "date": "2026-09-18T11:48:08+02:00",
+   "subject": "audit: formalize canonical 18-test backward matrix"
+  },
+  {
+   "commit": "196ceeefa57d67dcc0d256e053a388803f08b455",
+   "date": "2026-09-18T11:39:24+02:00",
+   "subject": "audit: define hypothetical initial closed-system contract"
+  },
+  {
+   "commit": "0355409f7ff196e27c6b64ce4a6b141138fa1704",
+   "date": "2026-09-18T11:07:51+02:00",
+   "subject": "audit: add AXIOM_AUDIT.md multistate scaffold"
+  },
+  {
+   "commit": "92b8db89dd5fbd07e00571aefe1f370298e0e44c",
+   "date": "2026-09-18T11:07:47+02:00",
+   "subject": "audit: add MULTISTATE_CERTIFICATION.json multistate scaffold"
+  },
+  {
+   "commit": "591fdb0b5d404c3fa555420e6b2d9af54ffa0442",
+   "date": "2026-09-18T11:07:44+02:00",
+   "subject": "audit: add ENDPOINT_COMPRESSION_SPEC.md multistate scaffold"
+  },
+  {
+   "commit": "47301d1280dccb345c47168d2ef4cb6aa1779206",
+   "date": "2026-09-18T11:07:39+02:00",
+   "subject": "audit: add FINAL_ENDPOINT_SPEC.md multistate scaffold"
+  },
+  {
+   "commit": "098f96c90a2465f38a312c7f190100150ba49618",
+   "date": "2026-09-18T07:11:06+02:00",
+   "subject": "audit: add isolated multistate proof/refutation certification protocol"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Audit8x5.A_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.A = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.HC_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.HC = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.K_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.K = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.Q_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.Q = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.S_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.S = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.no_placebo_generic",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (ProofCertificate k6_dependency.target)"
+  },
+  {
+   "name": "MultistateAudit.Riemann.Gates.fullyAudited_elim",
+   "file": "audit/20_BACKWARD_ELIMINATION/MassiveGateArchitecture.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(A : DecisiveAudit) (h : FullyAudited A) : A.provenanceLock ∧ A.hypothesisConclusionMatch ∧ A.quantifierMatch ∧ A.scalingConstantMatch ∧ A.axiomNoncircularity ∧ A.proofSearchDischarged ∧ A.falsificationSearchDischarged ∧ A.leanBuildAndAxiomsAudited"
+  }
+ ],
+ "closed": 6,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "bab668b3643dcfe580a867f0d817f1b4c131f81ae4afb2eb65b5c197642637c0",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Audit8x5.lean": "1c5a312a8ad984cb3e2384cb5a97e30fdd78ab51bb8c50a180254d766a3e168b",
+  "lean/MCore/Boundary.lean": "7aa951d700e2c61aad427bf691a9fd8d1d24b76ed7d3a36489390413e3587c15",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "7cf01faef3e724a674e0507d147f1513b8e0f663d1d595c5cf0596dcdba95af2",
+  "lean/MCore/K2.lean": "d782a62995f542e609b24511023620e5b919c577cd9569f973ea0edbfb72389e",
+  "lean/MCore/K3.lean": "7defefe71e28fdc95aa459689fff6bd13c148e4efae2cb05194b41eef80736a9",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
+ },
+ "published_at": "2026-10-28T19:19:21Z",
+ "certificate_sha256": "1e0620aa4a5f34876ecb238012fa473c244a1285765f45f8f1ad100485fe5249"
+}

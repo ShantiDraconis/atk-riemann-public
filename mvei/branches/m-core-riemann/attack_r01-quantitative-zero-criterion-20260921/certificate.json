@@ -1,0 +1,1160 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "attack/r01-quantitative-zero-criterion-20260921",
+ "branch_state": "parada",
+ "head_commit": "8d502bd989ba0a78a604450a1b4d25b05b9d704a",
+ "head_commit_date": "2026-09-21T12:35:49+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "8d502bd989ba0a78a604450a1b4d25b05b9d704a",
+   "date": "2026-09-21T12:35:49+01:00",
+   "subject": "formal(r01): include quantitative zero criterion"
+  },
+  {
+   "commit": "b6684204c7dc6608a7e1620a79e5d773064ba70a",
+   "date": "2026-09-21T12:35:43+01:00",
+   "subject": "formal(r01): reduce zero-limit endpoint to arbitrarily-small defect estimate"
+  },
+  {
+   "commit": "bc238bcc2b15e6d773ec1497ed75cb782c171c9a",
+   "date": "2026-09-21T11:02:34+01:00",
+   "subject": "atk: add CI for atk-r01-finite-prefix-firewall"
+  },
+  {
+   "commit": "8ffe1904c5dfca38e572d18dfea1f9801f981ae0",
+   "date": "2026-09-21T11:02:19+01:00",
+   "subject": "atk: add R01 finite-prefix asymptotic firewall"
+  },
+  {
+   "commit": "aad50d9c3be56b3f35e55a1079f7895b7a83df03",
+   "date": "2026-09-21T10:32:50+01:00",
+   "subject": "atk: add fail-closed semantic promotion gate"
+  },
+  {
+   "commit": "ad3011f14bdab32161205e053fa925bc8c851ad4",
+   "date": "2026-09-21T06:35:44+01:00",
+   "subject": "ci(r2): scope numerical-evidence firewall to K3-K8 proof chain"
+  },
+  {
+   "commit": "365a1db653a086fa6729086cbad8d540a937b0b6",
+   "date": "2026-09-21T06:28:23+01:00",
+   "subject": "ci(rh): enforce exact allowed K8 axiom footprint"
+  },
+  {
+   "commit": "2861245ae0b8b04c60c824b68ac51954e470c2f3",
+   "date": "2026-09-21T06:20:37+01:00",
+   "subject": "ci(r2): preserve frozen K7 by exact blob identity"
+  },
+  {
+   "commit": "5b7538a1525d29650cc2119371555ca6fc36cc3e",
+   "date": "2026-09-21T06:20:25+01:00",
+   "subject": "ci(rh): remove hygiene false positive from certificate comment"
+  },
+  {
+   "commit": "4827efee1308dcbee53fdf5b707cfa4c4e55a5f5",
+   "date": "2026-09-21T01:44:02+01:00",
+   "subject": "ci(r2): remove hygiene false-positive from comment"
+  },
+  {
+   "commit": "e5583f194f2a1446bf850da3e85471401002af72",
+   "date": "2026-09-21T01:26:03+01:00",
+   "subject": "ci(r2): repair Lake manifest before lean-action cache"
+  },
+  {
+   "commit": "43d7c060192c816655343d2ba5ef94ecfbdfaf59",
+   "date": "2026-09-20T22:53:41+01:00",
+   "subject": "fix(r2): prove shifted nat divergence directly"
+  },
+  {
+   "commit": "78a9411439159bdd21c9896c3cefe0bc27bb5af0",
+   "date": "2026-09-20T12:53:41+01:00",
+   "subject": "fix(r2): prove nat-plus-two divergence via Tendsto.atTop_add"
+  },
+  {
+   "commit": "895aa63ba1100b110ce5d897db8c39c3ec8ccec5",
+   "date": "2026-09-20T12:49:18+01:00",
+   "subject": "fix(r2): import atTop additive limit API explicitly"
+  },
+  {
+   "commit": "ef4e6582a52be25b56fe4d6505dff62f042129bb",
+   "date": "2026-09-20T12:45:27+01:00",
+   "subject": "ci(r2): build exact MCore imports before endpoint check"
+  },
+  {
+   "commit": "da2f97bc31006afec2c3056edc9fd848c73c6e55",
+   "date": "2026-09-20T12:42:54+01:00",
+   "subject": "ci(r2): add targeted formal endpoint kernel gate"
+  },
+  {
+   "commit": "b6776aa35da917d7492ff07bb40c0e6575f26d4a",
+   "date": "2026-09-20T12:42:52+01:00",
+   "subject": "ci(r2): detach legacy K8 certificate from R2 research pushes"
+  },
+  {
+   "commit": "ddd8708ffa3b239c8c256ef6816b9d5035b466e4",
+   "date": "2026-09-19T10:51:39+02:00",
+   "subject": "formal(r2): reduce close criterion to eventual asymptotic bounds"
+  },
+  {
+   "commit": "05c7e5aa262b87cca5afc0a678030da8532e3eed",
+   "date": "2026-09-19T10:47:22+02:00",
+   "subject": "ci(r2): hydrate pinned mathlib graph without umbrella update"
+  },
+  {
+   "commit": "51d09c05478bd6be661c3b4b65440927134feee8",
+   "date": "2026-09-19T10:45:42+02:00",
+   "subject": "ci(r2): fast-fail pinned backward-dense build"
+  },
+  {
+   "commit": "f564716e2d143fae14e5cfb2f3de1695d735ab66",
+   "date": "2026-09-19T10:45:29+02:00",
+   "subject": "formal(r2): type C-over-log close criterion"
+  },
+  {
+   "commit": "732476ec2748372014e711b17834cf03e667248b",
+   "date": "2026-09-19T10:41:21+02:00",
+   "subject": "formal(r2): type exact vanishing-majorant frontier contract"
+  },
+  {
+   "commit": "9fd7678c9e527aaa9b7dabbdcdc7cbdbd5f9a3b7",
+   "date": "2026-09-19T03:19:54+02:00",
+   "subject": "fix(r2): orient false-endpoint contradiction"
+  },
+  {
+   "commit": "5351416b4ed467edbe4c89709bf332b895e398f5",
+   "date": "2026-09-19T03:18:48+02:00",
+   "subject": "formal(r2): close dual endpoint wiring densely"
+  },
+  {
+   "commit": "3cf4b25ae945040c58d1ba8317460aa7d8604b5c",
+   "date": "2026-09-19T03:17:12+02:00",
+   "subject": "formal(r2): collapse vanishing-majorant wiring"
+  },
+  {
+   "commit": "bd39638456aa8f861af965eef0c8ef845c7195c4",
+   "date": "2026-09-19T03:13:50+02:00",
+   "subject": "ci(r2): audit separated final and compressed endpoint"
+  },
+  {
+   "commit": "349899b86818f226ec768c65b27348821458734b",
+   "date": "2026-09-19T03:13:39+02:00",
+   "subject": "formal(r2): separate RH final from DNLimit endpoint"
+  },
+  {
+   "commit": "99c3e7bb895c1c63434c8de96b9fbc13a18eb672",
+   "date": "2026-09-19T03:12:22+02:00",
+   "subject": "ci(r2): repair exact-pin dependency hydration"
+  },
+  {
+   "commit": "a8397381c5f624a556078349eabf4d9a29ba3078",
+   "date": "2026-09-19T03:10:32+02:00",
+   "subject": "formal(r2): define backward-dense endpoint and compile audit"
+  },
+  {
+   "commit": "8ccf3092ee6174809cd4b27769114ff9de5337bd",
+   "date": "2026-09-19T00:07:03+02:00",
+   "subject": "audit(r2): refine single frontier to B_N combined block"
+  },
+  {
+   "commit": "e5d817a8a31edc1d6cb61771e3bfe490c3258f32",
+   "date": "2026-09-18T23:13:24+02:00",
+   "subject": "audit(rh): enforce legacy-status supersession map"
+  },
+  {
+   "commit": "8680df3bda055d1003127a5b7cec77f7d2a4c8f6",
+   "date": "2026-09-18T23:13:04+02:00",
+   "subject": "audit(rh): map historical statuses to current certified chain"
+  },
+  {
+   "commit": "74eff430cfc7daaf8e97a8f2fbb566bb802718c3",
+   "date": "2026-09-18T23:10:50+02:00",
+   "subject": "audit(r2): trigger exact-pin final-dense rebuild"
+  },
+  {
+   "commit": "866cd6a2654953a40c6b6db676de7003483cd64b",
+   "date": "2026-09-18T23:10:31+02:00",
+   "subject": "audit(r2): record all-file integrity evidence"
+  },
+  {
+   "commit": "579044eda7b44fb670e5d68f3e7c20ddb616b678",
+   "date": "2026-09-18T23:09:42+02:00",
+   "subject": "fix(r2): ignore Lean comments and strings in source firewall"
+  },
+  {
+   "commit": "d2cb9260aecded539b64ad2001e3b40d5e4f9e2c",
+   "date": "2026-09-18T23:08:47+02:00",
+   "subject": "ci(r2): enforce all-file backward-dense Riemann audit"
+  },
+  {
+   "commit": "99201d3f8eb46863cf76b53e88ec58c927e51b56",
+   "date": "2026-09-18T23:08:33+02:00",
+   "subject": "ci(r2): align manifest with certified Mathlib SHA"
+  },
+  {
+   "commit": "a7e92ef93f3cfe52bce069974657621bdda9d01e",
+   "date": "2026-09-18T23:08:21+02:00",
+   "subject": "ci(r2): pin Mathlib to certified exact SHA"
+  },
+  {
+   "commit": "84065e876342e54c334b0c4679eba9e5bafc4fdc",
+   "date": "2026-09-18T23:08:07+02:00",
+   "subject": "audit(r2): add all-file backward-dense integrity auditor"
+  },
+  {
+   "commit": "7550b4b6b21e4d04c076e8e809f7b88ab6f7bb93",
+   "date": "2026-09-18T23:05:18+02:00",
+   "subject": "docs(r2): repair invisible LaTeX control-byte corruption"
+  },
+  {
+   "commit": "5cb45b9af64f78c6fd3cd3cf1128a54c466900ec",
+   "date": "2026-09-18T20:07:43+02:00",
+   "subject": "ci(r2): add dense zero-residue frontier classifier"
+  },
+  {
+   "commit": "3b1e16b33632aad18d866a95b5a35eaafc325c1c",
+   "date": "2026-09-18T20:07:16+02:00",
+   "subject": "audit(r2): classify dense zero-residue estimate sweep"
+  },
+  {
+   "commit": "d06f5cc721e87e10733666a252c733f6873261b0",
+   "date": "2026-09-18T20:06:59+02:00",
+   "subject": "audit(r2): dense-test unconditional residue estimates"
+  },
+  {
+   "commit": "a65e9d1d9b6d3b81fe77d06398b939aba095385a",
+   "date": "2026-09-18T19:35:28+02:00",
+   "subject": "docs(r2): seal backward-dense audit evidence"
+  },
+  {
+   "commit": "6e45cea29e11e29fafee258dda9935fb47b4bfcc",
+   "date": "2026-09-18T19:30:05+02:00",
+   "subject": "ci(r2): make dense axiom audit fail closed"
+  },
+  {
+   "commit": "828fb2476441f4fa68d745f3f2c362097a938c8b",
+   "date": "2026-09-18T19:25:41+02:00",
+   "subject": "ci(r2): expose elan tools inside dense setup shell"
+  },
+  {
+   "commit": "987840601ded030aa15b7a40b07e7a5be8033cc2",
+   "date": "2026-09-18T19:24:09+02:00",
+   "subject": "docs(r2): add backward-dense final paper and dense audit"
+  },
+  {
+   "commit": "cc5d99748130b3ab6a1e04e63020bbbef4443e3e",
+   "date": "2026-09-18T17:57:02+02:00",
+   "subject": "audit: seal triple closure state certificate"
+  },
+  {
+   "commit": "e97a6d2fe79a26749d89924fc83fb3e5d098b3a2",
+   "date": "2026-09-18T17:56:34+02:00",
+   "subject": "ci: fix triple closure placeholder scanner"
+  },
+  {
+   "commit": "b892c93134fd1200c801e2189d3d7659a1049d99",
+   "date": "2026-09-18T17:55:12+02:00",
+   "subject": "audit: add backward-dense triple closure certificates"
+  },
+  {
+   "commit": "91dabbaa7a7a5d248a9fcc4341e9aab1d53edbb2",
+   "date": "2026-09-18T11:44:53+02:00",
+   "subject": "audit(r2): formalize backward-dense false-RH chain"
+  },
+  {
+   "commit": "b8da93ba007de8841108afc04d55209de927919e",
+   "date": "2026-09-18T04:09:28+02:00",
+   "subject": "audit(r2): close finite-N Mode B solver through N256"
+  },
+  {
+   "commit": "705a4b853a7f49c49a65ec7a7e026d2d0480a306",
+   "date": "2026-09-18T04:06:52+02:00",
+   "subject": "ci(r2): audit Mode B v3 Arb-oracle selection"
+  },
+  {
+   "commit": "7a406b1310cbeadd0a980b4ff3dfe42c7109e36a",
+   "date": "2026-09-18T04:06:41+02:00",
+   "subject": "research(r2): select stable Mode B ridge candidate by Arb energy"
+  },
+  {
+   "commit": "d447a9ee7fbe659a65019946c6bba40a5734dc93",
+   "date": "2026-09-18T04:04:27+02:00",
+   "subject": "ci(r2): audit stabilized Mode B v2"
+  },
+  {
+   "commit": "919af407832aa74ba82cbc172603afddd8ee55b3",
+   "date": "2026-09-18T04:04:03+02:00",
+   "subject": "research(r2): stabilize Mode B with holdout QR ridge scan"
+  },
+  {
+   "commit": "042fe8f4f4262ae8633cd9bc82f284fd23b3509e",
+   "date": "2026-09-18T04:01:32+02:00",
+   "subject": "ci(r2): fix Mode B workflow interpolation"
+  },
+  {
+   "commit": "9f5f8c9170be79e2e5c5bd03eeaaa742928387d6",
+   "date": "2026-09-18T04:00:15+02:00",
+   "subject": "research(r2): add Mellin QR Mode B and BCF mollifier test"
+  },
+  {
+   "commit": "8eb5726ba08add74e59ed8dc3bcb3d809af77f44",
+   "date": "2026-09-18T03:54:12+02:00",
+   "subject": "audit(r2): document corrected A-F formalization status"
+  },
+  {
+   "commit": "d97f4a67796038771a2ce0c2fc05f6960e1d4577",
+   "date": "2026-09-18T03:53:38+02:00",
+   "subject": "audit(r2): correct formalization gaps and preserve single frontier"
+  },
+  {
+   "commit": "43766dd47983dd5dbd16caa5e2d9d468485b02ff",
+   "date": "2026-09-18T03:42:02+02:00",
+   "subject": "audit(r2): derive exact Gram diagonal and anchor Mellin kernel"
+  },
+  {
+   "commit": "f5fc632e95d72d1af3687ccb5c9aa5731354a573",
+   "date": "2026-09-18T03:36:22+02:00",
+   "subject": "audit(r2): consolidate exact Gram and Mellin ledger"
+  },
+  {
+   "commit": "4705011b8f09db111dbcb829a0b0d068db6f3c82",
+   "date": "2026-09-18T02:47:32+02:00",
+   "subject": "audit(r2): prune natural Mobius full-sequence route"
+  },
+  {
+   "commit": "98a4a8977c54ec47683806f6cd66f99601b37d4b",
+   "date": "2026-09-18T02:45:20+02:00",
+   "subject": "audit(r2): seal recent literature sweep without new gate"
+  },
+  {
+   "commit": "5ca282a6484ca6599298b38a9b39d76d204a66f3",
+   "date": "2026-09-18T02:40:02+02:00",
+   "subject": "audit(r2): collapse residue frontier to one material gate"
+  },
+  {
+   "commit": "37a9eea4236695917b61285e07d461616aed226e",
+   "date": "2026-09-18T02:37:06+02:00",
+   "subject": "audit(r2): isolate unconditional BCF residue frontier"
+  },
+  {
+   "commit": "fa5b81a72a9ce400193ec8550785f3ab9c261524",
+   "date": "2026-09-18T02:29:14+02:00",
+   "subject": "research(r2): add Mellin frequency-band diagnostic"
+  },
+  {
+   "commit": "8333828cb2ca65c83f5898d00c65238250cbfec1",
+   "date": "2026-09-18T01:19:25+02:00",
+   "subject": "audit(r2): preserve dyadic Mobius candidate and Mellin target"
+  },
+  {
+   "commit": "8514832357cedace6bf78733c42e6c1d258c6176",
+   "date": "2026-09-18T01:15:05+02:00",
+   "subject": "research(r2): certify fixed-scale dyadic Mobius candidates"
+  },
+  {
+   "commit": "2b26cec7775e0a1550f6d294f67e68b01f052d99",
+   "date": "2026-09-18T01:12:52+02:00",
+   "subject": "ci(r2): add dyadic Mobius exponent stability diagnostic"
+  },
+  {
+   "commit": "f111ed259d25641ab968184065e8d850572be124",
+   "date": "2026-09-18T01:12:30+02:00",
+   "subject": "research(r2): refine Mobius taper exponent on dyadic grid"
+  },
+  {
+   "commit": "d6471882ba74aa47ca8b709bafbb2ac904ad416d",
+   "date": "2026-09-18T01:10:10+02:00",
+   "subject": "research(r2): scan scaled Mobius power tapers in Gram energy"
+  },
+  {
+   "commit": "be3cbca4f6c84941a7b2317be2134f16412a2709",
+   "date": "2026-09-18T01:09:12+02:00",
+   "subject": "audit(r2): preserve N256 coefficient structure and bound guardrails"
+  },
+  {
+   "commit": "f6fd9b55b322879fccd72ccc437ccb503679c1c7",
+   "date": "2026-09-18T01:08:06+02:00",
+   "subject": "ci(r2): align firewall with certified Gram route matrix"
+  },
+  {
+   "commit": "d2b572b321c16dac4ec67a19f60a49f17ff62205",
+   "date": "2026-09-18T01:07:06+02:00",
+   "subject": "research(r2): consolidate Gram analysis and Mobius diagnostics"
+  },
+  {
+   "commit": "77be7ec1a7d4e8c834a1afc8dc30cbcf62d61ec1",
+   "date": "2026-09-18T01:04:24+02:00",
+   "subject": "research(r2): certify explicit Mobius taper candidate errors"
+  },
+  {
+   "commit": "a42cd2142b9d1875acebbfa759d16e4f41cf1b53",
+   "date": "2026-09-18T01:00:41+02:00",
+   "subject": "audit(r2): seal interval-certified N256 evidence"
+  },
+  {
+   "commit": "652ccd94ce0b474d43ecb13e3235414c5ebe3656",
+   "date": "2026-09-18T00:57:54+02:00",
+   "subject": "audit(r2): certify N128 and probe N256 with higher precision"
+  },
+  {
+   "commit": "f3cdf9fe145d0577e6ff82ee1d2e01511b7c5b17",
+   "date": "2026-09-18T00:55:50+02:00",
+   "subject": "audit(r2): seal finite Arb Gram evidence and extend ladder to 128"
+  },
+  {
+   "commit": "25941e47d992904aad667c0390fcf9915000c88f",
+   "date": "2026-09-18T00:53:27+02:00",
+   "subject": "fix(r2): remove escaped GitHub expressions in Arb workflow"
+  },
+  {
+   "commit": "b7fdfc2653485ea3ae89648722e91dfb4c8008e0",
+   "date": "2026-09-18T00:52:09+02:00",
+   "subject": "research(r2): add pinned Arb Gram engine and analytic ledger"
+  },
+  {
+   "commit": "3ce987b64275d6642f7728a528874c296640e3fc",
+   "date": "2026-09-18T00:34:57+02:00",
+   "subject": "research(r2): isolate DNLimit zero attack routes"
+  },
+  {
+   "commit": "53d97bc0a3e64de419f4214625ae75a9e1ecb178",
+   "date": "2026-09-18T00:26:04+02:00",
+   "subject": "audit(r1): seal external interface GREEN evidence"
+  },
+  {
+   "commit": "18e707a6b1f807d166c6fb31e839f3f98326c5e4",
+   "date": "2026-09-18T00:25:11+02:00",
+   "subject": "audit(r1): document Baez-Duarte external criterion interface"
+  },
+  {
+   "commit": "f902fca1a59f750cb6d4a7b2d16fbc74715be1df",
+   "date": "2026-09-17T23:44:53+02:00",
+   "subject": "cert(r0): seal composition GREEN evidence"
+  },
+  {
+   "commit": "46ee7ccefe9a1ad947ff60cd100962ef9c39d7b1",
+   "date": "2026-09-17T23:44:10+02:00",
+   "subject": "cert(r0): compose frozen R0 evidence"
+  },
+  {
+   "commit": "66a9b18f26fd714a968c1d33935d54dde4e6bf30",
+   "date": "2026-09-17T21:34:58+02:00",
+   "subject": "fix(r0): align rho proof with pinned floor and rpow APIs"
+  },
+  {
+   "commit": "a087cbd400122bedcf31fd033eed66683032fdee",
+   "date": "2026-09-17T21:24:21+02:00",
+   "subject": "fix(r0): close three rho API mismatches"
+  },
+  {
+   "commit": "22ba1891325881dfaa5e225b29759ae4d6881197",
+   "date": "2026-09-17T21:08:15+02:00",
+   "subject": "fix(r0): consolidate rho L2 analytic proof before rerun"
+  },
+  {
+   "commit": "e68e7a87eb127b1a2f39654819287b1877cee789",
+   "date": "2026-09-17T21:05:26+02:00",
+   "subject": "R0 rho: make analytic preflight match explicit fract proof"
+  },
+  {
+   "commit": "cf83e93d8b32269ecd822da43fcc2cb3406107e3",
+   "date": "2026-09-17T21:05:06+02:00",
+   "subject": "R0 rho: consolidate measurable and tail integrability proof"
+  },
+  {
+   "commit": "dceb4e70463636fd90e0735ff1214082f12a6641",
+   "date": "2026-09-17T20:51:15+02:00",
+   "subject": "fix(r0): order exponent identity before rho proof"
+  },
+  {
+   "commit": "b2f8906d07da3d51c5b356f856279d99a46c5d19",
+   "date": "2026-09-17T20:50:53+02:00",
+   "subject": "feat(r0): prove rho L2 membership on positive half-line"
+  },
+  {
+   "commit": "d92574bf8eddfd283348bc0a7e98eae872d2a7da",
+   "date": "2026-09-17T16:58:55+02:00",
+   "subject": "fix(r0): correct pinned fract API probe before rho proof"
+  },
+  {
+   "commit": "495ac10c59bcd0ddb90a0a3c0cf67b231091542d",
+   "date": "2026-09-17T16:37:09+02:00",
+   "subject": "test(r0): add dense analytic API preflight for rho L2 proof"
+  },
+  {
+   "commit": "481ec4df311437e19614bfe9a08bb90df588f189",
+   "date": "2026-09-17T16:06:02+02:00",
+   "subject": "fix(r0): import exact L2 Hilbert API and remove elaboration hazards"
+  },
+  {
+   "commit": "d68b5f4eb169826244ad2e2874bd4bbe1899faad",
+   "date": "2026-09-17T15:45:49+02:00",
+   "subject": "fix(r0): expose literal L2 exponent for Hilbert instances"
+  },
+  {
+   "commit": "fe972ede5f053430c633680ac14f67234251c6ab",
+   "date": "2026-09-17T15:38:34+02:00",
+   "subject": "fix(r0): supply concrete Hilbert instances and noncomputable carrier"
+  },
+  {
+   "commit": "218d0fb4841ff2fcbe10ff91eb9899f2c972463d",
+   "date": "2026-09-17T14:40:08+02:00",
+   "subject": "ci(r0): add dense rho identification preflight gate"
+  },
+  {
+   "commit": "3ba9914cce38df4b32c0c340f6bb9eccec2b5da1",
+   "date": "2026-09-17T14:39:52+02:00",
+   "subject": "audit(r0): declare fused rho identification frontier"
+  },
+  {
+   "commit": "8aeac2be1109cfb3466132c815cb375f270f1948",
+   "date": "2026-09-17T14:39:44+02:00",
+   "subject": "feat(r0): add concrete Baez-Duarte rho family preflight"
+  },
+  {
+   "commit": "c0fe29a5f4c430312432affabc55066083903438",
+   "date": "2026-09-17T13:49:58+02:00",
+   "subject": "fix(r0.4): normalize rational boundary witness"
+  },
+  {
+   "commit": "1f4279d7535c6e0f08f6029a60efd413c716bc00",
+   "date": "2026-09-17T13:46:35+02:00",
+   "subject": "fix(r0.4): replace noncomputable native_decide boundary tests"
+  },
+  {
+   "commit": "78a3d68e8f68ea0af1a9450a9243ae7f9617a2c6",
+   "date": "2026-09-17T13:26:27+02:00",
+   "subject": "fix(r0.4): align semantic firewall with proved MemLp interface"
+  },
+  {
+   "commit": "a521f747c749ceab5a42a573e706ee8fc69a27e5",
+   "date": "2026-09-17T13:25:45+02:00",
+   "subject": "ci(r0.4): audit actual MemLp endpoint and semantic frontier"
+  },
+  {
+   "commit": "d03505d09f930a6b55b344c302970c9444c2ff0c",
+   "date": "2026-09-17T13:25:29+02:00",
+   "subject": "audit(r0.4): record proved chi MemLp scope"
+  },
+  {
+   "commit": "b6fbc23d8d48938532606ba07f7f91d8eebabce9",
+   "date": "2026-09-17T13:20:21+02:00",
+   "subject": "fix(r0.4): use restrict_apply_le at concrete support"
+  },
+  {
+   "commit": "0e9b363c07b20c1973023e5c049fcc040a348f72",
+   "date": "2026-09-17T13:09:24+02:00",
+   "subject": "fix(r0.4): prove finite chi support by measure monotonicity"
+  },
+  {
+   "commit": "3dd49b48c1d85ae75af434759eb357ad609bc16e",
+   "date": "2026-09-17T12:58:45+02:00",
+   "subject": "fix(r0.4): unfold concrete measure aliases before finite-support calculation"
+  },
+  {
+   "commit": "8149e853b75ade7e6b816fdffc19e2e321238f35",
+   "date": "2026-09-17T12:51:30+02:00",
+   "subject": "fix(r0.4): avoid unicode infinity parser in finite support proof"
+  },
+  {
+   "commit": "c90d8348bd0ceb6691b058b465e6f1cec43f7859",
+   "date": "2026-09-17T12:37:36+02:00",
+   "subject": "fix(r0.4): repair restricted-measure syntax before MemLp test"
+  },
+  {
+   "commit": "57ba0bc439ae0514bd0faa49b4e14bf0ef70db43",
+   "date": "2026-09-17T12:25:07+02:00",
+   "subject": "feat(r0.4): attack actual chi MemLp obligation via finite indicator support"
+  },
+  {
+   "commit": "903d4089f09de7dadf01e1aed070c9796ed6fbf8",
+   "date": "2026-09-17T10:55:13+02:00",
+   "subject": "fix(r0.4): use measurable intersection for interval condition"
+  },
+  {
+   "commit": "03d7f7bb8ba55d355419ae6c66c35bd0621df982",
+   "date": "2026-09-17T10:49:02+02:00",
+   "subject": "fix(r0.4): use measurable-set proposition directly in ite proof"
+  },
+  {
+   "commit": "7f1858267eda716602bba61d9aaa4453c02a66a6",
+   "date": "2026-09-17T10:28:56+02:00",
+   "subject": "fix(r0.4): prove measurability directly from interval inequalities"
+  },
+  {
+   "commit": "0511f5416991541b047e71d10b201845f4040b6b",
+   "date": "2026-09-17T09:45:44+02:00",
+   "subject": "fix(r0.4): use measurable piecewise API and keep integrability abstract"
+  },
+  {
+   "commit": "b8b804d7403df863a5a791b8be3116141fb0d0e2",
+   "date": "2026-09-17T09:40:30+02:00",
+   "subject": "ci(r0.4): add pre-audited chi MemLp decomposition gate"
+  },
+  {
+   "commit": "2107f63e1e5c263f0ba9dca9bd4f13779db9a622",
+   "date": "2026-09-17T09:40:16+02:00",
+   "subject": "audit(r0.4): isolate chi measurability and integrability frontier"
+  },
+  {
+   "commit": "37ee394ded287abdd288491bace76dae2b40265a",
+   "date": "2026-09-17T09:40:07+02:00",
+   "subject": "feat(r0.4): prove chi bounded and measurable toward L2 membership"
+  },
+  {
+   "commit": "67c9055c6e0778d9e46abab211aafa569dfcc280",
+   "date": "2026-09-17T09:26:20+02:00",
+   "subject": "ci(r0.3): add pre-audited chi L2 frontier gate"
+  },
+  {
+   "commit": "b5eb6a410ffb27a298cf98ff7efa3c018dc6c12b",
+   "date": "2026-09-17T09:26:04+02:00",
+   "subject": "audit(r0.3): declare chi L2 obligations and boundaries"
+  },
+  {
+   "commit": "1369958d126f504caee5648fb206d897c20a1883",
+   "date": "2026-09-17T09:25:54+02:00",
+   "subject": "feat(r0.3): define positive-half-line measure and chi L2 frontier"
+  },
+  {
+   "commit": "be25ead1e1433c4e2094ab67ca53cae31cb0ab4c",
+   "date": "2026-09-17T05:20:49+02:00",
+   "subject": "fix(r0.2): use propositional set inequality in adversarial gate"
+  },
+  {
+   "commit": "428880428aaabc078f30364c7869ce09c9b0fc41",
+   "date": "2026-09-17T04:38:36+02:00",
+   "subject": "fix(r0.2): mark real-valued indicator noncomputable"
+  },
+  {
+   "commit": "e8893dfb520e2f5c060c9acd02cbbf3860afb1b3",
+   "date": "2026-09-17T04:28:09+02:00",
+   "subject": "fix(r0.2): make chi representative computable without classical membership"
+  },
+  {
+   "commit": "2ae4e33afdbd205e6a15101f0890281400419abe",
+   "date": "2026-09-17T04:23:28+02:00",
+   "subject": "ci(r0.2): add pre-audited concrete domain gate"
+  },
+  {
+   "commit": "6527fc9b5898b10aa61bb30df20459cec84e87d6",
+   "date": "2026-09-17T04:23:14+02:00",
+   "subject": "audit(r0.2): delimit concrete-domain claims before CI"
+  },
+  {
+   "commit": "e1969918a07a1b5740df7aa246f3881e5ac74e59",
+   "date": "2026-09-17T04:23:05+02:00",
+   "subject": "feat(r0.2): formalize concrete real domain and chi support"
+  },
+  {
+   "commit": "6905ef324641c7fe2572d5839331eb6dff298c13",
+   "date": "2026-09-17T04:09:51+02:00",
+   "subject": "ci(r0.1): add pre-audited ambient carrier gate"
+  },
+  {
+   "commit": "3800988a345177fe563a1a72144981640c0fa0eb",
+   "date": "2026-09-17T04:09:38+02:00",
+   "subject": "audit(r0.1): declare typed carrier boundary and open analytic bridge"
+  },
+  {
+   "commit": "56228477661cbc99a483862d415b221542004a54",
+   "date": "2026-09-17T04:09:32+02:00",
+   "subject": "feat(r0.1): add typed ambient carrier boundary"
+  },
+  {
+   "commit": "93982aefdbe796fd7e760fb4bcce61c28dfbdc14",
+   "date": "2026-09-17T04:03:51+02:00",
+   "subject": "fix(r0.0): fetch frozen NB_TOTAL commit before provenance checks"
+  },
+  {
+   "commit": "2cb0f7f10c2d9455fbf16b03b09019234e022f6f",
+   "date": "2026-09-17T03:33:30+02:00",
+   "subject": "ci(r0.0): add structural normalization and provenance gate"
+  },
+  {
+   "commit": "1c9458acd9edd23203462cac6c517fa693e72b7f",
+   "date": "2026-09-17T03:33:21+02:00",
+   "subject": "audit(state): record immutable NB to R0 lineage"
+  },
+  {
+   "commit": "35c4515d8c9c36e79192816d35bdaf5ad0873af0",
+   "date": "2026-09-17T03:33:14+02:00",
+   "subject": "audit(r0.0): declare consumed evidence and open literature bridge"
+  },
+  {
+   "commit": "4840140d4fdbf378ab5f7f0a2a0397bc975b21bc",
+   "date": "2026-09-17T03:33:07+02:00",
+   "subject": "feat(r0.0): make positive-index normalization structural"
+  },
+  {
+   "commit": "ad37a1e9a89c0bdfb156008aba6cbb3a0f3d2ff4",
+   "date": "2026-09-17T03:20:30+02:00",
+   "subject": "audit(r0.0): pin canonical strong Nyman-Beurling normalization before formalization"
+  },
+  {
+   "commit": "38aad03c90103ad9b6cf0a31169b1855869cba11",
+   "date": "2026-09-17T02:30:09+02:00",
+   "subject": "ci(nb-total): certify aggregate NB closure"
+  },
+  {
+   "commit": "74d6aca2ee52909a148a1ce6b82b7ae5db311f95",
+   "date": "2026-09-17T02:29:58+02:00",
+   "subject": "feat(nb-total): aggregate certified NB limit frontier without RH promotion"
+  },
+  {
+   "commit": "540066e741d0cfb88e9cf5b84364ab0715afab1d",
+   "date": "2026-09-17T02:15:30+02:00",
+   "subject": "fix(nb16): replace unsupported Type* syntax with explicit universe"
+  },
+  {
+   "commit": "a3de5a6d317782b314145d88c2de0fa68f292c38",
+   "date": "2026-09-17T01:02:00+02:00",
+   "subject": "fix(nb16): make functional law binders Lean 4.19 compatible"
+  },
+  {
+   "commit": "449771dd0e96ded8d625f2884e3585d3a92d213e",
+   "date": "2026-09-16T23:57:21+02:00",
+   "subject": "ci(nb16): add dedicated chain audit with clean dependency resolution"
+  },
+  {
+   "commit": "4cbaf6522b509572739449d7650ce50bfc8aaa16",
+   "date": "2026-09-16T23:24:15+02:00",
+   "subject": "audit(nb16): record literal frozen NB signatures"
+  },
+  {
+   "commit": "e19fd2e6ca18bbaf3fc3544a36f1814b0a27fe70",
+   "date": "2026-09-16T23:16:04+02:00",
+   "subject": "audit(r0): define concrete-interface gate architecture"
+  },
+  {
+   "commit": "14b54087f8f6a6396788c72c6459010352ccdb9a",
+   "date": "2026-09-16T23:15:51+02:00",
+   "subject": "audit(nb16): establish immutable chain-closure plan"
+  },
+  {
+   "commit": "e7e36d636a56ea23fbf7b534acb4eecba76bc6b6",
+   "date": "2026-09-16T22:40:29+02:00",
+   "subject": "fix(nb15): rewrite pointwise zero equality before constant convergence"
+  },
+  {
+   "commit": "2b439692d5bdec9832b8e60dd64f9b467f619cdf",
+   "date": "2026-09-16T22:28:45+02:00",
+   "subject": "ci(nb15): add zero-limit frontier audit"
+  },
+  {
+   "commit": "7b6204dd71abd93175b3212ad15463018f1f3b13",
+   "date": "2026-09-16T22:28:35+02:00",
+   "subject": "feat(nb15): isolate zero-limit frontier without assuming it"
+  },
+  {
+   "commit": "9d6c36dd9d7503e99edfc9fce4940665c95fad91",
+   "date": "2026-09-16T22:21:06+02:00",
+   "subject": "ci(nb14): add isolated limit audit gate"
+  },
+  {
+   "commit": "bd69ab69c28467efe1e27a5bdc3d802882bb4a58",
+   "date": "2026-09-16T22:20:56+02:00",
+   "subject": "feat(nb14): formalize bounded antitone defect convergence"
+  },
+  {
+   "commit": "b2ef9ba5ee30de05af98ab3d58979691254ab9cb",
+   "date": "2026-09-16T22:04:52+02:00",
+   "subject": "fix(nb13): use bounded infimum with typed projection candidate"
+  },
+  {
+   "commit": "822c7bb4d6d48439d79f343b34d9b0f42c6f9796",
+   "date": "2026-09-16T22:00:09+02:00",
+   "subject": "fix(nb13): derive antitonicity directly from projection minimality"
+  },
+  {
+   "commit": "f436aea3f969ac5b744b286ba89eb3709228d038",
+   "date": "2026-09-16T20:41:07+02:00",
+   "subject": "fix(nb13): pin residual infimum type for antitonicity"
+  },
+  {
+   "commit": "52ec0b5ccf97294bfbe012083b43bbcc917e2fbb",
+   "date": "2026-09-16T20:32:40+02:00",
+   "subject": "fix(nb13): prove squared defect monotonicity without fragile API"
+  },
+  {
+   "commit": "5c5e4703f8cbbbaa27082b2c493ee28ff6a1deaf",
+   "date": "2026-09-16T20:20:33+02:00",
+   "subject": "ci(nb13): certify antitonicity of finite-stage defect"
+  },
+  {
+   "commit": "ecfad880d5fec5aa6c7899c962a9323e4b3859e4",
+   "date": "2026-09-16T20:20:24+02:00",
+   "subject": "feat(nb13): prove projection residual monotonicity"
+  },
+  {
+   "commit": "7c2d8d3ef4ca96cde6a2ba80b456d4902ecb9b41",
+   "date": "2026-09-16T19:39:23+02:00",
+   "subject": "ci(nb12): certify nesting of finite approximation spaces"
+  },
+  {
+   "commit": "298ed8c0a78b173c80fac54991ba607351889d3c",
+   "date": "2026-09-16T19:39:14+02:00",
+   "subject": "feat(nb12): prove monotonicity of finite approximation spaces"
+  },
+  {
+   "commit": "5ed1df6fae9ce82363f4221f91e7d20574dc5afe",
+   "date": "2026-09-16T19:21:09+02:00",
+   "subject": "ci(nb10): certify projection residual definitions"
+  },
+  {
+   "commit": "0b6df56670e5e7ff57076ca8ca56e6c71bab0dcd",
+   "date": "2026-09-16T19:20:58+02:00",
+   "subject": "feat(nb10): define projection residual distance and squared defect"
+  },
+  {
+   "commit": "49c511f626b746ce52c6d3718350d02b1bfd4378",
+   "date": "2026-09-16T19:11:42+02:00",
+   "subject": "ci(nb9): audit actual axiom dependency lists"
+  },
+  {
+   "commit": "fc2a35294443063b1b0179c0b4b026bfc60f836d",
+   "date": "2026-09-16T18:58:26+02:00",
+   "subject": "fix(nb9): pin real inner product scalar"
+  },
+  {
+   "commit": "487b881b42ee3d8e074eda1c0d461fda7acee123",
+   "date": "2026-09-16T18:50:53+02:00",
+   "subject": "ci(nb9): certify orthogonal projection layer"
+  },
+  {
+   "commit": "3f50e9a255916ffd482bdea981c3cfd21b6ee6f1",
+   "date": "2026-09-16T18:50:41+02:00",
+   "subject": "feat(nb9): formalize orthogonal projection onto V_N"
+  },
+  {
+   "commit": "40b45b6aa73924249e4ad5ae457adcdf6419842a",
+   "date": "2026-09-16T18:38:04+02:00",
+   "subject": "fix(nb8): use pinned FiniteDimensional span API"
+  },
+  {
+   "commit": "5f3b4e8b41bc57a5262e1212a09e597a07f667c2",
+   "date": "2026-09-16T18:33:33+02:00",
+   "subject": "fix(nb8): import finite module span theorem"
+  },
+  {
+   "commit": "c24248e1e486e1ea4fff6562f5ff0c2b91770400",
+   "date": "2026-09-16T18:19:30+02:00",
+   "subject": "fix(nb8): use finite-span Module.Finite theorem"
+  },
+  {
+   "commit": "c4de9093b27d3f7c1f900c0d056b5970f46adaa9",
+   "date": "2026-09-16T18:13:34+02:00",
+   "subject": "ci(nb8): certify finite-dimensional and closed V_N"
+  },
+  {
+   "commit": "d12682e91641ef61f31fc206c6780e7d80cfe03e",
+   "date": "2026-09-16T18:13:22+02:00",
+   "subject": "feat(nb8): formalize finite-dimensional approximation spaces"
+  },
+  {
+   "commit": "c4fb586bd1db7eb1db7a66c43a52101f731dc534",
+   "date": "2026-09-16T17:45:32+02:00",
+   "subject": "fix(nb7): correct finite range Mathlib API"
+  },
+  {
+   "commit": "b70b1506b3e4311b9f8fcc87f396803885fe603f",
+   "date": "2026-09-16T17:32:37+02:00",
+   "subject": "ci(nb7): certify Hilbert-space foundation"
+  },
+  {
+   "commit": "83ba731a50cdc441d414a4fe434784fa5fff7e95",
+   "date": "2026-09-16T17:32:25+02:00",
+   "subject": "feat(nb7): add abstract Hilbert-space foundation"
+  },
+  {
+   "commit": "53b69c4169819fdb34154dce88ae0ef7baa1f75d",
+   "date": "2026-09-16T15:17:37+02:00",
+   "subject": "audit(nb0): harden source hygiene against proof bypasses"
+  },
+  {
+   "commit": "e78671e10a0d782d24aebf1b22d66c938bb9a108",
+   "date": "2026-09-16T14:16:53+02:00",
+   "subject": "fix(nb5): audit only non-project Lean axioms"
+  },
+  {
+   "commit": "8ce9be95ccf6960c493acad9d84a52e8f31a0597",
+   "date": "2026-09-16T14:01:12+02:00",
+   "subject": "fix(nb3): use carrier zero for compatibility witnesses"
+  },
+  {
+   "commit": "9488f6fc64fa0398a5f4bdc03e7365b7fb2c3c2b",
+   "date": "2026-09-16T13:26:09+02:00",
+   "subject": "ci(nb): cache incremental Lake build and archive audit evidence"
+  },
+  {
+   "commit": "828ea68d6edf437524fc4328abc4c3fb2f1a0cbf",
+   "date": "2026-09-16T13:08:56+02:00",
+   "subject": "fix(nb3): separate data-bearing FunctionalCompatibility from Prop"
+  },
+  {
+   "commit": "b4f8397e3fd7e2177a9c89d6f37c509669f74990",
+   "date": "2026-09-16T12:56:25+02:00",
+   "subject": "fix(nb): make functional interface Lean 4.19 parser-safe"
+  },
+  {
+   "commit": "0662f91f70a34c17674adfbc5b9da46ffe60a2bb",
+   "date": "2026-09-16T12:53:18+02:00",
+   "subject": "fix(nb): remove lambda-token binders from non-implication module"
+  },
+  {
+   "commit": "27884f4fecb4c467dc202352f7ae7ac4835512ab",
+   "date": "2026-09-16T12:49:46+02:00",
+   "subject": "feat(nb): formalize logical classification of functional laws"
+  },
+  {
+   "commit": "d58906dbdd1a6dfbef1c98d27d53a070ee5ec7db",
+   "date": "2026-09-16T12:49:34+02:00",
+   "subject": "fix(a14): avoid lambda token parser conflict"
+  },
+  {
+   "commit": "d627a5a9444e3e6e19f7e7051379a7ecbcd9c9ce",
+   "date": "2026-09-16T12:46:25+02:00",
+   "subject": "ci(nb): certify functional compatibility non-implication"
+  },
+  {
+   "commit": "4812df596ca0ac9632a0af1962ba30d2a56b78c7",
+   "date": "2026-09-16T12:46:03+02:00",
+   "subject": "feat(nb): add falsifiable functional extension contract"
+  },
+  {
+   "commit": "53156dcdcabd0f4e00b9ad8f7fd0354f37891540",
+   "date": "2026-09-16T12:44:55+02:00",
+   "subject": "proof(nb): expand scalar-interface non-implication without sorry"
+  },
+  {
+   "commit": "6dc6706ecdc00201e6a44f841a4e0b825479caba",
+   "date": "2026-09-16T12:44:29+02:00",
+   "subject": "ci(nb): repair Lean bootstrap and dependency resolution"
+  },
+  {
+   "commit": "7d4b316a1bce06e51c8ae2a0eae1cfa1e177baa1",
+   "date": "2026-09-16T12:39:17+02:00",
+   "subject": "ci(nb): regenerate manifest for pinned mathlib dependency"
+  },
+  {
+   "commit": "4791e0f6af516a9e052af962ecb9f56e711a2049",
+   "date": "2026-09-16T12:33:36+02:00",
+   "subject": "RH NB: add isolated two-phase certification workflow"
+  },
+  {
+   "commit": "182c83d4b0d4d7bb3d1159cde83a628867a093b3",
+   "date": "2026-09-16T12:33:19+02:00",
+   "subject": "RH NB: include A1-A4 non-implication test in default build"
+  },
+  {
+   "commit": "dfabdf57a4d5362fcee2564ea66e737bc3b29d47",
+   "date": "2026-09-16T12:33:10+02:00",
+   "subject": "RH NB: record two-phase gate status and test protocol"
+  },
+  {
+   "commit": "c15d9fbb2be9b990a77951ac8a070557ec1a6602",
+   "date": "2026-09-16T12:32:50+02:00",
+   "subject": "RH NB: add fail-closed A1-A4 non-implication test"
+  },
+  {
+   "commit": "b4f7fad0dbb189c8777655c0dd4a90113df64a34",
+   "date": "2026-09-16T08:56:05+02:00",
+   "subject": "K9 research: include rigidity and criterion route frontiers"
+  },
+  {
+   "commit": "dcc2582b5e3c43a204681b4054866f4d2ee68223",
+   "date": "2026-09-16T08:55:52+02:00",
+   "subject": "K9 audit: record criterion routes and non-circularity gates"
+  },
+  {
+   "commit": "34edc8fccbc8e8d7c533f33045e92b05c059d19b",
+   "date": "2026-09-16T08:55:32+02:00",
+   "subject": "K9 research: add Nyman Beurling Li and de Bruijn Newman route targets"
+  },
+  {
+   "commit": "a70910c94ef6dbdea806d413d31b40a031e0a255",
+   "date": "2026-09-16T08:54:02+02:00",
+   "subject": "K9 research: add non-circular Li Weil spectral rigidity route interfaces"
+  },
+  {
+   "commit": "23e5f4e112f6855cb49e7e32ad799a837c51bbdc",
+   "date": "2026-09-16T08:40:26+02:00",
+   "subject": "K9 research: document literature routes and exact open frontier"
+  },
+  {
+   "commit": "8ff26efcd8fbd4aa66acc15b1e20dd980fdbd079",
+   "date": "2026-09-16T08:40:06+02:00",
+   "subject": "K9 research: add non-promoting research umbrella"
+  },
+  {
+   "commit": "eb30249c772faa281eb3081070776d45d7973934",
+   "date": "2026-09-16T08:39:59+02:00",
+   "subject": "K9 research: replace continuation sorry with Mathlib theorem"
+  },
+  {
+   "commit": "0164a3e87025017d4cd7e9cf64d7aadf4bca17a5",
+   "date": "2026-09-16T08:39:50+02:00",
+   "subject": "K9 research: make endpoint conditional only on explicit certificates"
+  },
+  {
+   "commit": "7a7ab7d1ab56de87dd210b56e1d81cb4ba063573",
+   "date": "2026-09-16T08:39:42+02:00",
+   "subject": "K9 research: add universal zeta bridge and criterion interfaces"
+  },
+  {
+   "commit": "25c12f0056b6321958bf67c10788a6bdc8d97276",
+   "date": "2026-09-16T08:39:30+02:00",
+   "subject": "K9 research: expose regularization obligations without axioms"
+  },
+  {
+   "commit": "3a995ee0716788dcb4cd9840a04160de86d7bdd5",
+   "date": "2026-09-16T08:39:20+02:00",
+   "subject": "K9 research: formalize non-vacuous A1-A4 contracts"
+  },
+  {
+   "commit": "081a382956a1973f6b548c238d9ab14b4f29d2ac",
+   "date": "2026-09-16T00:05:26+02:00",
+   "subject": "K8 RH: certify exact contract and structural firewall"
+  },
+  {
+   "commit": "a83a7628856ecbf545e2d5afdf2f1f8a6b7e3bff",
+   "date": "2026-09-16T00:05:10+02:00",
+   "subject": "K8 RH: pin Mathlib v4.19.0 for exact RH endpoint"
+  },
+  {
+   "commit": "da5564fe1ac4da4d3a6b70b513abb7a8e281d8de",
+   "date": "2026-09-15T22:47:28+02:00",
+   "subject": "K8 RH: add exact scientific contract without endpoint promotion"
+  },
+  {
+   "commit": "ed937c9b72a831bd2fa270b8b050c5855567977d",
+   "date": "2026-09-15T22:06:17+02:00",
+   "subject": "K7: certify explicit structural gates"
+  },
+  {
+   "commit": "1199955c05c4854eae8c985c06854dd7ba4ad921",
+   "date": "2026-09-15T21:24:49+02:00",
+   "subject": "K7: add audit reachability checkpoint"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.RH.NB.NBHilbertData.DNLimit_eq_zero_of_arbitrarily_small",
+   "file": "lean/MCore/RH/NB/QuantitativeZeroCriterion.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.NB.NBHilbertData) (rho : D.GeneratorFamily), D.DNArbitrarilySmall rho → D.DNLimit rho = 0"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.DNLimit_le_stage",
+   "file": "lean/MCore/RH/NB/QuantitativeZeroCriterion.lean",
+   "line": 7,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.NB.NBHilbertData) (rho : D.GeneratorFamily) (N : ℕ), D.DNLimit rho ≤ D.DN rho N"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.DNToZero_of_arbitrarily_small",
+   "file": "lean/MCore/RH/NB/QuantitativeZeroCriterion.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.NB.NBHilbertData) (rho : D.GeneratorFamily), D.DNArbitrarilySmall rho → D.DNToZero rho"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.agree_on_prefix",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (N n : ℕ), n ≤ N → MCore.RHFinitePrefixFirewall.dropAfter N n = MCore.RHFinitePrefixFirewall.ones n"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.dropAfter_antitone",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (N : ℕ), Antitone (MCore.RHFinitePrefixFirewall.dropAfter N)"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.dropAfter_nonnegative",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (N n : ℕ), 0 ≤ MCore.RHFinitePrefixFirewall.dropAfter N n"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.drop_after_prefix_is_zero",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (N : ℕ), MCore.RHFinitePrefixFirewall.dropAfter N (N + 1) = 0"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.finite_prefix_has_distinct_antitone_nonnegative_extensions",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (N : ℕ),   ∃ f g,     (∀ (n : ℕ), 0 ≤ f n) ∧       (∀ (n : ℕ), 0 ≤ g n) ∧ Antitone f ∧ Antitone g ∧ (∀ n ≤ N, f n = g n) ∧ f (N + 1) = 0 ∧ g (N + 1) = 1"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.ones_after_prefix_is_one",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (N : ℕ), MCore.RHFinitePrefixFirewall.ones (N + 1) = 1"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.ones_antitone",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Antitone MCore.RHFinitePrefixFirewall.ones"
+  },
+  {
+   "name": "MCore.RHFinitePrefixFirewall.ones_nonnegative",
+   "file": "lean/MCore/RH/NB/FinitePrefixFirewall.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : ℕ), 0 ≤ MCore.RHFinitePrefixFirewall.ones n"
+  }
+ ],
+ "closed": 11,
+ "files_sha256": {
+  "lake-manifest.json": "2c4ab35b6c5ec42d2543a7a491bb921bc9c46d9c80b14e30b96d9c44536f50d9",
+  "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/RH/NB/Antitone.lean": "2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb",
+  "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
+  "lean/MCore/RH/NB/FinitePrefixFirewall.lean": "5e24dee0a6cd271c93c95a4a48c23edd5b0461851edaa6348f2ec144ed8a6c0a",
+  "lean/MCore/RH/NB/FiniteSpan.lean": "97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe",
+  "lean/MCore/RH/NB/HilbertData.lean": "0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134",
+  "lean/MCore/RH/NB/Limit.lean": "9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c",
+  "lean/MCore/RH/NB/Nesting.lean": "922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31",
+  "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
+  "lean/MCore/RH/NB/QuantitativeZeroCriterion.lean": "ea0197b259f3434fbc42c9c00ab987f10820d29f9a29b82772177662337435d3",
+  "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "c1c88007b2989252e311dcf2a90590346f47dcdf2b09c03ee89a31ba874f91da"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "7e7200729c605964bd3e349593698dcfbfb9112d72357d287545deb17f19fc6f"
+}

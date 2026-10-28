@@ -1,0 +1,13 @@
+2f8e5d0652cd635e36cf898200fd3a5a54179799934e73c5a3b281e8e188188f  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/CrossingFamily.lean
+3d19f180c1b39d162d5e348bbad53e05be31a5952346e5ae5e2b4db089b686a5  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/Dichotomy.lean
+a924785851f7ae11feb7a368c44de1ecae8c915b699ab3ffb078687ea9f6a677  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/Estimates.lean
+a7a1fa972e5b667f0e9febc71db6051388ccd8181c045c1feada8ce221c18e1c  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/Hex.lean
+b27a86b8d8bea3be4523953af1e054005cc17cad2549123a0112406d6e5cb30b  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/Involution.lean
+9b819faa984768a30373d29e5f195db1981e65d28f9e149c849b493872696540  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/JensenDegreeTwo.lean
+96b15da0a8b5cdf005a46bcad7920e1caae112b08fecbfa486391d75a2e8cac1  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/Multiplicity.lean
+4cd46760250d2ee38f8bd5b93dcfa647736488663112b0a236349cb38b97e5ba  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/PairSum.lean
+38e5d228ce2eef3d111dd13b8822ba8d8cbdb60a3716084409cdd8b536ad8e5a  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/RealZeta.lean
+f3c89c0053c1a859f7322cde0de03ab29c94974fc08ff9105791a4d9d7fde9b2  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/SymmetryGroup.lean
+3c391e0ab9e7a3bb1abf577242584e68b4d5f6221de6c582272d8bd7e9465006  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/ATK/Transport.lean
+139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/lakefile.toml
+d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b  branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/atk-kernel/lean-toolchain

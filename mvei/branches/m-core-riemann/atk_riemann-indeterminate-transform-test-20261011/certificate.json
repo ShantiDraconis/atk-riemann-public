@@ -1,0 +1,158 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "atk/riemann-indeterminate-transform-test-20261011",
+ "branch_state": "parada",
+ "head_commit": "f258e54d498cb46c08c6a6229c443162e8f39a4b",
+ "head_commit_date": "2026-10-11T16:52:42+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "f258e54d498cb46c08c6a6229c443162e8f39a4b",
+   "date": "2026-10-11T16:52:42+01:00",
+   "subject": "experiment: TransformedRH = RiemannHypothesis as propositions"
+  },
+  {
+   "commit": "497150789d4a13215598f9aa607bfc3aaa80f010",
+   "date": "2026-10-11T16:37:19+01:00",
+   "subject": "experiment: apply the I = 0/0 transform to the Riemann zeta function"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "IndeterminateRiemann.RH_of_transformedRH",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "IndeterminateRiemann.TransformedRH → RiemannHypothesis"
+  },
+  {
+   "name": "IndeterminateRiemann.indeterminate_invariance",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/Transform.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (z : ℂ), z ≠ 0 → IndeterminateRiemann.IndeterminateTransform z = 1"
+  },
+  {
+   "name": "IndeterminateRiemann.transform_eq_div_self",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/Transform.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (z : ℂ), IndeterminateRiemann.IndeterminateTransform z = z / z"
+  },
+  {
+   "name": "IndeterminateRiemann.transform_eq_zero_iff",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/Transform.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (z : ℂ), IndeterminateRiemann.IndeterminateTransform z = 0 ↔ z = 0"
+  },
+  {
+   "name": "IndeterminateRiemann.transform_forgets_location",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s t : ℂ),   riemannZeta s = 0 →     riemannZeta t = 0 →       IndeterminateRiemann.IndeterminateTransform (riemannZeta s) =         IndeterminateRiemann.IndeterminateTransform (riemannZeta t)"
+  },
+  {
+   "name": "IndeterminateRiemann.transform_values",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/Transform.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (z : ℂ), IndeterminateRiemann.IndeterminateTransform z = 0 ∨ IndeterminateRiemann.IndeterminateTransform z = 1"
+  },
+  {
+   "name": "IndeterminateRiemann.transform_zeta_neg_two",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "IndeterminateRiemann.IndeterminateTransform (riemannZeta (-2)) = 0"
+  },
+  {
+   "name": "IndeterminateRiemann.transform_zeta_two",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/ZetaTwo.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "IndeterminateRiemann.IndeterminateTransform (riemannZeta 2) = 1"
+  },
+  {
+   "name": "IndeterminateRiemann.transformedRH_eq_RH",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "IndeterminateRiemann.TransformedRH = RiemannHypothesis"
+  },
+  {
+   "name": "IndeterminateRiemann.transformedRH_iff_RH",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "IndeterminateRiemann.TransformedRH ↔ RiemannHypothesis"
+  },
+  {
+   "name": "IndeterminateRiemann.transformedRH_of_RH",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "RiemannHypothesis → IndeterminateRiemann.TransformedRH"
+  },
+  {
+   "name": "IndeterminateRiemann.zero_div_zero",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/Transform.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "0 / 0 = 0"
+  },
+  {
+   "name": "IndeterminateRiemann.zeta_transform_zero_iff",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), IndeterminateRiemann.IndeterminateTransform (riemannZeta s) = 0 ↔ riemannZeta s = 0"
+  },
+  {
+   "name": "SDCore.indeterminate_invariance",
+   "file": "experiments/indeterminate-transform/IndeterminateRiemann/MainProofBridgeVerbatim.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(z : ℂ) (h : z ≠ 0) : IndeterminateTransform z = 1"
+  }
+ ],
+ "closed": 14,
+ "files_sha256": {
+  "experiments/indeterminate-transform/IndeterminateRiemann/MainProofBridgeVerbatim.lean": "82d1913183bc937a0fb975aa7eb67b24c946ad72e102e2b2ba29226b7df283cd",
+  "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean": "3ce579aaaced6c1ab1f84f4f386feb30a29ff90ddaad41bd2edc25ddd65c87c6",
+  "experiments/indeterminate-transform/IndeterminateRiemann/Transform.lean": "959b74e3b5c80fc08fa68c54fdad01890aff65d409136b6df43bad100b3d89b4",
+  "experiments/indeterminate-transform/IndeterminateRiemann/ZetaTwo.lean": "bbb5e4945cf587cebfa16e409c80e5e1893bb856caa5b8155e7787bfb4cfd120",
+  "experiments/indeterminate-transform/lake-manifest.json": "e42c5821518bf991997d0ae64d02f1b24ebdc2a27163bc9ba56209e614b1dff2",
+  "experiments/indeterminate-transform/lakefile.toml": "72cceab4dacf8202fe12ddf924a0e5138279b426cd9cb552e20c13f0f6327401",
+  "experiments/indeterminate-transform/lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "043935577d5db3ed51a808ed03a9ec5fa9a9771cf98600544c17d4d7ce27d9b5"
+}

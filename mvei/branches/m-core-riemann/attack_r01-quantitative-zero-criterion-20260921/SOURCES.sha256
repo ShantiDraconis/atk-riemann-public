@@ -1,0 +1,13 @@
+2c4ab35b6c5ec42d2543a7a491bb921bc9c46d9c80b14e30b96d9c44536f50d9  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lake-manifest.json
+fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean-toolchain
+2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/Antitone.lean
+add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/Distance.lean
+5e24dee0a6cd271c93c95a4a48c23edd5b0461851edaa6348f2ec144ed8a6c0a  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/FinitePrefixFirewall.lean
+97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/FiniteSpan.lean
+0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/HilbertData.lean
+9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/Limit.lean
+922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/Nesting.lean
+b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/Projection.lean
+ea0197b259f3434fbc42c9c00ab987f10820d29f9a29b82772177662337435d3  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/QuantitativeZeroCriterion.lean
+c1c88007b2989252e311dcf2a90590346f47dcdf2b09c03ee89a31ba874f91da  branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/lean/MCore/RH/NB/ZeroLimitFrontier.lean

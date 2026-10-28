@@ -1,0 +1,372 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "atk/riemann-li-zeta-v435-20261025",
+ "branch_state": "em andamento",
+ "head_commit": "d737f8891e11128dd1bf6bc9068554b28d98a709",
+ "head_commit_date": "2026-10-25T01:17:45+00:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "d737f8891e11128dd1bf6bc9068554b28d98a709",
+   "date": "2026-10-25T01:17:45+00:00",
+   "subject": "li zeta ledger: record run 40149747655 [skip ci]"
+  },
+  {
+   "commit": "9e92dd4f3452e4b401e4f9951ae54b6c1ea6cd3b",
+   "date": "2026-10-25T01:12:51+00:00",
+   "subject": "li zeta: frontier ledger V3 and single axiom-summary annotation"
+  },
+  {
+   "commit": "c7dacb6823ef893cc2ebf84e93d49a51a31f40e8",
+   "date": "2026-10-25T01:07:16+00:00",
+   "subject": "li zeta: lowest off-line zero, finite threshold, two-worlds theorem, Hardy Z link"
+  },
+  {
+   "commit": "b30156764ba6fd8ce5d0ac841f02cde52ede8dd4",
+   "date": "2026-10-25T01:00:11+00:00",
+   "subject": "li criterion: port to Mathlib v4.35.0 and apply to riemannZeta"
+  },
+  {
+   "commit": "261fa00a002810bb6772b3d0bb8d3b951f3e71c8",
+   "date": "2026-10-11T17:14:58+01:00",
+   "subject": "experiment: Li's criterion, finite core (both directions)"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.35.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "LiCriterion.Zeta.exists_liTrunc_re_neg_of_not_RH",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 234,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬RiemannHypothesis → ∃ T n, (LiCriterion.Zeta.liTrunc T n).re < 0"
+  },
+  {
+   "name": "LiCriterion.Zeta.exists_lowest_offline_zero",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 249,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬LiCriterion.Zeta.StripRH →   ∃ ρ,     LiCriterion.Zeta.StripZero ρ ∧       ρ.re ≠ 1 / 2 ∧ ∀ (s : ℂ), LiCriterion.Zeta.StripZero s → |s.im| < |ρ.im| → s.re = 1 / 2"
+  },
+  {
+   "name": "LiCriterion.Zeta.hardyZ_im_eq_zero",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 300,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {s : ℂ}, LiCriterion.Zeta.StripZero s → s.re = 1 / 2 → hardyZ s.im = 0"
+  },
+  {
+   "name": "LiCriterion.Zeta.liTrunc_criterion",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 127,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (T : ℝ), (∀ (n : ℕ), 0 ≤ (LiCriterion.Zeta.liTrunc T n).re) ↔ ∀ s ∈ LiCriterion.Zeta.zerosUpTo T, s.re = 1 / 2"
+  },
+  {
+   "name": "LiCriterion.Zeta.liTrunc_eq_liCoeff",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 107,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (T : ℝ) (n : ℕ), LiCriterion.Zeta.liTrunc T n = LiCriterion.liCoeff (fun ρ => ↑ρ) n"
+  },
+  {
+   "name": "LiCriterion.Zeta.liTrunc_eq_li_original",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 241,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (T : ℝ) (n : ℕ), ∑ ρ ∈ LiCriterion.Zeta.zerosFinset T, (1 - (1 - 1 / ρ) ^ n) = LiCriterion.Zeta.liTrunc T n"
+  },
+  {
+   "name": "LiCriterion.Zeta.liTrunc_threshold_of_not_RH",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 273,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬RiemannHypothesis →   ∃ T₀,     0 ≤ T₀ ∧ (∀ T < T₀, ∀ (n : ℕ), 0 ≤ (LiCriterion.Zeta.liTrunc T n).re) ∧ ∃ n, (LiCriterion.Zeta.liTrunc T₀ n).re < 0"
+  },
+  {
+   "name": "LiCriterion.Zeta.li_two_worlds",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 289,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(∀ (T : ℝ) (n : ℕ), 0 ≤ (LiCriterion.Zeta.liTrunc T n).re) ∨   ∃ T₀,     0 ≤ T₀ ∧ (∀ T < T₀, ∀ (n : ℕ), 0 ≤ (LiCriterion.Zeta.liTrunc T n).re) ∧ ∃ n, (LiCriterion.Zeta.liTrunc T₀ n).re < 0"
+  },
+  {
+   "name": "LiCriterion.Zeta.mem_zerosFinset",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 100,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {T : ℝ} {s : ℂ}, s ∈ LiCriterion.Zeta.zerosFinset T ↔ s ∈ LiCriterion.Zeta.zerosUpTo T"
+  },
+  {
+   "name": "LiCriterion.Zeta.ne_neg_natCast_of_re_pos",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {s : ℂ}, 0 < s.re → ∀ (n : ℕ), s ≠ -↑n"
+  },
+  {
+   "name": "LiCriterion.Zeta.ne_one_of_mem_zerosFinset",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 112,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {T : ℝ} (ρ : ↥(LiCriterion.Zeta.zerosFinset T)), ↑ρ ≠ 1"
+  },
+  {
+   "name": "LiCriterion.Zeta.ne_one_of_re_lt_one",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {s : ℂ}, s.re < 1 → s ≠ 1"
+  },
+  {
+   "name": "LiCriterion.Zeta.one_sub_mem_zerosUpTo",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {T : ℝ} {s : ℂ}, s ∈ LiCriterion.Zeta.zerosUpTo T → 1 - s ∈ LiCriterion.Zeta.zerosUpTo T"
+  },
+  {
+   "name": "LiCriterion.Zeta.reflect_coe",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (T : ℝ) (ρ : ↥(LiCriterion.Zeta.zerosFinset T)), ↑(LiCriterion.Zeta.reflect T ρ) = 1 - ↑ρ"
+  },
+  {
+   "name": "LiCriterion.Zeta.reflect_involutive",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 122,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (T : ℝ), Function.Involutive (LiCriterion.Zeta.reflect T)"
+  },
+  {
+   "name": "LiCriterion.Zeta.riemannHypothesis_iff_liTrunc",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 229,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "RiemannHypothesis ↔ ∀ (T : ℝ) (n : ℕ), 0 ≤ (LiCriterion.Zeta.liTrunc T n).re"
+  },
+  {
+   "name": "LiCriterion.Zeta.riemannHypothesis_iff_stripRH",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 207,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "RiemannHypothesis ↔ LiCriterion.Zeta.StripRH"
+  },
+  {
+   "name": "LiCriterion.Zeta.stripRH_iff_liTrunc",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 147,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "LiCriterion.Zeta.StripRH ↔ ∀ (T : ℝ) (n : ℕ), 0 ≤ (LiCriterion.Zeta.liTrunc T n).re"
+  },
+  {
+   "name": "LiCriterion.Zeta.stripZero_of_hardyZ",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 310,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {t : ℝ}, hardyZ t = 0 → LiCriterion.Zeta.StripZero (1 / 2 + ↑t * Complex.I) ∧ (1 / 2 + ↑t * Complex.I).re = 1 / 2"
+  },
+  {
+   "name": "LiCriterion.Zeta.stripZero_one_sub",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {s : ℂ}, LiCriterion.Zeta.StripZero s → LiCriterion.Zeta.StripZero (1 - s)"
+  },
+  {
+   "name": "LiCriterion.Zeta.trivial_of_re_nonpos",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 156,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {s : ℂ}, riemannZeta s = 0 → s.re ≤ 0 → ∃ n, s = -2 * (↑n + 1)"
+  },
+  {
+   "name": "LiCriterion.Zeta.zerosUpTo_finite",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (T : ℝ), (LiCriterion.Zeta.zerosUpTo T).Finite"
+  },
+  {
+   "name": "LiCriterion.Zeta.zerosUpTo_subset",
+   "file": "experiments/li-criterion/LiCriterion/Zeta.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (T : ℝ), LiCriterion.Zeta.zerosUpTo T ⊆ Metric.closedBall 0 (1 + |T|) ∩ riemannZetaZeros"
+  },
+  {
+   "name": "LiCriterion.example_off_line",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 323,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ n, (LiCriterion.liCoeff ![↑(3 / 5) + Complex.I, ↑(2 / 5) - Complex.I] n).re < 0"
+  },
+  {
+   "name": "LiCriterion.example_on_line",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 313,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : ℕ), 0 ≤ (LiCriterion.liCoeff ![↑(1 / 2) + Complex.I, ↑(1 / 2) - Complex.I] n).re"
+  },
+  {
+   "name": "LiCriterion.exists_liCoeff_re_neg",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 151,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ι : Type u_1} [inst : Fintype ι] {ρ : ι → ℂ},   (∀ (i : ι), ρ i ≠ 1) → (∃ i, 1 / 2 < (ρ i).re) → ∃ n, (LiCriterion.liCoeff ρ n).re < 0"
+  },
+  {
+   "name": "LiCriterion.exists_pow_near_one",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {κ : Type u_1} [Fintype κ] (w : κ → ℂ),   (∀ (k : κ), ‖w k‖ = 1) → ∀ {ε : ℝ}, 0 < ε → ∀ (L : ℕ), ∃ n, L ≤ n ∧ ∀ (k : κ), ‖w k ^ n - 1‖ < ε"
+  },
+  {
+   "name": "LiCriterion.liCoeff_eq_li_original",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 300,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ι : Type u_1} [inst : Fintype ι] {ρ : ι → ℂ},   (∀ (i : ι), ρ i ≠ 1) →     ∀ (σ : ι ≃ ι), (∀ (i : ι), ρ (σ i) = 1 - ρ i) → ∀ (n : ℕ), ∑ i, (1 - (1 - 1 / ρ i) ^ n) = LiCriterion.liCoeff ρ n"
+  },
+  {
+   "name": "LiCriterion.liCoeff_re",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 99,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ι : Type u_1} [inst : Fintype ι] (ρ : ι → ℂ) (n : ℕ),   (LiCriterion.liCoeff ρ n).re = ↑(Fintype.card ι) - ∑ i, (LiCriterion.liPoint (ρ i) ^ n).re"
+  },
+  {
+   "name": "LiCriterion.liCoeff_re_nonneg",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ι : Type u_1} [inst : Fintype ι] {ρ : ι → ℂ},   (∀ (i : ι), ρ i ≠ 1) → (∀ (i : ι), (ρ i).re ≤ 1 / 2) → ∀ (n : ℕ), 0 ≤ (LiCriterion.liCoeff ρ n).re"
+  },
+  {
+   "name": "LiCriterion.li_criterion_finite",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 268,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ι : Type u_1} [inst : Fintype ι] {ρ : ι → ℂ},   (∀ (i : ι), ρ i ≠ 1) → ((∀ (n : ℕ), 0 ≤ (LiCriterion.liCoeff ρ n).re) ↔ ∀ (i : ι), (ρ i).re ≤ 1 / 2)"
+  },
+  {
+   "name": "LiCriterion.li_criterion_finite_symm",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 284,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ι : Type u_1} [inst : Fintype ι] {ρ : ι → ℂ},   (∀ (i : ι), ρ i ≠ 1) →     ∀ (σ : ι → ι),       (∀ (i : ι), ρ (σ i) = 1 - ρ i) → ((∀ (n : ℕ), 0 ≤ (LiCriterion.liCoeff ρ n).re) ↔ ∀ (i : ι), (ρ i).re = 1 / 2)"
+  },
+  {
+   "name": "LiCriterion.normSq_sub_one",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (ρ : ℂ), Complex.normSq (ρ - 1) = Complex.normSq ρ - 2 * ρ.re + 1"
+  },
+  {
+   "name": "LiCriterion.norm_le_norm_sub_one_iff",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (ρ : ℂ), ‖ρ‖ ≤ ‖ρ - 1‖ ↔ ρ.re ≤ 1 / 2"
+  },
+  {
+   "name": "LiCriterion.norm_liPoint_eq_one_iff",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ρ : ℂ}, ρ ≠ 1 → (‖LiCriterion.liPoint ρ‖ = 1 ↔ ρ.re = 1 / 2)"
+  },
+  {
+   "name": "LiCriterion.norm_liPoint_le_one_iff",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ρ : ℂ}, ρ ≠ 1 → (‖LiCriterion.liPoint ρ‖ ≤ 1 ↔ ρ.re ≤ 1 / 2)"
+  },
+  {
+   "name": "LiCriterion.norm_sub_one_le_norm_iff",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (ρ : ℂ), ‖ρ - 1‖ ≤ ‖ρ‖ ↔ 1 / 2 ≤ ρ.re"
+  },
+  {
+   "name": "LiCriterion.one_lt_norm_liPoint_iff",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 79,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ρ : ℂ}, ρ ≠ 1 → (1 < ‖LiCriterion.liPoint ρ‖ ↔ 1 / 2 < ρ.re)"
+  },
+  {
+   "name": "LiCriterion.one_sub_inv_one_sub",
+   "file": "experiments/li-criterion/LiCriterion/Finite.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ρ : ℂ}, ρ ≠ 1 → 1 - 1 / (1 - ρ) = LiCriterion.liPoint ρ"
+  }
+ ],
+ "closed": 39,
+ "files_sha256": {
+  "experiments/li-criterion/LiCriterion/Finite.lean": "2e1fae73874f0ef77cbca99da6d4f397e948b7acc870f9d1a7cea7b81927d3eb",
+  "experiments/li-criterion/LiCriterion/Zeta.lean": "73da5218e4bb46fdf787260e3c99d133c98cd452580164bc2a3fc85e685d09e4",
+  "experiments/li-criterion/lake-manifest.json": "988be32659f0b2f2f3d0a9392be314873bb6e5e4915a934e6332e9ba14d0461e",
+  "experiments/li-criterion/lakefile.toml": "d6dec000e33334f34877eeb397067a93700dd1428accce723ae257446a5eb587",
+  "experiments/li-criterion/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "fac51f026869681b3066566a9489ae8cd1068d5e8c1a73ac700ef179a27215a3"
+}

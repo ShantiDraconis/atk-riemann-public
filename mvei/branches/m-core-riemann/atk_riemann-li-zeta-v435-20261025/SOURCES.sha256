@@ -1,0 +1,5 @@
+2e1fae73874f0ef77cbca99da6d4f397e948b7acc870f9d1a7cea7b81927d3eb  branches/m-core-riemann/atk_riemann-li-zeta-v435-20261025/experiments/li-criterion/LiCriterion/Finite.lean
+73da5218e4bb46fdf787260e3c99d133c98cd452580164bc2a3fc85e685d09e4  branches/m-core-riemann/atk_riemann-li-zeta-v435-20261025/experiments/li-criterion/LiCriterion/Zeta.lean
+988be32659f0b2f2f3d0a9392be314873bb6e5e4915a934e6332e9ba14d0461e  branches/m-core-riemann/atk_riemann-li-zeta-v435-20261025/experiments/li-criterion/lake-manifest.json
+d6dec000e33334f34877eeb397067a93700dd1428accce723ae257446a5eb587  branches/m-core-riemann/atk_riemann-li-zeta-v435-20261025/experiments/li-criterion/lakefile.toml
+ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c  branches/m-core-riemann/atk_riemann-li-zeta-v435-20261025/experiments/li-criterion/lean-toolchain

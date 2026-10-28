@@ -1,0 +1,1773 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "atk/rh-material-recovery-20261007",
+ "branch_state": "parada",
+ "head_commit": "fb8481724749868ed6badb3a8acb98df998c55a2",
+ "head_commit_date": "2026-10-07T16:03:00+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "fb8481724749868ed6badb3a8acb98df998c55a2",
+   "date": "2026-10-07T16:03:00+02:00",
+   "subject": "RH: audit reconstructed material proof routes"
+  },
+  {
+   "commit": "ec8746a044d74e3c3bcb9d607b24f43b9b1eb2ee",
+   "date": "2026-10-07T16:02:51+02:00",
+   "subject": "RH: include recovered material modules in strict preflight"
+  },
+  {
+   "commit": "cbd041ff228f7e8308058290c0bad7a15104ac67",
+   "date": "2026-10-07T16:02:37+02:00",
+   "subject": "RH: enable reconstructed material proof graph in MCore build"
+  },
+  {
+   "commit": "82ea8537a3d9e3b4379c80d339a905a4af6e17b2",
+   "date": "2026-10-07T16:02:08+02:00",
+   "subject": "RH: reconstruct fragmented material proof graph"
+  },
+  {
+   "commit": "b26340d65bd74e6fa6fec570716f4828ddc53903",
+   "date": "2026-10-07T16:00:28+02:00",
+   "subject": "RH: recover CoefficientPythagoras.lean into material lane"
+  },
+  {
+   "commit": "29da132486fd21ea697339f2ae3127c0e1b00064",
+   "date": "2026-10-07T16:00:24+02:00",
+   "subject": "RH: recover ExplicitCoefficientProducer.lean into material lane"
+  },
+  {
+   "commit": "7a58f90f7c4cc6d4183c377eb1048072c2a575a0",
+   "date": "2026-10-07T16:00:20+02:00",
+   "subject": "RH: recover BCFExplicitLogBounds.lean into material lane"
+  },
+  {
+   "commit": "8aa2636a33ebe9451b174ff23774b9027efa5a0f",
+   "date": "2026-10-07T16:00:16+02:00",
+   "subject": "RH: recover BCFThreeTermMaterializer.lean into material lane"
+  },
+  {
+   "commit": "357ed7b5c06f1db5bd79ee60b8d98aeda0480a8b",
+   "date": "2026-10-04T23:08:45+02:00",
+   "subject": "RH: add fail-closed audit for the single R01 concrete producer"
+  },
+  {
+   "commit": "b93f98ede1b8c168803e7ed6e201df0c54d7ea33",
+   "date": "2026-10-04T23:08:09+02:00",
+   "subject": "RH: include canonical R01 concrete frontier in root build"
+  },
+  {
+   "commit": "ffa355809eae41cfcf8a5bfa5e128882c2af3e5e",
+   "date": "2026-10-04T23:07:40+02:00",
+   "subject": "RH: define canonical R01 concrete producer and weighted-decay bridge contract"
+  },
+  {
+   "commit": "82c942c65929c1897e87668d3f10cea8cf8cdb9f",
+   "date": "2026-10-04T23:06:27+02:00",
+   "subject": "RH: port latest R01 multistate frontier overlay onto source snapshot"
+  },
+  {
+   "commit": "18b8150a9ddcbe0bccfb0cd82daf49b7794697db",
+   "date": "2026-10-04T23:06:20+02:00",
+   "subject": "RH: port latest R01 multistate frontier overlay onto source snapshot"
+  },
+  {
+   "commit": "f44fedc028941419c22eef09e55dc93608b43f5b",
+   "date": "2026-10-04T22:16:50+02:00",
+   "subject": "RH: record source freeze snapshot pending kernel certification"
+  },
+  {
+   "commit": "61f5a9d044c170c41309070a5d350f0d0ca6c658",
+   "date": "2026-10-04T18:10:09+02:00",
+   "subject": "ci(rh): retest current head after Gram restoration"
+  },
+  {
+   "commit": "2a0a7236fd0698d4e9dd51822c8a1d0ff6e0adf2",
+   "date": "2026-10-04T18:05:43+02:00",
+   "subject": "ci(rh): refresh kernel build against restored Gram modules"
+  },
+  {
+   "commit": "2b4681f5c7d28729cf816ed0e22071b88b8e69b7",
+   "date": "2026-10-04T18:01:23+02:00",
+   "subject": "restore exact Gram terminal link from existing equivalences"
+  },
+  {
+   "commit": "3bc6138a6a730f2601860a5e96c011f5d97f61ff",
+   "date": "2026-10-04T17:57:38+02:00",
+   "subject": "restore ChiNorm compatibility module for RH build graph"
+  },
+  {
+   "commit": "0dda63355f851cb1ac8324a300acc1da8369d231",
+   "date": "2026-10-04T17:53:40+02:00",
+   "subject": "delegate RH module compilation to Lake project build"
+  },
+  {
+   "commit": "a1e70f97c3b943b7345480f3990a8582b210bf61",
+   "date": "2026-10-04T17:49:56+02:00",
+   "subject": "fix RH direct Lean module root in prekernel runner"
+  },
+  {
+   "commit": "d74f0e547fa74c08aa328c9e01c35445a578e28e",
+   "date": "2026-10-04T17:38:01+02:00",
+   "subject": "RH: audit D3 residual Mellin algebra and reduction"
+  },
+  {
+   "commit": "7813100d429abf8c0243b85ecb47fecd53b22c90",
+   "date": "2026-10-04T17:37:59+02:00",
+   "subject": "RH: preflight D3 residual and Plancherel reduction"
+  },
+  {
+   "commit": "58e7f26867d223ec4186b024788fe734a6674e16",
+   "date": "2026-10-04T17:37:56+02:00",
+   "subject": "RH: isolate D3 to critical-line Mellin Plancherel"
+  },
+  {
+   "commit": "c838ccf3459c5c03edc034b085f11845176b8431",
+   "date": "2026-10-04T17:35:53+02:00",
+   "subject": "RH: reduce D3 to one critical-line Mellin Plancherel producer"
+  },
+  {
+   "commit": "2942dfefb76284fa895eedda05f386b66fc6fc0b",
+   "date": "2026-10-04T17:35:05+02:00",
+   "subject": "RH: audit Mellin strip convergence and residual closed form"
+  },
+  {
+   "commit": "240b39f322621ef6e91d5cb8fcf26bf45e882ea9",
+   "date": "2026-10-04T17:35:02+02:00",
+   "subject": "RH: preflight Mellin strip convergence and residual formula"
+  },
+  {
+   "commit": "f92d957539bcef3688ba22cdbf1159f918dce5af",
+   "date": "2026-10-04T17:33:49+02:00",
+   "subject": "RH: formalize finite residual Mellin transform and Dirichlet polynomial"
+  },
+  {
+   "commit": "4a1e555d180e409ddc1896e61649a971b63203c9",
+   "date": "2026-10-04T17:32:15+02:00",
+   "subject": "RH: prove Mellin convergence of target and generator family on critical strip"
+  },
+  {
+   "commit": "1ad56f560a47169723ac39232f8c32964af56504",
+   "date": "2026-10-04T16:14:39+02:00",
+   "subject": "RH: close raw-power E1 near-zero and tail discovery obligations"
+  },
+  {
+   "commit": "0cf63e3f1e1d6414f34b2778c33c6982dc5e5ee6",
+   "date": "2026-10-04T16:13:41+02:00",
+   "subject": "RH: formalize raw-power L2 obstruction at zero and infinity"
+  },
+  {
+   "commit": "3113db0ddaa9583f3a2e724c3465b504deb11b09",
+   "date": "2026-10-04T16:12:39+02:00",
+   "subject": "RH: audit critical pullback L1/L2 and conditional Plancherel closure"
+  },
+  {
+   "commit": "bdaa8faa71bbb58ba689b0a86c588e70d5845105",
+   "date": "2026-10-04T16:12:35+02:00",
+   "subject": "RH: preflight critical pullback L1/L2 and pinned Plancherel reduction"
+  },
+  {
+   "commit": "45f0e9ff2e89a546d7b37d3f48eeeb394ed108a0",
+   "date": "2026-10-04T16:11:50+02:00",
+   "subject": "RH: make D3.2 conditional only on isolated pinned-library Plancherel"
+  },
+  {
+   "commit": "4b3b6513b0983622e416f88ed9b92f4e8d8fc643",
+   "date": "2026-10-04T16:11:47+02:00",
+   "subject": "RH: classify D3.2 as pinned Fourier library gap"
+  },
+  {
+   "commit": "3a614d2d24f78b5c48113d5872c5085ca2ad326b",
+   "date": "2026-10-04T16:09:28+02:00",
+   "subject": "RH: realize L1 integrability of critical pullback from Mellin convergence"
+  },
+  {
+   "commit": "4dd7c218242bd175ed897389037871d9288ce23e",
+   "date": "2026-10-04T16:08:10+02:00",
+   "subject": "RH: correct pinned Plancherel contract to L1 intersection L2"
+  },
+  {
+   "commit": "34b424f078d8771004f95bde780589903be7db1f",
+   "date": "2026-10-04T16:05:09+02:00",
+   "subject": "RH: realize L2 membership of the critical logarithmic pullback"
+  },
+  {
+   "commit": "a2a99fd36b880f10d01a935367642e7eea7fb939",
+   "date": "2026-10-04T16:02:25+02:00",
+   "subject": "RH: isolate pinned Mathlib Fourier-Plancherel library gap"
+  },
+  {
+   "commit": "04259f19ee7bd7f7df8de03154391e4c09f491d8",
+   "date": "2026-10-04T15:58:24+02:00",
+   "subject": "RH: audit D3 critical-line Mellin/Fourier bridge"
+  },
+  {
+   "commit": "4310c1d7c10320d44ce469ef0cb255250f33fc95",
+   "date": "2026-10-04T15:58:21+02:00",
+   "subject": "RH: preflight D3 critical-line Mellin/Fourier bridge"
+  },
+  {
+   "commit": "8c5c404d8af0120ab5537ecad3ee478e047b629a",
+   "date": "2026-10-04T15:58:17+02:00",
+   "subject": "RH: close D3 Mellin-Fourier critical-line bridge from certified source"
+  },
+  {
+   "commit": "a9b3aae7073409742093651ff8cbfa7b7e2cad0f",
+   "date": "2026-10-04T15:57:52+02:00",
+   "subject": "RH: realize D3 critical-line Mellin/Fourier reparameterization"
+  },
+  {
+   "commit": "e65f090b2ea11eb58fb636147c5896907f864f07",
+   "date": "2026-10-04T15:56:15+02:00",
+   "subject": "RH: replace unavailable Fourier LpSpace import with pinned FourierTransform"
+  },
+  {
+   "commit": "9339769b3942ecc1e5ef43fa0284d108dff09899",
+   "date": "2026-10-04T15:55:37+02:00",
+   "subject": "RH: audit D3 logarithmic pullback isometry"
+  },
+  {
+   "commit": "87ed665e8eea84902eece7ddee92948ceec74a99",
+   "date": "2026-10-04T15:55:33+02:00",
+   "subject": "RH: preflight D3 logarithmic pullback isometry"
+  },
+  {
+   "commit": "4b9054288e68095d91936966d4c3ab98c1ca997b",
+   "date": "2026-10-04T15:55:30+02:00",
+   "subject": "RH: close D3 log-pullback discovery from certified source"
+  },
+  {
+   "commit": "c3574ccd4597c04a148f2a2cff09200f8e3cd4ab",
+   "date": "2026-10-04T15:52:16+02:00",
+   "subject": "RH: harden D3 log pullback against pinned measure and derivative APIs"
+  },
+  {
+   "commit": "9234f56a5eee0e3c8eb5c30da7ef905dd716e499",
+   "date": "2026-10-04T15:50:47+02:00",
+   "subject": "RH: realize D3 logarithmic pullback norm identity"
+  },
+  {
+   "commit": "a2230aca5d975f33c1a22169feb5deccd6b782c0",
+   "date": "2026-10-04T15:50:06+02:00",
+   "subject": "RH: use certified critical log pullback in D3 discovery"
+  },
+  {
+   "commit": "2ccc8c43b3f5aba75edb55050a868a1c421f967d",
+   "date": "2026-10-04T15:50:02+02:00",
+   "subject": "RH: move critical logarithmic pullback into certified D3 core"
+  },
+  {
+   "commit": "2d9bb32770a83a78b512402f7fcaf1d3fe1c7356",
+   "date": "2026-10-04T15:35:01+02:00",
+   "subject": "RH: include D3 decomposition in unified discovery runner"
+  },
+  {
+   "commit": "a6670351b0c15893a3c383c133fb526f37a097fc",
+   "date": "2026-10-04T15:34:57+02:00",
+   "subject": "RH: include Mellin Plancherel reduction in root build"
+  },
+  {
+   "commit": "60a8e53bd6d9cf7762d9c928d6d97bc9eec03ba2",
+   "date": "2026-10-04T15:34:55+02:00",
+   "subject": "RH: audit Mellin Plancherel reduction"
+  },
+  {
+   "commit": "c44d19dc3a8940ba3ced27db4d2fcf9e79e338c6",
+   "date": "2026-10-04T15:34:52+02:00",
+   "subject": "RH: preflight Mellin Plancherel reduction"
+  },
+  {
+   "commit": "aecdf1c0844cf3f4c7773865d323c217a93f2cb2",
+   "date": "2026-10-04T15:32:09+02:00",
+   "subject": "RH: decompose D3 Plancherel into log Fourier and Mellin bridges"
+  },
+  {
+   "commit": "f7d4dc2fc8896181a3b18f55b42e75ebb24bdc0b",
+   "date": "2026-10-04T15:32:06+02:00",
+   "subject": "RH: normalize critical-line norm square with pinned Complex API"
+  },
+  {
+   "commit": "047d3d9572977774537bfe1f9969fa6d6358d944",
+   "date": "2026-10-04T15:30:46+02:00",
+   "subject": "RH: reduce D3 to one critical-line Mellin Plancherel bridge"
+  },
+  {
+   "commit": "341bb4c11bc0dd005f4b2a18b056c7a14bc903b6",
+   "date": "2026-10-04T15:29:18+02:00",
+   "subject": "RH: include Mellin residual layer in root build"
+  },
+  {
+   "commit": "6e2d3fda36ca4c2d54cf668dfe9e6f3363ca5d83",
+   "date": "2026-10-04T15:29:15+02:00",
+   "subject": "RH: audit Mellin strip and residual formula"
+  },
+  {
+   "commit": "e5320e9cc2c60bc13514b626f6a66c8694bd1efe",
+   "date": "2026-10-04T15:29:11+02:00",
+   "subject": "RH: preflight Mellin strip convergence and residual formula"
+  },
+  {
+   "commit": "d9cc6f26eef46614437b8a3c23741b2d0bef127e",
+   "date": "2026-10-04T15:28:45+02:00",
+   "subject": "RH: align residual finite-sum integrability with pinned Mathlib API"
+  },
+  {
+   "commit": "520cdf767892dac0a27f2a3c35a129b4d060b62f",
+   "date": "2026-10-04T15:27:59+02:00",
+   "subject": "RH: realize Mellin formula for finite concrete residuals"
+  },
+  {
+   "commit": "5c1d00ad5841ef3c2a2a80d8f93435c03db5092d",
+   "date": "2026-10-04T15:26:24+02:00",
+   "subject": "RH: realize Mellin convergence of chi and rho on the critical strip"
+  },
+  {
+   "commit": "19005bdb4d200a8948fb0a20b9a48836b8b90d2a",
+   "date": "2026-10-04T14:55:41+02:00",
+   "subject": "RH: add D3 reduction stack to kernel preflight"
+  },
+  {
+   "commit": "18297c74bd5b7c6d4e434de6d9ff7f28f69ae95a",
+   "date": "2026-10-04T14:55:38+02:00",
+   "subject": "RH: isolate D3 to classical L1-L2 Plancherel formalization gap"
+  },
+  {
+   "commit": "978947f1e67ae0c639d0549e25d0c4b766ac5805",
+   "date": "2026-10-04T14:55:01+02:00",
+   "subject": "RH: fix critical density norm-square identity with Mathlib lemma"
+  },
+  {
+   "commit": "5aaf69766cd9f9c655b6342cd6ee2efacc248d5c",
+   "date": "2026-10-04T14:54:09+02:00",
+   "subject": "RH: derive full D3 from one classical L1-L2 Fourier Plancherel bridge"
+  },
+  {
+   "commit": "e3228cf2cf716a94adcd297d97c76ca410a49761",
+   "date": "2026-10-04T14:52:43+02:00",
+   "subject": "RH: reduce D3 to classical L1-intersection-L2 Plancherel representative theorem"
+  },
+  {
+   "commit": "455623b2a9aa40967dfc11507251f5c1ab51de75",
+   "date": "2026-10-04T14:51:35+02:00",
+   "subject": "RH: expose L2 norm-square as pointwise integral"
+  },
+  {
+   "commit": "d7c5ed59b5caaee847d27666f860b6125a8a6a1a",
+   "date": "2026-10-04T14:50:32+02:00",
+   "subject": "RH: isolate classical L1-L2 Fourier compatibility bridge for D3"
+  },
+  {
+   "commit": "4a83b224719ab5746e64f9543c4ca6864b1d90a9",
+   "date": "2026-10-04T14:48:50+02:00",
+   "subject": "RH: derive critical log-pullback L1 from Mellin convergence"
+  },
+  {
+   "commit": "4c9227f46dff6baf1a0bada407e72694bd566294",
+   "date": "2026-10-04T14:40:32+02:00",
+   "subject": "RH: harden residual log-pullback L2 proof via exp substitution and measure-preserving negation"
+  },
+  {
+   "commit": "983c7694251b1f5d202c55ac6207eb94ee641e47",
+   "date": "2026-10-04T14:37:10+02:00",
+   "subject": "RH: certify residual and logarithmic pullback L2 membership"
+  },
+  {
+   "commit": "26d61561fcc4e53db6df38d8701f087cd0585274",
+   "date": "2026-10-04T14:35:04+02:00",
+   "subject": "RH: formalize logarithmic L2 pullback isometry for Mellin Plancherel"
+  },
+  {
+   "commit": "7fcd50ec8fa307e2d5b118da453f037ca806d13c",
+   "date": "2026-10-04T14:32:33+02:00",
+   "subject": "RH: reduce D3 to one critical-line Mellin Plancherel producer"
+  },
+  {
+   "commit": "02d74777be31aab241d3f52f60e2b646c8561f7e",
+   "date": "2026-10-04T14:30:57+02:00",
+   "subject": "RH: route MCore root through closed residual Mellin formula"
+  },
+  {
+   "commit": "fa980f2ea8946517d13edada74b1d7ff735fe385",
+   "date": "2026-10-04T14:30:54+02:00",
+   "subject": "RH: audit Mellin convergence and residual closed form"
+  },
+  {
+   "commit": "8d7042e90846920255bcc44fa1feb2c1c3ba9eee",
+   "date": "2026-10-04T14:30:51+02:00",
+   "subject": "RH: preflight Mellin strip convergence and residual formula"
+  },
+  {
+   "commit": "aa7455eb61c285a2fe618df8c102772f280f14b6",
+   "date": "2026-10-04T14:29:58+02:00",
+   "subject": "RH: close algebraic Mellin formula for finite residuals"
+  },
+  {
+   "commit": "ebaf956dac38c9e68972b6e6456aebe049b16631",
+   "date": "2026-10-04T14:28:24+02:00",
+   "subject": "RH: fix target Mellin convergence with IntegrableOn a.e. congruence"
+  },
+  {
+   "commit": "2f53820a560745d96225c7e32f1d97bf4254f05d",
+   "date": "2026-10-04T14:27:35+02:00",
+   "subject": "RH: certify Mellin convergence of rho generators and target on the critical strip"
+  },
+  {
+   "commit": "78d33767625b371cc084a9f32e342e0c596b5765",
+   "date": "2026-10-04T14:19:28+02:00",
+   "subject": "RH: audit D3 reduction and realized non-Fourier bridges"
+  },
+  {
+   "commit": "c56813bd47d637781df0f960b5b03e350dfb25e2",
+   "date": "2026-10-04T14:19:24+02:00",
+   "subject": "RH: preflight complete D3 reduction through Fourier compatibility"
+  },
+  {
+   "commit": "4a6f9a79dc6280513f447643a4a9d3b03c13036f",
+   "date": "2026-10-04T14:19:10+02:00",
+   "subject": "RH: audit generic L1-L2 Fourier reduction"
+  },
+  {
+   "commit": "93d8ee4f61698f9dba28d1e569808d41599c0f23",
+   "date": "2026-10-04T14:18:39+02:00",
+   "subject": "RH: preflight L1-L2 Fourier bridge reduction"
+  },
+  {
+   "commit": "0d23beb889416ce5c8bde37e468303e70b0b37d8",
+   "date": "2026-10-04T14:18:37+02:00",
+   "subject": "RH: isolate D3 to one Fourier L1-L2 compatibility producer"
+  },
+  {
+   "commit": "93412668ab92d23b56bc5db298b3443d6bcb6266",
+   "date": "2026-10-04T14:18:34+02:00",
+   "subject": "RH: expose generic L1-L2 Fourier agreement as sole D3 bridge"
+  },
+  {
+   "commit": "39f93ea746bbe954eeac2ddd3ee85699065eec0f",
+   "date": "2026-10-04T14:18:00+02:00",
+   "subject": "RH: reduce D3 to generic L1-L2 Fourier compatibility"
+  },
+  {
+   "commit": "4bef5d3e8f38969bcfd150cdd9ff3557961aa7ef",
+   "date": "2026-10-04T14:15:54+02:00",
+   "subject": "RH: isolate D3 to standard L1-L2 Fourier compatibility"
+  },
+  {
+   "commit": "35d801cbb16b17bfcfc9373b9d2edd6ca7ecc441",
+   "date": "2026-10-04T14:13:59+02:00",
+   "subject": "RH: realize L1 membership of the logarithmic residual pullback"
+  },
+  {
+   "commit": "b05f08ff4b1e56aafe9f2178556d2dc984989770",
+   "date": "2026-10-04T14:13:02+02:00",
+   "subject": "RH: audit the single D3 a.e. Fourier bridge reduction"
+  },
+  {
+   "commit": "d7b0ac3d14c7df0d0d9c6d1039665036dbed876f",
+   "date": "2026-10-04T14:13:00+02:00",
+   "subject": "RH: preflight the reduced D3 Fourier bridge chain"
+  },
+  {
+   "commit": "c36c791477d99dd72d38159aaf35d328676837f4",
+   "date": "2026-10-04T14:12:56+02:00",
+   "subject": "RH: narrow D3 discovery to one pointwise Fourier a.e. bridge"
+  },
+  {
+   "commit": "4565fafe3f085dca609f40ca564617dd504216f9",
+   "date": "2026-10-04T14:12:27+02:00",
+   "subject": "RH: reduce D3 to one a.e. pointwise-to-L2 Fourier identity"
+  },
+  {
+   "commit": "16b82bc681ad8648d2da54de385b118c352e1c59",
+   "date": "2026-10-04T14:10:49+02:00",
+   "subject": "RH: realize L2 membership of the logarithmic residual pullback"
+  },
+  {
+   "commit": "a6454745b573846f7882d7044ed2c4f888db8930",
+   "date": "2026-10-04T14:09:03+02:00",
+   "subject": "RH: realize logarithmic L2 isometry for Mellin residuals"
+  },
+  {
+   "commit": "25c8291de8d67ac83f1fdc6a6ba487bdd4b8fdb0",
+   "date": "2026-10-04T14:06:46+02:00",
+   "subject": "RH: isolate the sole pointwise-to-L2 Fourier bridge for D3"
+  },
+  {
+   "commit": "84dfd7b924889758db38c0b09d5f410d1fcc80b4",
+   "date": "2026-10-04T14:06:25+02:00",
+   "subject": "RH: realize critical-line frequency scaling by Haar change of variables"
+  },
+  {
+   "commit": "70e53152eaf6872185f7962d690c3965b4c96616",
+   "date": "2026-10-04T14:04:59+02:00",
+   "subject": "RH: decompose critical-line Plancherel into log, Fourier, and scaling bridges"
+  },
+  {
+   "commit": "b21d6e6902407736551221baa438029f56e99683",
+   "date": "2026-10-04T14:01:13+02:00",
+   "subject": "RH: realize L2 residual norm as literal normSq integral"
+  },
+  {
+   "commit": "9628006a5b41ea5075f880960a33d0195d421601",
+   "date": "2026-10-04T14:00:59+02:00",
+   "subject": "RH: audit Mellin residual and logarithmic Plancherel bridge"
+  },
+  {
+   "commit": "a21179cca2d404e1cbd454f7bd5bc1474b2c43d5",
+   "date": "2026-10-04T14:00:48+02:00",
+   "subject": "RH: preflight Mellin residual and D3 log-isometry layers"
+  },
+  {
+   "commit": "e65cfad3d1d84303a0ade5b8563a3798f9ea723e",
+   "date": "2026-10-04T14:00:44+02:00",
+   "subject": "RH: close D3 logarithmic isometry in discovery tree"
+  },
+  {
+   "commit": "7b5d56c2212522b3bd45a2d556d9c37b19bd0255",
+   "date": "2026-10-04T14:00:18+02:00",
+   "subject": "RH: realize logarithmic L2 isometry for the Mellin residual"
+  },
+  {
+   "commit": "4f97d3dd138dce5f98fb79dbc16c2eb481f76920",
+   "date": "2026-10-04T13:57:47+02:00",
+   "subject": "RH: expose the two remaining D3 Plancherel bridges"
+  },
+  {
+   "commit": "dbc1f3ed842363225c010682219840f5ce0768bb",
+   "date": "2026-10-04T13:57:44+02:00",
+   "subject": "RH: reduce D3 to only log-isometry and Fourier-Plancherel bridges"
+  },
+  {
+   "commit": "a90fb3930a03114a0735d7cce952c4bb13205c60",
+   "date": "2026-10-04T13:57:19+02:00",
+   "subject": "RH: close critical-line frequency scaling exactly"
+  },
+  {
+   "commit": "31c61cb044cd0d82bcba9b23079c085e33b1abe4",
+   "date": "2026-10-04T13:56:35+02:00",
+   "subject": "RH: split D3 Plancherel into log isometry Fourier isometry and scaling"
+  },
+  {
+   "commit": "5439dd5feb826d83d4cdc8cbbd42d6888762e66a",
+   "date": "2026-10-04T13:56:22+02:00",
+   "subject": "RH: reduce D3 to exact L2 and Mellin-Plancherel bridges"
+  },
+  {
+   "commit": "dd007e76e6b0ba0153192d0b852c3ba208190960",
+   "date": "2026-10-04T13:55:03+02:00",
+   "subject": "RH: reduce D3 to one critical-line Plancherel producer"
+  },
+  {
+   "commit": "c74ec27249fa5d2b5e808053d8cd6e42614ee96e",
+   "date": "2026-10-04T13:54:54+02:00",
+   "subject": "RH: audit critical-strip Mellin convergence and residual algebra"
+  },
+  {
+   "commit": "d9d6637db49e928fe9719dc5e7b8d6db24c90ec4",
+   "date": "2026-10-04T13:54:49+02:00",
+   "subject": "RH: preflight critical-strip Mellin convergence and residual formula"
+  },
+  {
+   "commit": "823379f4712282676f752823a6fdfda03de2fe72",
+   "date": "2026-10-04T13:54:12+02:00",
+   "subject": "RH: normalize finite residual Mellin algebra over Finset subsets"
+  },
+  {
+   "commit": "b868482202bf4b7adb297904ecb33bd4dc73f8a0",
+   "date": "2026-10-04T13:53:15+02:00",
+   "subject": "RH: close algebraic Mellin formula for finite residuals"
+  },
+  {
+   "commit": "f82d4385b66a89b99e635a87f8d6114ffd79268c",
+   "date": "2026-10-04T13:52:47+02:00",
+   "subject": "RH: derive explicit Mellin formula for finite residuals"
+  },
+  {
+   "commit": "4210ae80c6f4ad67c25456c12586cb322e4c2897",
+   "date": "2026-10-04T13:51:50+02:00",
+   "subject": "RH: restrict target Mellin convergence to the exact open strip"
+  },
+  {
+   "commit": "6777503c2846a5ec301280e0745bb761211ce686",
+   "date": "2026-10-04T13:51:25+02:00",
+   "subject": "RH: certify Mellin convergence of target and generators on the strip"
+  },
+  {
+   "commit": "410f1c205cfc6aa4fcbdb9117b09ba07643d192b",
+   "date": "2026-10-04T13:50:58+02:00",
+   "subject": "RH: certify Mellin convergence of rho and chi on the critical strip"
+  },
+  {
+   "commit": "2943cb4fe60937aa76a4b618c8f23f27eada9892",
+   "date": "2026-10-04T13:41:07+02:00",
+   "subject": "RH: reduce D3 completely to Fourier Plancherel"
+  },
+  {
+   "commit": "435ccce887624c606a4aea918f62f7b8acbc7396",
+   "date": "2026-10-04T13:40:25+02:00",
+   "subject": "RH: derive L1 critical-log residual from Mellin convergence"
+  },
+  {
+   "commit": "89317287e5102e0df0b31ba5a6ff803a0ef2be77",
+   "date": "2026-10-04T13:36:59+02:00",
+   "subject": "RH: prove L2 membership of logarithmic residual transport"
+  },
+  {
+   "commit": "0e2f41a033b37c73f854bb3d971f0aebbb661904",
+   "date": "2026-10-04T13:35:29+02:00",
+   "subject": "RH: prove L2 membership of complex residual"
+  },
+  {
+   "commit": "21e1a9998787cdbcf54da45c5882c4ef4146ef96",
+   "date": "2026-10-04T13:32:30+02:00",
+   "subject": "RH: reduce D3 residual identity to classical Fourier Plancherel"
+  },
+  {
+   "commit": "e7cf2b2dc91760aece359672c824bdcae2d4ef85",
+   "date": "2026-10-04T13:28:56+02:00",
+   "subject": "RH: formalize critical-line frequency scaling by 2pi"
+  },
+  {
+   "commit": "9a5df394a5d6c2233f3d007738193c2b86bbf4e9",
+   "date": "2026-10-04T13:25:01+02:00",
+   "subject": "RH: realize logarithmic L2 norm-square change of variables"
+  },
+  {
+   "commit": "0df2419fe4a527c41f4b3dc4ed47da9965e934cf",
+   "date": "2026-10-04T13:22:04+02:00",
+   "subject": "RH: isolate exact logarithmic L2 and Plancherel operators for D3"
+  },
+  {
+   "commit": "42a0dc3def600f888b241aa2053d2d1edb909c85",
+   "date": "2026-10-04T13:19:16+02:00",
+   "subject": "RH: derive exact Mellin transform of finite residual"
+  },
+  {
+   "commit": "fcd5c79a27f4a9f6fdc1b52ea764d2144d55ddc4",
+   "date": "2026-10-04T13:18:14+02:00",
+   "subject": "RH: audit critical-line residual and D3 reduction"
+  },
+  {
+   "commit": "19a3d39ba71f8bcb20c75e4b45eeefce9baabcc2",
+   "date": "2026-10-04T13:18:10+02:00",
+   "subject": "RH: preflight critical-line residual reduction"
+  },
+  {
+   "commit": "614d4f52a068b1bce0be378a4264a4a83393c9c4",
+   "date": "2026-10-04T13:18:07+02:00",
+   "subject": "RH: include critical-line residual reduction in root build"
+  },
+  {
+   "commit": "78f2162595205e4d61186b1d5b9ba863f61cd217",
+   "date": "2026-10-04T13:17:49+02:00",
+   "subject": "RH: reduce D3 to one Mellin-Plancherel producer"
+  },
+  {
+   "commit": "71e44b670378a5c8ecfc17d9eeee8b71433622ca",
+   "date": "2026-10-04T13:16:26+02:00",
+   "subject": "RH: include residual Mellin algebra in root build"
+  },
+  {
+   "commit": "27455e1c7a7635956528579e8fcb1005d6824e0f",
+   "date": "2026-10-04T13:16:24+02:00",
+   "subject": "RH: audit Mellin strip convergence and residual formula"
+  },
+  {
+   "commit": "c6f6a1d1aa12e9cae87c1f53777b5a3e275b13c9",
+   "date": "2026-10-04T13:16:20+02:00",
+   "subject": "RH: preflight Mellin strip and residual algebra"
+  },
+  {
+   "commit": "633c3e64bf01a923af80c30f6ac3532a2d0146b6",
+   "date": "2026-10-04T13:16:09+02:00",
+   "subject": "RH: certify Mellin convergence of target and generators on critical strip"
+  },
+  {
+   "commit": "c568ce1c7e1b0cde49c561df86db40fb21b47907",
+   "date": "2026-10-04T13:15:58+02:00",
+   "subject": "RH: align residual Mellin finite sums with pinned Mathlib API"
+  },
+  {
+   "commit": "d59c80db96e05c9ef406f532ce0f9d2625ee6839",
+   "date": "2026-10-04T13:14:49+02:00",
+   "subject": "RH: formalize residual Mellin algebra and Dirichlet polynomial"
+  },
+  {
+   "commit": "4fd7d0d1ac6f52fefee87f8912a4df956fe2c9a0",
+   "date": "2026-10-04T13:13:54+02:00",
+   "subject": "RH: certify Mellin convergence of chi and rho on the critical strip"
+  },
+  {
+   "commit": "886d66a8c4da4d24a822e5e7373e7b30344f0ea0",
+   "date": "2026-10-04T12:55:54+02:00",
+   "subject": "RH: realize L2 prerequisite for logarithmic Fourier pullback"
+  },
+  {
+   "commit": "a660e9e6b01c236376b11b94dd0325819fc6ea1f",
+   "date": "2026-10-04T12:53:32+02:00",
+   "subject": "RH: realize L1 integrability of logarithmic residual pullback"
+  },
+  {
+   "commit": "b22afd84d54e7681ad550961d763fd7eeeaf17e1",
+   "date": "2026-10-04T12:51:30+02:00",
+   "subject": "RH: isolate L1 and L2 prerequisites for Fourier Plancherel bridge"
+  },
+  {
+   "commit": "601c06a7e4d8a7c45c33b074ea067e2eb157caaa",
+   "date": "2026-10-04T12:49:10+02:00",
+   "subject": "RH: isolate final Fourier L1/L2 compatibility producer for D3"
+  },
+  {
+   "commit": "104f34a138df03abe622d443c74e2eb00ce60760",
+   "date": "2026-10-04T12:47:45+02:00",
+   "subject": "RH: realize logarithmic L2 pullback isometry"
+  },
+  {
+   "commit": "6589eacc0b794bf20ac33961ab1601e848d388ba",
+   "date": "2026-10-04T12:46:38+02:00",
+   "subject": "RH: identify critical-line Mellin residual with Fourier log pullback"
+  },
+  {
+   "commit": "2beac26ae1d01c12bae2dfc4a16efbd7a87d1361",
+   "date": "2026-10-04T12:45:21+02:00",
+   "subject": "RH: isolate D3 to residual Mellin-Plancherel bridge"
+  },
+  {
+   "commit": "24306f958a36ab4c731904f25d42482347bd6a6c",
+   "date": "2026-10-04T12:45:18+02:00",
+   "subject": "RH: audit Mellin residual and D3 algebraic reduction"
+  },
+  {
+   "commit": "a3a60dc8507c582797d1d9aced80b693b0808899",
+   "date": "2026-10-04T12:45:13+02:00",
+   "subject": "RH: preflight Mellin strip residual and D3 reduction"
+  },
+  {
+   "commit": "4ce7d0b0084b89bd64c710f4f304fae645f1b790",
+   "date": "2026-10-04T12:44:49+02:00",
+   "subject": "RH: reduce D3 to one Mellin-Plancherel bridge"
+  },
+  {
+   "commit": "ab9c4796fe1a09850cbf371b7d07352a330f4239",
+   "date": "2026-10-04T12:43:17+02:00",
+   "subject": "RH: derive exact Mellin transform of finite Nyman-Beurling residual"
+  },
+  {
+   "commit": "df4cb241601dab414eb2faabb9502583352bb15f",
+   "date": "2026-10-04T12:41:42+02:00",
+   "subject": "RH: certify Mellin convergence of rho and chi on the critical strip"
+  },
+  {
+   "commit": "dc46b29f6b2e9128f9ff32e5c05e7fe12344050a",
+   "date": "2026-10-04T12:39:40+02:00",
+   "subject": "RH: reuse canonical D3 Gaussian kernel definitions in discovery lane"
+  },
+  {
+   "commit": "212d6314c7a495007c4eccc1d917c6ea36404869",
+   "date": "2026-10-04T12:39:13+02:00",
+   "subject": "RH: formalize exact pinned Fourier transform of D3 Gaussian kernel"
+  },
+  {
+   "commit": "d0c5baf85188b2c93ba0bcc51b46da7772f3ee2e",
+   "date": "2026-10-04T12:34:31+02:00",
+   "subject": "RH: backport Schwartz Plancherel from pinned Fourier primitives"
+  },
+  {
+   "commit": "edde707303dc67ac60d0ec78b4775bc117dc2365",
+   "date": "2026-10-04T12:32:20+02:00",
+   "subject": "RH: close classical Fourier local integrability in generic D3 bridge"
+  },
+  {
+   "commit": "bf2ac5511560d17c67998a99944a510d29ed9ebc",
+   "date": "2026-10-04T12:31:24+02:00",
+   "subject": "RH: narrow generic L1-L2 Fourier gap to Fubini pairing and representative uniqueness"
+  },
+  {
+   "commit": "366b323727ffe6055de7c4c404b0c0f74060b0ad",
+   "date": "2026-10-04T12:30:27+02:00",
+   "subject": "RH: correct D3 Plancherel discovery to non-circular Gaussian regularization"
+  },
+  {
+   "commit": "858a9e349dda7f6e6f78be8d363c1ec518178556",
+   "date": "2026-10-04T12:29:26+02:00",
+   "subject": "RH: include residual L1-L2 Fourier reduction in root build"
+  },
+  {
+   "commit": "7a419f755bb45a6663cfb59a0d61fba0939f0956",
+   "date": "2026-10-04T12:29:22+02:00",
+   "subject": "RH: audit log residual L1-L2 and Fourier reduction"
+  },
+  {
+   "commit": "4bd2917a9d8bb3d3de83d642225242cfa7ba2019",
+   "date": "2026-10-04T12:29:17+02:00",
+   "subject": "RH: preflight log residual membership and Fourier compatibility layers"
+  },
+  {
+   "commit": "087db651aad00f3b44bfe1295fce6a5835fc32bb",
+   "date": "2026-10-04T12:29:16+02:00",
+   "subject": "RH: expose pinned-Mathlib Plancherel sub-obligations for D3"
+  },
+  {
+   "commit": "d6816932dbcc81c7f62616075bf511e58f95a3ac",
+   "date": "2026-10-04T12:28:46+02:00",
+   "subject": "RH: route D3 discovery through acyclic Fourier realization layer"
+  },
+  {
+   "commit": "3cd71c2455a8bf2ee7535f4edf6b9033a59d6d3d",
+   "date": "2026-10-04T12:28:43+02:00",
+   "subject": "RH: realize residual Fourier bridge from generic L1-L2 theorem"
+  },
+  {
+   "commit": "29408f7caea159abacb60336d3ede54d6e70a5de",
+   "date": "2026-10-04T12:28:39+02:00",
+   "subject": "RH: remove circular import from generic Fourier compatibility reduction"
+  },
+  {
+   "commit": "e59f2d426eae3933f9b93e448c67bb0cc1043082",
+   "date": "2026-10-04T12:27:21+02:00",
+   "subject": "RH: expose generic L1-L2 Fourier theorem as sole D3 open bridge"
+  },
+  {
+   "commit": "64aceb5271ce2a10f2bbdac09f7ccb195cbed71f",
+   "date": "2026-10-04T12:27:17+02:00",
+   "subject": "RH: reduce residual Fourier bridge to generic L1-L2 compatibility only"
+  },
+  {
+   "commit": "ab88094d6b6b6b9285d3f4062ba13b4e48100bb8",
+   "date": "2026-10-04T12:26:43+02:00",
+   "subject": "RH: realize L1 and L2 membership of the logarithmic residual"
+  },
+  {
+   "commit": "676da78610f6d975aa882463c222f572bb1cdc05",
+   "date": "2026-10-04T12:24:16+02:00",
+   "subject": "RH: align D3 Plancherel reduction with pinned Mathlib Fourier API"
+  },
+  {
+   "commit": "dbdd8a2719bc7cacdfd7e45b8e015bb12db40191",
+   "date": "2026-10-04T12:24:13+02:00",
+   "subject": "RH: align D3 Plancherel reduction with pinned Mathlib Fourier API"
+  },
+  {
+   "commit": "73791d6ea1337ecd7ac5b53fa4438970a43754c8",
+   "date": "2026-10-04T12:22:33+02:00",
+   "subject": "RH: realize Hilbert residual norm as literal complex L2 integral"
+  },
+  {
+   "commit": "819500a412c875f48ccdfa9cb54cd466e5d8ac19",
+   "date": "2026-10-04T12:21:55+02:00",
+   "subject": "RH: split D3 Fourier gap into residual membership and generic L1-L2 compatibility"
+  },
+  {
+   "commit": "c9098fca27de665b729664d4a5f7d4991137905d",
+   "date": "2026-10-04T12:21:30+02:00",
+   "subject": "RH: realize logarithmic L2 pullback bridge for Mellin Plancherel"
+  },
+  {
+   "commit": "780e5209d7119b7ee0beef6afee66f7ec4c44419",
+   "date": "2026-10-04T12:20:47+02:00",
+   "subject": "RH: include D3 Fourier reduction in root kernel build"
+  },
+  {
+   "commit": "62098443b0bde8a9fe5d3ee37247e3919744803e",
+   "date": "2026-10-04T12:20:41+02:00",
+   "subject": "RH: audit D3 Plancherel reduction layers"
+  },
+  {
+   "commit": "33037fae8aea490c911c58c20f508a34d5e9f156",
+   "date": "2026-10-04T12:20:37+02:00",
+   "subject": "RH: preflight D3 residual Plancherel reduction layers"
+  },
+  {
+   "commit": "b5e095dce3d102850cb584e58f37a70e58045c85",
+   "date": "2026-10-04T12:20:33+02:00",
+   "subject": "RH: expose sole D3 Fourier representation gap"
+  },
+  {
+   "commit": "2d463d1daa35808ee57b5df8eaa485369d56b970",
+   "date": "2026-10-04T12:20:04+02:00",
+   "subject": "RH: reduce D3 metric layer to one Fourier representation gap"
+  },
+  {
+   "commit": "52505e1121227f4a161162362438efd0cfc4d932",
+   "date": "2026-10-04T12:20:03+02:00",
+   "subject": "RH: realize D3 frequency rescaling bridge"
+  },
+  {
+   "commit": "c405c58f36b5799438ea5713646fe5d1a4ad2262",
+   "date": "2026-10-04T12:19:27+02:00",
+   "subject": "RH: decompose critical-line Mellin Plancherel into four exact bridges"
+  },
+  {
+   "commit": "b1d5f0e20880c6fa7350db537400283f70635e4a",
+   "date": "2026-10-04T12:18:45+02:00",
+   "subject": "RH: reduce D3 to one critical-line Mellin-Plancherel producer"
+  },
+  {
+   "commit": "cc30d049d07c542b1f3b3134a902aed478bc1cf5",
+   "date": "2026-10-04T12:17:26+02:00",
+   "subject": "RH: derive classical Plancherel from the sole Fourier representation bridge"
+  },
+  {
+   "commit": "5ed2f7eb989e7d419f506a5c9122d8714b2c299d",
+   "date": "2026-10-04T12:17:10+02:00",
+   "subject": "RH: close algebraic Mellin formula for finite residuals"
+  },
+  {
+   "commit": "ebcba992fc8e6a41f642bbe9e279be2ab0654fb5",
+   "date": "2026-10-04T12:15:46+02:00",
+   "subject": "RH: prove Mellin convergence of chi and every concrete generator on the strip"
+  },
+  {
+   "commit": "03bfdc97007a6026227aa6a432723cfcb9d33905",
+   "date": "2026-10-04T12:11:32+02:00",
+   "subject": "RH: realize logarithmic L2 isometry for the finite residual"
+  },
+  {
+   "commit": "91d29db1029e32aa23c4854e23d979716dfb4fdc",
+   "date": "2026-10-04T12:10:04+02:00",
+   "subject": "RH: decompose D3 into carrier norm log isometry and Fourier L2 compatibility"
+  },
+  {
+   "commit": "e51d594dfa57077fbec9dcbffea2569b06104367",
+   "date": "2026-10-04T12:07:41+02:00",
+   "subject": "RH: reduce D3 to a single Mellin-Plancherel norm bridge"
+  },
+  {
+   "commit": "d09ce46b3351bd39a40ed4bf45eaaed160938c37",
+   "date": "2026-10-04T12:05:15+02:00",
+   "subject": "RH: audit Mellin strip and residual formula"
+  },
+  {
+   "commit": "c042d423902d7a8f17b7913c28f7f4972a6453da",
+   "date": "2026-10-04T12:05:12+02:00",
+   "subject": "RH: preflight Mellin strip convergence and residual transform"
+  },
+  {
+   "commit": "7a2b7b7e3bedb91cc2c0821362c5b0301ab0b407",
+   "date": "2026-10-04T12:04:52+02:00",
+   "subject": "RH: harden finite residual Mellin proof without elaborator metavariables"
+  },
+  {
+   "commit": "059005b04eb2867073573bb04561dc778190f45c",
+   "date": "2026-10-04T12:04:33+02:00",
+   "subject": "RH: close algebraic Mellin transform of finite residual"
+  },
+  {
+   "commit": "f534d8606606a6cfafcafe94df62cd739afbef3c",
+   "date": "2026-10-04T12:03:44+02:00",
+   "subject": "RH: certify Mellin convergence of target and generators on the critical strip"
+  },
+  {
+   "commit": "78b9610e1d406ca11d57a54b43d55e6ec67cc0ae",
+   "date": "2026-10-04T11:30:20+02:00",
+   "subject": "RH: audit D3 strip algebra and Plancherel reduction"
+  },
+  {
+   "commit": "c58f6d97f588bc5ecec02dae0da9c62d7d154f4b",
+   "date": "2026-10-04T11:30:09+02:00",
+   "subject": "RH: include D3 algebra and Plancherel reduction in preflight"
+  },
+  {
+   "commit": "16ea981ffc3971926f98876cbbb7cc33296953ae",
+   "date": "2026-10-04T11:30:05+02:00",
+   "subject": "RH: decompose D3 into logarithmic isometry and pinned Fourier Plancherel"
+  },
+  {
+   "commit": "fb4e1a3b9a77e02e17a1084fa7e010a60dad21f0",
+   "date": "2026-10-04T11:29:35+02:00",
+   "subject": "RH: isolate D3 to logarithmic isometry and generic Fourier Plancherel"
+  },
+  {
+   "commit": "cd229c9c5c322089fec4e1f9fada12ad98421934",
+   "date": "2026-10-04T11:27:34+02:00",
+   "subject": "RH: reduce D3 to one normalized Mellin-Plancherel producer"
+  },
+  {
+   "commit": "25e0ea8c398a72162b02a646004570bb986dc831",
+   "date": "2026-10-04T11:26:09+02:00",
+   "subject": "RH: close algebraic Mellin transform of finite residual"
+  },
+  {
+   "commit": "04ed9845724455c38d366fcd09e302ce9c41f139",
+   "date": "2026-10-04T11:23:54+02:00",
+   "subject": "RH: certify Mellin convergence of chi and concrete generators on the critical strip"
+  },
+  {
+   "commit": "251060026a10c6d21e11e6760895a70c6899f546",
+   "date": "2026-10-04T10:45:06+02:00",
+   "subject": "RH: include D3 Mellin-Fourier reduction in root build"
+  },
+  {
+   "commit": "83a6d48ed9d8ff957d96e830672d27bae6132428",
+   "date": "2026-10-04T10:44:51+02:00",
+   "subject": "RH: audit D3 logarithmic and Fourier reductions"
+  },
+  {
+   "commit": "570a14cb94d6a860091d7d0375c2a8685e36b666",
+   "date": "2026-10-04T10:44:48+02:00",
+   "subject": "RH: preflight D3 Mellin/Fourier reductions"
+  },
+  {
+   "commit": "2c66793463533c84ce96bd67198cc26314095a9c",
+   "date": "2026-10-04T10:44:44+02:00",
+   "subject": "RH: narrow D3 discovery to ordinary Fourier Plancherel"
+  },
+  {
+   "commit": "fcf7dc5c3c20b93e8edc10ca7460dba8da79bf06",
+   "date": "2026-10-04T10:44:19+02:00",
+   "subject": "RH: reduce D3 Mellin-Plancherel to ordinary Fourier Plancherel"
+  },
+  {
+   "commit": "5336722708026da82e70c2ec321cba813d7a4890",
+   "date": "2026-10-04T10:43:26+02:00",
+   "subject": "RH: prove logarithmic L2 norm isometry for residuals"
+  },
+  {
+   "commit": "328660a75f0ef4e4077e7f41ce568fb12d069501",
+   "date": "2026-10-04T10:42:26+02:00",
+   "subject": "RH: include isolated D3 Plancherel core in forced discovery"
+  },
+  {
+   "commit": "23e35de095586fdb60e04d562fc6a0703374f112",
+   "date": "2026-10-04T10:42:22+02:00",
+   "subject": "RH: isolate D3 to one Mellin-Plancherel core gap"
+  },
+  {
+   "commit": "d77a0b0032af67197669b5b5342e40ef4fed7420",
+   "date": "2026-10-04T10:41:45+02:00",
+   "subject": "RH: expose exact critical-line denominator in D3 reduction"
+  },
+  {
+   "commit": "a79c45d8dc8963f3b2982a55e1e343dbe86cced5",
+   "date": "2026-10-04T10:41:03+02:00",
+   "subject": "RH: reduce D3 to a single Mellin-Plancherel norm identity"
+  },
+  {
+   "commit": "6c694973725b929e79a96c567c7a719422ab576a",
+   "date": "2026-10-04T10:39:19+02:00",
+   "subject": "RH: include residual Mellin closed form in root build"
+  },
+  {
+   "commit": "6f04078b3d60951c74132d79664f8cd4f7c491cb",
+   "date": "2026-10-04T10:39:16+02:00",
+   "subject": "RH: audit Mellin convergence and residual closed form"
+  },
+  {
+   "commit": "9e8b93f9e9f09c674ca0fd11db8d93f0af6ff965",
+   "date": "2026-10-04T10:39:13+02:00",
+   "subject": "RH: preflight Mellin strip convergence and residual formula"
+  },
+  {
+   "commit": "6b64604e16566e70874bc308dc62d5a380ffbd3d",
+   "date": "2026-10-04T10:38:21+02:00",
+   "subject": "RH: simplify finite residual Mellin proof to one audited Finset induction"
+  },
+  {
+   "commit": "f9b13fb392838b4d9cf0678586872705547a3eea",
+   "date": "2026-10-04T10:37:26+02:00",
+   "subject": "RH: derive exact Mellin formula for finite residuals"
+  },
+  {
+   "commit": "83c938020bffdd68eb3853c2d72545b36c156698",
+   "date": "2026-10-04T10:36:17+02:00",
+   "subject": "RH: remove nonexistent norm helper from Mellin strip convergence"
+  },
+  {
+   "commit": "227d402b163e8c5b792f345a0127b45f0ce0cc68",
+   "date": "2026-10-04T10:35:48+02:00",
+   "subject": "RH: certify Mellin convergence of target and generators on the critical strip"
+  },
+  {
+   "commit": "03b1a2c96b80ac5703d19d42aaaaf4a4d8ac27a6",
+   "date": "2026-10-04T10:32:10+02:00",
+   "subject": "RH: realize L1-L2 Fourier compatibility by tempered-distribution pairings"
+  },
+  {
+   "commit": "adc30c5b666573c1146f90df9d091db67a06fff2",
+   "date": "2026-10-04T10:31:05+02:00",
+   "subject": "RH: reduce Fourier L1-L2 compatibility to compact-smooth test pairings"
+  },
+  {
+   "commit": "6eb3679ada3692183b9a43e07bc4f7f2054ce829",
+   "date": "2026-10-04T10:26:55+02:00",
+   "subject": "RH: add focused Vasyunin frontier make target"
+  },
+  {
+   "commit": "8e149f58a2e8853e8e0fe3f3c042e1a290ddfd0c",
+   "date": "2026-10-04T10:26:45+02:00",
+   "subject": "RH: add focused Vasyunin frontier runner"
+  },
+  {
+   "commit": "0eabd328312d80a5d2ba3fd3368081b4786e59c4",
+   "date": "2026-10-04T10:26:26+02:00",
+   "subject": "RH: audit finite Vasyunin terminal reduction"
+  },
+  {
+   "commit": "fee3d516927b1cb512d090124b5099e1fc5d98b6",
+   "date": "2026-10-04T10:26:16+02:00",
+   "subject": "RH: preflight finite Vasyunin terminal reduction"
+  },
+  {
+   "commit": "7132eed191a8eabbfcf2cd8a027a793a16d803db",
+   "date": "2026-10-04T10:26:01+02:00",
+   "subject": "RH: include finite Vasyunin terminal reduction in root build"
+  },
+  {
+   "commit": "b9f91fb9f12bfdb84156741b4a64f69150a37888",
+   "date": "2026-10-04T10:25:43+02:00",
+   "subject": "RH: connect coprime Vasyunin core directly to finite H1 and terminal chain"
+  },
+  {
+   "commit": "076770109a66f4988e71ae5acbb147c96d700f75",
+   "date": "2026-10-04T10:24:41+02:00",
+   "subject": "RH: include final D3 Fourier compatibility reduction in root build"
+  },
+  {
+   "commit": "87cc6148c2f3036554cc83539481b1f028c28634",
+   "date": "2026-10-04T10:24:38+02:00",
+   "subject": "RH: audit final D3 Fourier compatibility reduction"
+  },
+  {
+   "commit": "980497603c7142c79da66fe62ce192194fc29ee0",
+   "date": "2026-10-04T10:24:35+02:00",
+   "subject": "RH: preflight final D3 Fourier compatibility reduction"
+  },
+  {
+   "commit": "d280c52aef6cffe5323acd20cfc64459c5a0479b",
+   "date": "2026-10-04T10:24:31+02:00",
+   "subject": "RH: isolate D3 discovery to Fourier L1-L2 extension compatibility"
+  },
+  {
+   "commit": "97b89079762f7629f6a4af5827accac11506bef5",
+   "date": "2026-10-04T10:24:05+02:00",
+   "subject": "RH: decompose coprime Vasyunin core into unit blocks residue classes and cotangent evaluation"
+  },
+  {
+   "commit": "9cf9acfa8d57ad1dd9b2df10a8703c3adf39f822",
+   "date": "2026-10-04T10:23:59+02:00",
+   "subject": "RH: isolate L1-L2 Fourier extension compatibility behind Plancherel"
+  },
+  {
+   "commit": "ef807c63949091c39e8af8b69c6af6b43fa94c8b",
+   "date": "2026-10-04T10:23:02+02:00",
+   "subject": "RH: isolate coprime Vasyunin formula as the sole C5 discovery gap"
+  },
+  {
+   "commit": "6365199873e430ea2e0aa10eb4de7667555b2ef0",
+   "date": "2026-10-04T10:22:43+02:00",
+   "subject": "RH: audit Vasyunin gcd reduction"
+  },
+  {
+   "commit": "0c921233151a4735da5d7585eb263d0d093223b5",
+   "date": "2026-10-04T10:22:41+02:00",
+   "subject": "RH: preflight Vasyunin gcd reduction"
+  },
+  {
+   "commit": "51a689fd8e23b4dbbccbe8a092e9720131d542d3",
+   "date": "2026-10-04T10:22:37+02:00",
+   "subject": "RH: include Vasyunin gcd reduction in root build"
+  },
+  {
+   "commit": "7b16cbba9699a92c3c9cf76df3d37037e417987a",
+   "date": "2026-10-04T10:22:20+02:00",
+   "subject": "RH: realize gcd reduction for finite Vasyunin Gram formula"
+  },
+  {
+   "commit": "7d5c8d6aeea9c838b9b3b366bf27b0172cce54e0",
+   "date": "2026-10-04T10:19:16+02:00",
+   "subject": "RH: close Fourier frequency scaling and isolate ordinary Plancherel"
+  },
+  {
+   "commit": "db17cdf91ca2311b275907ebb3d3a26f7907ec01",
+   "date": "2026-10-04T10:18:32+02:00",
+   "subject": "RH: realize logarithmic pullback L2 norm bridge"
+  },
+  {
+   "commit": "e528ea2b5553a6bf2e12fc2eed7d95d8fa86d971",
+   "date": "2026-10-04T10:18:24+02:00",
+   "subject": "RH: split Vasyunin Gram theorem into coprime core and gcd scaling"
+  },
+  {
+   "commit": "169d7f14fef9f7350c651340c61099c189c8c76b",
+   "date": "2026-10-04T10:17:44+02:00",
+   "subject": "RH: audit Vasyunin structural laws"
+  },
+  {
+   "commit": "1c25ee97c5922afd27fea395b4bc4de4fa928a1e",
+   "date": "2026-10-04T10:17:33+02:00",
+   "subject": "RH: preflight Vasyunin structural laws"
+  },
+  {
+   "commit": "b06e31a65467d9d1c7be54be5a9a0cb620ce6ae4",
+   "date": "2026-10-04T10:17:22+02:00",
+   "subject": "RH: include Vasyunin structural laws in root build"
+  },
+  {
+   "commit": "94ab04966dff6ed1115eba756ce399d6c0fa1f66",
+   "date": "2026-10-04T10:16:44+02:00",
+   "subject": "RH: add exact finite Vasyunin high-precision numerics"
+  },
+  {
+   "commit": "1ba5eb6c2d39e5eb99d572a165d6817627d3f86d",
+   "date": "2026-10-04T10:16:21+02:00",
+   "subject": "RH: include Fourier Plancherel reduction in root build"
+  },
+  {
+   "commit": "c9ac8f6ba34fabcffd8331785d23ebdbbc361f52",
+   "date": "2026-10-04T10:16:20+02:00",
+   "subject": "RH: add exact diagonal and symmetry laws for Vasyunin Gram kernel"
+  },
+  {
+   "commit": "764d5eb77a1523d15157a7d336f9b675490193f5",
+   "date": "2026-10-04T10:16:19+02:00",
+   "subject": "RH: audit Mellin-Fourier Plancherel reductions"
+  },
+  {
+   "commit": "c2b7165235a63d6e6d605036ef959ffba24012e7",
+   "date": "2026-10-04T10:16:16+02:00",
+   "subject": "RH: preflight Mellin-Fourier Plancherel reductions"
+  },
+  {
+   "commit": "b7026401c9037571aa307ef4ed0a93fd01401962",
+   "date": "2026-10-04T10:16:13+02:00",
+   "subject": "RH: split D3 discovery into log-norm and Fourier-Plancherel gaps"
+  },
+  {
+   "commit": "b63313569549f89f5c4510d9bf59f5230f2cbeda",
+   "date": "2026-10-04T10:15:43+02:00",
+   "subject": "RH: reduce D3 Plancherel to two pure L2 Fourier bridges"
+  },
+  {
+   "commit": "53fb68b82b3b2a8c2a518b4c7464615ed3ea3733",
+   "date": "2026-10-04T10:15:26+02:00",
+   "subject": "RH: close critical-line Mellin to Fourier integral bridge"
+  },
+  {
+   "commit": "4dfee183a4674b552ac31ff1f9e397b75a754ecc",
+   "date": "2026-10-04T10:14:21+02:00",
+   "subject": "RH: include D3 structural reductions in root build"
+  },
+  {
+   "commit": "b55fc61d1c1311b47c30292058a012529c79bceb",
+   "date": "2026-10-04T10:14:18+02:00",
+   "subject": "RH: audit D3 algebra and residual norm bridge"
+  },
+  {
+   "commit": "cb2c93c9d45aa9255cbcf2dd695ecc4a2522fe95",
+   "date": "2026-10-04T10:14:15+02:00",
+   "subject": "RH: preflight D3 critical-line and residual norm reductions"
+  },
+  {
+   "commit": "19bb547285ad2a3fabbc8c77d04315850c90e4aa",
+   "date": "2026-10-04T10:14:12+02:00",
+   "subject": "RH: isolate D3 to sole Mellin Plancherel producer"
+  },
+  {
+   "commit": "3a2be56defc538486e2d5a91ff501823469245da",
+   "date": "2026-10-04T10:13:42+02:00",
+   "subject": "RH: realize L2 residual norm representative bridge"
+  },
+  {
+   "commit": "22b917a5c8b739df083270f168bb16e9c77a4e2c",
+   "date": "2026-10-04T10:12:44+02:00",
+   "subject": "RH: reduce D3 to L2 representative bridge and Mellin Plancherel"
+  },
+  {
+   "commit": "a596fe8589567fc21fba804781a12d45bc3e4362",
+   "date": "2026-10-04T10:12:20+02:00",
+   "subject": "RH: close critical-line residual spectral density algebra"
+  },
+  {
+   "commit": "a21d88e26fd0bdcddc372581e7f282153a5e9256",
+   "date": "2026-10-04T10:11:31+02:00",
+   "subject": "RH: audit Mellin strip and residual closed form"
+  },
+  {
+   "commit": "bc832580396221956ed649604827a800ae639a91",
+   "date": "2026-10-04T10:11:27+02:00",
+   "subject": "RH: preflight Mellin strip convergence and residual formula"
+  },
+  {
+   "commit": "d5f6c5ab80ede3356b9f58148f6795b4b6fe5e05",
+   "date": "2026-10-04T10:11:11+02:00",
+   "subject": "RH: harden finite Mellin residual linearity"
+  },
+  {
+   "commit": "55e98609a8db64bfa0ffcf19f5f154faf26e42d4",
+   "date": "2026-10-04T10:10:43+02:00",
+   "subject": "RH: close algebraic Mellin formula for finite residual"
+  },
+  {
+   "commit": "06dc73f5daa470544cd5a5ffd88c2c131c8f66c0",
+   "date": "2026-10-04T10:10:00+02:00",
+   "subject": "RH: close algebraic Mellin formula for finite residuals"
+  },
+  {
+   "commit": "114289c5ff7798f5097ce244e670df1cef8368c4",
+   "date": "2026-10-04T10:08:53+02:00",
+   "subject": "RH: simplify a.e. transport for target Mellin convergence"
+  },
+  {
+   "commit": "5d0dd3f4813ac830d8be9b712d79022b1db827b1",
+   "date": "2026-10-04T10:08:34+02:00",
+   "subject": "RH: certify Mellin convergence of target and all concrete generators on the strip"
+  },
+  {
+   "commit": "1cdefce43b04f175ded3aae62409c5402d0bf031",
+   "date": "2026-10-04T10:07:51+02:00",
+   "subject": "RH: fix Mellin strip convergence API ordering and local integrability"
+  },
+  {
+   "commit": "7ee3e4670e7adbbf3c3bafedba3f05b9e8ca8a40",
+   "date": "2026-10-04T10:06:57+02:00",
+   "subject": "RH: certify Mellin convergence of chi and rho on the critical strip"
+  },
+  {
+   "commit": "c8f68718235cb48dbe07a5e29b874b6bc3a36518",
+   "date": "2026-10-04T10:05:51+02:00",
+   "subject": "RH: compile finite Vasyunin Gram reduction from root"
+  },
+  {
+   "commit": "a741e269a2689e91e7322e274f5aba491e22077b",
+   "date": "2026-10-04T10:05:48+02:00",
+   "subject": "RH: audit finite Vasyunin Gram reduction"
+  },
+  {
+   "commit": "14e09a985996a2e64bd740ff17e9539346786e10",
+   "date": "2026-10-04T10:05:46+02:00",
+   "subject": "RH: add finite Vasyunin Gram layer to preflight"
+  },
+  {
+   "commit": "7fad814d14f23b44a4271f06a5e33cb5bd56022b",
+   "date": "2026-10-04T10:05:32+02:00",
+   "subject": "RH: use exact cotangent module for Vasyunin finite Gram"
+  },
+  {
+   "commit": "57f5e222147eb189fa4da47896a2a41fc0ed7d12",
+   "date": "2026-10-04T10:05:08+02:00",
+   "subject": "RH: add fail-closed Vasyunin discovery runner"
+  },
+  {
+   "commit": "844461b5f701c4f58e444c18ac655160b97e3df9",
+   "date": "2026-10-04T10:05:05+02:00",
+   "subject": "RH: split Vasyunin identity and finite-rate discovery gaps"
+  },
+  {
+   "commit": "bf22a6378ec15b95776c143883f2026d75f57a53",
+   "date": "2026-10-04T10:04:28+02:00",
+   "subject": "RH: expose finite Vasyunin cotangent Gram matrix"
+  },
+  {
+   "commit": "47a1d3b9cb89cd21daafa35673ced7b68b72b6f5",
+   "date": "2026-10-04T10:01:53+02:00",
+   "subject": "RH: compile explicit Gram material reduction from MCore root"
+  },
+  {
+   "commit": "132d0fce5ba71c4de78b686b085f09e144c78018",
+   "date": "2026-10-04T10:01:49+02:00",
+   "subject": "RH: audit explicit inverse-Gram material reduction"
+  },
+  {
+   "commit": "30883e147b0243ae3d523f58d5e9c1474085fb26",
+   "date": "2026-10-04T10:01:46+02:00",
+   "subject": "RH: add explicit Gram rate to strict preflight"
+  },
+  {
+   "commit": "8d492bc3518a9775b535d9ac54e1b78fac5da0b0",
+   "date": "2026-10-04T10:01:43+02:00",
+   "subject": "RH: fully unfold arithmetic Gram discovery target"
+  },
+  {
+   "commit": "54a8c38f49a0965e0014a4f0afe76d272b714c05",
+   "date": "2026-10-04T10:01:12+02:00",
+   "subject": "RH: make explicit Gram rate the material-gate declaration"
+  },
+  {
+   "commit": "80a6781574396401ad61740bfa235eaaf65c0f6d",
+   "date": "2026-10-04T10:01:09+02:00",
+   "subject": "RH: report explicit Gram rate as discovery frontier"
+  },
+  {
+   "commit": "ce3b877905590f7e86dd6c9b3ec5a7214392fb7b",
+   "date": "2026-10-04T10:00:42+02:00",
+   "subject": "RH: make explicit inverse-Gram inequality the terminal discovery frontier"
+  },
+  {
+   "commit": "f0f6df97852ec36349e1990eb29fffd4c97c39bf",
+   "date": "2026-10-04T09:59:20+02:00",
+   "subject": "RH: rewrite material rate as explicit inverse-autocorrelation Gram residual"
+  },
+  {
+   "commit": "860842ec95ef430e92811c035793d3ff850b8101",
+   "date": "2026-10-04T09:57:25+02:00",
+   "subject": "RH: compile E1 structural reduction from MCore root"
+  },
+  {
+   "commit": "e060ae248cd4bf79a94b0162dd8a3dc57a22ec47",
+   "date": "2026-10-04T09:57:23+02:00",
+   "subject": "RH: audit E1 evaluation-kernel structural layer"
+  },
+  {
+   "commit": "cc30e556972e4ed4cced87b9c4dcc54ae1882ab5",
+   "date": "2026-10-04T09:57:18+02:00",
+   "subject": "RH: add E1 kernel reflection and reduction to preflight"
+  },
+  {
+   "commit": "f0904da50af256ea626555e10149c7d42df1a932",
+   "date": "2026-10-04T09:56:49+02:00",
+   "subject": "RH: add fail-closed E1 evaluation discovery runner"
+  },
+  {
+   "commit": "5d6d2478c1a6335567fb865ab6d5546080bdff93",
+   "date": "2026-10-04T09:56:45+02:00",
+   "subject": "RH: expose exact E1 Cauchy and transport discovery gaps"
+  },
+  {
+   "commit": "09346a873a95e36e347b44358024fb86ce56108d",
+   "date": "2026-10-04T09:55:57+02:00",
+   "subject": "RH: reduce E1 to Cauchy reproduction and spectral transport"
+  },
+  {
+   "commit": "9b2e886cefdc4cf5a1b3841150444a1b16170f5c",
+   "date": "2026-10-04T09:55:03+02:00",
+   "subject": "RH: reflect off-line strip zeros to right half-strip"
+  },
+  {
+   "commit": "a1be505f6877888cfff5c0819f08099a5239c163",
+   "date": "2026-10-04T09:54:05+02:00",
+   "subject": "RH: construct explicit L2 critical-line evaluation kernel"
+  },
+  {
+   "commit": "7099459408c99b2c8029c4d42e484539f6144aa6",
+   "date": "2026-10-04T09:47:51+02:00",
+   "subject": "RH: add fail-closed runner for pinned D3 Plancherel gap"
+  },
+  {
+   "commit": "6a06226311afff4cdd2025f520a08d8fca6b25ce",
+   "date": "2026-10-04T09:46:48+02:00",
+   "subject": "RH: compile D3 structural reduction from MCore root"
+  },
+  {
+   "commit": "4b6e5e5c4b8ab84f6a3db3d6d09511782aa82d75",
+   "date": "2026-10-04T09:46:45+02:00",
+   "subject": "RH: audit D3 closed structural layers"
+  },
+  {
+   "commit": "c7c632055409de097d9175dcba59b89f963105c5",
+   "date": "2026-10-04T09:46:42+02:00",
+   "subject": "RH: add D3 structural reduction to mandatory preflight"
+  },
+  {
+   "commit": "e3de14bd4c0cc87ae73bb8013d0d57075948afd9",
+   "date": "2026-10-04T09:46:39+02:00",
+   "subject": "RH: expose pinned Fourier Plancherel as isolated D3 discovery gap"
+  },
+  {
+   "commit": "d63bd758063955ed90af1c91380013b9e8ca2490",
+   "date": "2026-10-04T09:45:45+02:00",
+   "subject": "RH: harden log-lift Jacobian integral congruence"
+  },
+  {
+   "commit": "32c1e9fb827e05a00f52189a180f13f19082113c",
+   "date": "2026-10-04T09:45:43+02:00",
+   "subject": "RH: harden D3 Fourier integral congruence"
+  },
+  {
+   "commit": "95a1fb657c8d95ed45009be0bbc4eb6a604a771e",
+   "date": "2026-10-04T09:45:38+02:00",
+   "subject": "RH: harden D3 spectral integral congruence"
+  },
+  {
+   "commit": "922829afcc33fca37f11495cdc568272aa34fa25",
+   "date": "2026-10-04T09:44:27+02:00",
+   "subject": "RH: align residual Mellin finite sums with scalar-multiplication API"
+  },
+  {
+   "commit": "6e04696eae8719259535ff9948be976a6a24ca05",
+   "date": "2026-10-04T09:43:29+02:00",
+   "subject": "RH: isolate pinned-library Fourier Plancherel gap from D3 material math"
+  },
+  {
+   "commit": "6e735ce9f3537d9118e27dafdef88ae91efefeef",
+   "date": "2026-10-04T09:42:51+02:00",
+   "subject": "RH: realize logarithmic L2 isometry for D3"
+  },
+  {
+   "commit": "f1c69dda525769048fc7e43b358f91d49f3d1f65",
+   "date": "2026-10-04T09:42:00+02:00",
+   "subject": "RH: close critical-line frequency rescaling in D3"
+  },
+  {
+   "commit": "6fc193a02907071ff8f5f25db3bcd3829feba234",
+   "date": "2026-10-04T09:41:24+02:00",
+   "subject": "RH: reduce D3 Mellin-Plancherel to pinned Fourier identities"
+  },
+  {
+   "commit": "89c9df675ee45bbb32da77ae6210aa04de4c361d",
+   "date": "2026-10-04T09:37:50+02:00",
+   "subject": "RH: reduce D3 to a single Mellin-Plancherel producer"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.RH.NB.NBHilbertData.BCFExplicitLogBounds.K_nonneg",
+   "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : 0 ≤ H.K"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.DNLimit_eq_zero_of_bcfThreeTerm",
+   "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
+   "line": 102,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) (hzero : D.ZeroResidueVanishing B) : D.DNLimit rho = 0"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.DNToZero_of_bcfThreeTerm",
+   "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
+   "line": 90,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) (hzero : D.ZeroResidueVanishing B) : D.DNToZero rho"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.FINAL_ROOT_of_explicit_bcf_bounds",
+   "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
+   "line": 102,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : Final.FINAL_ROOT D rho"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.bcf_three_term_materializer",
+   "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
+   "line": 113,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) : D.ZeroResidueVanishing B → D.DNLimit rho = 0"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.dn_le_combined_log_majorant",
+   "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
+   "line": 55,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) (N : ℕ) : D.DN rho N ≤ H.K / Real.log ((N : ℝ) + 2)"
+  },
+  {
+   "name": "MCore.RH.R0.DISCOVER_D3_ZETA_FORM",
+   "file": "open_math/lean/RHD3Decomposition.lean",
+   "line": 20,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : residualEnergy c = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / (1 / 4 + t ^ 2)"
+  },
+  {
+   "name": "MCore.RH.R0.chi_mellinConvergent",
+   "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : ℂ) (hs0 : 0 < s.re) : MellinConvergent chiRepresentativeC s"
+  },
+  {
+   "name": "MCore.RH.R0.fract_mellinConvergent_neg",
+   "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
+   "line": 7,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent fractRepresentativeC (-s)"
+  },
+  {
+   "name": "MCore.RH.R0.mellin_residual_critical",
+   "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLinePoint t) = (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / criticalLinePoint t"
+  },
+  {
+   "name": "MCore.RH.R0.recoveredAllNRate_iff_explicitGramRateTarget",
+   "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
+   "line": 61,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": RecoveredAllNRate ↔ ExplicitGramRateTarget"
+  },
+  {
+   "name": "MCore.RH.R0.recoveredAllNRate_to_terminal",
+   "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
+   "line": 65,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : RecoveredAllNRate) : RiemannTerminalCertifies"
+  },
+  {
+   "name": "MCore.RH.R0.recoveredMaterialFrontier_to_terminal",
+   "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : recoveredMaterialFrontier) : RiemannTerminalCertifies"
+  },
+  {
+   "name": "MCore.RH.R0.recovered_terminal_of_bcfExplicitLogBounds",
+   "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(B : concreteNBData.BCFThreeTermMajorant concreteGeneratorFamily) (H : concreteNBData.BCFExplicitLogBounds B) : RiemannTerminalCertifies"
+  },
+  {
+   "name": "MCore.RH.R0.recovered_terminal_of_coefficient_error_tendsto_zero",
+   "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(c : ℕ → ℕ → ℝ) (hzero : Filter.Tendsto (fun N => ‖concreteNBData.chi - concreteNBData.finiteCoefficientApproximant concreteGeneratorFamily c N‖) Filter.atTop (nhds 0)) : RiemannTerminalCertifies"
+  },
+  {
+   "name": "MCore.RH.R0.recovered_terminal_of_explicitGramRate",
+   "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
+   "line": 11,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : ExplicitGramRateTarget) : RiemannTerminalCertifies"
+  },
+  {
+   "name": "MCore.RH.R0.residualEnergy_eq_zeta_integral",
+   "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
+   "line": 50,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : residualEnergy c = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / (1 / 4 + t ^ 2)"
+  },
+  {
+   "name": "MCore.RH.R0.rhoBase_mellinConvergent",
+   "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (rhoRepresentativeC 0) s"
+  },
+  {
+   "name": "MCore.RH.R0.rho_mellinConvergent",
+   "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : ℕ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (rhoRepresentativeC n) s"
+  },
+  {
+   "name": "MCore.RH.R0.uniformLogDNBound_to_ConcreteCoefficientLogRate",
+   "file": "lean/MCore/RH/R0/ExplicitCoefficientLogRate.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : ConcreteUniformLogDNBound) : ConcreteCoefficientLogRate"
+  },
+  {
+   "name": "MCore.RH.R0.uniformLogDNBound_to_ConcreteGramLogRate",
+   "file": "lean/MCore/RH/R0/ConcreteGramLogRate.lean",
+   "line": 106,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : ConcreteUniformLogDNBound) : ConcreteGramLogRate"
+  },
+  {
+   "name": "MCore.RH.R01.Audit.current_open_producer_iff_DNLimit_zero",
+   "file": "audit/R01ConcreteAudit.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": CURRENT_OPEN_PRODUCER ↔ concreteNBData.DNLimit concreteGeneratorFamily = 0"
+  },
+  {
+   "name": "MCore.RH.R01.Audit.current_open_producer_iff_DNToZero",
+   "file": "audit/R01ConcreteAudit.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": CURRENT_OPEN_PRODUCER ↔ concreteNBData.DNToZero concreteGeneratorFamily"
+  },
+  {
+   "name": "MCore.RH.R01.DNLimit_eq_zero_of_weightedDecayBridge",
+   "file": "lean/MCore/Frontier/R01Concrete.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(B : WeightedDecayBridge) : concreteNBData.DNLimit concreteGeneratorFamily = 0"
+  },
+  {
+   "name": "MCore.RH.R01.DNToZero_of_weightedDecayBridge",
+   "file": "lean/MCore/Frontier/R01Concrete.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(B : WeightedDecayBridge) : concreteNBData.DNToZero concreteGeneratorFamily"
+  },
+  {
+   "name": "MCore.RH.R01.concreteProducer_iff_DNLimit_eq_zero",
+   "file": "lean/MCore/Frontier/R01Concrete.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ConcreteProducer ↔ concreteNBData.DNLimit concreteGeneratorFamily = 0"
+  },
+  {
+   "name": "MCore.RH.R01.concreteProducer_iff_DNToZero",
+   "file": "lean/MCore/Frontier/R01Concrete.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ConcreteProducer ↔ concreteNBData.DNToZero concreteGeneratorFamily"
+  }
+ ],
+ "closed": 6,
+ "files_sha256": {
+  "audit/R01ConcreteAudit.lean": "773c4273c4e479f8d4f096b588b7af0b74cadf181020722b103a87cfd3d10bb5",
+  "lake-manifest.json": "2c4ab35b6c5ec42d2543a7a491bb921bc9c46d9c80b14e30b96d9c44536f50d9",
+  "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Frontier/MultistateSN.lean": "31526d095cd8a5088ac9344f80cb81b8140bdc97a28521b36b1cbe5715fd39e6",
+  "lean/MCore/Frontier/R01Concrete.lean": "8fe7d07c069abadbb7301aea02a4b0de574ee30c0b08588f3e4d528536233fda",
+  "lean/MCore/RH/NB/Antitone.lean": "2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb",
+  "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
+  "lean/MCore/RH/NB/FiniteSpan.lean": "97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe",
+  "lean/MCore/RH/NB/HilbertData.lean": "0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134",
+  "lean/MCore/RH/NB/Limit.lean": "9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c",
+  "lean/MCore/RH/NB/Nesting.lean": "922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31",
+  "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
+  "lean/MCore/RH/NB/Total.lean": "e8e9378dd63ce7756367a5fb85234471ddade0ecc0e3a289b88d937fdb23aa06",
+  "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "093ef0b0fc6f7f527339bde19965c6aa3964fac35211a49e49c7b99f0b4f7ef7",
+  "lean/MCore/RH/R0/AmbientCarrier.lean": "44d846b4df5f9dcce3c984712a7c4287b60828f88cff30efec810d2dc9a73c02",
+  "lean/MCore/RH/R0/ChiL2.lean": "a98f4c80636f8657dbfcb35df4fe94dd51247269d54ef690a4f3e30fbe3cdd66",
+  "lean/MCore/RH/R0/ChiMemLp.lean": "4aca9740f108cd1ac5d3e02bade0f2c34dd9c162c67b208ea94de4f1f6a45a28",
+  "lean/MCore/RH/R0/ConcreteDomain.lean": "024ea8d747ac5d33974ca04cd6633e8bb8dbfccccddd03663d98a405b13d303e",
+  "lean/MCore/RH/R0/Normalization.lean": "adf9ce850347d9b1baf653c4b7276b97507357ee1002a7df119880edf7c7220c",
+  "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
+  "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "2a4787170bc23e64dc4e3880d9360eea2bd5fbadd7757b9f89880445df23f332"
+}

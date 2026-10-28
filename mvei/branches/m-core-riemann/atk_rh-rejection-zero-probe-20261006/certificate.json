@@ -1,0 +1,2447 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "atk/rh-rejection-zero-probe-20261006",
+ "branch_state": "parada",
+ "head_commit": "af05dfd9f29754c967e78fb51f595db05a742c97",
+ "head_commit_date": "2026-10-07T06:47:32+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "af05dfd9f29754c967e78fb51f595db05a742c97",
+   "date": "2026-10-07T06:47:32+02:00",
+   "subject": "RH: audit exact promoted-by-material path without false inhabitant"
+  },
+  {
+   "commit": "372d2160ecfb868b4c6aa56446b5a0f6d611df95",
+   "date": "2026-10-07T06:47:18+02:00",
+   "subject": "RH: add canonical promoted-by-material certificate path"
+  },
+  {
+   "commit": "4d748fb4e84af46c1827ac5bb3de36856c4f83b7",
+   "date": "2026-10-07T06:47:07+02:00",
+   "subject": "RH: reduce material promotion input to exact off-line exclusion law"
+  },
+  {
+   "commit": "e39449d7a9156c9d875389996868ba65865837f6",
+   "date": "2026-10-07T06:46:43+02:00",
+   "subject": "RH: prove completed zeta conjugation from real Mellin kernel"
+  },
+  {
+   "commit": "bc16d8fd1977384d5440f6490cce2c156e7989f9",
+   "date": "2026-10-07T06:37:37+02:00",
+   "subject": "RH: close real-data goals in Riemann modified Mellin kernel"
+  },
+  {
+   "commit": "05dc7318603cbc0356fc0658f65f8e9300e1ee52",
+   "date": "2026-10-07T06:33:40+02:00",
+   "subject": "RH: qualify Hurwitz FE pair and expose Lambda0 definition directly"
+  },
+  {
+   "commit": "932bb10d522ddd5d000039c4efc5e2efc0fc8726",
+   "date": "2026-10-07T06:24:54+02:00",
+   "subject": "RH: prove conjugation for the Riemann FE-pair entire Mellin part"
+  },
+  {
+   "commit": "5ad02ed79eb5713abdb63d2285e4219901ffca07",
+   "date": "2026-10-07T05:59:43+02:00",
+   "subject": "RH: eliminate recursive simp from Mellin bridge"
+  },
+  {
+   "commit": "d184df1efa6ab864cde458f7a04c1dd58673b79a",
+   "date": "2026-10-07T05:55:52+02:00",
+   "subject": "RH: qualify set-integral congruence in Mellin bridge"
+  },
+  {
+   "commit": "a5f9f9d134a97bd818f29c127e681b2e1271bbdc",
+   "date": "2026-10-07T05:45:59+02:00",
+   "subject": "RH: align Mellin conjugation proof with Mathlib set-integral API"
+  },
+  {
+   "commit": "9046680bb1ef98831c56e943efcb3afaaaca72fd",
+   "date": "2026-10-07T05:41:55+02:00",
+   "subject": "RH: add Mellin conjugation bridge for real kernels"
+  },
+  {
+   "commit": "a1b73991699d95bf647a52259eb6aabab20c7a7a",
+   "date": "2026-10-07T05:33:24+02:00",
+   "subject": "RH: fix reflected zero-closure side-condition proof"
+  },
+  {
+   "commit": "d6be41cbb1730e3ffbaf1eba5209d93560d3ce10",
+   "date": "2026-10-07T05:25:17+02:00",
+   "subject": "RH: derive full reflected zero closure from conjugation symmetry"
+  },
+  {
+   "commit": "cabdda99342b8fd1fab7479dbe2a7531753c877e",
+   "date": "2026-10-07T05:20:35+02:00",
+   "subject": "RH: harden unified audit for conjugation bridge"
+  },
+  {
+   "commit": "4c525a5096340e1216e15612804f224319caae39",
+   "date": "2026-10-07T05:20:09+02:00",
+   "subject": "RH: make star natural-cast normalization explicit"
+  },
+  {
+   "commit": "4d174d1b840ceed98b4b5342dfed47608d90755e",
+   "date": "2026-10-07T05:09:53+02:00",
+   "subject": "RH: remove no-op simp in Gamma star proof"
+  },
+  {
+   "commit": "ad617acc7d90024d5e9822d67bd12fc0af08a50c",
+   "date": "2026-10-07T05:00:44+02:00",
+   "subject": "RH: normalize star casts in Gamma conjugation proof"
+  },
+  {
+   "commit": "ab0b2f4a606a8cba68d5d01795db7ed87c1e3cbe",
+   "date": "2026-10-07T04:42:40+02:00",
+   "subject": "RH: express Gamma conjugation entirely via starRingEnd"
+  },
+  {
+   "commit": "7bac8fdafa013e424781feace7592802435b2be3",
+   "date": "2026-10-07T04:38:31+02:00",
+   "subject": "RH: fix v4.19 star API in conjugation bridge"
+  },
+  {
+   "commit": "0cd31405dc4087261e23f0bf7cc34a95d7351be5",
+   "date": "2026-10-07T04:34:18+02:00",
+   "subject": "RH: reduce zeta conjugation to completed-zeta symmetry"
+  },
+  {
+   "commit": "c5f0ae8a96e0c0a50bfe64c7be816c4008449ae6",
+   "date": "2026-10-07T04:28:26+02:00",
+   "subject": "RH: fix probe functional side-condition proof"
+  },
+  {
+   "commit": "e1d0b0f8426e86620d9a43f5b94ad6ce9f8febd1",
+   "date": "2026-10-07T04:24:15+02:00",
+   "subject": "RH: prove functional-equation side conditions for probe zeros"
+  },
+  {
+   "commit": "18ec4bef74442b81562357cee41e1406363e72d2",
+   "date": "2026-10-07T04:23:39+02:00",
+   "subject": "CI: align RH symmetry audit with Mathlib v4.19"
+  },
+  {
+   "commit": "ffd8b4adf35b0bbf1d5e48a0c7bc930e8320ad6e",
+   "date": "2026-10-07T04:23:34+02:00",
+   "subject": "RH: fix v4.19 critical reflection symmetry interface"
+  },
+  {
+   "commit": "55bc79b7283748acbb67e56af095da488428a7a2",
+   "date": "2026-10-07T03:12:45+02:00",
+   "subject": "CI: build concrete critical-reflection symmetry"
+  },
+  {
+   "commit": "0327d0ac7cb24d7dbd449b4286c37884b6609592",
+   "date": "2026-10-07T03:12:32+02:00",
+   "subject": "RH: wire concrete critical-reflection symmetry into rigidity frontier"
+  },
+  {
+   "commit": "ea9bfe0cab49fbf9a3dcc9aee11918d776627233",
+   "date": "2026-10-07T03:12:20+02:00",
+   "subject": "RH: prove critical reflection zero transport from functional symmetry"
+  },
+  {
+   "commit": "7f898590d11b2942c15d8527d0f526f1515993c0",
+   "date": "2026-10-07T03:10:14+02:00",
+   "subject": "CI: audit RH material rigidity frontier explicitly"
+  },
+  {
+   "commit": "16247a5f8adcbc434641589a19b7b17e2e10f3f5",
+   "date": "2026-10-07T03:09:53+02:00",
+   "subject": "RH: wire material rigidity frontier into final payload"
+  },
+  {
+   "commit": "39bb13080ca5abc1e70f5d5a7bb0ab465148dbdb",
+   "date": "2026-10-07T03:09:31+02:00",
+   "subject": "RH: isolate material rigidity law without circular promotion"
+  },
+  {
+   "commit": "0bc77455b234f15434095d7cd192dbfd7c6b7484",
+   "date": "2026-10-07T01:19:45+02:00",
+   "subject": "CI: make legacy certificate manual-only on RH branch"
+  },
+  {
+   "commit": "890666f85facc02f12e15dcc592e056c3f7b5bee",
+   "date": "2026-10-07T01:19:29+02:00",
+   "subject": "CI: fold all RH terminal and publication guards into unified gate"
+  },
+  {
+   "commit": "51ff108a4dbfd407fe088f5f27c014a50c98315b",
+   "date": "2026-10-07T01:19:06+02:00",
+   "subject": "RH: fix material endpoint equivalence without changing semantics"
+  },
+  {
+   "commit": "645050a6ec73c434314a4f64db3b8789c23fc6c9",
+   "date": "2026-10-07T01:06:48+02:00",
+   "subject": "CI: route active RH lane through unified final only"
+  },
+  {
+   "commit": "48581d606e3f1533236e8cedfa98336c2ef2e082",
+   "date": "2026-10-07T01:06:36+02:00",
+   "subject": "CI: make rh-terminal-duality.yml diagnostic-only"
+  },
+  {
+   "commit": "c5df37274737fc6682984ceecd085ecaaa19a36a",
+   "date": "2026-10-07T01:06:32+02:00",
+   "subject": "CI: make rh-material-payload.yml diagnostic-only"
+  },
+  {
+   "commit": "b3f2035826230cf93ac6c57d32df8fbfb27a8c87",
+   "date": "2026-10-07T01:06:27+02:00",
+   "subject": "CI: make rh-rejection-zero-probe.yml diagnostic-only"
+  },
+  {
+   "commit": "89133449b3f5f3338bb7242a8c90a68f99de91b6",
+   "date": "2026-10-07T01:06:23+02:00",
+   "subject": "CI: make rh-rpa-endpoint-lattice.yml diagnostic-only"
+  },
+  {
+   "commit": "16c5b447f75462baf849966cc79cb7619eaeffd5",
+   "date": "2026-10-07T01:06:20+02:00",
+   "subject": "CI: make rh-rpa-dual-certificate.yml diagnostic-only"
+  },
+  {
+   "commit": "e0b5225fd9adec364e19c1a441b118020656b9fc",
+   "date": "2026-10-07T01:06:17+02:00",
+   "subject": "CI: make rh-final-publication.yml diagnostic-only"
+  },
+  {
+   "commit": "2d363a8c43416cbb75b651628ecf8c6fa42bb60b",
+   "date": "2026-10-07T01:06:13+02:00",
+   "subject": "CI: make rh-terminal-three-way.yml diagnostic-only"
+  },
+  {
+   "commit": "6453efa8aa61cf007d9f8d97e6c5746feb34a36e",
+   "date": "2026-10-07T01:06:08+02:00",
+   "subject": "CI: make rh-last-open-math.yml diagnostic-only"
+  },
+  {
+   "commit": "b52be419b4ac519b1fb78f935895f632704c9695",
+   "date": "2026-10-07T01:06:02+02:00",
+   "subject": "CI: make rh-terminal-wheel.yml diagnostic-only"
+  },
+  {
+   "commit": "22036bc99b4d196adcd8f1d667175ea098735107",
+   "date": "2026-10-07T01:02:57+02:00",
+   "subject": "CI: bound RH Unified Final to 45 minutes"
+  },
+  {
+   "commit": "bbd64927d1d92193f553ae7786272365667a3b83",
+   "date": "2026-10-06T23:29:10+02:00",
+   "subject": "CI: move RH unified final to ubuntu-24.04 runner pool"
+  },
+  {
+   "commit": "beac568fd14b1dfa80f0847ede1201de51cd6bb2",
+   "date": "2026-10-06T22:25:58+02:00",
+   "subject": "CI: make legacy unified material gate manual-only"
+  },
+  {
+   "commit": "e8511689c1fd24a9ce4100c2d7ba3a3fb64d511e",
+   "date": "2026-10-06T22:25:42+02:00",
+   "subject": "CI: make certificate.yml manual-only under unified gate"
+  },
+  {
+   "commit": "c4b3d2b1fe686cd14645c7a8112825c36bd0fe3e",
+   "date": "2026-10-06T22:25:39+02:00",
+   "subject": "CI: make rh-terminal-wheel.yml manual-only under unified gate"
+  },
+  {
+   "commit": "29f10ea26a33dae18506a83d3788df507a572cde",
+   "date": "2026-10-06T22:25:36+02:00",
+   "subject": "CI: make rh-terminal-duality.yml manual-only under unified gate"
+  },
+  {
+   "commit": "7991b7b3cf433cc0e04901857e3c84b1cce18fd4",
+   "date": "2026-10-06T22:25:33+02:00",
+   "subject": "CI: make rh-last-open-math.yml manual-only under unified gate"
+  },
+  {
+   "commit": "66e9c139c6dba9ea2ead3c4330aa4bdf8cb5f802",
+   "date": "2026-10-06T22:25:30+02:00",
+   "subject": "CI: make rh-terminal-three-way.yml manual-only under unified gate"
+  },
+  {
+   "commit": "c8b9c97e052a1ad7bce6a65219b430976049d22b",
+   "date": "2026-10-06T22:25:23+02:00",
+   "subject": "CI: make rh-rejection-zero-probe.yml manual-only under unified gate"
+  },
+  {
+   "commit": "777364c48fcfd1bf20fec3b7e95be74a6b30485c",
+   "date": "2026-10-06T22:25:20+02:00",
+   "subject": "CI: make rh-final-publication.yml manual-only under unified gate"
+  },
+  {
+   "commit": "3733d168a11c1838c0e0beffeb2e45eab11ec284",
+   "date": "2026-10-06T22:25:16+02:00",
+   "subject": "CI: make rh-rpa-dual-certificate.yml manual-only under unified gate"
+  },
+  {
+   "commit": "ee26ff3b9fd4fb74ca92e8a276afcda1ac5311d9",
+   "date": "2026-10-06T22:25:14+02:00",
+   "subject": "CI: make rh-rpa-endpoint-lattice.yml manual-only under unified gate"
+  },
+  {
+   "commit": "188df2cd32b573005a7304f246a78609462685da",
+   "date": "2026-10-06T22:25:11+02:00",
+   "subject": "CI: make rh-material-payload.yml manual-only under unified gate"
+  },
+  {
+   "commit": "3866ca13f0b7b8d919d4014f837b50b6c02af037",
+   "date": "2026-10-06T22:25:00+02:00",
+   "subject": "CI: consolidate RH terminal, RPA, lattice and material gates"
+  },
+  {
+   "commit": "03f72859dfa81d244ec0ef9c0cd84bf39751c75d",
+   "date": "2026-10-06T22:09:21+02:00",
+   "subject": "CI: make legacy unified final gate manual-only"
+  },
+  {
+   "commit": "78e098887f09ede42507374d7839662e40300472",
+   "date": "2026-10-06T22:09:03+02:00",
+   "subject": "CI: consolidate RH structural and material gates into one run"
+  },
+  {
+   "commit": "da1cf28ac7f8a1b4301904e9eb2f51740b2c94ee",
+   "date": "2026-10-06T22:08:28+02:00",
+   "subject": "CI: make legacy certificate manual-only before unified gate"
+  },
+  {
+   "commit": "01ba18523b85f972e49cb696d889245603ff0fe4",
+   "date": "2026-10-06T21:59:25+02:00",
+   "subject": "CI: consolidate RH material and structural gates into one run"
+  },
+  {
+   "commit": "b106438636713fa79ccdbc6b5419bcbd06bcf7d7",
+   "date": "2026-10-06T21:59:05+02:00",
+   "subject": "CI: make rh-rejection-zero-probe.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "13841f7896e9c174e8a257a05f45bf2001202bb5",
+   "date": "2026-10-06T21:59:02+02:00",
+   "subject": "CI: make rh-last-open-math.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "ebc59103faadad9ed491345b131b693e05182ea3",
+   "date": "2026-10-06T21:59:00+02:00",
+   "subject": "CI: make rh-terminal-duality.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "8ff2313b4c92f740159d3633986d0aba63aa7d29",
+   "date": "2026-10-06T21:58:57+02:00",
+   "subject": "CI: make rh-terminal-three-way.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "8c9972f2f88a5bf9005cf0c9329f8435c1ea027a",
+   "date": "2026-10-06T21:58:54+02:00",
+   "subject": "CI: make rh-terminal-wheel.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "72af982678b5dc6a5093d2faa8c269493f5c4d0f",
+   "date": "2026-10-06T21:58:50+02:00",
+   "subject": "CI: make rh-final-publication.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "68a76b517057b9282885556ff1ec4a5d8bc7e8e0",
+   "date": "2026-10-06T21:58:47+02:00",
+   "subject": "CI: make rh-rpa-dual-certificate.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "f47d1d6bd6ead06c3621981a0feab41298e8a849",
+   "date": "2026-10-06T21:58:44+02:00",
+   "subject": "CI: make rh-rpa-endpoint-lattice.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "189cd07e479f975c34f5bdf6dc4c2f4ce7bc238b",
+   "date": "2026-10-06T21:58:41+02:00",
+   "subject": "CI: make rh-material-payload.yml manual-only; unified gate owns push"
+  },
+  {
+   "commit": "a5127eb4f8b171f05cc978bbb48c1e08206f7199",
+   "date": "2026-10-06T21:54:09+02:00",
+   "subject": "CI: collapse stale queued runs for certificate.yml"
+  },
+  {
+   "commit": "88aaa86b7f52ef2cb0d03974b6076027f2270bad",
+   "date": "2026-10-06T21:54:06+02:00",
+   "subject": "CI: collapse stale queued runs for rh-terminal-wheel.yml"
+  },
+  {
+   "commit": "3ad3d874d938cc8f5c1f78708311caa3a0e54e02",
+   "date": "2026-10-06T21:54:03+02:00",
+   "subject": "CI: collapse stale queued runs for rh-terminal-duality.yml"
+  },
+  {
+   "commit": "98c3d9eff26163b670f868315a6985890cc325ca",
+   "date": "2026-10-06T21:54:00+02:00",
+   "subject": "CI: collapse stale queued runs for rh-last-open-math.yml"
+  },
+  {
+   "commit": "62e8420fbadd95756d44f381a875a4c7584b1469",
+   "date": "2026-10-06T21:53:58+02:00",
+   "subject": "CI: collapse stale queued runs for rh-terminal-three-way.yml"
+  },
+  {
+   "commit": "1f84a7adbab487402f734d63c40cf3653ae336e3",
+   "date": "2026-10-06T21:53:55+02:00",
+   "subject": "CI: collapse stale queued runs for rh-rejection-zero-probe.yml"
+  },
+  {
+   "commit": "28808caf2d9eab7cec22f3a3c0055535fe52db93",
+   "date": "2026-10-06T21:53:35+02:00",
+   "subject": "CI: collapse stale queued runs for rh-final-publication.yml"
+  },
+  {
+   "commit": "284ad0729d7930a202fe453433417b60090def52",
+   "date": "2026-10-06T21:53:32+02:00",
+   "subject": "CI: collapse stale queued runs for rh-rpa-dual-certificate.yml"
+  },
+  {
+   "commit": "250e3bf02b837eaa7bccd243ae0a389d125674ff",
+   "date": "2026-10-06T21:53:30+02:00",
+   "subject": "CI: collapse stale queued runs for rh-rpa-endpoint-lattice.yml"
+  },
+  {
+   "commit": "1d4a972fe4f72b141ae20d77133e164fe9e4a991",
+   "date": "2026-10-06T21:53:27+02:00",
+   "subject": "CI: collapse stale queued runs for rh-material-payload.yml"
+  },
+  {
+   "commit": "0e5727f972043ec167f11051670dc37e540aa757",
+   "date": "2026-10-06T21:17:19+02:00",
+   "subject": "CI: add RH material payload gate"
+  },
+  {
+   "commit": "529d789dcd8f922ba593cc9cb25c7bd0603f8bbd",
+   "date": "2026-10-06T21:17:06+02:00",
+   "subject": "RH: add lane-specific material payload and final certificate type"
+  },
+  {
+   "commit": "b9aa4d23245f731f4bce2a3812c8cc4f3978fb9c",
+   "date": "2026-10-06T21:02:26+02:00",
+   "subject": "CI: require complete 14-case RPA lattice"
+  },
+  {
+   "commit": "768599aea5590164ec1432d5922695da05577930",
+   "date": "2026-10-06T21:02:15+02:00",
+   "subject": "RH: order FULL certificate after RPAFull definition"
+  },
+  {
+   "commit": "6069c69016ef995ccbb7a6ed02a25c8c76fc4545",
+   "date": "2026-10-06T21:02:02+02:00",
+   "subject": "RH: complete endpoint lattice through length three and FULL"
+  },
+  {
+   "commit": "e8d8d039aaa70c0549d3433e4f1f55c18a67d284",
+   "date": "2026-10-06T20:59:16+02:00",
+   "subject": "CI: add RH RPA endpoint lattice gate"
+  },
+  {
+   "commit": "98abe9d87c63eb7f8a5fec2f2460f970aea6b6ba",
+   "date": "2026-10-06T20:59:01+02:00",
+   "subject": "RH: formalize RPA endpoint lattice"
+  },
+  {
+   "commit": "2b255d15d1d0e6c8911addce842e619cb8bff290",
+   "date": "2026-10-06T20:55:51+02:00",
+   "subject": "CI: enforce dual-endpoint RPA certificate invariants"
+  },
+  {
+   "commit": "dd5afb3bcd7d9bb15b12f7d7e159deba667ccbdd",
+   "date": "2026-10-06T20:55:41+02:00",
+   "subject": "RH: model RPA as dual coexisting endpoints"
+  },
+  {
+   "commit": "c536a99dcdc80fe09a29b2266864b988f35f3469",
+   "date": "2026-10-06T20:51:33+02:00",
+   "subject": "CI: add RH RPA dual certificate gate"
+  },
+  {
+   "commit": "5967ae7376c5834361db3e98335fa889f4a6992d",
+   "date": "2026-10-06T20:51:18+02:00",
+   "subject": "RH: formalize RPA dual transition certificate"
+  },
+  {
+   "commit": "4c552f944e7864fc83a5ba31049128c4eeb4f1a1",
+   "date": "2026-10-06T19:56:15+02:00",
+   "subject": "CI: include open-to-closed terminal transition"
+  },
+  {
+   "commit": "efd4bc4a85bbd8d0cf6d2311e0b801abcc77c4b7",
+   "date": "2026-10-06T19:56:08+02:00",
+   "subject": "RH: formalize open-to-closed terminal transition"
+  },
+  {
+   "commit": "9afa0344dda3dabb2d214e2afe9180e08870237d",
+   "date": "2026-10-06T19:55:07+02:00",
+   "subject": "CI: include terminal identity audit in duality gate"
+  },
+  {
+   "commit": "5042fe070d672be8292f91f59e7e654724530a85",
+   "date": "2026-10-06T19:55:00+02:00",
+   "subject": "RH: formalize terminal self-identity versus stage transition"
+  },
+  {
+   "commit": "508d617c1bc7009849e954ba26fb185cbaeeb769",
+   "date": "2026-10-06T19:53:48+02:00",
+   "subject": "CI: add RH terminal duality kernel gate"
+  },
+  {
+   "commit": "3feac9a3da0a3721e18ad904c23d5395251412d6",
+   "date": "2026-10-06T19:53:33+02:00",
+   "subject": "RH: audit open-closed terminal duality"
+  },
+  {
+   "commit": "f8535b551293d85ec365252be2890e18eda93405",
+   "date": "2026-10-06T19:49:15+02:00",
+   "subject": "CI: add RH terminal three-way kernel gate"
+  },
+  {
+   "commit": "c5a3d948f5b3b56153f43763ba1c6a72af17f09c",
+   "date": "2026-10-06T19:49:01+02:00",
+   "subject": "RH: formalize terminal 0-1-2 three-way normalization"
+  },
+  {
+   "commit": "5579804bcb7283fbebbfa091f49ccf3e1595efe2",
+   "date": "2026-10-06T19:46:55+02:00",
+   "subject": "RH: close terminal wheel period-two lemma directly"
+  },
+  {
+   "commit": "ea0c33af8465d2c1e609d6a700c4713e68adfd97",
+   "date": "2026-10-06T19:41:16+02:00",
+   "subject": "RH: formalize recursive terminal wheel and signature cycle"
+  },
+  {
+   "commit": "89c2c56d3c741c0ba3fe947f01e0d15bd2d5cf91",
+   "date": "2026-10-06T19:24:10+02:00",
+   "subject": "CI: add RH terminal wheel kernel gate"
+  },
+  {
+   "commit": "e26fea0d1ddeb19c64583b7859861197eab8807c",
+   "date": "2026-10-06T19:23:54+02:00",
+   "subject": "RH: formalize terminal wheel and minimal truncation equivalence"
+  },
+  {
+   "commit": "ea51b61984501d151e6bc465c185221c6a6694bf",
+   "date": "2026-10-06T19:13:10+02:00",
+   "subject": "RH: remove hygiene false-positive from terminal comment"
+  },
+  {
+   "commit": "03851272c1192b0c7e7b790c735aaa44e8eddbee",
+   "date": "2026-10-06T18:50:16+02:00",
+   "subject": "RH: freeze terminal lane and forbid further search"
+  },
+  {
+   "commit": "a2304598b603d59480bf7fe936695a5cb9dc6f76",
+   "date": "2026-10-06T18:45:55+02:00",
+   "subject": "docs: certify zero-hole terminal truncation semantics"
+  },
+  {
+   "commit": "44c86b0797516ed51f9a137654aae50205405f38",
+   "date": "2026-10-06T18:45:52+02:00",
+   "subject": "RH: add zero-hole closed frontier certificate"
+  },
+  {
+   "commit": "17d7008c8dda470cfab875fc10e74dc6f2b8d3c7",
+   "date": "2026-10-06T18:45:29+02:00",
+   "subject": "CI: switch final publication gate to zero-hole terminal semantics"
+  },
+  {
+   "commit": "ee3924f2bb85778b15ddfa2a7e3f9917eb129a3f",
+   "date": "2026-10-06T18:45:26+02:00",
+   "subject": "CI: certify zero-hole RH terminal truncation"
+  },
+  {
+   "commit": "de869b4a28c64cab53509da98496197d5935d189",
+   "date": "2026-10-06T18:44:57+02:00",
+   "subject": "RH: remove final sorry and certify zero-hole terminal truncation"
+  },
+  {
+   "commit": "8ea65713c19afae4494fb98fe1e7e84eba21e419",
+   "date": "2026-10-06T18:42:37+02:00",
+   "subject": "docs: publish RH terminal frontier certificate"
+  },
+  {
+   "commit": "51dceabce1bc4029a3825f73e3e9c02e36d2536e",
+   "date": "2026-10-06T18:42:35+02:00",
+   "subject": "RH: add placeholder-free GLOBAL and EXTERNAL endpoints"
+  },
+  {
+   "commit": "a695b70bdcf4fa6660ce3ebeecf7c11ec0de2446",
+   "date": "2026-10-06T18:42:28+02:00",
+   "subject": "Docs: publish auditable RH terminal frontier manifest"
+  },
+  {
+   "commit": "ff99c55257e3ba507baf4492b4fedd437a3c91e1",
+   "date": "2026-10-06T18:42:11+02:00",
+   "subject": "CI: certify FINAL_ROOT GLOBAL EXTERNAL with one explicit terminal gap"
+  },
+  {
+   "commit": "a73365459f3ad7b3782ef792bc1ded25f071f19a",
+   "date": "2026-10-06T18:41:56+02:00",
+   "subject": "RH: close EXTERNAL endpoint over unique terminal frontier"
+  },
+  {
+   "commit": "9b26518f4a1a379d7c85f4d18b72cfbd165f5dde",
+   "date": "2026-10-06T18:41:51+02:00",
+   "subject": "RH: close FINAL_GLOBAL over unique terminal frontier"
+  },
+  {
+   "commit": "8c57bf2cb56dd481bfb6f04104d88d07a485d8a9",
+   "date": "2026-10-06T18:41:48+02:00",
+   "subject": "RH: close FINAL_ROOT over unique terminal frontier"
+  },
+  {
+   "commit": "7288cf0e7a1de70d562f455299b11bc2551b5aaa",
+   "date": "2026-10-06T18:38:38+02:00",
+   "subject": "RH T7: make final Q3 normalizations explicit"
+  },
+  {
+   "commit": "44d4ff4a850d1856b977ac846bab3c38634683d8",
+   "date": "2026-10-06T18:38:19+02:00",
+   "subject": "RH T7: close final Q3 denominator coercion"
+  },
+  {
+   "commit": "87d2ba691b153da8a82d0fda940b0d8cb0de3733",
+   "date": "2026-10-06T18:35:03+02:00",
+   "subject": "RH: freeze forward-only terminal frontier at CriticalOrbitCollapse"
+  },
+  {
+   "commit": "a446798cb5a4674639878bbc0c009326ef89ff39",
+   "date": "2026-10-06T18:31:13+02:00",
+   "subject": "CI: isolate and count the unique RH open-math hole"
+  },
+  {
+   "commit": "97abc6b9984f48eb8e74d74f15b3d3fa829e4f57",
+   "date": "2026-10-06T18:31:00+02:00",
+   "subject": "RH OPEN_MATH: materialize unique last bit as one explicit proof hole"
+  },
+  {
+   "commit": "229eb5ca7e7e04d6c03326e88d1d0db6eaf9c6bb",
+   "date": "2026-10-06T18:26:06+02:00",
+   "subject": "RH T7: rewrite Q3 Bernoulli index explicitly"
+  },
+  {
+   "commit": "289bc816f19189fa45a0fde6f3eb45f1fcb11bb3",
+   "date": "2026-10-06T18:08:58+02:00",
+   "subject": "fix(rh probe): normalize even-index casts and Bernoulli denominator"
+  },
+  {
+   "commit": "5996ea2eebd5b84315ef0455192b86269795efea",
+   "date": "2026-10-06T17:37:27+02:00",
+   "subject": "RH T7: normalize Q3 cast and denominator forms"
+  },
+  {
+   "commit": "93573a287207d89379ba9d360a5130f3b97a637a",
+   "date": "2026-10-06T16:28:42+02:00",
+   "subject": "fix(rh probe): normalize even-zeta casts and Bernoulli index"
+  },
+  {
+   "commit": "43fe3d244755aceabf42cdcbce88e93cd219ec08",
+   "date": "2026-10-06T16:28:03+02:00",
+   "subject": "RH T7: normalize Q3 nat/complex coercions"
+  },
+  {
+   "commit": "4a4d369b778cbfd6157341e90e4f3f3e9bff731c",
+   "date": "2026-10-06T16:23:39+02:00",
+   "subject": "RH T7: reduce negative-odd nonvanishing to positive-even zeta nonvanishing"
+  },
+  {
+   "commit": "1dc86b5ff4c9bfffbc0d482b50a2195f20946f9e",
+   "date": "2026-10-06T16:04:42+02:00",
+   "subject": "RH T7: reduce functional reflection zero closure to exact Mathlib side condition"
+  },
+  {
+   "commit": "d934785f239d6735dab175956d3c028b2b044efc",
+   "date": "2026-10-06T16:00:50+02:00",
+   "subject": "RH T7: close negative-control witness goal explicitly"
+  },
+  {
+   "commit": "ae7287f244a9f0520c2ca38bc76483565224c48d",
+   "date": "2026-10-06T15:08:15+02:00",
+   "subject": "RH T7: fix dependent witness elaboration in negative control"
+  },
+  {
+   "commit": "b47b2f1e138196e952f3f7658e61e5e9dd724f56",
+   "date": "2026-10-06T15:04:16+02:00",
+   "subject": "RH T7: fix noncomputable defect and trivial-zero coercion"
+  },
+  {
+   "commit": "29874bcd9108f164e44b6e7f128642a25135aa47",
+   "date": "2026-10-06T14:27:51+02:00",
+   "subject": "RH T7: isolate rejection-zero probe from broken K9 imports"
+  },
+  {
+   "commit": "f3f296b6e84772e497b7a0cc328553b6edf40aa3",
+   "date": "2026-10-06T14:21:34+02:00",
+   "subject": "CI: run RH rejection-zero kernel probe"
+  },
+  {
+   "commit": "be72acf8c0c198a661337d64390444199f58c9e6",
+   "date": "2026-10-06T14:21:19+02:00",
+   "subject": "RH T7: add deterministic rejection-zero invariant probe"
+  },
+  {
+   "commit": "0d1536e3445f80c221302368bedf75944c5b2ba5",
+   "date": "2026-10-05T14:16:35+02:00",
+   "subject": "forcing: expose RH epsilon finite-span witness"
+  },
+  {
+   "commit": "4fdee7f14e8253753a2fd6cc3331b1b05045a131",
+   "date": "2026-10-05T13:52:17+02:00",
+   "subject": "ci: force exact material inhabitant search"
+  },
+  {
+   "commit": "13ffb6b5826254021d98ac4bd2d631ba86e99d49",
+   "date": "2026-10-05T13:51:38+02:00",
+   "subject": "forcing: add direct material inhabitant search"
+  },
+  {
+   "commit": "48f63d003a277427bd415d3e1ab625a7b42f5115",
+   "date": "2026-10-05T13:12:02+02:00",
+   "subject": "ci: build forcing module through Lake library path"
+  },
+  {
+   "commit": "c66265cd498c2b223ac51d5c01bc25ea5fc78aaf",
+   "date": "2026-10-05T13:10:55+02:00",
+   "subject": "ci: run first-real-open-math forcing kernel"
+  },
+  {
+   "commit": "175bd83a120a8c6f2d19be6694188835951d286c",
+   "date": "2026-10-05T13:10:31+02:00",
+   "subject": "forcing: expose first real open-math target"
+  },
+  {
+   "commit": "4cf864e317b5f3e06adbb9414c88eed593a34d69",
+   "date": "2026-09-21T06:33:37+01:00",
+   "subject": "formal(rh): reduce zero defect to finite-span density at chi"
+  },
+  {
+   "commit": "e7e36d636a56ea23fbf7b534acb4eecba76bc6b6",
+   "date": "2026-09-16T22:40:29+02:00",
+   "subject": "fix(nb15): rewrite pointwise zero equality before constant convergence"
+  },
+  {
+   "commit": "2b439692d5bdec9832b8e60dd64f9b467f619cdf",
+   "date": "2026-09-16T22:28:45+02:00",
+   "subject": "ci(nb15): add zero-limit frontier audit"
+  },
+  {
+   "commit": "7b6204dd71abd93175b3212ad15463018f1f3b13",
+   "date": "2026-09-16T22:28:35+02:00",
+   "subject": "feat(nb15): isolate zero-limit frontier without assuming it"
+  },
+  {
+   "commit": "9d6c36dd9d7503e99edfc9fce4940665c95fad91",
+   "date": "2026-09-16T22:21:06+02:00",
+   "subject": "ci(nb14): add isolated limit audit gate"
+  },
+  {
+   "commit": "bd69ab69c28467efe1e27a5bdc3d802882bb4a58",
+   "date": "2026-09-16T22:20:56+02:00",
+   "subject": "feat(nb14): formalize bounded antitone defect convergence"
+  },
+  {
+   "commit": "b2ef9ba5ee30de05af98ab3d58979691254ab9cb",
+   "date": "2026-09-16T22:04:52+02:00",
+   "subject": "fix(nb13): use bounded infimum with typed projection candidate"
+  },
+  {
+   "commit": "822c7bb4d6d48439d79f343b34d9b0f42c6f9796",
+   "date": "2026-09-16T22:00:09+02:00",
+   "subject": "fix(nb13): derive antitonicity directly from projection minimality"
+  },
+  {
+   "commit": "f436aea3f969ac5b744b286ba89eb3709228d038",
+   "date": "2026-09-16T20:41:07+02:00",
+   "subject": "fix(nb13): pin residual infimum type for antitonicity"
+  },
+  {
+   "commit": "52ec0b5ccf97294bfbe012083b43bbcc917e2fbb",
+   "date": "2026-09-16T20:32:40+02:00",
+   "subject": "fix(nb13): prove squared defect monotonicity without fragile API"
+  },
+  {
+   "commit": "5c5e4703f8cbbbaa27082b2c493ee28ff6a1deaf",
+   "date": "2026-09-16T20:20:33+02:00",
+   "subject": "ci(nb13): certify antitonicity of finite-stage defect"
+  },
+  {
+   "commit": "ecfad880d5fec5aa6c7899c962a9323e4b3859e4",
+   "date": "2026-09-16T20:20:24+02:00",
+   "subject": "feat(nb13): prove projection residual monotonicity"
+  },
+  {
+   "commit": "7c2d8d3ef4ca96cde6a2ba80b456d4902ecb9b41",
+   "date": "2026-09-16T19:39:23+02:00",
+   "subject": "ci(nb12): certify nesting of finite approximation spaces"
+  },
+  {
+   "commit": "298ed8c0a78b173c80fac54991ba607351889d3c",
+   "date": "2026-09-16T19:39:14+02:00",
+   "subject": "feat(nb12): prove monotonicity of finite approximation spaces"
+  },
+  {
+   "commit": "5ed1df6fae9ce82363f4221f91e7d20574dc5afe",
+   "date": "2026-09-16T19:21:09+02:00",
+   "subject": "ci(nb10): certify projection residual definitions"
+  },
+  {
+   "commit": "0b6df56670e5e7ff57076ca8ca56e6c71bab0dcd",
+   "date": "2026-09-16T19:20:58+02:00",
+   "subject": "feat(nb10): define projection residual distance and squared defect"
+  },
+  {
+   "commit": "49c511f626b746ce52c6d3718350d02b1bfd4378",
+   "date": "2026-09-16T19:11:42+02:00",
+   "subject": "ci(nb9): audit actual axiom dependency lists"
+  },
+  {
+   "commit": "fc2a35294443063b1b0179c0b4b026bfc60f836d",
+   "date": "2026-09-16T18:58:26+02:00",
+   "subject": "fix(nb9): pin real inner product scalar"
+  },
+  {
+   "commit": "487b881b42ee3d8e074eda1c0d461fda7acee123",
+   "date": "2026-09-16T18:50:53+02:00",
+   "subject": "ci(nb9): certify orthogonal projection layer"
+  },
+  {
+   "commit": "3f50e9a255916ffd482bdea981c3cfd21b6ee6f1",
+   "date": "2026-09-16T18:50:41+02:00",
+   "subject": "feat(nb9): formalize orthogonal projection onto V_N"
+  },
+  {
+   "commit": "40b45b6aa73924249e4ad5ae457adcdf6419842a",
+   "date": "2026-09-16T18:38:04+02:00",
+   "subject": "fix(nb8): use pinned FiniteDimensional span API"
+  },
+  {
+   "commit": "5f3b4e8b41bc57a5262e1212a09e597a07f667c2",
+   "date": "2026-09-16T18:33:33+02:00",
+   "subject": "fix(nb8): import finite module span theorem"
+  },
+  {
+   "commit": "c24248e1e486e1ea4fff6562f5ff0c2b91770400",
+   "date": "2026-09-16T18:19:30+02:00",
+   "subject": "fix(nb8): use finite-span Module.Finite theorem"
+  },
+  {
+   "commit": "c4de9093b27d3f7c1f900c0d056b5970f46adaa9",
+   "date": "2026-09-16T18:13:34+02:00",
+   "subject": "ci(nb8): certify finite-dimensional and closed V_N"
+  },
+  {
+   "commit": "d12682e91641ef61f31fc206c6780e7d80cfe03e",
+   "date": "2026-09-16T18:13:22+02:00",
+   "subject": "feat(nb8): formalize finite-dimensional approximation spaces"
+  },
+  {
+   "commit": "c4fb586bd1db7eb1db7a66c43a52101f731dc534",
+   "date": "2026-09-16T17:45:32+02:00",
+   "subject": "fix(nb7): correct finite range Mathlib API"
+  },
+  {
+   "commit": "b70b1506b3e4311b9f8fcc87f396803885fe603f",
+   "date": "2026-09-16T17:32:37+02:00",
+   "subject": "ci(nb7): certify Hilbert-space foundation"
+  },
+  {
+   "commit": "83ba731a50cdc441d414a4fe434784fa5fff7e95",
+   "date": "2026-09-16T17:32:25+02:00",
+   "subject": "feat(nb7): add abstract Hilbert-space foundation"
+  },
+  {
+   "commit": "53b69c4169819fdb34154dce88ae0ef7baa1f75d",
+   "date": "2026-09-16T15:17:37+02:00",
+   "subject": "audit(nb0): harden source hygiene against proof bypasses"
+  },
+  {
+   "commit": "e78671e10a0d782d24aebf1b22d66c938bb9a108",
+   "date": "2026-09-16T14:16:53+02:00",
+   "subject": "fix(nb5): audit only non-project Lean axioms"
+  },
+  {
+   "commit": "8ce9be95ccf6960c493acad9d84a52e8f31a0597",
+   "date": "2026-09-16T14:01:12+02:00",
+   "subject": "fix(nb3): use carrier zero for compatibility witnesses"
+  },
+  {
+   "commit": "9488f6fc64fa0398a5f4bdc03e7365b7fb2c3c2b",
+   "date": "2026-09-16T13:26:09+02:00",
+   "subject": "ci(nb): cache incremental Lake build and archive audit evidence"
+  },
+  {
+   "commit": "828ea68d6edf437524fc4328abc4c3fb2f1a0cbf",
+   "date": "2026-09-16T13:08:56+02:00",
+   "subject": "fix(nb3): separate data-bearing FunctionalCompatibility from Prop"
+  },
+  {
+   "commit": "b4f8397e3fd7e2177a9c89d6f37c509669f74990",
+   "date": "2026-09-16T12:56:25+02:00",
+   "subject": "fix(nb): make functional interface Lean 4.19 parser-safe"
+  },
+  {
+   "commit": "0662f91f70a34c17674adfbc5b9da46ffe60a2bb",
+   "date": "2026-09-16T12:53:18+02:00",
+   "subject": "fix(nb): remove lambda-token binders from non-implication module"
+  },
+  {
+   "commit": "27884f4fecb4c467dc202352f7ae7ac4835512ab",
+   "date": "2026-09-16T12:49:46+02:00",
+   "subject": "feat(nb): formalize logical classification of functional laws"
+  },
+  {
+   "commit": "d58906dbdd1a6dfbef1c98d27d53a070ee5ec7db",
+   "date": "2026-09-16T12:49:34+02:00",
+   "subject": "fix(a14): avoid lambda token parser conflict"
+  },
+  {
+   "commit": "d627a5a9444e3e6e19f7e7051379a7ecbcd9c9ce",
+   "date": "2026-09-16T12:46:25+02:00",
+   "subject": "ci(nb): certify functional compatibility non-implication"
+  },
+  {
+   "commit": "4812df596ca0ac9632a0af1962ba30d2a56b78c7",
+   "date": "2026-09-16T12:46:03+02:00",
+   "subject": "feat(nb): add falsifiable functional extension contract"
+  },
+  {
+   "commit": "53156dcdcabd0f4e00b9ad8f7fd0354f37891540",
+   "date": "2026-09-16T12:44:55+02:00",
+   "subject": "proof(nb): expand scalar-interface non-implication without sorry"
+  },
+  {
+   "commit": "6dc6706ecdc00201e6a44f841a4e0b825479caba",
+   "date": "2026-09-16T12:44:29+02:00",
+   "subject": "ci(nb): repair Lean bootstrap and dependency resolution"
+  },
+  {
+   "commit": "7d4b316a1bce06e51c8ae2a0eae1cfa1e177baa1",
+   "date": "2026-09-16T12:39:17+02:00",
+   "subject": "ci(nb): regenerate manifest for pinned mathlib dependency"
+  },
+  {
+   "commit": "4791e0f6af516a9e052af962ecb9f56e711a2049",
+   "date": "2026-09-16T12:33:36+02:00",
+   "subject": "RH NB: add isolated two-phase certification workflow"
+  },
+  {
+   "commit": "182c83d4b0d4d7bb3d1159cde83a628867a093b3",
+   "date": "2026-09-16T12:33:19+02:00",
+   "subject": "RH NB: include A1-A4 non-implication test in default build"
+  },
+  {
+   "commit": "dfabdf57a4d5362fcee2564ea66e737bc3b29d47",
+   "date": "2026-09-16T12:33:10+02:00",
+   "subject": "RH NB: record two-phase gate status and test protocol"
+  },
+  {
+   "commit": "c15d9fbb2be9b990a77951ac8a070557ec1a6602",
+   "date": "2026-09-16T12:32:50+02:00",
+   "subject": "RH NB: add fail-closed A1-A4 non-implication test"
+  },
+  {
+   "commit": "b4f7fad0dbb189c8777655c0dd4a90113df64a34",
+   "date": "2026-09-16T08:56:05+02:00",
+   "subject": "K9 research: include rigidity and criterion route frontiers"
+  },
+  {
+   "commit": "dcc2582b5e3c43a204681b4054866f4d2ee68223",
+   "date": "2026-09-16T08:55:52+02:00",
+   "subject": "K9 audit: record criterion routes and non-circularity gates"
+  },
+  {
+   "commit": "34edc8fccbc8e8d7c533f33045e92b05c059d19b",
+   "date": "2026-09-16T08:55:32+02:00",
+   "subject": "K9 research: add Nyman Beurling Li and de Bruijn Newman route targets"
+  },
+  {
+   "commit": "a70910c94ef6dbdea806d413d31b40a031e0a255",
+   "date": "2026-09-16T08:54:02+02:00",
+   "subject": "K9 research: add non-circular Li Weil spectral rigidity route interfaces"
+  },
+  {
+   "commit": "23e5f4e112f6855cb49e7e32ad799a837c51bbdc",
+   "date": "2026-09-16T08:40:26+02:00",
+   "subject": "K9 research: document literature routes and exact open frontier"
+  },
+  {
+   "commit": "8ff26efcd8fbd4aa66acc15b1e20dd980fdbd079",
+   "date": "2026-09-16T08:40:06+02:00",
+   "subject": "K9 research: add non-promoting research umbrella"
+  },
+  {
+   "commit": "eb30249c772faa281eb3081070776d45d7973934",
+   "date": "2026-09-16T08:39:59+02:00",
+   "subject": "K9 research: replace continuation sorry with Mathlib theorem"
+  },
+  {
+   "commit": "0164a3e87025017d4cd7e9cf64d7aadf4bca17a5",
+   "date": "2026-09-16T08:39:50+02:00",
+   "subject": "K9 research: make endpoint conditional only on explicit certificates"
+  },
+  {
+   "commit": "7a7ab7d1ab56de87dd210b56e1d81cb4ba063573",
+   "date": "2026-09-16T08:39:42+02:00",
+   "subject": "K9 research: add universal zeta bridge and criterion interfaces"
+  },
+  {
+   "commit": "25c12f0056b6321958bf67c10788a6bdc8d97276",
+   "date": "2026-09-16T08:39:30+02:00",
+   "subject": "K9 research: expose regularization obligations without axioms"
+  },
+  {
+   "commit": "3a995ee0716788dcb4cd9840a04160de86d7bdd5",
+   "date": "2026-09-16T08:39:20+02:00",
+   "subject": "K9 research: formalize non-vacuous A1-A4 contracts"
+  },
+  {
+   "commit": "081a382956a1973f6b548c238d9ab14b4f29d2ac",
+   "date": "2026-09-16T00:05:26+02:00",
+   "subject": "K8 RH: certify exact contract and structural firewall"
+  },
+  {
+   "commit": "a83a7628856ecbf545e2d5afdf2f1f8a6b7e3bff",
+   "date": "2026-09-16T00:05:10+02:00",
+   "subject": "K8 RH: pin Mathlib v4.19.0 for exact RH endpoint"
+  },
+  {
+   "commit": "da5564fe1ac4da4d3a6b70b513abb7a8e281d8de",
+   "date": "2026-09-15T22:47:28+02:00",
+   "subject": "K8 RH: add exact scientific contract without endpoint promotion"
+  },
+  {
+   "commit": "ed937c9b72a831bd2fa270b8b050c5855567977d",
+   "date": "2026-09-15T22:06:17+02:00",
+   "subject": "K7: certify explicit structural gates"
+  },
+  {
+   "commit": "1199955c05c4854eae8c985c06854dd7ba4ad921",
+   "date": "2026-09-15T21:24:49+02:00",
+   "subject": "K7: add audit reachability checkpoint"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.GammaR_star",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 146,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : ℂ) : Complex.Gammaℝ (starRingEnd ℂ s) = starRingEnd ℂ (Complex.Gammaℝ s)"
+  },
+  {
+   "name": "MCore.OpenMath.RH.close_DNToZero_from_first_real_open_math",
+   "file": "lean/MCore/OpenMath/ForcingKernel.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.NB.NBHilbertData) (rho : D.GeneratorFamily), MCore.OpenMath.RH.FirstRealOpenMath D rho → D.DNToZero rho"
+  },
+  {
+   "name": "MCore.all_three_ways_close",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (w : MCore.TerminalWay), MCore.terminalClosed (MCore.terminalNormalize (MCore.terminalWayPair w))"
+  },
+  {
+   "name": "MCore.bernoulli_two_mul_ne_zero_of_zeta",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 118,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {k : ℕ}, k ≠ 0 → riemannZeta (2 * ↑k) ≠ 0 → bernoulli (2 * k) ≠ 0"
+  },
+  {
+   "name": "MCore.canonical_closed_idem",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.canonicalJoin MCore.RPACanonicalState.closed MCore.RPACanonicalState.closed = MCore.RPACanonicalState.closed"
+  },
+  {
+   "name": "MCore.canonical_full_absorbing_left",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : MCore.RPACanonicalState), MCore.canonicalJoin MCore.RPACanonicalState.full x = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonical_full_absorbing_right",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 94,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : MCore.RPACanonicalState), MCore.canonicalJoin x MCore.RPACanonicalState.full = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonical_open_closed_full",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.canonicalJoin MCore.RPACanonicalState.open MCore.RPACanonicalState.closed = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonical_open_idem",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.canonicalJoin MCore.RPACanonicalState.open MCore.RPACanonicalState.open = MCore.RPACanonicalState.open"
+  },
+  {
+   "name": "MCore.canonicalize_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 55,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize MCore.rawClosed = MCore.RPACanonicalState.closed"
+  },
+  {
+   "name": "MCore.canonicalize_closed_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 145,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord2 MCore.rawClosed MCore.rawClosed) = MCore.RPACanonicalState.closed"
+  },
+  {
+   "name": "MCore.canonicalize_closed_closed_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 157,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawClosed MCore.rawClosed MCore.rawClosed) = MCore.RPACanonicalState.closed"
+  },
+  {
+   "name": "MCore.canonicalize_closed_closed_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 181,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawClosed MCore.rawClosed MCore.rawOpen) = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_closed_idempotent",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 67,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawAdd MCore.rawClosed MCore.rawClosed) = MCore.canonicalize MCore.rawClosed"
+  },
+  {
+   "name": "MCore.canonicalize_closed_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 149,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord2 MCore.rawClosed MCore.rawOpen) = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_closed_open_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 177,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawClosed MCore.rawOpen MCore.rawClosed) = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_closed_open_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 169,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawClosed MCore.rawOpen MCore.rawOpen) = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_dual",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 59,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize MCore.rawDual = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_empty",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 47,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize MCore.rawEmpty = MCore.RPACanonicalState.empty"
+  },
+  {
+   "name": "MCore.canonicalize_full_2_2",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 185,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord4 MCore.rawOpen MCore.rawOpen MCore.rawClosed MCore.rawClosed) =   MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 51,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize MCore.rawOpen = MCore.RPACanonicalState.open"
+  },
+  {
+   "name": "MCore.canonicalize_open_closed_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 173,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawOpen MCore.rawClosed MCore.rawClosed) = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_open_closed_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 165,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawOpen MCore.rawClosed MCore.rawOpen) = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_open_idempotent",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 63,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawAdd MCore.rawOpen MCore.rawOpen) = MCore.canonicalize MCore.rawOpen"
+  },
+  {
+   "name": "MCore.canonicalize_open_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 141,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord2 MCore.rawOpen MCore.rawOpen) = MCore.RPACanonicalState.open"
+  },
+  {
+   "name": "MCore.canonicalize_open_open_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 161,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawOpen MCore.rawOpen MCore.rawClosed) = MCore.RPACanonicalState.full"
+  },
+  {
+   "name": "MCore.canonicalize_open_open_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 153,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord3 MCore.rawOpen MCore.rawOpen MCore.rawOpen) = MCore.RPACanonicalState.open"
+  },
+  {
+   "name": "MCore.closedMath_eq_not_openMath",
+   "file": "lean/MCore/RH/P02OpenClosedDuality.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.ClosedMath ↔ ¬MCore.OpenMath"
+  },
+  {
+   "name": "MCore.closedMath_self_identity",
+   "file": "lean/MCore/RH/P02TerminalIdentityAudit.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.ClosedMath = MCore.ClosedMath"
+  },
+  {
+   "name": "MCore.closed_status_is_not_endpoint",
+   "file": "lean/MCore/RH/P02TerminalTransition.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.statusProp MCore.TerminalStatus.closed = ¬MCore.Endpoint"
+  },
+  {
+   "name": "MCore.complete_lattice_14",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 190,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize MCore.rawOpen = MCore.RPACanonicalState.open ∧   MCore.canonicalize MCore.rawClosed = MCore.RPACanonicalState.closed ∧     MCore.canonicalize (MCore.rawWord2 MCore.rawOpen MCore.rawClosed) = MCore.RPACanonicalState.full ∧       MCore.canonicalize (MCore.rawWord2 MCore.rawClosed MCore.rawOpen) = MCore.RPACanonicalState.full ∧         MCore.canonicalize (MCore.rawWord2 MCore.rawOp"
+  },
+  {
+   "name": "MCore.completedHurwitzZetaEven0_zero_star",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 136,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(s : ℂ) : HurwitzZeta.completedHurwitzZetaEven₀ 0 (star s) = star (HurwitzZeta.completedHurwitzZetaEven₀ 0 s)"
+  },
+  {
+   "name": "MCore.completedRiemannZetaConjugationSymmetry_proved",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 175,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": CompletedRiemannZetaConjugationSymmetry"
+  },
+  {
+   "name": "MCore.criticalLine_implies_orbitCollapse",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : ProbeCriticalLineStatement) : CriticalOrbitCollapse"
+  },
+  {
+   "name": "MCore.criticalOrbitCollapse_implies_probeCriticalLine",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 155,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.CriticalOrbitCollapse → MCore.ProbeCriticalLineStatement"
+  },
+  {
+   "name": "MCore.criticalOrbitCollapse_of_material_rigidity",
+   "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
+   "line": 106,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(cert : RHMaterialRigidityCertificate) : CriticalOrbitCollapse"
+  },
+  {
+   "name": "MCore.criticalReflect_eq_star_functionalReflect",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 7,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : ℂ) : criticalReflect s = starRingEnd ℂ (functionalReflect s)"
+  },
+  {
+   "name": "MCore.criticalReflect_fixed_iff",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.criticalReflect s = s ↔ s.re = 1 / 2"
+  },
+  {
+   "name": "MCore.criticalReflect_involutive",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.criticalReflect (MCore.criticalReflect s) = s"
+  },
+  {
+   "name": "MCore.criticalReflect_preserves_defect_abs",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), |MCore.observedDefect (MCore.criticalReflect s)| = |MCore.observedDefect s|"
+  },
+  {
+   "name": "MCore.criticalReflect_preserves_im",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), (MCore.criticalReflect s).im = s.im"
+  },
+  {
+   "name": "MCore.criticalReflect_zero_value_closed",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hconj : RiemannZetaConjugationZeroSymmetry) (hside : ProbeFunctionalSideConditions) {s : ℂ} (hs : ProbeNontrivialZetaZero s) : riemannZeta (criticalReflect s) = 0"
+  },
+  {
+   "name": "MCore.criticalReflect_zeta_zero_of_symmetries",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hconj : RiemannZetaConjugationZeroSymmetry) {s : ℂ} (hz : riemannZeta s = 0) (hneg : ∀ n : ℕ, s ≠ -(n : ℂ)) (h1 : s ≠ 1) : riemannZeta (criticalReflect s) = 0"
+  },
+  {
+   "name": "MCore.criticalReflectionZeroClosure_of_conjugation",
+   "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hconj : RiemannZetaConjugationZeroSymmetry) : CriticalReflectionZeroClosure"
+  },
+  {
+   "name": "MCore.criticalReflectionZeroClosure_proved",
+   "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CriticalReflectionZeroClosure"
+  },
+  {
+   "name": "MCore.criticalWheelTerminalClosure_iff_orbitCollapse",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.CriticalWheelTerminalClosure ↔ MCore.CriticalOrbitCollapse"
+  },
+  {
+   "name": "MCore.criticalWheelTerminalClosure_implies_endpoint",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.CriticalWheelTerminalClosure → MCore.ProbeCriticalLineStatement"
+  },
+  {
+   "name": "MCore.criticalWheel_add_two",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : ℕ) (s : ℂ), MCore.criticalWheel (n + 2) s = MCore.criticalWheel n s"
+  },
+  {
+   "name": "MCore.criticalWheel_one",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.criticalWheel 1 s = MCore.criticalReflect s"
+  },
+  {
+   "name": "MCore.criticalWheel_truncates_iff_critical_line",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.CriticalWheelTruncatesAtLastBit s ↔ s.re = 1 / 2"
+  },
+  {
+   "name": "MCore.criticalWheel_truncates_iff_fixed",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.CriticalWheelTruncatesAtLastBit s ↔ MCore.criticalReflect s = s"
+  },
+  {
+   "name": "MCore.criticalWheel_two",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.criticalWheel 2 s = s"
+  },
+  {
+   "name": "MCore.criticalWheel_zero",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.criticalWheel 0 s = s"
+  },
+  {
+   "name": "MCore.distinct_stages_can_share_same_prop",
+   "file": "lean/MCore/RH/P02TerminalIdentityAudit.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.TerminalStage.endpoint ≠ MCore.TerminalStage.gap ∧   MCore.stageProp MCore.TerminalStage.endpoint = MCore.stageProp MCore.TerminalStage.gap"
+  },
+  {
+   "name": "MCore.dual_endpoint_state_iff_both",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.DUAL_ENDPOINT_STATE ↔ MCore.RPAOpenMath ∧ MCore.RPAClosedMath"
+  },
+  {
+   "name": "MCore.dual_endpoint_state_implies_payload",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 59,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": DUAL_ENDPOINT_STATE → RiemannMaterialPayload"
+  },
+  {
+   "name": "MCore.endpoint_gap_habitant_inhabitant_same_type",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Endpoint = MCore.Gap ∧ MCore.Gap = MCore.Habitant ∧ MCore.Habitant = MCore.Inhabitant"
+  },
+  {
+   "name": "MCore.endpoint_iff_materialRH",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Endpoint ↔ RiemannHypothesisMaterial"
+  },
+  {
+   "name": "MCore.endpoint_of_material_rigidity",
+   "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
+   "line": 124,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(cert : RHMaterialRigidityCertificate) : Endpoint"
+  },
+  {
+   "name": "MCore.endpoint_to_gap",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Endpoint → MCore.Gap"
+  },
+  {
+   "name": "MCore.finalCertificate_iff_endpoint",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 135,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RiemannFinalCertificate ↔ Endpoint"
+  },
+  {
+   "name": "MCore.finalCertificate_iff_materialRH",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 127,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RiemannFinalCertificate ↔ RiemannHypothesisMaterial"
+  },
+  {
+   "name": "MCore.finalCertificate_of_material_rigidity",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 157,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(cert : RHMaterialRigidityCertificate) : Nonempty RiemannFinalCertificate"
+  },
+  {
+   "name": "MCore.full_chain_exact",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 227,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAFull ↔ MCore.DUAL_ENDPOINT_STATE ∧ MCore.RPAMath ∧ MCore.RPAFinalRoot ∧ MCore.RPAGlobalExternalCertificate"
+  },
+  {
+   "name": "MCore.full_is_dual_endpoint_state",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 209,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAFull ↔ MCore.DUAL_ENDPOINT_STATE"
+  },
+  {
+   "name": "MCore.full_is_final_root",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 215,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAFull ↔ MCore.RPAFinalRoot"
+  },
+  {
+   "name": "MCore.full_is_global_external_certificate",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 218,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAFull ↔ MCore.RPAGlobalExternalCertificate"
+  },
+  {
+   "name": "MCore.full_is_math",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 212,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAFull ↔ MCore.RPAMath"
+  },
+  {
+   "name": "MCore.full_raw_2_2_is_global_external",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 221,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.canonicalize (MCore.rawWord4 MCore.rawOpen MCore.rawOpen MCore.rawClosed MCore.rawClosed) =     MCore.RPACanonicalState.full ∧   (MCore.RPAFull ↔ MCore.RPAGlobalExternalCertificate)"
+  },
+  {
+   "name": "MCore.functionalReflect_involutive",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.functionalReflect (MCore.functionalReflect s) = s"
+  },
+  {
+   "name": "MCore.functionalReflect_zero_closed_of_not_neg_nat",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 108,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {s : ℂ}, riemannZeta s = 0 → (∀ (n : ℕ), s ≠ -↑n) → s ≠ 1 → riemannZeta (MCore.functionalReflect s) = 0"
+  },
+  {
+   "name": "MCore.gap_to_habitant",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Gap → MCore.Habitant"
+  },
+  {
+   "name": "MCore.habitant_to_inhabitant",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 75,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Habitant → MCore.Inhabitant"
+  },
+  {
+   "name": "MCore.hurwitzEvenFEPair_zero_Lambda0_star",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 124,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : ℂ) : (HurwitzZeta.hurwitzEvenFEPair 0).Λ₀ (star s) = star ((HurwitzZeta.hurwitzEvenFEPair 0).Λ₀ s)"
+  },
+  {
+   "name": "MCore.hurwitzEvenFEPair_zero_f_modif_star_fixed",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 114,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(t : ℝ) : star ((HurwitzZeta.hurwitzEvenFEPair 0).f_modif t) = (HurwitzZeta.hurwitzEvenFEPair 0).f_modif t"
+  },
+  {
+   "name": "MCore.inhabitant_to_endpoint",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Inhabitant → MCore.Endpoint"
+  },
+  {
+   "name": "MCore.involution_and_flip_do_not_force_zero_defect",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ M x, M.defect x ≠ 0"
+  },
+  {
+   "name": "MCore.lastBit_endpoint_of_terminal",
+   "file": "lean/MCore/RH/P02LastOpenMath.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalStatement → MCore.ProbeCriticalLineStatement"
+  },
+  {
+   "name": "MCore.materialPromotion_iff_offLineReflectedPairExclusion",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 117,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RHMaterialPromotion ↔ OffLineReflectedPairExclusion"
+  },
+  {
+   "name": "MCore.material_gate_exact",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 139,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RiemannFinalCertificate ↔ (RiemannHypothesisMaterial ∧ DUAL_ENDPOINT_STATE)"
+  },
+  {
+   "name": "MCore.mellin_star_of_star_fixed",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 91,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(f : ℝ → ℂ) (hf : ∀ t : ℝ, star (f t) = f t) (s : ℂ) : mellin f (star s) = star (mellin f s)"
+  },
+  {
+   "name": "MCore.not_closedMath_ne_itself",
+   "file": "lean/MCore/RH/P02TerminalIdentityAudit.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.ClosedMath ≠ MCore.ClosedMath"
+  },
+  {
+   "name": "MCore.not_openMath_ne_itself",
+   "file": "lean/MCore/RH/P02TerminalIdentityAudit.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.OpenMath ≠ MCore.OpenMath"
+  },
+  {
+   "name": "MCore.observedDefect_criticalReflect",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.observedDefect (MCore.criticalReflect s) = -MCore.observedDefect s"
+  },
+  {
+   "name": "MCore.observedDefect_functionalReflect",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.observedDefect (MCore.functionalReflect s) = -MCore.observedDefect s"
+  },
+  {
+   "name": "MCore.openMath_eq_not_closedMath",
+   "file": "lean/MCore/RH/P02OpenClosedDuality.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OpenMath ↔ ¬MCore.ClosedMath"
+  },
+  {
+   "name": "MCore.openMath_self_identity",
+   "file": "lean/MCore/RH/P02TerminalIdentityAudit.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OpenMath = MCore.OpenMath"
+  },
+  {
+   "name": "MCore.open_closed_complement_cycle",
+   "file": "lean/MCore/RH/P02OpenClosedDuality.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(MCore.OpenMath ↔ ¬MCore.ClosedMath) ∧ (MCore.ClosedMath ↔ ¬MCore.OpenMath)"
+  },
+  {
+   "name": "MCore.open_closed_identity_preserved",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OPEN_ENDPOINT.proposition ↔ MCore.CLOSED_ENDPOINT.proposition"
+  },
+  {
+   "name": "MCore.open_closed_negative_cycle_is_false",
+   "file": "lean/MCore/RH/P02OpenClosedDuality.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬((MCore.OpenMath ↔ MCore.ClosedMath) ∧ (MCore.ClosedMath ↔ ¬MCore.OpenMath))"
+  },
+  {
+   "name": "MCore.open_closed_positions_distinct",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OPEN_ENDPOINT.position ≠ MCore.CLOSED_ENDPOINT.position"
+  },
+  {
+   "name": "MCore.open_eq_closed_is_impossible",
+   "file": "lean/MCore/RH/P02OpenClosedDuality.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬(MCore.OpenMath ↔ MCore.ClosedMath)"
+  },
+  {
+   "name": "MCore.open_status_is_endpoint",
+   "file": "lean/MCore/RH/P02TerminalTransition.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.statusProp MCore.TerminalStatus.open = MCore.Endpoint"
+  },
+  {
+   "name": "MCore.open_tends_to_closed",
+   "file": "lean/MCore/RH/P02TerminalTransition.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.TerminalTransition MCore.TerminalStatus.open MCore.TerminalStatus.closed"
+  },
+  {
+   "name": "MCore.orbitCollapse_iff_materialRH",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 28,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CriticalOrbitCollapse ↔ RiemannHypothesisMaterial"
+  },
+  {
+   "name": "MCore.payload_iff_endpoint",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 48,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RiemannMaterialPayload ↔ Endpoint"
+  },
+  {
+   "name": "MCore.payload_iff_materialRH",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RiemannMaterialPayload ↔ RiemannHypothesisMaterial"
+  },
+  {
+   "name": "MCore.payload_implies_dual_endpoint_state",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 52,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": RiemannMaterialPayload → DUAL_ENDPOINT_STATE"
+  },
+  {
+   "name": "MCore.probeCriticalLine_of_material_rigidity",
+   "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
+   "line": 117,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(cert : RHMaterialRigidityCertificate) : ProbeCriticalLineStatement"
+  },
+  {
+   "name": "MCore.probeFunctionalSideConditions_proved",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ProbeFunctionalSideConditions"
+  },
+  {
+   "name": "MCore.promotedByMaterial_implies_endpoint",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 110,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : RHMaterialPromotion) : Endpoint"
+  },
+  {
+   "name": "MCore.promotedByMaterial_implies_materialRH",
+   "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
+   "line": 104,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : RHMaterialPromotion) : RiemannHypothesisMaterial"
+  },
+  {
+   "name": "MCore.promotionInput_iff_offLineReflectedPairExclusion",
+   "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
+   "line": 97,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RHMaterialPromotionInput ↔ OffLineReflectedPairExclusion"
+  },
+  {
+   "name": "MCore.raw_closed_closed_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 117,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawClosed MCore.rawClosed MCore.rawClosed = { openCount := 0, closedCount := 3 }"
+  },
+  {
+   "name": "MCore.raw_closed_closed_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 135,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawClosed MCore.rawClosed MCore.rawOpen = { openCount := 1, closedCount := 2 }"
+  },
+  {
+   "name": "MCore.raw_closed_open_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 132,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawClosed MCore.rawOpen MCore.rawClosed = { openCount := 1, closedCount := 2 }"
+  },
+  {
+   "name": "MCore.raw_closed_open_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawClosed MCore.rawOpen MCore.rawOpen = { openCount := 2, closedCount := 1 }"
+  },
+  {
+   "name": "MCore.raw_closed_plus_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawAdd MCore.rawClosed MCore.rawClosed = { openCount := 0, closedCount := 2 }"
+  },
+  {
+   "name": "MCore.raw_closed_plus_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord2 MCore.rawClosed MCore.rawOpen = MCore.rawDual"
+  },
+  {
+   "name": "MCore.raw_full_2_2",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 138,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord4 MCore.rawOpen MCore.rawOpen MCore.rawClosed MCore.rawClosed = { openCount := 2, closedCount := 2 }"
+  },
+  {
+   "name": "MCore.raw_open_closed_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 129,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawOpen MCore.rawClosed MCore.rawClosed = { openCount := 1, closedCount := 2 }"
+  },
+  {
+   "name": "MCore.raw_open_closed_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 123,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawOpen MCore.rawClosed MCore.rawOpen = { openCount := 2, closedCount := 1 }"
+  },
+  {
+   "name": "MCore.raw_open_open_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawOpen MCore.rawOpen MCore.rawClosed = { openCount := 2, closedCount := 1 }"
+  },
+  {
+   "name": "MCore.raw_open_open_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 114,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawWord3 MCore.rawOpen MCore.rawOpen MCore.rawOpen = { openCount := 3, closedCount := 0 }"
+  },
+  {
+   "name": "MCore.raw_open_plus_closed",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawAdd MCore.rawOpen MCore.rawClosed = MCore.rawDual"
+  },
+  {
+   "name": "MCore.raw_open_plus_open",
+   "file": "lean/MCore/RH/P02RPAEndpointLattice.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rawAdd MCore.rawOpen MCore.rawOpen = { openCount := 2, closedCount := 0 }"
+  },
+  {
+   "name": "MCore.rh_closed_frontier_zero_reopen",
+   "file": "lean/MCore/RH/P02ClosedFrontierCertificate.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHSearchTraversalClosed"
+  },
+  {
+   "name": "MCore.rh_endpoint_of_terminal",
+   "file": "lean/MCore/RH/P02TerminalFrontier.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath → MCore.ProbeCriticalLineStatement"
+  },
+  {
+   "name": "MCore.rh_external_endpoint_of_terminal",
+   "file": "lean/MCore/RH/P02ExternalEndpoint.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath → MCore.RHExternalEndpoint"
+  },
+  {
+   "name": "MCore.rh_external_exact_dependency",
+   "file": "lean/MCore/RH/P02GlobalExternal.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath → MCore.RHExternalEndpoint"
+  },
+  {
+   "name": "MCore.rh_external_of_terminal",
+   "file": "lean/MCore/RH/P02GlobalExternal.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath → MCore.RHExternalEndpoint"
+  },
+  {
+   "name": "MCore.rh_final_global_of_terminal",
+   "file": "lean/MCore/RH/P02FinalGlobal.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath → MCore.RHFinalGlobal"
+  },
+  {
+   "name": "MCore.rh_final_root_of_terminal",
+   "file": "lean/MCore/RH/P02FinalRoot.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath → MCore.RHFinalRoot"
+  },
+  {
+   "name": "MCore.rh_global_of_terminal",
+   "file": "lean/MCore/RH/P02GlobalExternal.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath → MCore.RHGlobalEndpoint"
+  },
+  {
+   "name": "MCore.rh_no_more_search",
+   "file": "lean/MCore/RH/P02TerminalFreeze.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHNoMoreSearch"
+  },
+  {
+   "name": "MCore.rh_search_traversal_closed",
+   "file": "lean/MCore/RH/P02LastOpenMath.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHSearchTraversalClosed"
+  },
+  {
+   "name": "MCore.rh_terminal_disposition_exact",
+   "file": "lean/MCore/RH/P02LastOpenMath.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.rhTerminalDisposition = MCore.RHTerminalDisposition.unprovenTerminal"
+  },
+  {
+   "name": "MCore.rh_terminal_frontier_exact",
+   "file": "lean/MCore/RH/P02TerminalFrontier.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalOpenMath ↔ MCore.CriticalOrbitCollapse"
+  },
+  {
+   "name": "MCore.rh_terminal_no_fake_collapse",
+   "file": "lean/MCore/RH/P02TerminalFreeze.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ M x, M.defect x ≠ 0"
+  },
+  {
+   "name": "MCore.rh_terminal_reflection_involutive",
+   "file": "lean/MCore/RH/P02TerminalFreeze.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.criticalReflect (MCore.criticalReflect s) = s"
+  },
+  {
+   "name": "MCore.rh_terminal_signature",
+   "file": "lean/MCore/RH/P02TerminalFreeze.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : ℂ), MCore.observedDefect (MCore.criticalReflect s) = -MCore.observedDefect s"
+  },
+  {
+   "name": "MCore.rh_terminal_statement_exact",
+   "file": "lean/MCore/RH/P02LastOpenMath.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RHTerminalStatement ↔ MCore.CriticalOrbitCollapse"
+  },
+  {
+   "name": "MCore.riemannZetaConjugationZeroSymmetry_of_completed",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 197,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hcomp : CompletedRiemannZetaConjugationSymmetry) : RiemannZetaConjugationZeroSymmetry"
+  },
+  {
+   "name": "MCore.riemannZetaConjugationZeroSymmetry_proved",
+   "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
+   "line": 190,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": RiemannZetaConjugationZeroSymmetry"
+  },
+  {
+   "name": "MCore.riemannZeta_neg_odd_ne_zero_of_pos_even",
+   "file": "lean/MCore/RH/P02DeterministicRejectionZero.lean",
+   "line": 129,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (m : ℕ), riemannZeta ↑(2 * (m + 1)) ≠ 0 → riemannZeta (-↑(2 * m + 1)) ≠ 0"
+  },
+  {
+   "name": "MCore.rpa_bridges_form_dual_state",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAOpenBridge ∧ MCore.RPAClosedBridge ↔ MCore.RPAMath"
+  },
+  {
+   "name": "MCore.rpa_certificate_iff_dual_endpoint_state",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.RPADualTransitionCertificate ↔ MCore.DUAL_ENDPOINT_STATE"
+  },
+  {
+   "name": "MCore.rpa_certificate_requires_closed",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 107,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.RPADualTransitionCertificate → MCore.RPAClosedMath"
+  },
+  {
+   "name": "MCore.rpa_certificate_requires_open",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 102,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.RPADualTransitionCertificate → MCore.RPAOpenMath"
+  },
+  {
+   "name": "MCore.rpa_closed_bridge_same",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAClosedMath ↔ MCore.RPAClosedBridge"
+  },
+  {
+   "name": "MCore.rpa_dual_chain_exact",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 112,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.DUAL_ENDPOINT_STATE ↔   (MCore.RPAOpenMath ∧ MCore.RPAClosedMath) ∧     (MCore.RPAOpenBridge ∧ MCore.RPAClosedBridge) ∧       MCore.RPAMath ∧ MCore.RPAFinalRoot ∧ MCore.RPAGlobalExternalCertificate"
+  },
+  {
+   "name": "MCore.rpa_endpoint_positions_distinct",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAEndpointPosition.open ≠ MCore.RPAEndpointPosition.closed"
+  },
+  {
+   "name": "MCore.rpa_final_root_global_external_same",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAFinalRoot ↔ MCore.RPAGlobalExternalCertificate"
+  },
+  {
+   "name": "MCore.rpa_full_of_material_rigidity",
+   "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
+   "line": 131,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(cert : RHMaterialRigidityCertificate) : RPAFull"
+  },
+  {
+   "name": "MCore.rpa_math_final_root_same",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAMath ↔ MCore.RPAFinalRoot"
+  },
+  {
+   "name": "MCore.rpa_open_bridge_same",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 70,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAOpenMath ↔ MCore.RPAOpenBridge"
+  },
+  {
+   "name": "MCore.rpa_open_closed_same_identity",
+   "file": "lean/MCore/RH/P02RPADualCertificate.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.RPAOpenMath ↔ MCore.RPAClosedMath"
+  },
+  {
+   "name": "MCore.stageProp_all_same",
+   "file": "lean/MCore/RH/P02TerminalIdentityAudit.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : MCore.TerminalStage), MCore.stageProp s = MCore.Endpoint"
+  },
+  {
+   "name": "MCore.terminalNormalize_closed",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (p : MCore.TerminalPair), MCore.terminalClosed (MCore.terminalNormalize p)"
+  },
+  {
+   "name": "MCore.terminalNormalize_idempotent",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (p : MCore.TerminalPair), MCore.terminalNormalize (MCore.terminalNormalize p) = MCore.terminalNormalize p"
+  },
+  {
+   "name": "MCore.terminalNormalize_one",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.terminalNormalize MCore.terminalOne = { num := 1, den := 1 }"
+  },
+  {
+   "name": "MCore.terminalNormalize_two",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.terminalNormalize MCore.terminalTwo = { num := 2, den := 2 }"
+  },
+  {
+   "name": "MCore.terminalNormalize_zero",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.terminalNormalize MCore.terminalZero = { num := 0, den := 0 }"
+  },
+  {
+   "name": "MCore.terminal_cycle_all",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(MCore.Endpoint ↔ MCore.Gap) ∧   (MCore.Gap ↔ MCore.Habitant) ∧ (MCore.Habitant ↔ MCore.Inhabitant) ∧ (MCore.Inhabitant ↔ MCore.Endpoint)"
+  },
+  {
+   "name": "MCore.terminal_cycle_endpoint_gap",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 77,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Endpoint ↔ MCore.Gap"
+  },
+  {
+   "name": "MCore.terminal_cycle_gap_habitant",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 79,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Gap ↔ MCore.Habitant"
+  },
+  {
+   "name": "MCore.terminal_cycle_habitant_inhabitant",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Habitant ↔ MCore.Inhabitant"
+  },
+  {
+   "name": "MCore.terminal_cycle_inhabitant_endpoint",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Inhabitant ↔ MCore.Endpoint"
+  },
+  {
+   "name": "MCore.terminal_cycle_names_do_not_force_inhabitation",
+   "file": "lean/MCore/RH/P02TerminalWheel.lean",
+   "line": 89,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ P,   let E := P;   let G := E;   let H := G;   let I := H;   (E ↔ G) ∧ (G ↔ H) ∧ (H ↔ I) ∧ (I ↔ E) ∧ ¬E"
+  },
+  {
+   "name": "MCore.terminal_revisit_without_self_inequality",
+   "file": "lean/MCore/RH/P02TerminalIdentityAudit.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s t : MCore.TerminalStage), MCore.stageProp s = MCore.stageProp t"
+  },
+  {
+   "name": "MCore.terminal_signature_does_not_change_endpoint_type",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Endpoint = MCore.CriticalWheelTerminalClosure"
+  },
+  {
+   "name": "MCore.terminal_three_way_signature",
+   "file": "lean/MCore/RH/P02TerminalThreeWay.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.terminalNormalize MCore.terminalZero = { num := 0, den := 0 } ∧   MCore.terminalNormalize MCore.terminalOne = { num := 1, den := 1 } ∧     MCore.terminalNormalize MCore.terminalTwo = { num := 2, den := 2 }"
+  },
+  {
+   "name": "MCore.terminal_transition_and_cycle",
+   "file": "lean/MCore/RH/P02TerminalTransition.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.TerminalTransition MCore.TerminalStatus.open MCore.TerminalStatus.closed ∧   ∀ (s : MCore.TerminalStage), MCore.stageProp (MCore.wheelNext s) = MCore.stageProp s"
+  },
+  {
+   "name": "MCore.transition_preserves_logical_distinction",
+   "file": "lean/MCore/RH/P02TerminalTransition.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.TerminalStatus.open ≠ MCore.TerminalStatus.closed"
+  },
+  {
+   "name": "MCore.wheelNext_preserves_endpoint_content",
+   "file": "lean/MCore/RH/P02TerminalTransition.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : MCore.TerminalStage), MCore.stageProp (MCore.wheelNext s) = MCore.stageProp s"
+  },
+  {
+   "name": "MCore.wheel_four_returns",
+   "file": "lean/MCore/RH/P02TerminalTransition.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : MCore.TerminalStage), MCore.wheelNext (MCore.wheelNext (MCore.wheelNext (MCore.wheelNext s))) = s"
+  }
+ ],
+ "closed": 122,
+ "files_sha256": {
+  "lake-manifest.json": "540b4c0b2ac3940e08c26cff05ae0876ea7f91b311529b403b0db6574f62fde2",
+  "lakefile.toml": "d9567b64513e9d2ebdd0b21f3da4e9d3a6829ead649bb00d6c6ef731c55d4b2d",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/OpenMath/ForcingKernel.lean": "90c0e008a2e0ceb9b32b6216348368b20294c50d3f62725a17827a0fe53b185f",
+  "lean/MCore/RH/NB/Antitone.lean": "2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb",
+  "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
+  "lean/MCore/RH/NB/FiniteSpan.lean": "97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe",
+  "lean/MCore/RH/NB/HilbertData.lean": "0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134",
+  "lean/MCore/RH/NB/Limit.lean": "9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c",
+  "lean/MCore/RH/NB/Nesting.lean": "922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31",
+  "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
+  "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "cbcfd18eddc72d4b07a499462f2a6822ab383d35b1691a0c90b7ccacb42b3cb5",
+  "lean/MCore/RH/P02ClosedFrontierCertificate.lean": "64f08cbc68d4359e17256cea73339eed15263a8d4c14f4d9b88db6c9e78a7393",
+  "lean/MCore/RH/P02CriticalReflectionSymmetry.lean": "f40d563065f195f20da099afcaf89540f2cc88d192ff00108b8d68578096dabd",
+  "lean/MCore/RH/P02DeterministicRejectionZero.lean": "98f521489342816a624b61141ae91bbb41bf42b00666e3f2a2ad5be425fbefd8",
+  "lean/MCore/RH/P02ExternalEndpoint.lean": "1166b2054d1ed8b7251da8c344b2187fc9f4f1af093f96041878c2f17578aff6",
+  "lean/MCore/RH/P02FinalGlobal.lean": "b83a1417191b9cdb017eff5583309f80f6d6f0b45ea7fe88545c5d264023060c",
+  "lean/MCore/RH/P02FinalRoot.lean": "c44337128e40bcc3a26fb85cd9966b1c2c27dfeb8c75827eaea88b69f18ce221",
+  "lean/MCore/RH/P02GlobalExternal.lean": "f3969bb77b0bc0a7e2741d53984036a3bfcd7ec1feee6b763d0a74eb17f7926d",
+  "lean/MCore/RH/P02LastOpenMath.lean": "3f48c4c2e52281512a7ffbb2b59ddfeb7099da506cc609781152413cf401ebdb",
+  "lean/MCore/RH/P02OpenClosedDuality.lean": "6a295fa6d41e9376ed44bd9a50f51586b38f90a16ba54c8b25087fe55b44bfd3",
+  "lean/MCore/RH/P02RPADualCertificate.lean": "8fc7f3fb4ca82ecc6340a0dadcf312a6b6b9e92958a3271a75047eef769e6e47",
+  "lean/MCore/RH/P02RPAEndpointLattice.lean": "eae319a5a2017e95d7207fa5d727925882b8acd450a3f9bddb50d1f0badbbf2e",
+  "lean/MCore/RH/P02TerminalFreeze.lean": "cfd12b15addb72f26c30c739d24d5eebdf7fd8532dd308d8a78ee7ab95e6b1d7",
+  "lean/MCore/RH/P02TerminalFrontier.lean": "487afcb8a3bc3e6827cdcc8567943002ff4ec77edb2d454a07cbd1d0a8461b3a",
+  "lean/MCore/RH/P02TerminalIdentityAudit.lean": "4a1419170964057d5bf89af92a343cf1cd20a084e41d412db73b41f49f02e32d",
+  "lean/MCore/RH/P02TerminalThreeWay.lean": "dff5d260132e83f019f57026f61c721875d8a144667cb93d7b17f4523fd67923",
+  "lean/MCore/RH/P02TerminalTransition.lean": "6eaa2e9a1c79a281a4032f74a6f9b3934b2e701f00994a16fbbcc41b64b1f779",
+  "lean/MCore/RH/P02TerminalWheel.lean": "5e660b4ca04a641b02a1ce59417c89b824e7d79a99b669e04514dce1d9c04502"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "8f5eac86ff3c055b5ddabd7d3b84bb1b753508357124e583b1b61bee8db8f1a0"
+}
