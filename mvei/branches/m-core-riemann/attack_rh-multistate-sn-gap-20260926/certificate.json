@@ -1,0 +1,76 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "attack/rh-multistate-sn-gap-20260926",
+ "branch_state": "parada",
+ "head_commit": "59136ebd00ce80144caf0b6c660f2f6ced656fba",
+ "head_commit_date": "2026-09-26T21:21:31+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "59136ebd00ce80144caf0b6c660f2f6ced656fba",
+   "date": "2026-09-26T21:21:31+01:00",
+   "subject": "fix(rh): make multistate coprimality kernel-only"
+  },
+  {
+   "commit": "c80d240b857dc37dd743abfad2d8c1ebce745a46",
+   "date": "2026-09-26T21:20:59+01:00",
+   "subject": "formalize exact multistate S_N decay gap theorem"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.RiemannMultistate.multistate_SN_gap_closes_RH",
+   "file": "lean/MCore/Frontier/MultistateSN.lean",
+   "line": 246,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Scalar : Type} (chain : MCore.RiemannMultistate.ZeroOneTwoTensionedChain Scalar),   MCore.RiemannMultistate.WeightedModularBilinearDecayGap Scalar chain.SN →     ∀ (transport : MCore.RiemannMultistate.RHTransport Scalar), transport.RH"
+  },
+  {
+   "name": "MCore.RiemannMultistate.multistate_presentations_do_not_multiply_gaps",
+   "file": "lean/MCore/Frontier/MultistateSN.lean",
+   "line": 267,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Scalar : Type} (x : MCore.RiemannMultistate.MultistateSN Scalar) (p q : MCore.RiemannMultistate.Presentation Scalar),   p ∈ x.presentations → q ∈ x.presentations → p.value = q.value"
+  },
+  {
+   "name": "MCore.RiemannMultistate.one_to_two_iff_weighted_decay_gap",
+   "file": "lean/MCore/Frontier/MultistateSN.lean",
+   "line": 229,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Scalar : Type} (chain : MCore.RiemannMultistate.ZeroOneTwoTensionedChain Scalar),   MCore.RiemannMultistate.WeightedModularBilinearDecayGap Scalar chain.SN ↔     Nonempty (MCore.RiemannMultistate.WeightedDecayEndCertificate Scalar) ∧ ∃ endCert, endCert.SN = chain.SN"
+  },
+  {
+   "name": "MCore.RiemannMultistate.zero_to_one_same_number",
+   "file": "lean/MCore/Frontier/MultistateSN.lean",
+   "line": 219,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Scalar : Type} (chain : MCore.RiemannMultistate.ZeroOneTwoTensionedChain Scalar), chain.start.SN = chain.middle.SN"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "bab668b3643dcfe580a867f0d817f1b4c131f81ae4afb2eb65b5c197642637c0",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Frontier/MultistateSN.lean": "42509fbec31b33928f5b1ac943601f9e88980101ef5f2bf6bd62b2a4a4b3b7bf",
+  "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
+ },
+ "published_at": "2026-10-29T01:37:31Z",
+ "certificate_sha256": "f9d72c70f480f208afc98d23743b9d069514fcc43360235af400e5b10bd470b3"
+}

@@ -1,0 +1,376 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "research/nb-zero-limit-frontier",
+ "branch_state": "parada",
+ "head_commit": "c4a06f7f7cad439700156ce35b435a421f42b0fe",
+ "head_commit_date": "2026-09-21T06:44:30+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "c4a06f7f7cad439700156ce35b435a421f42b0fe",
+   "date": "2026-09-21T06:44:30+01:00",
+   "subject": "formal(rh): identify zero-defect frontier with finite-span closure"
+  },
+  {
+   "commit": "ca79eac2c3a3386f9b3f1c34ba441603f3ea1e64",
+   "date": "2026-09-21T06:41:15+01:00",
+   "subject": "ci(rh): audit finite-span density reduction footprint"
+  },
+  {
+   "commit": "4cf864e317b5f3e06adbb9414c88eed593a34d69",
+   "date": "2026-09-21T06:33:37+01:00",
+   "subject": "formal(rh): reduce zero defect to finite-span density at chi"
+  },
+  {
+   "commit": "e7e36d636a56ea23fbf7b534acb4eecba76bc6b6",
+   "date": "2026-09-16T22:40:29+02:00",
+   "subject": "fix(nb15): rewrite pointwise zero equality before constant convergence"
+  },
+  {
+   "commit": "2b439692d5bdec9832b8e60dd64f9b467f619cdf",
+   "date": "2026-09-16T22:28:45+02:00",
+   "subject": "ci(nb15): add zero-limit frontier audit"
+  },
+  {
+   "commit": "7b6204dd71abd93175b3212ad15463018f1f3b13",
+   "date": "2026-09-16T22:28:35+02:00",
+   "subject": "feat(nb15): isolate zero-limit frontier without assuming it"
+  },
+  {
+   "commit": "9d6c36dd9d7503e99edfc9fce4940665c95fad91",
+   "date": "2026-09-16T22:21:06+02:00",
+   "subject": "ci(nb14): add isolated limit audit gate"
+  },
+  {
+   "commit": "bd69ab69c28467efe1e27a5bdc3d802882bb4a58",
+   "date": "2026-09-16T22:20:56+02:00",
+   "subject": "feat(nb14): formalize bounded antitone defect convergence"
+  },
+  {
+   "commit": "b2ef9ba5ee30de05af98ab3d58979691254ab9cb",
+   "date": "2026-09-16T22:04:52+02:00",
+   "subject": "fix(nb13): use bounded infimum with typed projection candidate"
+  },
+  {
+   "commit": "822c7bb4d6d48439d79f343b34d9b0f42c6f9796",
+   "date": "2026-09-16T22:00:09+02:00",
+   "subject": "fix(nb13): derive antitonicity directly from projection minimality"
+  },
+  {
+   "commit": "f436aea3f969ac5b744b286ba89eb3709228d038",
+   "date": "2026-09-16T20:41:07+02:00",
+   "subject": "fix(nb13): pin residual infimum type for antitonicity"
+  },
+  {
+   "commit": "52ec0b5ccf97294bfbe012083b43bbcc917e2fbb",
+   "date": "2026-09-16T20:32:40+02:00",
+   "subject": "fix(nb13): prove squared defect monotonicity without fragile API"
+  },
+  {
+   "commit": "5c5e4703f8cbbbaa27082b2c493ee28ff6a1deaf",
+   "date": "2026-09-16T20:20:33+02:00",
+   "subject": "ci(nb13): certify antitonicity of finite-stage defect"
+  },
+  {
+   "commit": "ecfad880d5fec5aa6c7899c962a9323e4b3859e4",
+   "date": "2026-09-16T20:20:24+02:00",
+   "subject": "feat(nb13): prove projection residual monotonicity"
+  },
+  {
+   "commit": "7c2d8d3ef4ca96cde6a2ba80b456d4902ecb9b41",
+   "date": "2026-09-16T19:39:23+02:00",
+   "subject": "ci(nb12): certify nesting of finite approximation spaces"
+  },
+  {
+   "commit": "298ed8c0a78b173c80fac54991ba607351889d3c",
+   "date": "2026-09-16T19:39:14+02:00",
+   "subject": "feat(nb12): prove monotonicity of finite approximation spaces"
+  },
+  {
+   "commit": "5ed1df6fae9ce82363f4221f91e7d20574dc5afe",
+   "date": "2026-09-16T19:21:09+02:00",
+   "subject": "ci(nb10): certify projection residual definitions"
+  },
+  {
+   "commit": "0b6df56670e5e7ff57076ca8ca56e6c71bab0dcd",
+   "date": "2026-09-16T19:20:58+02:00",
+   "subject": "feat(nb10): define projection residual distance and squared defect"
+  },
+  {
+   "commit": "49c511f626b746ce52c6d3718350d02b1bfd4378",
+   "date": "2026-09-16T19:11:42+02:00",
+   "subject": "ci(nb9): audit actual axiom dependency lists"
+  },
+  {
+   "commit": "fc2a35294443063b1b0179c0b4b026bfc60f836d",
+   "date": "2026-09-16T18:58:26+02:00",
+   "subject": "fix(nb9): pin real inner product scalar"
+  },
+  {
+   "commit": "487b881b42ee3d8e074eda1c0d461fda7acee123",
+   "date": "2026-09-16T18:50:53+02:00",
+   "subject": "ci(nb9): certify orthogonal projection layer"
+  },
+  {
+   "commit": "3f50e9a255916ffd482bdea981c3cfd21b6ee6f1",
+   "date": "2026-09-16T18:50:41+02:00",
+   "subject": "feat(nb9): formalize orthogonal projection onto V_N"
+  },
+  {
+   "commit": "40b45b6aa73924249e4ad5ae457adcdf6419842a",
+   "date": "2026-09-16T18:38:04+02:00",
+   "subject": "fix(nb8): use pinned FiniteDimensional span API"
+  },
+  {
+   "commit": "5f3b4e8b41bc57a5262e1212a09e597a07f667c2",
+   "date": "2026-09-16T18:33:33+02:00",
+   "subject": "fix(nb8): import finite module span theorem"
+  },
+  {
+   "commit": "c24248e1e486e1ea4fff6562f5ff0c2b91770400",
+   "date": "2026-09-16T18:19:30+02:00",
+   "subject": "fix(nb8): use finite-span Module.Finite theorem"
+  },
+  {
+   "commit": "c4de9093b27d3f7c1f900c0d056b5970f46adaa9",
+   "date": "2026-09-16T18:13:34+02:00",
+   "subject": "ci(nb8): certify finite-dimensional and closed V_N"
+  },
+  {
+   "commit": "d12682e91641ef61f31fc206c6780e7d80cfe03e",
+   "date": "2026-09-16T18:13:22+02:00",
+   "subject": "feat(nb8): formalize finite-dimensional approximation spaces"
+  },
+  {
+   "commit": "c4fb586bd1db7eb1db7a66c43a52101f731dc534",
+   "date": "2026-09-16T17:45:32+02:00",
+   "subject": "fix(nb7): correct finite range Mathlib API"
+  },
+  {
+   "commit": "b70b1506b3e4311b9f8fcc87f396803885fe603f",
+   "date": "2026-09-16T17:32:37+02:00",
+   "subject": "ci(nb7): certify Hilbert-space foundation"
+  },
+  {
+   "commit": "83ba731a50cdc441d414a4fe434784fa5fff7e95",
+   "date": "2026-09-16T17:32:25+02:00",
+   "subject": "feat(nb7): add abstract Hilbert-space foundation"
+  },
+  {
+   "commit": "53b69c4169819fdb34154dce88ae0ef7baa1f75d",
+   "date": "2026-09-16T15:17:37+02:00",
+   "subject": "audit(nb0): harden source hygiene against proof bypasses"
+  },
+  {
+   "commit": "e78671e10a0d782d24aebf1b22d66c938bb9a108",
+   "date": "2026-09-16T14:16:53+02:00",
+   "subject": "fix(nb5): audit only non-project Lean axioms"
+  },
+  {
+   "commit": "8ce9be95ccf6960c493acad9d84a52e8f31a0597",
+   "date": "2026-09-16T14:01:12+02:00",
+   "subject": "fix(nb3): use carrier zero for compatibility witnesses"
+  },
+  {
+   "commit": "9488f6fc64fa0398a5f4bdc03e7365b7fb2c3c2b",
+   "date": "2026-09-16T13:26:09+02:00",
+   "subject": "ci(nb): cache incremental Lake build and archive audit evidence"
+  },
+  {
+   "commit": "828ea68d6edf437524fc4328abc4c3fb2f1a0cbf",
+   "date": "2026-09-16T13:08:56+02:00",
+   "subject": "fix(nb3): separate data-bearing FunctionalCompatibility from Prop"
+  },
+  {
+   "commit": "b4f8397e3fd7e2177a9c89d6f37c509669f74990",
+   "date": "2026-09-16T12:56:25+02:00",
+   "subject": "fix(nb): make functional interface Lean 4.19 parser-safe"
+  },
+  {
+   "commit": "0662f91f70a34c17674adfbc5b9da46ffe60a2bb",
+   "date": "2026-09-16T12:53:18+02:00",
+   "subject": "fix(nb): remove lambda-token binders from non-implication module"
+  },
+  {
+   "commit": "27884f4fecb4c467dc202352f7ae7ac4835512ab",
+   "date": "2026-09-16T12:49:46+02:00",
+   "subject": "feat(nb): formalize logical classification of functional laws"
+  },
+  {
+   "commit": "d58906dbdd1a6dfbef1c98d27d53a070ee5ec7db",
+   "date": "2026-09-16T12:49:34+02:00",
+   "subject": "fix(a14): avoid lambda token parser conflict"
+  },
+  {
+   "commit": "d627a5a9444e3e6e19f7e7051379a7ecbcd9c9ce",
+   "date": "2026-09-16T12:46:25+02:00",
+   "subject": "ci(nb): certify functional compatibility non-implication"
+  },
+  {
+   "commit": "4812df596ca0ac9632a0af1962ba30d2a56b78c7",
+   "date": "2026-09-16T12:46:03+02:00",
+   "subject": "feat(nb): add falsifiable functional extension contract"
+  },
+  {
+   "commit": "53156dcdcabd0f4e00b9ad8f7fd0354f37891540",
+   "date": "2026-09-16T12:44:55+02:00",
+   "subject": "proof(nb): expand scalar-interface non-implication without sorry"
+  },
+  {
+   "commit": "6dc6706ecdc00201e6a44f841a4e0b825479caba",
+   "date": "2026-09-16T12:44:29+02:00",
+   "subject": "ci(nb): repair Lean bootstrap and dependency resolution"
+  },
+  {
+   "commit": "7d4b316a1bce06e51c8ae2a0eae1cfa1e177baa1",
+   "date": "2026-09-16T12:39:17+02:00",
+   "subject": "ci(nb): regenerate manifest for pinned mathlib dependency"
+  },
+  {
+   "commit": "4791e0f6af516a9e052af962ecb9f56e711a2049",
+   "date": "2026-09-16T12:33:36+02:00",
+   "subject": "RH NB: add isolated two-phase certification workflow"
+  },
+  {
+   "commit": "182c83d4b0d4d7bb3d1159cde83a628867a093b3",
+   "date": "2026-09-16T12:33:19+02:00",
+   "subject": "RH NB: include A1-A4 non-implication test in default build"
+  },
+  {
+   "commit": "dfabdf57a4d5362fcee2564ea66e737bc3b29d47",
+   "date": "2026-09-16T12:33:10+02:00",
+   "subject": "RH NB: record two-phase gate status and test protocol"
+  },
+  {
+   "commit": "c15d9fbb2be9b990a77951ac8a070557ec1a6602",
+   "date": "2026-09-16T12:32:50+02:00",
+   "subject": "RH NB: add fail-closed A1-A4 non-implication test"
+  },
+  {
+   "commit": "b4f7fad0dbb189c8777655c0dd4a90113df64a34",
+   "date": "2026-09-16T08:56:05+02:00",
+   "subject": "K9 research: include rigidity and criterion route frontiers"
+  },
+  {
+   "commit": "dcc2582b5e3c43a204681b4054866f4d2ee68223",
+   "date": "2026-09-16T08:55:52+02:00",
+   "subject": "K9 audit: record criterion routes and non-circularity gates"
+  },
+  {
+   "commit": "34edc8fccbc8e8d7c533f33045e92b05c059d19b",
+   "date": "2026-09-16T08:55:32+02:00",
+   "subject": "K9 research: add Nyman Beurling Li and de Bruijn Newman route targets"
+  },
+  {
+   "commit": "a70910c94ef6dbdea806d413d31b40a031e0a255",
+   "date": "2026-09-16T08:54:02+02:00",
+   "subject": "K9 research: add non-circular Li Weil spectral rigidity route interfaces"
+  },
+  {
+   "commit": "23e5f4e112f6855cb49e7e32ad799a837c51bbdc",
+   "date": "2026-09-16T08:40:26+02:00",
+   "subject": "K9 research: document literature routes and exact open frontier"
+  },
+  {
+   "commit": "8ff26efcd8fbd4aa66acc15b1e20dd980fdbd079",
+   "date": "2026-09-16T08:40:06+02:00",
+   "subject": "K9 research: add non-promoting research umbrella"
+  },
+  {
+   "commit": "eb30249c772faa281eb3081070776d45d7973934",
+   "date": "2026-09-16T08:39:59+02:00",
+   "subject": "K9 research: replace continuation sorry with Mathlib theorem"
+  },
+  {
+   "commit": "0164a3e87025017d4cd7e9cf64d7aadf4bca17a5",
+   "date": "2026-09-16T08:39:50+02:00",
+   "subject": "K9 research: make endpoint conditional only on explicit certificates"
+  },
+  {
+   "commit": "7a7ab7d1ab56de87dd210b56e1d81cb4ba063573",
+   "date": "2026-09-16T08:39:42+02:00",
+   "subject": "K9 research: add universal zeta bridge and criterion interfaces"
+  },
+  {
+   "commit": "25c12f0056b6321958bf67c10788a6bdc8d97276",
+   "date": "2026-09-16T08:39:30+02:00",
+   "subject": "K9 research: expose regularization obligations without axioms"
+  },
+  {
+   "commit": "3a995ee0716788dcb4cd9840a04160de86d7bdd5",
+   "date": "2026-09-16T08:39:20+02:00",
+   "subject": "K9 research: formalize non-vacuous A1-A4 contracts"
+  },
+  {
+   "commit": "081a382956a1973f6b548c238d9ab14b4f29d2ac",
+   "date": "2026-09-16T00:05:26+02:00",
+   "subject": "K8 RH: certify exact contract and structural firewall"
+  },
+  {
+   "commit": "a83a7628856ecbf545e2d5afdf2f1f8a6b7e3bff",
+   "date": "2026-09-16T00:05:10+02:00",
+   "subject": "K8 RH: pin Mathlib v4.19.0 for exact RH endpoint"
+  },
+  {
+   "commit": "da5564fe1ac4da4d3a6b70b513abb7a8e281d8de",
+   "date": "2026-09-15T22:47:28+02:00",
+   "subject": "K8 RH: add exact scientific contract without endpoint promotion"
+  },
+  {
+   "commit": "ed937c9b72a831bd2fa270b8b050c5855567977d",
+   "date": "2026-09-15T22:06:17+02:00",
+   "subject": "K7: certify explicit structural gates"
+  },
+  {
+   "commit": "1199955c05c4854eae8c985c06854dd7ba4ad921",
+   "date": "2026-09-15T21:24:49+02:00",
+   "subject": "K7: add audit reachability checkpoint"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.RH.NB.NBHilbertData.finiteSpanApproximatesChi_iff_mem_closure",
+   "file": "lean/MCore/RH/NB/ZeroLimitFrontier.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.NB.NBHilbertData) (rho : D.GeneratorFamily),   D.FiniteSpanApproximatesChi rho ↔ D.chi ∈ closure (D.FiniteSpanUnion rho)"
+  },
+  {
+   "name": "MCore.RH.NB.NBHilbertData.finiteSpanApproximatesChi_of_dense",
+   "file": "lean/MCore/RH/NB/ZeroLimitFrontier.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.NB.NBHilbertData) (rho : D.GeneratorFamily),   Dense (D.FiniteSpanUnion rho) → D.FiniteSpanApproximatesChi rho"
+  }
+ ],
+ "closed": 2,
+ "files_sha256": {
+  "lake-manifest.json": "540b4c0b2ac3940e08c26cff05ae0876ea7f91b311529b403b0db6574f62fde2",
+  "lakefile.toml": "d9567b64513e9d2ebdd0b21f3da4e9d3a6829ead649bb00d6c6ef731c55d4b2d",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/RH/NB/Antitone.lean": "2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb",
+  "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
+  "lean/MCore/RH/NB/FiniteSpan.lean": "97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe",
+  "lean/MCore/RH/NB/HilbertData.lean": "0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134",
+  "lean/MCore/RH/NB/Limit.lean": "9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c",
+  "lean/MCore/RH/NB/Nesting.lean": "922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31",
+  "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
+  "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "6e9ada19cb26c01dbf075f498413559932b69f6ddd9ef14ca0732ab807f9c900"
+ },
+ "published_at": "2026-10-29T01:37:31Z",
+ "certificate_sha256": "5f7812adcb0e928e55728abed6e278405b19d3fbca43b826ab028f262e4b3a0e"
+}

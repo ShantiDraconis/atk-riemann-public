@@ -16,6 +16,16 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 | m-core-riemann | `audit/multistate-proof-refutation-v1` | 2026-09-19 | parada | 6 / 7 | 13 | 14 | [certificate](../mvei/branches/m-core-riemann/audit_multistate-proof-refutation-v1/README.md) |
 | m-core-riemann | `attack/kfar-weighted-bilinear-decay-20260926` | 2026-09-26 | parada | 6 / 6 | 15 | 216 | [certificate](../mvei/branches/m-core-riemann/attack_kfar-weighted-bilinear-decay-20260926/README.md) |
 | m-core-riemann | `atk/rh-material-decision-objects-20261001` | 2026-10-01 | parada | 5 / 7 | 4 | 211 | [certificate](../mvei/branches/m-core-riemann/atk_rh-material-decision-objects-20261001/README.md) |
+| m-core-riemann | `atk/rh-tristate-material-hardening-20261001` | 2026-10-01 | parada | 4 / 4 | 29 | 33 | [certificate](../mvei/branches/m-core-riemann/atk_rh-tristate-material-hardening-20261001/README.md) |
+| m-core-riemann | `attack/rh-multistate-sn-gap-20260926` | 2026-09-26 | parada | 4 / 4 | 5 | 2 | [certificate](../mvei/branches/m-core-riemann/attack_rh-multistate-sn-gap-20260926/README.md) |
 | m-core-riemann | `atk/rh-two-sided-resolution-20261001` | 2026-10-01 | parada | 3 / 6 | 20 | 208 | [certificate](../mvei/branches/m-core-riemann/atk_rh-two-sided-resolution-20261001/README.md) |
+| m-core-riemann | `k7-preflight/RH-OfficialSpec` | 2026-09-15 | parada | 3 / 3 | 13 | 1 | [certificate](../mvei/branches/m-core-riemann/k7-preflight_RH-OfficialSpec/README.md) |
+| m-core-riemann | `atk/rh-log-majorant-split-20261001` | 2026-10-01 | parada | 2 / 2 | 21 | 267 | [certificate](../mvei/branches/m-core-riemann/atk_rh-log-majorant-split-20261001/README.md) |
+| m-core-riemann | `research/nb-zero-limit-frontier` | 2026-09-21 | parada | 2 / 2 | 11 | 64 | [certificate](../mvei/branches/m-core-riemann/research_nb-zero-limit-frontier/README.md) |
 | m-core-riemann | `attack/r2-multistate-sn-gap` | 2026-09-26 | parada | 1 / 8 | 4 | 198 | [certificate](../mvei/branches/m-core-riemann/attack_r2-multistate-sn-gap/README.md) |
 | m-core-riemann | `atk/master-rh-gram-repair-20260930` | 2026-09-30 | parada | 1 / 6 | 4 | 24 | [certificate](../mvei/branches/m-core-riemann/atk_master-rh-gram-repair-20260930/README.md) |
+| m-core-riemann | `audit/r0-4-chi-memlp` | 2026-09-17 | parada | 1 / 4 | 14 | 122 | [certificate](../mvei/branches/m-core-riemann/audit_r0-4-chi-memlp/README.md) |
+| m-core-riemann | `attack/typed-final-endpoint-v1` | 2026-09-19 | parada | 1 / 4 | 7 | 7 | [certificate](../mvei/branches/m-core-riemann/attack_typed-final-endpoint-v1/README.md) |
+| m-core-riemann | `atk/rh-multistate-decay-hardening-20261001` | 2026-10-01 | parada | 1 / 2 | 6 | 2 | [certificate](../mvei/branches/m-core-riemann/atk_rh-multistate-decay-hardening-20261001/README.md) |
+| m-core-riemann | `research/pure-math-final-proof-v1` | 2026-09-20 | parada | 1 / 1 | 4 | 211 | [certificate](../mvei/branches/m-core-riemann/research_pure-math-final-proof-v1/README.md) |
+| m-core-riemann | `atk/cert-repair-rh-b8077235` | 2026-09-28 | parada | 1 / 1 | 12 | 89 | [certificate](../mvei/branches/m-core-riemann/atk_cert-repair-rh-b8077235/README.md) |

@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T19:11:15+00:00",
+  "generated_at": "2026-10-28T23:56:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1525,7 +1525,9 @@
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 47,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : 0 ≤ H.K"
   },
   {
@@ -1552,8 +1554,10 @@
    "name": "MCore.RH.NB.NBHilbertData.FINAL_ROOT_of_explicit_bcf_bounds",
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 102,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : Final.FINAL_ROOT D rho"
   },
   {
@@ -1768,6 +1772,6 @@
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-10-28T19:19:17Z",
- "certificate_sha256": "2a4787170bc23e64dc4e3880d9360eea2bd5fbadd7757b9f89880445df23f332"
+ "published_at": "2026-10-29T01:37:20Z",
+ "certificate_sha256": "a6969781703479255874e7eaf4d37d18ca45e6d8b0178d4572e81ced272502fd"
 }

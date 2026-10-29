@@ -1,0 +1,103 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "attack/typed-final-endpoint-v1",
+ "branch_state": "parada",
+ "head_commit": "7f482b6e19fc73dffe319fa1e0716a9b634b5211",
+ "head_commit_date": "2026-09-19T11:24:50+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "7f482b6e19fc73dffe319fa1e0716a9b634b5211",
+   "date": "2026-09-19T11:24:50+02:00",
+   "subject": "cert: record green frontier certificate 2026-09-19"
+  },
+  {
+   "commit": "21216ff1141f97921aeddb3708fee0bfea05fd14",
+   "date": "2026-09-19T10:44:39+02:00",
+   "subject": "fix: make RH endpoint kernel-portable without Mathlib"
+  },
+  {
+   "commit": "f54bd09250f1ff8fc275b2cc7f70afbfa687dc75",
+   "date": "2026-09-19T10:42:20+02:00",
+   "subject": "ci: certify typed RH endpoint and retain semantic frontier"
+  },
+  {
+   "commit": "02c07ba702703d88cf441c3819a6e0fdf5ca0f97",
+   "date": "2026-09-19T10:42:12+02:00",
+   "subject": "attack: advance RH cross-problem firewall past endpoint typing"
+  },
+  {
+   "commit": "572b06c9e2bd3121715da92c4c687a3271a71f5b",
+   "date": "2026-09-19T10:42:04+02:00",
+   "subject": "audit: expose RH semantic adapter as the remaining frontier"
+  },
+  {
+   "commit": "e875a2261957ecd9fb3a4921ed18e72e779538da",
+   "date": "2026-09-19T10:41:49+02:00",
+   "subject": "attack: close RH endpoint typing residue"
+  },
+  {
+   "commit": "e7a3cb62e03fa9e3f1d957888ee77ed3ad133b9d",
+   "date": "2026-09-19T10:41:30+02:00",
+   "subject": "attack: type RH final endpoint and semantic transport"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BackwardAudit.classical_semantic_adapter_still_open",
+   "file": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": classicalSemanticAdapterClosed = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.cross_problem_endpoint_is_typed",
+   "file": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
+   "line": 54,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": endpointPropositionTyped = true"
+  },
+  {
+   "name": "MCore.BackwardAudit.endpoint_proposition_is_typed",
+   "file": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": endpointPropositionTyped = true"
+  },
+  {
+   "name": "MCore.RH.endpoint_transport",
+   "file": "lean/MCore/BackwardAudit/FinalEndpoint.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : EndpointSemantics) (A : ClassicalZetaAdapter S) (h : FinalEndpoint S) : ∀ s : A.ConcretePoint, A.isClassicalNontrivialZero s → A.isClassicalCriticalLine s"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "bab668b3643dcfe580a867f0d817f1b4c131f81ae4afb2eb65b5c197642637c0",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/FinalEndpoint.lean": "bc02c971ec36a9a827b03ff4b52f453e2f2f1d211821b0bb352f440ac9dcd933",
+  "lean/MCore/Boundary.lean": "7aa951d700e2c61aad427bf691a9fd8d1d24b76ed7d3a36489390413e3587c15",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
+ },
+ "published_at": "2026-10-29T01:37:31Z",
+ "certificate_sha256": "3140dcec16d18e67d28a13081dd42f3212839cdc03023cc70ee1a9c0f8a2712c"
+}

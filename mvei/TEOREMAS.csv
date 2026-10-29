@@ -36,4 +36,4 @@ m-core-riemann,lean/MCore/Frontier/K3Gaps.lean,13,MCore.k3_frontier_open,fechado
 m-core-riemann,lean/MCore/Frontier/MultistateSN.lean,70,MCore.RiemannMultistate.presentation_invariant,fechado,,,.,,,
 m-core-riemann,lean/MCore/Frontier/MultistateSN.lean,124,MCore.RiemannMultistate.close_0_1_2_from_weighted_decay,fechado,,,.,,,
 m-core-riemann,lean/MCore/Frontier/MultistateSN.lean,171,MCore.RiemannMultistate.routes_share_one_number,fechado,,,.,,,
-m-core-riemann,lean/MCore/Material/Closure.lean,10,MCore.Material.closure_produces_bound,nao_checado,,testado arquivo a arquivo: a prova escrita não passa no kernel (o Lean deu erro nela),.,,,
+m-core-riemann,lean/MCore/Material/Closure.lean,10,MCore.Material.closure_produces_bound,nao_checado,,testado arquivo a arquivo: a prova escrita não passa no kernel (o Lean deu erro nela),.,,,linha 12: application type mismatch Nonempty.intro h argument h has type RHClosure DN : Sort (max (max (u_1 + 1) u_2) u_3) but is expected to have type RHClosure DN : Type u_1

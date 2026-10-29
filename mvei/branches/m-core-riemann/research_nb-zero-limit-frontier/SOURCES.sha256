@@ -1,0 +1,11 @@
+540b4c0b2ac3940e08c26cff05ae0876ea7f91b311529b403b0db6574f62fde2  branches/m-core-riemann/research_nb-zero-limit-frontier/lake-manifest.json
+d9567b64513e9d2ebdd0b21f3da4e9d3a6829ead649bb00d6c6ef731c55d4b2d  branches/m-core-riemann/research_nb-zero-limit-frontier/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-riemann/research_nb-zero-limit-frontier/lean-toolchain
+2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/Antitone.lean
+add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/Distance.lean
+97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/FiniteSpan.lean
+0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/HilbertData.lean
+9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/Limit.lean
+922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/Nesting.lean
+b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/Projection.lean
+6e9ada19cb26c01dbf075f498413559932b69f6ddd9ef14ca0732ab807f9c900  branches/m-core-riemann/research_nb-zero-limit-frontier/lean/MCore/RH/NB/ZeroLimitFrontier.lean

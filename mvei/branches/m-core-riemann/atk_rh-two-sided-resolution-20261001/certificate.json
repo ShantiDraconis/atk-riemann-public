@@ -1048,7 +1048,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T19:11:15+00:00",
+  "generated_at": "2026-10-28T23:56:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1136,6 +1136,6 @@
   "lean/MCore/RH/R0/Normalization.lean": "adf9ce850347d9b1baf653c4b7276b97507357ee1002a7df119880edf7c7220c",
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2"
  },
- "published_at": "2026-10-28T19:19:21Z",
- "certificate_sha256": "3a58747f6e05603250cb0ed5b8f9e527ee060c58739c765bd6c39e0728ad84b5"
+ "published_at": "2026-10-29T01:37:24Z",
+ "certificate_sha256": "4793f5fe58adf16cdc7e89ab1ef94d936e3574151823f737e0677a9d8c9e9b8b"
 }

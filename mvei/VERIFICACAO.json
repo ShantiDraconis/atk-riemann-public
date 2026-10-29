@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T19:11:15+00:00",
+ "generated_at": "2026-10-29T01:06:09+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 13.6,
+   "build_seconds": 13.8,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -1343,7 +1343,8 @@
      "status": "erro",
      "axioms": [
       "sorryAx"
-     ]
+     ],
+     "erro": "linha 12: application type mismatch Nonempty.intro h argument h has type RHClosure DN : Sort (max (max (u_1 + 1) u_2) u_3) but is expected to have type RHClosure DN : Type u_1"
     }
    ],
    "preenchimento": [],
@@ -1360,7 +1361,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 107.6,
+   "build_seconds": 65.5,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,

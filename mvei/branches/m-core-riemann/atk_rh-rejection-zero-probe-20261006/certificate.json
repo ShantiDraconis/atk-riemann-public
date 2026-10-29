@@ -1023,7 +1023,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T19:11:15+00:00",
+  "generated_at": "2026-10-28T23:56:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -2442,6 +2442,6 @@
   "lean/MCore/RH/P02TerminalTransition.lean": "6eaa2e9a1c79a281a4032f74a6f9b3934b2e701f00994a16fbbcc41b64b1f779",
   "lean/MCore/RH/P02TerminalWheel.lean": "5e660b4ca04a641b02a1ce59417c89b824e7d79a99b669e04514dce1d9c04502"
  },
- "published_at": "2026-10-28T19:19:17Z",
- "certificate_sha256": "8f5eac86ff3c055b5ddabd7d3b84bb1b753508357124e583b1b61bee8db8f1a0"
+ "published_at": "2026-10-29T01:37:20Z",
+ "certificate_sha256": "4ce7ba313edaaeef5bb1805e63323776650cbdb9b4e6b5281dbc2f3499ca54ca"
 }

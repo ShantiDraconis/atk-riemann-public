@@ -1,0 +1,255 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "atk/rh-tristate-material-hardening-20261001",
+ "branch_state": "parada",
+ "head_commit": "95a2f3733c4acd64420c53688a0addd526c494b5",
+ "head_commit_date": "2026-10-01T16:09:45+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "95a2f3733c4acd64420c53688a0addd526c494b5",
+   "date": "2026-10-01T16:09:45+02:00",
+   "subject": "rh: harden tri-state terminal to concrete DN zero endpoint"
+  },
+  {
+   "commit": "56dde61838035ca74b3d1c71097c2bde54656b87",
+   "date": "2026-10-01T00:15:52+02:00",
+   "subject": "ATK: include RH Gram terminal link in root build"
+  },
+  {
+   "commit": "7611f8095c6d9568bf2bb267b7d2b6234197e34e",
+   "date": "2026-10-01T00:15:40+02:00",
+   "subject": "ATK: link RH terminal density to concrete Gram scalar"
+  },
+  {
+   "commit": "96b1deac794e38b0a16d584f06f0804db9a72d2d",
+   "date": "2026-09-30T12:02:13+02:00",
+   "subject": "fix(rh): prove chi support intersection explicitly"
+  },
+  {
+   "commit": "cad04adb7f75188727e19d4a381a04a5c91054a1",
+   "date": "2026-09-30T11:58:47+02:00",
+   "subject": "fix(rh): expose concrete support and ambient sets in chi norm proof"
+  },
+  {
+   "commit": "3eda566e18258c3e77453112d72059c54278ee27",
+   "date": "2026-09-30T11:54:46+02:00",
+   "subject": "ci(rh): audit concrete normalized Gram scalar endpoint"
+  },
+  {
+   "commit": "97c887b65010a7e2aa983f7015fecde5d143ee8b",
+   "date": "2026-09-30T11:54:32+02:00",
+   "subject": "atk(rh): specialize terminal Gram endpoint to scalar defect one minus cTb"
+  },
+  {
+   "commit": "b0f890bb3421358b44eab68e5e865c282b986097",
+   "date": "2026-09-30T11:54:30+02:00",
+   "subject": "atk(rh): certify concrete chi L2 norm equals one"
+  },
+  {
+   "commit": "ac8ba3b8e51363d431ade14c94e1092e1a3b326d",
+   "date": "2026-09-30T11:49:17+02:00",
+   "subject": "ci(rh): audit exact Gram terminal equivalence"
+  },
+  {
+   "commit": "a3169b465b16d3df7b0dbbceee147a90d6720dc9",
+   "date": "2026-09-30T11:49:06+02:00",
+   "subject": "atk(rh): compress terminal H-star to Gram normal equations plus vanishing energy"
+  },
+  {
+   "commit": "a501a4bdb261206490cb9fc16d3a28b7ffcad546",
+   "date": "2026-09-30T11:45:37+02:00",
+   "subject": "fix(rh): match nested Gram product normal form"
+  },
+  {
+   "commit": "e64c87a2f5198acbcd3d1cfcc151b4f3379d5e56",
+   "date": "2026-09-30T11:42:15+02:00",
+   "subject": "fix(rh): normalize Gram symmetry in error expansion"
+  },
+  {
+   "commit": "7b151d2842766f721ec4dedc32d30c4409e74d5b",
+   "date": "2026-09-30T11:38:58+02:00",
+   "subject": "ci(rh): audit exact Gram energy endpoint"
+  },
+  {
+   "commit": "f1490f5bfb4d279e5cfe25f9f1c6d54b4670af22",
+   "date": "2026-09-30T11:38:41+02:00",
+   "subject": "atk(rh): expose exact finite Gram energy and optimal reduction"
+  },
+  {
+   "commit": "0b2720d2928fa0828ee3d3870fb2884f2d160433",
+   "date": "2026-09-30T00:26:20+02:00",
+   "subject": "build(rh): normalize root manifest while preserving exact pins"
+  },
+  {
+   "commit": "83ea9a57e1a5343f4e1ed23704914c8455df693f",
+   "date": "2026-09-30T00:24:19+02:00",
+   "subject": "fix(ci): remove literal newline escapes in RH direct audit"
+  },
+  {
+   "commit": "20d9af62618a1ec236967783f5546f1bbf1b5bf9",
+   "date": "2026-09-30T00:24:04+02:00",
+   "subject": "fix(rh): use direct span-membership rewrite for coefficients"
+  },
+  {
+   "commit": "80ce199afe65f939e443ac7da032b7f2d12f2953",
+   "date": "2026-09-30T00:21:13+02:00",
+   "subject": "fix(rh): instantiate finite span coefficient theorem explicitly"
+  },
+  {
+   "commit": "50545833e5e1116d96b4ea856a7e3238c93c1697",
+   "date": "2026-09-30T00:19:54+02:00",
+   "subject": "ci(rh): audit Gram normal equations on terminal coefficients"
+  },
+  {
+   "commit": "ed4d6ff37113aa58161e917c54ae0817912ed8bf",
+   "date": "2026-09-30T00:19:46+02:00",
+   "subject": "atk(rh): derive exact Gram normal equations for optimal coefficients"
+  },
+  {
+   "commit": "e4008b3f6b6ecf19ac9eed927dd356cc47f01de7",
+   "date": "2026-09-30T00:19:03+02:00",
+   "subject": "ci(rh): audit exact coefficient endpoint equivalence"
+  },
+  {
+   "commit": "0ac0f91178e544d85ebce476efa79b725ce8ec43",
+   "date": "2026-09-30T00:18:48+02:00",
+   "subject": "atk(rh): express terminal density exactly by finite coefficients"
+  },
+  {
+   "commit": "e29a729cfb81d0f1105803a39f04f3ab11c964f0",
+   "date": "2026-09-30T00:17:41+02:00",
+   "subject": "ci(rh): audit exact coefficient realization of V_N"
+  },
+  {
+   "commit": "f16e9bdfb1b0b0d42119620c74928fd212eb1e78",
+   "date": "2026-09-30T00:17:26+02:00",
+   "subject": "atk(rh): identify V_N exactly with finite coefficient realizations"
+  },
+  {
+   "commit": "d2bf9a59bac401d11da5bdac4e334d29383db458",
+   "date": "2026-09-30T00:12:56+02:00",
+   "subject": "ci(rh): audit direct Möbius residual kernel"
+  },
+  {
+   "commit": "4ab0193bf09da1471d4b02228966699334c508a0",
+   "date": "2026-09-30T00:12:54+02:00",
+   "subject": "atk(rh): add direct Möbius divisor cancellation kernel"
+  },
+  {
+   "commit": "c994a84d1ecb92dc7cd28789b35dd8773126a3a6",
+   "date": "2026-09-29T23:38:46+02:00",
+   "subject": "build(rh): materialize complete pinned mathlib manifest"
+  },
+  {
+   "commit": "481c297f17efcdcbe24bd74aaef5ece45f765e1f",
+   "date": "2026-09-29T23:36:15+02:00",
+   "subject": "ci(rh): keep certificate compatible with pinned mathlib"
+  },
+  {
+   "commit": "4a07dc7fafc3bfcf88d8ceb9f3e4c273d9955a08",
+   "date": "2026-09-29T23:36:01+02:00",
+   "subject": "ci(rh): resolve mathlib before terminal density build"
+  },
+  {
+   "commit": "d34ce60ae7e9620adde21b6ec1b0df440b897158",
+   "date": "2026-09-29T23:33:54+02:00",
+   "subject": "atk(rh): add certified NB total adapter"
+  },
+  {
+   "commit": "93ceb2877b54fdb0dce50b0050429c946365326e",
+   "date": "2026-09-29T23:33:51+02:00",
+   "subject": "build(rh): lock pinned mathlib manifest"
+  },
+  {
+   "commit": "94579a257a9f348d0ca432760cb35c0f6229cffb",
+   "date": "2026-09-29T23:33:49+02:00",
+   "subject": "build(rh): add pinned mathlib for concrete R0"
+  },
+  {
+   "commit": "74441b396ca05c0f5bfc2889facd6966ff8b282c",
+   "date": "2026-09-29T23:31:29+02:00",
+   "subject": "atk(rh): integrate concrete NB density producer"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.RiemannMultistate.concrete_end_certificate_iff_finiteSpan",
+   "file": "lean/MCore/Frontier/MultistateMaterialEndpoint.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty ConcreteWeightedDecayEndCertificate ↔ concreteNBData.FiniteSpanApproximatesChi concreteGeneratorFamily"
+  },
+  {
+   "name": "MCore.RiemannMultistate.concrete_end_certificate_iff_state2",
+   "file": "lean/MCore/Frontier/MultistateMaterialEndpoint.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty ConcreteWeightedDecayEndCertificate ↔ ConcreteState2"
+  },
+  {
+   "name": "MCore.RiemannMultistate.concrete_state2_iff_DNLimit_eq_zero",
+   "file": "lean/MCore/Frontier/MultistateMaterialEndpoint.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ConcreteState2 ↔ concreteNBData.DNLimit concreteGeneratorFamily = 0"
+  },
+  {
+   "name": "MCore.RiemannMultistate.concrete_state2_iff_finiteSpanApproximatesChi",
+   "file": "lean/MCore/Frontier/MultistateMaterialEndpoint.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ConcreteState2 ↔ concreteNBData.FiniteSpanApproximatesChi concreteGeneratorFamily"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "1a85a499b3e4f934a94a26d8d7a0b2dd95efc0a10e23e432a1fd29823590df2f",
+  "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Frontier/MultistateMaterialEndpoint.lean": "f921a0e576473ecf7c92bc644f9374265a6f7d1dbeee6731618c460c9ba9df7a",
+  "lean/MCore/Frontier/MultistateSN.lean": "31526d095cd8a5088ac9344f80cb81b8140bdc97a28521b36b1cbe5715fd39e6",
+  "lean/MCore/RH/NB/Antitone.lean": "2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb",
+  "lean/MCore/RH/NB/CoefficientEndpoint.lean": "ae0a66dbbe255457e37ebc8ac45df731859379984f13498a6066c73bfcdd88a1",
+  "lean/MCore/RH/NB/CoefficientRealization.lean": "e7ffbc2f4d4095c8edb9126d819c516db8c9409de4f114fd2731e42768762190",
+  "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
+  "lean/MCore/RH/NB/FiniteSpan.lean": "97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe",
+  "lean/MCore/RH/NB/GramEndpoint.lean": "5bde508db131885673dd42c5b16af3026877dbffbd2755b19af4cc4bbd6f0464",
+  "lean/MCore/RH/NB/GramEnergy.lean": "a005ce947bf61dde32170487036c566b8bc0771854653e2958464ee1618cf93c",
+  "lean/MCore/RH/NB/GramNormalEquations.lean": "71e14cdd76a5025686e3cd0a867bb0257f0bbe389bf41217f33c5c0deb341e3d",
+  "lean/MCore/RH/NB/HilbertData.lean": "0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134",
+  "lean/MCore/RH/NB/Limit.lean": "9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c",
+  "lean/MCore/RH/NB/Nesting.lean": "922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31",
+  "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
+  "lean/MCore/RH/NB/Total.lean": "8d8352a3c182c523e05c0586b3f2e5321616c7042cf0a3e41e06efea1f16a2d1",
+  "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "093ef0b0fc6f7f527339bde19965c6aa3964fac35211a49e49c7b99f0b4f7ef7",
+  "lean/MCore/RH/R0/AmbientCarrier.lean": "44d846b4df5f9dcce3c984712a7c4287b60828f88cff30efec810d2dc9a73c02",
+  "lean/MCore/RH/R0/ChiL2.lean": "a98f4c80636f8657dbfcb35df4fe94dd51247269d54ef690a4f3e30fbe3cdd66",
+  "lean/MCore/RH/R0/ChiMemLp.lean": "4aca9740f108cd1ac5d3e02bade0f2c34dd9c162c67b208ea94de4f1f6a45a28",
+  "lean/MCore/RH/R0/ChiNorm.lean": "e56ce8ff8e2d6d266b3550262297c7db2c339bc5d781719ee96d862ae10c1068",
+  "lean/MCore/RH/R0/ConcreteDomain.lean": "024ea8d747ac5d33974ca04cd6633e8bb8dbfccccddd03663d98a405b13d303e",
+  "lean/MCore/RH/R0/ConcreteGramEndpoint.lean": "e6f7d8692ddaaa3af159cc14e2175ddb381a4b583eb0ffc852f7a53ae0461067",
+  "lean/MCore/RH/R0/GramTerminalLink.lean": "75b4f66f08c2746973a53ccb7c47f7daed01b447d3acd09b4fe572a3ec329a22",
+  "lean/MCore/RH/R0/Normalization.lean": "adf9ce850347d9b1baf653c4b7276b97507357ee1002a7df119880edf7c7220c",
+  "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
+  "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
+ },
+ "published_at": "2026-10-29T01:37:31Z",
+ "certificate_sha256": "9428c951c1100676d8a88329d3e4cadd51677cd63658a34d4fb084f03516f582"
+}

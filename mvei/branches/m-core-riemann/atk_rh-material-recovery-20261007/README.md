@@ -3,9 +3,9 @@
 Lean sources from the branch `atk/rh-material-recovery-20261007` of the private repository `ShantiDraconis/m-core-riemann`, commit `fb8481724749868ed6badb3a8acb98df998c55a2` (2026-10-07T16:03:00+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 27 — closed 6, conditional 0, open 3, proof error 0, not reached 18, no result 0.
+* Theorems only on branches, in this branch: 27 — closed 6, conditional 0, open 4, proof error 0, not reached 17, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `2a4787170bc23e64dc4e3880d9360eea2bd5fbadd7757b9f89880445df23f332`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-recovery-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `a6969781703479255874e7eaf4d37d18ca45e6d8b0178d4572e81ced272502fd`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-recovery-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
@@ -14,7 +14,7 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.RH.NB.NBHilbertData.BCFExplicitLogBounds.K_nonneg` | `lean/MCore/RH/NB/BCFExplicitLogBounds.lean`:47 | nao_alcancado |
 | `MCore.RH.NB.NBHilbertData.DNLimit_eq_zero_of_bcfThreeTerm` | `lean/MCore/RH/NB/BCFThreeTermMaterializer.lean`:102 | aberto-sorry |
 | `MCore.RH.NB.NBHilbertData.DNToZero_of_bcfThreeTerm` | `lean/MCore/RH/NB/BCFThreeTermMaterializer.lean`:90 | aberto-sorry |
-| `MCore.RH.NB.NBHilbertData.FINAL_ROOT_of_explicit_bcf_bounds` | `lean/MCore/RH/NB/BCFExplicitLogBounds.lean`:102 | nao_alcancado |
+| `MCore.RH.NB.NBHilbertData.FINAL_ROOT_of_explicit_bcf_bounds` | `lean/MCore/RH/NB/BCFExplicitLogBounds.lean`:102 | aberto-sorry |
 | `MCore.RH.NB.NBHilbertData.bcf_three_term_materializer` | `lean/MCore/RH/NB/BCFThreeTermMaterializer.lean`:113 | aberto-sorry |
 | `MCore.RH.NB.NBHilbertData.dn_le_combined_log_majorant` | `lean/MCore/RH/NB/BCFExplicitLogBounds.lean`:55 | nao_alcancado |
 | `MCore.RH.R0.DISCOVER_D3_ZETA_FORM` | `open_math/lean/RHD3Decomposition.lean`:20 | nao_alcancado |

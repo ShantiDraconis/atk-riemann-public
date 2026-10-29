@@ -5,7 +5,7 @@ Lean sources from the branch `atk/rh-material-decision-objects-20261001` of the 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 7 — closed 5, conditional 0, open 0, proof error 0, not reached 2, no result 0.
 * History: 211 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `8146305b1d94e3ba6b7e9c1ccad6bdf1a839ffc2bd5b568d2ec90c420c30c942`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-decision-objects-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9884b20c46029580917378f6ec9ec8a26f04871490aaa17b73b59c7d88a614d7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-decision-objects-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
