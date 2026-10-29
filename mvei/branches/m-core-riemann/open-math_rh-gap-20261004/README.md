@@ -5,7 +5,7 @@ Lean sources from the branch `open-math/rh-gap-20261004` of the private reposito
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 13 — closed 11, conditional 0, open 0, proof error 2, not reached 0, no result 0.
 * History: 299 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `052f87e8e12f4a655cefec4fe424aff29535899cdcbdf26b1cc28fad1e1a6f02`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/open-math_rh-gap-20261004/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9bb9955025a3773e8a53b9616b7f083a9782507564c92a8e71eff88554f84f67`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/open-math_rh-gap-20261004/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

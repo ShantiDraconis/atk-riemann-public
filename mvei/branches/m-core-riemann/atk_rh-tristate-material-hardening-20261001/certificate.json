@@ -173,7 +173,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -250,6 +250,6 @@
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-10-29T02:47:14Z",
- "certificate_sha256": "47977a71d8e830855edf8b499d9616ff19bcba8c86bac8ff1db4416950d09793"
+ "published_at": "2026-10-29T06:27:32Z",
+ "certificate_sha256": "e52f689e68133b4c8e5b6d0cbccb0f729b1c653730de93490bf7bd60300812d8"
 }

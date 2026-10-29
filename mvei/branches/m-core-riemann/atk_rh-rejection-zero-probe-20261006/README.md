@@ -5,7 +5,7 @@ Lean sources from the branch `atk/rh-rejection-zero-probe-20261006` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 166 — closed 122, conditional 20, open 1, proof error 2, not reached 21, no result 0.
 * History: 203 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `3be32c5fa20f2e0256ab70f618dc316460e90a01b79be68104b4d1cc11ce603b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `8767c7e0d18203a6710ac5f0953996c6868a3e5f37b257e865e8871a4231d86f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

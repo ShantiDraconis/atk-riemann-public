@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1772,6 +1772,6 @@
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-10-29T02:47:03Z",
- "certificate_sha256": "411ba1b55e0ad8642002a35603a43ed5293ee4837aa3ed20c7bd42077eb17b9b"
+ "published_at": "2026-10-29T06:27:15Z",
+ "certificate_sha256": "842b4000a145dc087b6745d37bb0c5f85d104c9dbf0fd650e5702831437208ae"
 }

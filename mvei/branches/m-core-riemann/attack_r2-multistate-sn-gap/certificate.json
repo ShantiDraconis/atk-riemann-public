@@ -998,7 +998,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1088,6 +1088,6 @@
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/RH/R2/MultiStateSNGap.lean": "9a9fcead160483089bdda10d1fa3848e8860616c349277ab45a827fdb8d9ebe6"
  },
- "published_at": "2026-10-29T02:47:03Z",
- "certificate_sha256": "5feaa5d217cf682263ea05aff45257e9ada16422e850720954a5e688d24701c6"
+ "published_at": "2026-10-29T06:27:15Z",
+ "certificate_sha256": "83e1977cb2a9340fc6a938764a363fc12e114facf8f40923975e5f1761042210"
 }

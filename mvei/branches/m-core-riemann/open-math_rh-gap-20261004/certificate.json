@@ -1503,7 +1503,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1659,6 +1659,6 @@
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
   "lean/RH/DampedMobius316Pressure.lean": "3de9319f77d2cd6fab43c83fb426b71d3b84018df76a27073dbf556b940eb3df"
  },
- "published_at": "2026-10-29T02:47:03Z",
- "certificate_sha256": "052f87e8e12f4a655cefec4fe424aff29535899cdcbdf26b1cc28fad1e1a6f02"
+ "published_at": "2026-10-29T06:27:15Z",
+ "certificate_sha256": "9bb9955025a3773e8a53b9616b7f083a9782507564c92a8e71eff88554f84f67"
 }

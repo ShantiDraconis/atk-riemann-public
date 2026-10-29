@@ -128,7 +128,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -196,6 +196,6 @@
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/RH/R2/MobiusDivisorKernel.lean": "ff1211678beeaa474b7dd97ef7298cd972bfe4a98ce3fa597371482b971e0b3e"
  },
- "published_at": "2026-10-29T02:47:07Z",
- "certificate_sha256": "9d5f3c145eb4c30220b9625d296acabe4b42d7a3337704e1438bc287cd5c6279"
+ "published_at": "2026-10-29T06:27:24Z",
+ "certificate_sha256": "71c0524e784b1d2d226a83f97257c7e5e6d01761d5ce5674d53e20479a399c12"
 }
