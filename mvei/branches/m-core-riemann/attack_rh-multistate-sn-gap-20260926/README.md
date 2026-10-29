@@ -5,7 +5,7 @@ Lean sources from the branch `attack/rh-multistate-sn-gap-20260926` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `f9d72c70f480f208afc98d23743b9d069514fcc43360235af400e5b10bd470b3`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_rh-multistate-sn-gap-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `455134521c91821d430ad3bace9c44be30342f49e089af9ff95d0ed96ef46257`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_rh-multistate-sn-gap-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

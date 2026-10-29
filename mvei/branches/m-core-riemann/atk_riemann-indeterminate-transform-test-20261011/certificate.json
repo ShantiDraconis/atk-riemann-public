@@ -153,6 +153,6 @@
   "experiments/indeterminate-transform/lakefile.toml": "72cceab4dacf8202fe12ddf924a0e5138279b426cd9cb552e20c13f0f6327401",
   "experiments/indeterminate-transform/lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
  },
- "published_at": "2026-10-29T01:37:20Z",
- "certificate_sha256": "382dd480f25ef1d40bdca35d6e0d910c3efa697bf525102c9e3b378d4421a588"
+ "published_at": "2026-10-29T02:47:03Z",
+ "certificate_sha256": "dadc0d6467505a6db11cb3169084db3429c8e148e2370c41674c4597926a1962"
 }
