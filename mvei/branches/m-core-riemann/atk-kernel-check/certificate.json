@@ -131,6 +131,6 @@
   "atk-kernel/lakefile.toml": "139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d",
   "atk-kernel/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
  },
- "published_at": "2026-10-29T06:27:15Z",
- "certificate_sha256": "419f8b647f02f1cafb2000f7e20fcc6eb451a7651ed82596392df4c4968feef9"
+ "published_at": "2026-10-29T20:15:58Z",
+ "certificate_sha256": "e0cd92d1ae8191cbd86acbf3257fa5662dc98a460131a8a24a4bc7d59ab56413"
 }

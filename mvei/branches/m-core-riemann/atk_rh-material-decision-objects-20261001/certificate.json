@@ -1139,6 +1139,6 @@
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/RH/R2/FinitePrefixFirewall.lean": "fb5b9a7fbf8bd4135bc3b3218923e74eb6978330210a55c0b26b530c808fe102"
  },
- "published_at": "2026-10-29T06:27:16Z",
- "certificate_sha256": "78fe904dd7fb9d144cc3b77361e7b32d362064e905a8a0aa594dc7fc85cb2ee0"
+ "published_at": "2026-10-29T20:15:58Z",
+ "certificate_sha256": "384749763c73e5509c77891674d147a827f40966486a8872bb1f970635a60c7c"
 }

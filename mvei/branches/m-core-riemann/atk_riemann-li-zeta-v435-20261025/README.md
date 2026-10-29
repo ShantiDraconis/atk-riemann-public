@@ -5,7 +5,7 @@ Lean sources from the branch `atk/riemann-li-zeta-v435-20261025` of the private 
 * Branch state: em andamento (not in the default branch).
 * Theorems only on branches, in this branch: 39 — closed 39, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 5 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `5935b50a920046397d7fe35da0e35e65fd7eed7bfd7e909f5d7d3b946e27fdc2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_riemann-li-zeta-v435-20261025/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `7f727d0b32f75d921dfbad2c686a6db2949c95aedc8acf5780e003d6729d84bd`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_riemann-li-zeta-v435-20261025/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

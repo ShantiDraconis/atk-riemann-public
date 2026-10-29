@@ -367,6 +367,6 @@
   "experiments/li-criterion/lakefile.toml": "d6dec000e33334f34877eeb397067a93700dd1428accce723ae257446a5eb587",
   "experiments/li-criterion/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
  },
- "published_at": "2026-10-29T06:27:15Z",
- "certificate_sha256": "5935b50a920046397d7fe35da0e35e65fd7eed7bfd7e909f5d7d3b946e27fdc2"
+ "published_at": "2026-10-29T20:15:58Z",
+ "certificate_sha256": "7f727d0b32f75d921dfbad2c686a6db2949c95aedc8acf5780e003d6729d84bd"
 }

@@ -5,7 +5,7 @@ Lean sources from the branch `atk/rh-multistate-decay-hardening-20261001` of the
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 1, conditional 0, open 0, proof error 1, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e98b04ae854a46b5b5cba340281fd285552e64ea2e92dca9dfa6221e8bf8097b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-multistate-decay-hardening-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `10201f26e85411b0b28d0ba1a6de54d01b469e07b37a278b8cca45aa56a8078a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-multistate-decay-hardening-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

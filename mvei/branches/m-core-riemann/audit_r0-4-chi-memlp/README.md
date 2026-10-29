@@ -5,7 +5,7 @@ Lean sources from the branch `audit/r0-4-chi-memlp` of the private repository `S
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 1, conditional 0, open 0, proof error 0, not reached 3, no result 0.
 * History: 122 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `1da67b00cb9c9de74b8b8b75175a2226f76bb623b509c1cf9956c04852446262`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/audit_r0-4-chi-memlp/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `c12ebffc3f6986f5fe8ce3520d56bda7483d13c5ae280af234dce0c470d7122f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/audit_r0-4-chi-memlp/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

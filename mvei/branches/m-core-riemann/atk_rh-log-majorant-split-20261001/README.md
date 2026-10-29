@@ -5,7 +5,7 @@ Lean sources from the branch `atk/rh-log-majorant-split-20261001` of the private
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 267 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `3f527cbf5712da23ec1c149fed9500dee50f96975294c9bf09604a7194425708`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-log-majorant-split-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `822756cb2e2c306e259ac9aa70a56acd261c160a5a639cd6da5ac5cae2c8d076`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-log-majorant-split-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

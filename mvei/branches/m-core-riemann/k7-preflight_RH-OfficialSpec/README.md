@@ -5,7 +5,7 @@ Lean sources from the branch `k7-preflight/RH-OfficialSpec` of the private repos
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 1 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `6f5c27f1a10eed976c7270d031762ac129d8e5e9573fa18f61795e3f93b3a3eb`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/k7-preflight_RH-OfficialSpec/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `ec24139668261e2335408a9c2889fea7c31b4312e3b2a4a19cdb00b7898c4bb7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/k7-preflight_RH-OfficialSpec/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

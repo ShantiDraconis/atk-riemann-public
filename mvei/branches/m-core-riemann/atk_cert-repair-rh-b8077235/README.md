@@ -5,7 +5,7 @@ Lean sources from the branch `atk/cert-repair-rh-b8077235` of the private reposi
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 89 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `95cdeb7c8dd50ac66027728ac0276b76708cde2c56d9165827e1769deed45230`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_cert-repair-rh-b8077235/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `96b2527d992ada9f404b234675058bf04403dd4c84b1083380c58233a4281a22`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_cert-repair-rh-b8077235/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
