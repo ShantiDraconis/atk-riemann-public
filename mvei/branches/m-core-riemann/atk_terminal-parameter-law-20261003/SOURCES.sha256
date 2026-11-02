@@ -13,7 +13,6 @@ ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-cor
 9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/K6.lean
 dc30a95bb67d2aae8977ec188bf406caa1ac2f9e5659de3ddfbfba3ad91abdd3  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/K7.lean
 e531b14f463c5791e9ab4b48b9bf0a1b74c8d7411a4d6d52ff15d442644bbbb2  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/K8.lean
-5fdb62896b6fd9d429423f0deb39026bf801beff1aabf305a70264b3f319a28e  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/Analytic/D3GaussianKernel.lean
 9857f1894030c87ca0d14736b1b51227215b26b1ea0658d49543aa3b5ef01f8e  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/Analytic/MellinConcrete.lean
 844127a89a409ed18f0dd1a658d6691ff27feb8f4155decd120aae4651a1e657  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/Analytic/MellinNearZero.lean
 40c3639632fc00596c2e9583ca26021e74d01e51847addcc0dbbbb86bec523b9  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/Analytic/MellinRhoClosedForm.lean
@@ -35,7 +34,6 @@ ae0a66dbbe255457e37ebc8ac45df731859379984f13498a6066c73bfcdd88a1  branches/m-cor
 73518a8c81ca9e0f91630c5209d783b1b3aaff0baf1a2270a2a94413300a57aa  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/NB/CoefficientPythagoras.lean
 e7ffbc2f4d4095c8edb9126d819c516db8c9409de4f114fd2731e42768762190  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/NB/CoefficientRealization.lean
 add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/NB/Distance.lean
-97f03a29dfb41378aee26e899973a260c9e883342ce97f0d8c0b5c371de5230c  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/NB/DistanceAntitone.lean
 d22680dfb222477e46929edd39097cdb30e3a59b53ddd0a431433aae356bc96a  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/NB/ExactFinalProducer.lean
 56ec763b62c548b2862eae93c7b50dbdad35c7604896b8c01ea35f7c2b6d1001  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/NB/ExplicitCoefficientProducer.lean
 62efe595ae55422667d196b3bb8148b173e2fd7f877d72eca18c23f04d1757eb  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/NB/FinalExternal.lean
@@ -74,7 +72,6 @@ fa17d0266cdd986e6763b67e3469da7768d87e2041a1d9cfc30967be86bf7813  branches/m-cor
 8e5c717ca2c017f7e27c0ce1a4ae57ceb8ec0d573b58d4d5e43afc9a0407a8b4  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/ExplicitCoefficientLogRate.lean
 126845a7ebc559cf9c10aadaed96cf34c31870ad114bd1313c9fdcdb6e3fd699  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/ExponentialUniqueness.lean
 a48d492ed0a9056d052cacc6254f417edce3c554f0d6465f711adc33e913cfdc  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/FinalKernelComposition.lean
-430ebbf3746fb267db0ca8a9cacd047627baa24992eb82d2477d20a0bc40b0fe  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/GramAutocorrelation.lean
 e1f114a84ba6723e8b55c33c3db02dd79597e66115898e6649bfe83508dc0fdd  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/GramExplicit.lean
 9b627542b324d7249d8bd74e395de50e67865840389ea8d30e89cf136726268b  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/GramIntegral.lean
 98b86758eba28a8018942316e581213efc38df12d7ae9f9050c16e037c8c582c  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/GramInverse.lean
@@ -87,12 +84,9 @@ adf9ce850347d9b1baf653c4b7276b97507357ee1002a7df119880edf7c7220c  branches/m-cor
 3366bce1bcf7030ec5db41294752312973846f204c3b3f8dcc273d72bcbaca97  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/RHKernelEntry.lean
 bf42d7cc4fd81631155b86de08c46dee0ffcb015a29ae3e667f1dc28e46b8dea  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/RhoBasicFacts.lean
 7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/RhoConcrete.lean
-b169bcab6e6b6ea37543020213f5b69f97e01db85f46d9b5eb49d2ca53646513  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/TargetClosedFormReduction.lean
 4b9efb0e9a893c35e0382cf39ca0227ee49e6fe830f9d43de5b86b1521868714  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/TerminalLaw.lean
 93bb52668667dd555def02432b7080adc923534cf9f0a636d47bc05e64e3f239  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/WeightedIntegrability.lean
 431a69cce01e471821a03fd530d8b09a9c808072e58b2afec4564320b6f7a688  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/WeightedIntegralLinearity.lean
 8045dbd5393919c660191cf8742dd2e701bec3786f3f6e4627e1ac91c0ce0443  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/WeightedScaling.lean
 e85d5483e9fd7ef361837777a28899e028b48ba5cc1f0e696608471988f23397  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R2/FinalExternal.lean
 454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2  branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/Signature.lean
-c62606a4bc8b45b077243a09f3a20535f435fba2b982835f0bfb1f506f69121d  branches/m-core-riemann/atk_terminal-parameter-law-20261003/open_math/lean/RHA1Decomposition.lean
-60e3a34aa6cb954492ac54cc7140784263e94536ec517422c69a447d2d76960f  branches/m-core-riemann/atk_terminal-parameter-law-20261003/research/r2/BackwardDenseEndpoint.lean

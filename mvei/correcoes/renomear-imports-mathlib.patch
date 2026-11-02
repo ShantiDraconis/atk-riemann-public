@@ -1,0 +1,8 @@
+--- a/audit/FinalEndpoint.lean
++++ b/audit/FinalEndpoint.lean
+@@ -1,4 +1,4 @@
+-import Mathlib.Analysis.SpecialFunctions.Zeta
++import Mathlib
+ 
+ namespace MCore.Audit
+ 

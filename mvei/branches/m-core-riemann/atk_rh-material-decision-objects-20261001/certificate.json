@@ -1063,7 +1063,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1081,7 +1081,7 @@
    "line": 37,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(N0 : ℕ) (B : ℝ) (hB : B < 1) : ∃ f : ℕ → ℝ, (∀ n ≤ N0, f n = 0) ∧ B < f (N0 + 1)"
+   "statement": "∀ (N0 : ℕ), ∀ B < 1, ∃ f, (∀ n ≤ N0, f n = 0) ∧ B < f (N0 + 1)"
   },
   {
    "name": "MCore.RH.FinitePrefixFirewall.finite_prefix_does_not_force_next_small",
@@ -1089,7 +1089,7 @@
    "line": 24,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(N0 : ℕ) : (∀ n ≤ N0, prefixZeroThenOne N0 n = 0) ∧ prefixZeroThenOne N0 (N0 + 1) = 1"
+   "statement": "∀ (N0 : ℕ),   (∀ n ≤ N0, MCore.RH.FinitePrefixFirewall.prefixZeroThenOne N0 n = 0) ∧     MCore.RH.FinitePrefixFirewall.prefixZeroThenOne N0 (N0 + 1) = 1"
   },
   {
    "name": "MCore.RH.FinitePrefixFirewall.no_finite_zero_prefix_implies_uniform_tail_bound",
@@ -1097,7 +1097,7 @@
    "line": 55,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ¬ (∀ (N0 : ℕ) (f : ℕ → ℝ), (∀ n ≤ N0, f n = 0) → ∀ n > N0, f n ≤ (1 / 2 : ℝ))"
+   "statement": "¬∀ (N0 : ℕ) (f : ℕ → ℝ), (∀ n ≤ N0, f n = 0) → ∀ n > N0, f n ≤ 1 / 2"
   },
   {
    "name": "MCore.RH.FinitePrefixFirewall.prefixZeroThenOne_agrees_on_prefix",
@@ -1105,7 +1105,7 @@
    "line": 11,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(N0 n : ℕ) (hn : n ≤ N0) : prefixZeroThenOne N0 n = 0"
+   "statement": "∀ (N0 n : ℕ), n ≤ N0 → MCore.RH.FinitePrefixFirewall.prefixZeroThenOne N0 n = 0"
   },
   {
    "name": "MCore.RH.FinitePrefixFirewall.prefixZeroThenOne_tail",
@@ -1113,13 +1113,13 @@
    "line": 17,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(N0 n : ℕ) (hn : N0 < n) : prefixZeroThenOne N0 n = 1"
+   "statement": "∀ (N0 n : ℕ), N0 < n → MCore.RH.FinitePrefixFirewall.prefixZeroThenOne N0 n = 1"
   },
   {
    "name": "MCore.RH.MaterialDecision.OffCriticalZero.refutes_rh",
    "file": "lean/MCore/RH/R0/MaterialDecisionObjects.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(z : OffCriticalZero) : ¬ RiemannHypothesis"
   },
@@ -1127,7 +1127,7 @@
    "name": "MCore.RH.MaterialDecision.no_offCriticalZero_on_critical_line",
    "file": "lean/MCore/RH/R0/MaterialDecisionObjects.lean",
    "line": 82,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(z : OffCriticalZero) (hre : z.s.re = (1 : ℝ) / 2) : False"
   }
@@ -1139,6 +1139,6 @@
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/RH/R2/FinitePrefixFirewall.lean": "fb5b9a7fbf8bd4135bc3b3218923e74eb6978330210a55c0b26b530c808fe102"
  },
- "published_at": "2026-10-29T20:15:58Z",
- "certificate_sha256": "384749763c73e5509c77891674d147a827f40966486a8872bb1f970635a60c7c"
+ "published_at": "2026-11-02T20:55:39Z",
+ "certificate_sha256": "5d9ac4bdb2179dac10e7ea70c413a92c24d591a974c7c7960ce501868ead4f21"
 }

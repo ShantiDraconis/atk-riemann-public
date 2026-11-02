@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:57:14+00:00",
+ "generated_at": "2026-10-30T16:50:26+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,10 +15,10 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 13.8,
-   "build_error": "",
+   "build_seconds": 12.9,
+   "build_error": "(configuração original) ",
    "sorry_warnings": 0,
-   "reconstructed": false,
+   "reconstructed": true,
    "bridges": [],
    "declared_axioms": [],
    "theorems": [
@@ -81,6 +81,78 @@
      "status": "fechado"
     },
     {
+     "name": "MCore.BackwardAudit.CrossProblemBridgeSpec.mk.inj",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [],
+     "statement": "∀   {rh pnpDiscriminant factoringPolynomialTime twistedZetaOffCritical rh_1 pnpDiscriminant_1 factoringPolynomialTime_1     twistedZetaOffCritical_1 : Prop},   { rh := rh, pnpDiscriminant := pnpDiscriminant, factoringPolynomialTime := factoringPolynomialTime,         twistedZetaOffCritical := twistedZetaOffCritical } =       { rh := rh_1, pnpDiscriminant := pnpDiscriminant_1, factoringPolynomialTi",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.CrossProblemBridgeSpec.mk.injEq",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀   (rh pnpDiscriminant factoringPolynomialTime twistedZetaOffCritical rh_1 pnpDiscriminant_1 factoringPolynomialTime_1     twistedZetaOffCritical_1 : Prop),   ({ rh := rh, pnpDiscriminant := pnpDiscriminant, factoringPolynomialTime := factoringPolynomialTime,         twistedZetaOffCritical := twistedZetaOffCritical } =       { rh := rh_1, pnpDiscriminant := pnpDiscriminant_1, factoringPolynomialT",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.CrossProblemBridgeSpec.mk.sizeOf_spec",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [],
+     "statement": "∀ (rh pnpDiscriminant factoringPolynomialTime twistedZetaOffCritical : Prop),   sizeOf       { rh := rh, pnpDiscriminant := pnpDiscriminant, factoringPolynomialTime := factoringPolynomialTime,         twistedZetaOffCritical := twistedZetaOffCritical } =     1 + sizeOf rh + sizeOf pnpDiscriminant + sizeOf factoringPolynomialTime + sizeOf twistedZetaOffCritical",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.cross_problem_endpoint_still_untyped",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [],
+     "statement": "MCore.BackwardAudit.endpointPropositionTyped = false",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.endpoint_proposition_still_untyped",
+     "module": "MCore.BackwardAudit.EndpointTypeResidue",
+     "axioms": [],
+     "statement": "MCore.BackwardAudit.endpointPropositionTyped = false",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.endpoint_route_is_criticalLine",
+     "module": "MCore.BackwardAudit.EndpointTypeResidue",
+     "axioms": [],
+     "statement": "MCore.k1Target.route = MCore.ResearchRoute.criticalLine",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.rh_to_factoring_if_bridge_supplied",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [],
+     "statement": "∀ (S : MCore.BackwardAudit.CrossProblemBridgeSpec),   MCore.BackwardAudit.RHToFactoringBridge S → S.rh → S.factoringPolynomialTime",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.rh_to_pnp_equality_if_bridge_supplied",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [],
+     "statement": "∀ (S : MCore.BackwardAudit.CrossProblemBridgeSpec),   MCore.BackwardAudit.RHToPNPEqualityBridge S → S.rh → S.pnpDiscriminant",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.rh_to_pnp_separation_if_bridge_supplied",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [],
+     "statement": "∀ (S : MCore.BackwardAudit.CrossProblemBridgeSpec),   MCore.BackwardAudit.RHToPNPSeparationBridge S → S.rh → ¬S.pnpDiscriminant",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BackwardAudit.twisted_zeta_to_separation_if_bridge_supplied",
+     "module": "MCore.BackwardAudit.CrossProblemBridgeBoundary",
+     "axioms": [],
+     "statement": "∀ (S : MCore.BackwardAudit.CrossProblemBridgeSpec),   MCore.BackwardAudit.TwistedZetaToPNPSeparationBridge S → S.twistedZetaOffCritical → ¬S.pnpDiscriminant",
+     "status": "fechado"
+    },
+    {
      "name": "MCore.BoundaryPhase.boundary.sizeOf_spec",
      "module": "MCore.Boundary",
      "axioms": [],
@@ -126,7 +198,7 @@
      "name": "MCore.BoundaryProtocol.mk.inj",
      "module": "MCore.Boundary",
      "axioms": [],
-     "statement": "∀ {Object Value : Type} {observable : Object → Value} {atBoundary : Object → Prop}   {admissiblePath : (Nat → Object) → Prop} {observable_1 : Object → Value} {atBoundary_1 : Object → Prop}   {admissiblePath_1 : (Nat → Object) → Prop},   { observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } =       { observable := observable_1, atBoundary := atBoundary_1, admissib",
+     "statement": "∀ {Object Value : Type} {observable : Object → Value} {atBoundary : Object → Prop}   {admissiblePath : (ℕ → Object) → Prop} {observable_1 : Object → Value} {atBoundary_1 : Object → Prop}   {admissiblePath_1 : (ℕ → Object) → Prop},   { observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } =       { observable := observable_1, atBoundary := atBoundary_1, admissiblePa",
      "status": "fechado"
     },
     {
@@ -135,14 +207,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Object Value : Type} (observable : Object → Value) (atBoundary : Object → Prop)   (admissiblePath : (Nat → Object) → Prop) (observable_1 : Object → Value) (atBoundary_1 : Object → Prop)   (admissiblePath_1 : (Nat → Object) → Prop),   ({ observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } =       { observable := observable_1, atBoundary := atBoundary_1, admissi",
+     "statement": "∀ {Object Value : Type} (observable : Object → Value) (atBoundary : Object → Prop)   (admissiblePath : (ℕ → Object) → Prop) (observable_1 : Object → Value) (atBoundary_1 : Object → Prop)   (admissiblePath_1 : (ℕ → Object) → Prop),   ({ observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } =       { observable := observable_1, atBoundary := atBoundary_1, admissibleP",
      "status": "fechado"
     },
     {
      "name": "MCore.BoundaryProtocol.mk.sizeOf_spec",
      "module": "MCore.Boundary",
      "axioms": [],
-     "statement": "∀ {Object Value : Type} [inst : SizeOf Object] [inst_1 : SizeOf Value] (observable : Object → Value)   (atBoundary : Object → Prop) (admissiblePath : (Nat → Object) → Prop),   sizeOf { observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } = 1",
+     "statement": "∀ {Object Value : Type} [inst : SizeOf Object] [inst_1 : SizeOf Value] (observable : Object → Value)   (atBoundary : Object → Prop) (admissiblePath : (ℕ → Object) → Prop),   sizeOf { observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } = 1",
      "status": "fechado"
     },
     {
@@ -331,6 +403,83 @@
      "status": "fechado"
     },
     {
+     "name": "MCore.Material.RHClosure.K0_nonneg",
+     "module": "MCore.Material.Closure",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {DN : ℕ → ℝ} (self : MCore.Material.RHClosure DN), 0 ≤ self.K0",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Material.RHClosure.bound",
+     "module": "MCore.Material.Closure",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {DN : ℕ → ℝ} (self : MCore.Material.RHClosure DN) (N : ℕ), DN N ≤ self.K0 / Real.log (↑N + 2)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Material.RHClosure.log_pos",
+     "module": "MCore.Material.Closure",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {DN : ℕ → ℝ}, MCore.Material.RHClosure DN → ∀ (N : ℕ), 0 < Real.log (↑N + 2)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Material.RHClosure.mk.inj",
+     "module": "MCore.Material.Closure",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {DN : ℕ → ℝ} {K0 : ℝ} {K0_nonneg : 0 ≤ K0} {log_pos : ∀ (N : ℕ), 0 < Real.log (↑N + 2)}   {bound : ∀ (N : ℕ), DN N ≤ K0 / Real.log (↑N + 2)} {K0_1 : ℝ} {K0_nonneg_1 : 0 ≤ K0_1}   {log_pos_1 : ∀ (N : ℕ), 0 < Real.log (↑N + 2)} {bound_1 : ∀ (N : ℕ), DN N ≤ K0_1 / Real.log (↑N + 2)},   { K0 := K0, K0_nonneg := K0_nonneg, log_pos := log_pos, bound := bound } =       { K0 := K0_1, K0_nonneg := K0_non",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Material.RHClosure.mk.injEq",
+     "module": "MCore.Material.Closure",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {DN : ℕ → ℝ} (K0 : ℝ) (K0_nonneg : 0 ≤ K0) (log_pos : ∀ (N : ℕ), 0 < Real.log (↑N + 2))   (bound : ∀ (N : ℕ), DN N ≤ K0 / Real.log (↑N + 2)) (K0_1 : ℝ) (K0_nonneg_1 : 0 ≤ K0_1)   (log_pos_1 : ∀ (N : ℕ), 0 < Real.log (↑N + 2)) (bound_1 : ∀ (N : ℕ), DN N ≤ K0_1 / Real.log (↑N + 2)),   ({ K0 := K0, K0_nonneg := K0_nonneg, log_pos := log_pos, bound := bound } =       { K0 := K0_1, K0_nonneg := K0_no",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Material.RHClosure.mk.sizeOf_spec",
+     "module": "MCore.Material.Closure",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {DN : ℕ → ℝ} (K0 : ℝ) (K0_nonneg : 0 ≤ K0) (log_pos : ∀ (N : ℕ), 0 < Real.log (↑N + 2))   (bound : ∀ (N : ℕ), DN N ≤ K0 / Real.log (↑N + 2)),   sizeOf { K0 := K0, K0_nonneg := K0_nonneg, log_pos := log_pos, bound := bound } = 1 + sizeOf K0 + sizeOf K0_nonneg",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Material.closure_produces_bound",
+     "module": "MCore.Material.Closure",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {DN : ℕ → ℝ}, MCore.Material.RHClosure DN → MCore.Material.ConcreteUniformLogDNBound DN",
+     "status": "fechado"
+    },
+    {
      "name": "MCore.OpenBridgeFirewall.certificate_blocked",
      "module": "MCore.K5",
      "axioms": [],
@@ -434,7 +583,7 @@
      "name": "MCore.RiemannMultistate.DyadicTorusState.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {d U V d_1 U_1 V_1 : Nat}, { d := d, U := U, V := V } = { d := d_1, U := U_1, V := V_1 } → d = d_1 ∧ U = U_1 ∧ V = V_1",
+     "statement": "∀ {d U V d_1 U_1 V_1 : ℕ}, { d := d, U := U, V := V } = { d := d_1, U := U_1, V := V_1 } → d = d_1 ∧ U = U_1 ∧ V = V_1",
      "status": "fechado"
     },
     {
@@ -443,21 +592,21 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ (d U V d_1 U_1 V_1 : Nat),   ({ d := d, U := U, V := V } = { d := d_1, U := U_1, V := V_1 }) = (d = d_1 ∧ U = U_1 ∧ V = V_1)",
+     "statement": "∀ (d U V d_1 U_1 V_1 : ℕ),   ({ d := d, U := U, V := V } = { d := d_1, U := U_1, V := V_1 }) = (d = d_1 ∧ U = U_1 ∧ V = V_1)",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.DyadicTorusState.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ (d U V : Nat), sizeOf { d := d, U := U, V := V } = 1 + sizeOf d + sizeOf U + sizeOf V",
+     "statement": "∀ (d U V : ℕ), sizeOf { d := d, U := U, V := V } = 1 + sizeOf d + sizeOf U + sizeOf V",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.EquivalentRoutes.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {restricted : MCore.RiemannMultistate.RestrictedOperatorRoute Scalar}   {spectral : MCore.RiemannMultistate.SpectralRoute Scalar}   {telescoping : MCore.RiemannMultistate.TelescopingRoute Scalar} {restricted_same : restricted.SN = SN}   {spectral_same : spectral.SN = SN} {telescoping_same : telescoping.SN = SN} {SN_1 : Nat → Scalar}   {restricted_1 : MCore.Rie",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {restricted : MCore.RiemannMultistate.RestrictedOperatorRoute Scalar}   {spectral : MCore.RiemannMultistate.SpectralRoute Scalar}   {telescoping : MCore.RiemannMultistate.TelescopingRoute Scalar} {restricted_same : restricted.SN = SN}   {spectral_same : spectral.SN = SN} {telescoping_same : telescoping.SN = SN} {SN_1 : ℕ → Scalar}   {restricted_1 : MCore.Riemann",
      "status": "fechado"
     },
     {
@@ -466,14 +615,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (restricted : MCore.RiemannMultistate.RestrictedOperatorRoute Scalar)   (spectral : MCore.RiemannMultistate.SpectralRoute Scalar)   (telescoping : MCore.RiemannMultistate.TelescopingRoute Scalar) (restricted_same : restricted.SN = SN)   (spectral_same : spectral.SN = SN) (telescoping_same : telescoping.SN = SN) (SN_1 : Nat → Scalar)   (restricted_1 : MCore.Rie",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (restricted : MCore.RiemannMultistate.RestrictedOperatorRoute Scalar)   (spectral : MCore.RiemannMultistate.SpectralRoute Scalar)   (telescoping : MCore.RiemannMultistate.TelescopingRoute Scalar) (restricted_same : restricted.SN = SN)   (spectral_same : spectral.SN = SN) (telescoping_same : telescoping.SN = SN) (SN_1 : ℕ → Scalar)   (restricted_1 : MCore.Riemann",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.EquivalentRoutes.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar)   (restricted : MCore.RiemannMultistate.RestrictedOperatorRoute Scalar)   (spectral : MCore.RiemannMultistate.SpectralRoute Scalar)   (telescoping : MCore.RiemannMultistate.TelescopingRoute Scalar) (restricted_same : restricted.SN = SN)   (spectral_same : spectral.SN = SN) (telescoping_same : telescoping.SN = SN),   sizeOf       { SN :=",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar)   (restricted : MCore.RiemannMultistate.RestrictedOperatorRoute Scalar)   (spectral : MCore.RiemannMultistate.SpectralRoute Scalar)   (telescoping : MCore.RiemannMultistate.TelescopingRoute Scalar) (restricted_same : restricted.SN = SN)   (spectral_same : spectral.SN = SN) (telescoping_same : telescoping.SN = SN),   sizeOf       { SN := SN",
      "status": "fechado"
     },
     {
@@ -648,7 +797,7 @@
      "name": "MCore.RiemannMultistate.GramStartCertificate.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {closed : Prop} {proof : closed} {SN_1 : Nat → Scalar} {closed_1 : Prop}   {proof_1 : closed_1},   { SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 } →     SN = SN_1 ∧ closed = closed_1",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {closed : Prop} {proof : closed} {SN_1 : ℕ → Scalar} {closed_1 : Prop}   {proof_1 : closed_1},   { SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 } →     SN = SN_1 ∧ closed = closed_1",
      "status": "fechado"
     },
     {
@@ -657,14 +806,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (closed : Prop) (proof : closed) (SN_1 : Nat → Scalar) (closed_1 : Prop)   (proof_1 : closed_1),   ({ SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 }) =     (SN = SN_1 ∧ closed = closed_1)",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (closed : Prop) (proof : closed) (SN_1 : ℕ → Scalar) (closed_1 : Prop)   (proof_1 : closed_1),   ({ SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 }) =     (SN = SN_1 ∧ closed = closed_1)",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.GramStartCertificate.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar) (closed : Prop) (proof : closed),   sizeOf { SN := SN, closed := closed, proof := proof } = 1 + sizeOf closed + sizeOf proof",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar) (closed : Prop) (proof : closed),   sizeOf { SN := SN, closed := closed, proof := proof } = 1 + sizeOf closed + sizeOf proof",
      "status": "fechado"
     },
     {
@@ -678,7 +827,7 @@
      "name": "MCore.RiemannMultistate.MultistateSN.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {N : Nat} {S : Scalar} {presentations : List (MCore.RiemannMultistate.Presentation Scalar)}   {sameValue : ∀ (p : MCore.RiemannMultistate.Presentation Scalar), p ∈ presentations → p.value = S} {N_1 : Nat}   {S_1 : Scalar} {presentations_1 : List (MCore.RiemannMultistate.Presentation Scalar)}   {sameValue_1 : ∀ (p : MCore.RiemannMultistate.Presentation Scalar), p ∈ presentations_1",
+     "statement": "∀ {Scalar : Type} {N : ℕ} {S : Scalar} {presentations : List (MCore.RiemannMultistate.Presentation Scalar)}   {sameValue : ∀ p ∈ presentations, p.value = S} {N_1 : ℕ} {S_1 : Scalar}   {presentations_1 : List (MCore.RiemannMultistate.Presentation Scalar)}   {sameValue_1 : ∀ p ∈ presentations_1, p.value = S_1},   { N := N, S := S, presentations := presentations, sameValue := sameValue } =       { N",
      "status": "fechado"
     },
     {
@@ -687,21 +836,21 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (N : Nat) (S : Scalar) (presentations : List (MCore.RiemannMultistate.Presentation Scalar))   (sameValue : ∀ (p : MCore.RiemannMultistate.Presentation Scalar), p ∈ presentations → p.value = S) (N_1 : Nat)   (S_1 : Scalar) (presentations_1 : List (MCore.RiemannMultistate.Presentation Scalar))   (sameValue_1 : ∀ (p : MCore.RiemannMultistate.Presentation Scalar), p ∈ presentations_1",
+     "statement": "∀ {Scalar : Type} (N : ℕ) (S : Scalar) (presentations : List (MCore.RiemannMultistate.Presentation Scalar))   (sameValue : ∀ p ∈ presentations, p.value = S) (N_1 : ℕ) (S_1 : Scalar)   (presentations_1 : List (MCore.RiemannMultistate.Presentation Scalar))   (sameValue_1 : ∀ p ∈ presentations_1, p.value = S_1),   ({ N := N, S := S, presentations := presentations, sameValue := sameValue } =       { N",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.MultistateSN.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (N : Nat) (S : Scalar)   (presentations : List (MCore.RiemannMultistate.Presentation Scalar))   (sameValue : ∀ (p : MCore.RiemannMultistate.Presentation Scalar), p ∈ presentations → p.value = S),   sizeOf { N := N, S := S, presentations := presentations, sameValue := sameValue } =     1 + sizeOf N + sizeOf S + sizeOf presentations",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (N : ℕ) (S : Scalar)   (presentations : List (MCore.RiemannMultistate.Presentation Scalar)) (sameValue : ∀ p ∈ presentations, p.value = S),   sizeOf { N := N, S := S, presentations := presentations, sameValue := sameValue } =     1 + sizeOf N + sizeOf S + sizeOf presentations",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.MultistateSN.sameValue",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} (self : MCore.RiemannMultistate.MultistateSN Scalar)   (p : MCore.RiemannMultistate.Presentation Scalar), p ∈ self.presentations → p.value = self.S",
+     "statement": "∀ {Scalar : Type} (self : MCore.RiemannMultistate.MultistateSN Scalar), ∀ p ∈ self.presentations, p.value = self.S",
      "status": "fechado"
     },
     {
@@ -761,7 +910,7 @@
      "name": "MCore.RiemannMultistate.RestrictedOperatorRoute.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {certificate : Prop} {SN_1 : Nat → Scalar} {certificate_1 : Prop},   { SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 } →     SN = SN_1 ∧ certificate = certificate_1",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {certificate : Prop} {SN_1 : ℕ → Scalar} {certificate_1 : Prop},   { SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 } →     SN = SN_1 ∧ certificate = certificate_1",
      "status": "fechado"
     },
     {
@@ -770,14 +919,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (certificate : Prop) (SN_1 : Nat → Scalar) (certificate_1 : Prop),   ({ SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 }) =     (SN = SN_1 ∧ certificate = certificate_1)",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (certificate : Prop) (SN_1 : ℕ → Scalar) (certificate_1 : Prop),   ({ SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 }) =     (SN = SN_1 ∧ certificate = certificate_1)",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.RestrictedOperatorRoute.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar) (certificate : Prop),   sizeOf { SN := SN, certificate := certificate } = 1 + sizeOf certificate",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar) (certificate : Prop),   sizeOf { SN := SN, certificate := certificate } = 1 + sizeOf certificate",
      "status": "fechado"
     },
     {
@@ -795,7 +944,7 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {d u v : Nat} {coprime : u.gcd v = 1} {d_1 u_1 v_1 : Nat} {coprime_1 : u_1.gcd v_1 = 1},   { d := d, u := u, v := v, coprime := coprime } = { d := d_1, u := u_1, v := v_1, coprime := coprime_1 } →     d = d_1 ∧ u = u_1 ∧ v = v_1",
+     "statement": "∀ {d u v : ℕ} {coprime : u.gcd v = 1} {d_1 u_1 v_1 : ℕ} {coprime_1 : u_1.gcd v_1 = 1},   { d := d, u := u, v := v, coprime := coprime } = { d := d_1, u := u_1, v := v_1, coprime := coprime_1 } →     d = d_1 ∧ u = u_1 ∧ v = v_1",
      "status": "fechado"
     },
     {
@@ -804,7 +953,7 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ (d u v : Nat) (coprime : u.gcd v = 1) (d_1 u_1 v_1 : Nat) (coprime_1 : u_1.gcd v_1 = 1),   ({ d := d, u := u, v := v, coprime := coprime } = { d := d_1, u := u_1, v := v_1, coprime := coprime_1 }) =     (d = d_1 ∧ u = u_1 ∧ v = v_1)",
+     "statement": "∀ (d u v : ℕ) (coprime : u.gcd v = 1) (d_1 u_1 v_1 : ℕ) (coprime_1 : u_1.gcd v_1 = 1),   ({ d := d, u := u, v := v, coprime := coprime } = { d := d_1, u := u_1, v := v_1, coprime := coprime_1 }) =     (d = d_1 ∧ u = u_1 ∧ v = v_1)",
      "status": "fechado"
     },
     {
@@ -813,14 +962,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ (d u v : Nat) (coprime : u.gcd v = 1),   sizeOf { d := d, u := u, v := v, coprime := coprime } = 1 + sizeOf d + sizeOf u + sizeOf v + sizeOf coprime",
+     "statement": "∀ (d u v : ℕ) (coprime : u.gcd v = 1),   sizeOf { d := d, u := u, v := v, coprime := coprime } = 1 + sizeOf d + sizeOf u + sizeOf v + sizeOf coprime",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.SpectralRoute.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {certificate : Prop} {SN_1 : Nat → Scalar} {certificate_1 : Prop},   { SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 } →     SN = SN_1 ∧ certificate = certificate_1",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {certificate : Prop} {SN_1 : ℕ → Scalar} {certificate_1 : Prop},   { SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 } →     SN = SN_1 ∧ certificate = certificate_1",
      "status": "fechado"
     },
     {
@@ -829,14 +978,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (certificate : Prop) (SN_1 : Nat → Scalar) (certificate_1 : Prop),   ({ SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 }) =     (SN = SN_1 ∧ certificate = certificate_1)",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (certificate : Prop) (SN_1 : ℕ → Scalar) (certificate_1 : Prop),   ({ SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 }) =     (SN = SN_1 ∧ certificate = certificate_1)",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.SpectralRoute.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar) (certificate : Prop),   sizeOf { SN := SN, certificate := certificate } = 1 + sizeOf certificate",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar) (certificate : Prop),   sizeOf { SN := SN, certificate := certificate } = 1 + sizeOf certificate",
      "status": "fechado"
     },
     {
@@ -871,7 +1020,7 @@
      "name": "MCore.RiemannMultistate.TelescopingRoute.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {certificate : Prop} {SN_1 : Nat → Scalar} {certificate_1 : Prop},   { SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 } →     SN = SN_1 ∧ certificate = certificate_1",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {certificate : Prop} {SN_1 : ℕ → Scalar} {certificate_1 : Prop},   { SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 } →     SN = SN_1 ∧ certificate = certificate_1",
      "status": "fechado"
     },
     {
@@ -880,14 +1029,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (certificate : Prop) (SN_1 : Nat → Scalar) (certificate_1 : Prop),   ({ SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 }) =     (SN = SN_1 ∧ certificate = certificate_1)",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (certificate : Prop) (SN_1 : ℕ → Scalar) (certificate_1 : Prop),   ({ SN := SN, certificate := certificate } = { SN := SN_1, certificate := certificate_1 }) =     (SN = SN_1 ∧ certificate = certificate_1)",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.TelescopingRoute.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar) (certificate : Prop),   sizeOf { SN := SN, certificate := certificate } = 1 + sizeOf certificate",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar) (certificate : Prop),   sizeOf { SN := SN, certificate := certificate } = 1 + sizeOf certificate",
      "status": "fechado"
     },
     {
@@ -901,7 +1050,7 @@
      "name": "MCore.RiemannMultistate.TerminalGap.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {decay : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar}   {identifies : decay.sequence = SN} {SN_1 : Nat → Scalar}   {decay_1 : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar} {identifies_1 : decay_1.sequence = SN_1},   { SN := SN, decay := decay, identifies := identifies } =       { SN := SN_1, decay := decay_1, identifies := identi",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {decay : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar}   {identifies : decay.sequence = SN} {SN_1 : ℕ → Scalar}   {decay_1 : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar} {identifies_1 : decay_1.sequence = SN_1},   { SN := SN, decay := decay, identifies := identifies } =       { SN := SN_1, decay := decay_1, identifies := identifies",
      "status": "fechado"
     },
     {
@@ -910,21 +1059,21 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (decay : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar)   (identifies : decay.sequence = SN) (SN_1 : Nat → Scalar)   (decay_1 : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar) (identifies_1 : decay_1.sequence = SN_1),   ({ SN := SN, decay := decay, identifies := identifies } =       { SN := SN_1, decay := decay_1, identifies := ident",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (decay : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar)   (identifies : decay.sequence = SN) (SN_1 : ℕ → Scalar)   (decay_1 : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar) (identifies_1 : decay_1.sequence = SN_1),   ({ SN := SN, decay := decay, identifies := identifies } =       { SN := SN_1, decay := decay_1, identifies := identifie",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.TerminalGap.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar)   (decay : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar) (identifies : decay.sequence = SN),   sizeOf { SN := SN, decay := decay, identifies := identifies } = 1 + sizeOf decay + sizeOf identifies",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar)   (decay : MCore.RiemannMultistate.WeightedModularBilinearDecay Scalar) (identifies : decay.sequence = SN),   sizeOf { SN := SN, decay := decay, identifies := identifies } = 1 + sizeOf decay + sizeOf identifies",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.VasyuninMiddleCertificate.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {closed : Prop} {proof : closed} {SN_1 : Nat → Scalar} {closed_1 : Prop}   {proof_1 : closed_1},   { SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 } →     SN = SN_1 ∧ closed = closed_1",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {closed : Prop} {proof : closed} {SN_1 : ℕ → Scalar} {closed_1 : Prop}   {proof_1 : closed_1},   { SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 } →     SN = SN_1 ∧ closed = closed_1",
      "status": "fechado"
     },
     {
@@ -933,14 +1082,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (closed : Prop) (proof : closed) (SN_1 : Nat → Scalar) (closed_1 : Prop)   (proof_1 : closed_1),   ({ SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 }) =     (SN = SN_1 ∧ closed = closed_1)",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (closed : Prop) (proof : closed) (SN_1 : ℕ → Scalar) (closed_1 : Prop)   (proof_1 : closed_1),   ({ SN := SN, closed := closed, proof := proof } = { SN := SN_1, closed := closed_1, proof := proof_1 }) =     (SN = SN_1 ∧ closed = closed_1)",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.VasyuninMiddleCertificate.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar) (closed : Prop) (proof : closed),   sizeOf { SN := SN, closed := closed, proof := proof } = 1 + sizeOf closed + sizeOf proof",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar) (closed : Prop) (proof : closed),   sizeOf { SN := SN, closed := closed, proof := proof } = 1 + sizeOf closed + sizeOf proof",
      "status": "fechado"
     },
     {
@@ -954,7 +1103,7 @@
      "name": "MCore.RiemannMultistate.WeightedModularBilinearDecay.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {sequence : Nat → Scalar} {vanishes : Prop} {proof : vanishes} {sequence_1 : Nat → Scalar}   {vanishes_1 : Prop} {proof_1 : vanishes_1},   { sequence := sequence, vanishes := vanishes, proof := proof } =       { sequence := sequence_1, vanishes := vanishes_1, proof := proof_1 } →     sequence = sequence_1 ∧ vanishes = vanishes_1",
+     "statement": "∀ {Scalar : Type} {sequence : ℕ → Scalar} {vanishes : Prop} {proof : vanishes} {sequence_1 : ℕ → Scalar}   {vanishes_1 : Prop} {proof_1 : vanishes_1},   { sequence := sequence, vanishes := vanishes, proof := proof } =       { sequence := sequence_1, vanishes := vanishes_1, proof := proof_1 } →     sequence = sequence_1 ∧ vanishes = vanishes_1",
      "status": "fechado"
     },
     {
@@ -963,14 +1112,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (sequence : Nat → Scalar) (vanishes : Prop) (proof : vanishes) (sequence_1 : Nat → Scalar)   (vanishes_1 : Prop) (proof_1 : vanishes_1),   ({ sequence := sequence, vanishes := vanishes, proof := proof } =       { sequence := sequence_1, vanishes := vanishes_1, proof := proof_1 }) =     (sequence = sequence_1 ∧ vanishes = vanishes_1)",
+     "statement": "∀ {Scalar : Type} (sequence : ℕ → Scalar) (vanishes : Prop) (proof : vanishes) (sequence_1 : ℕ → Scalar)   (vanishes_1 : Prop) (proof_1 : vanishes_1),   ({ sequence := sequence, vanishes := vanishes, proof := proof } =       { sequence := sequence_1, vanishes := vanishes_1, proof := proof_1 }) =     (sequence = sequence_1 ∧ vanishes = vanishes_1)",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.WeightedModularBilinearDecay.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (sequence : Nat → Scalar) (vanishes : Prop) (proof : vanishes),   sizeOf { sequence := sequence, vanishes := vanishes, proof := proof } = 1 + sizeOf vanishes + sizeOf proof",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (sequence : ℕ → Scalar) (vanishes : Prop) (proof : vanishes),   sizeOf { sequence := sequence, vanishes := vanishes, proof := proof } = 1 + sizeOf vanishes + sizeOf proof",
      "status": "fechado"
     },
     {
@@ -991,7 +1140,7 @@
      "name": "MCore.RiemannMultistate.ZeroOneTwoChain.mk.inj",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} {SN : Nat → Scalar} {start : MCore.RiemannMultistate.GramStartCertificate Scalar}   {middle : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar} {start_same : start.SN = SN}   {middle_same : middle.SN = SN} {SN_1 : Nat → Scalar} {start_1 : MCore.RiemannMultistate.GramStartCertificate Scalar}   {middle_1 : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar} {start_sam",
+     "statement": "∀ {Scalar : Type} {SN : ℕ → Scalar} {start : MCore.RiemannMultistate.GramStartCertificate Scalar}   {middle : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar} {start_same : start.SN = SN}   {middle_same : middle.SN = SN} {SN_1 : ℕ → Scalar} {start_1 : MCore.RiemannMultistate.GramStartCertificate Scalar}   {middle_1 : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar} {start_same_1",
      "status": "fechado"
     },
     {
@@ -1000,14 +1149,14 @@
      "axioms": [
       "propext"
      ],
-     "statement": "∀ {Scalar : Type} (SN : Nat → Scalar) (start : MCore.RiemannMultistate.GramStartCertificate Scalar)   (middle : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar) (start_same : start.SN = SN)   (middle_same : middle.SN = SN) (SN_1 : Nat → Scalar) (start_1 : MCore.RiemannMultistate.GramStartCertificate Scalar)   (middle_1 : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar) (start_sam",
+     "statement": "∀ {Scalar : Type} (SN : ℕ → Scalar) (start : MCore.RiemannMultistate.GramStartCertificate Scalar)   (middle : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar) (start_same : start.SN = SN)   (middle_same : middle.SN = SN) (SN_1 : ℕ → Scalar) (start_1 : MCore.RiemannMultistate.GramStartCertificate Scalar)   (middle_1 : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar) (start_same_1",
      "status": "fechado"
     },
     {
      "name": "MCore.RiemannMultistate.ZeroOneTwoChain.mk.sizeOf_spec",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : Nat → Scalar)   (start : MCore.RiemannMultistate.GramStartCertificate Scalar)   (middle : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar) (start_same : start.SN = SN)   (middle_same : middle.SN = SN),   sizeOf { SN := SN, start := start, middle := middle, start_same := start_same, middle_same := middle_same } =     1 + sizeOf start + sizeOf",
+     "statement": "∀ {Scalar : Type} [inst : SizeOf Scalar] (SN : ℕ → Scalar) (start : MCore.RiemannMultistate.GramStartCertificate Scalar)   (middle : MCore.RiemannMultistate.VasyuninMiddleCertificate Scalar) (start_same : start.SN = SN)   (middle_same : middle.SN = SN),   sizeOf { SN := SN, start := start, middle := middle, start_same := start_same, middle_same := middle_same } =     1 + sizeOf start + sizeOf midd",
      "status": "fechado"
     },
     {
@@ -1028,7 +1177,7 @@
      "name": "MCore.RiemannMultistate.presentation_invariant",
      "module": "MCore.Frontier.MultistateSN",
      "axioms": [],
-     "statement": "∀ {Scalar : Type} (x : MCore.RiemannMultistate.MultistateSN Scalar) (p : MCore.RiemannMultistate.Presentation Scalar),   p ∈ x.presentations → p.value = x.S",
+     "statement": "∀ {Scalar : Type} (x : MCore.RiemannMultistate.MultistateSN Scalar), ∀ p ∈ x.presentations, p.value = x.S",
      "status": "fechado"
     },
     {
@@ -1245,114 +1394,80 @@
     }
    ],
    "integrity": [],
-   "note": "",
-   "corrections": [],
-   "lakefile_gerado": "",
+   "note": "CORRIGIDO PELO MVEI (renomear-imports-mathlib, vocabulario-lean4): 1 import(s) trocados pelo nome do módulo na versão do Mathlib do projeto, em 1 arquivo(s); trocas de grafia com o mesmo nome e o mesmo enunciado em 2 arquivo(s): noncomputable 2, notacao 1. RECONSTRUÍDO: a configuração original não compila; o MVEI gerou um lakefile com MCore e o Mathlib v4.19.0 e compilou o que foi possível",
+   "corrections": [
+    "renomear-imports-mathlib",
+    "vocabulario-lean4"
+   ],
+   "lakefile_gerado": "import Lake\nopen Lake DSL\n\npackage mveiReconstruido\n\nrequire mathlib from git\n  \"https://github.com/leanprover-community/mathlib4\" @ \"v4.19.0\"\n\n@[default_target] lean_lib MveiReconstruido where\n  srcDir := \"lean\"\n  globs := #[.one `MCore, .submodules `MCore]\n",
    "avulso": false,
    "salvage": [
     {
      "arquivo": "audit/EndpointCompression.lean",
      "linha": 21,
      "nome": "MCore.Audit.source_checkpoint_endpoint_was_untyped",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
+     "status": "fechado",
+     "axioms": []
     },
     {
      "arquivo": "audit/EndpointCompression.lean",
      "linha": 25,
      "nome": "MCore.Audit.source_checkpoint_route_is_criticalLine",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
+     "status": "fechado",
+     "axioms": []
     },
     {
      "arquivo": "audit/EndpointCompression.lean",
      "linha": 29,
      "nome": "MCore.Audit.source_checkpoint_open_bridge",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
+     "status": "fechado",
+     "axioms": []
     },
     {
      "arquivo": "audit/repro_RH_CLASSICAL_ENDPOINT_PROOF.lean",
      "linha": 15,
      "nome": "MCore.Audit.real_frontier_is_final_statement",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "unknown module prefix 'audit' No directory 'audit' or file 'audit.olean' in the search path entries: ././.lake/build/lib/lean /mnt/w/elan/toolchains/leanprover--lean4---v4.19.0/lib/lean /mnt/w/mvei/tr"
-    },
-    {
-     "arquivo": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
-     "linha": 27,
-     "nome": "MCore.BackwardAudit.rh_to_pnp_equality_if_bridge_supplied",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
-    },
-    {
-     "arquivo": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
-     "linha": 34,
-     "nome": "MCore.BackwardAudit.rh_to_pnp_separation_if_bridge_supplied",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
-    },
-    {
-     "arquivo": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
-     "linha": 41,
-     "nome": "MCore.BackwardAudit.rh_to_factoring_if_bridge_supplied",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
-    },
-    {
-     "arquivo": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
-     "linha": 48,
-     "nome": "MCore.BackwardAudit.twisted_zeta_to_separation_if_bridge_supplied",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
-    },
-    {
-     "arquivo": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
-     "linha": 55,
-     "nome": "MCore.BackwardAudit.cross_problem_endpoint_still_untyped",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/EndpointTypeResidue.olean' of module MCore.BackwardAudit.EndpointTypeResidue does not exist"
-    },
-    {
-     "arquivo": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
-     "linha": 11,
-     "nome": "MCore.BackwardAudit.endpoint_route_is_criticalLine",
-     "status": "fechado",
-     "axioms": []
-    },
-    {
-     "arquivo": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
-     "linha": 14,
-     "nome": "MCore.BackwardAudit.endpoint_proposition_still_untyped",
-     "status": "fechado",
-     "axioms": []
-    },
-    {
-     "arquivo": "lean/MCore/Material/Closure.lean",
-     "linha": 10,
-     "nome": "MCore.Material.closure_produces_bound",
      "status": "erro",
      "axioms": [
       "sorryAx"
      ],
-     "erro": "linha 12: application type mismatch Nonempty.intro h argument h has type RHClosure DN : Sort (max (max (u_1 + 1) u_2) u_3) but is expected to have type RHClosure DN : Type u_1"
+     "erro": "linha 18: type mismatch rfl has type ?m.20 = ?m.20 : Prop but is expected to have type RealFrontier = FINAL_STATEMENT : Prop",
+     "coluna": 38,
+     "trecho": "Frontier = FINAL_STATEMENT := ⟦r⟧fl",
+     "ponte_de_modulo": {
+      "MCore.C10.RestrictionProgress": "outro repositório: Elyon-Public-Proof",
+      "MCore.C11.BranchingCost": "outro repositório: Elyon-Public-Proof",
+      "MCore.C12.Families": "outro repositório: Elyon-Public-Proof",
+      "MCore.C9.Good": "outro repositório: Elyon-Public-Proof",
+      "MCore.C9.Mu": "outro repositório: Elyon-Public-Proof",
+      "MCore.C9.Reuse": "outro repositório: Elyon-Public-Proof",
+      "MCore.C9.Step": "outro repositório: Elyon-Public-Proof",
+      "MCore.C9.Vars": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitC2": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitC3": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitC4": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitC5": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitC6": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitC7": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitC8": "outro repositório: Elyon-Public-Proof",
+      "MCore.CircuitK1": "outro repositório: Elyon-Public-Proof",
+      "MCore.K10": "outro repositório: Elyon-Public-Proof",
+      "MCore.K7": "outro repositório: Elyon-Public-Proof",
+      "MCore.K8": "outro repositório: Elyon-Public-Proof",
+      "MCore.K9": "outro repositório: Elyon-Public-Proof",
+      "MCore.PrizeK0": "outro repositório: Elyon-Public-Proof",
+      "audit.EndpointCompression": "outro repositório: Elyon-Public-Proof",
+      "audit.FinalEndpoint": "outro repositório: Elyon-Public-Proof"
+     }
     }
    ],
    "preenchimento": [],
    "summary": {
-    "fechado": 167,
+    "fechado": 184,
     "aberto-sorry": 0,
     "condicional": 0
-   }
+   },
+   "hora_commit_mvei": 1793349359
   },
   {
    "repo": "m-core-riemann",
@@ -1361,7 +1476,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 65.5,
+   "build_seconds": 103.6,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -1414,8 +1529,10 @@
     }
    ],
    "integrity": [],
-   "note": "",
-   "corrections": [],
+   "note": "CORRIGIDO PELO MVEI (vocabulario-lean4): trocas de grafia com o mesmo nome e o mesmo enunciado em 2 arquivo(s): noncomputable 2, notacao 1.",
+   "corrections": [
+    "vocabulario-lean4"
+   ],
    "lakefile_gerado": "",
    "avulso": false,
    "salvage": [],
@@ -1424,7 +1541,8 @@
     "fechado": 4,
     "aberto-sorry": 0,
     "condicional": 0
-   }
+   },
+   "hora_commit_mvei": 1793349359
   }
  ]
 }

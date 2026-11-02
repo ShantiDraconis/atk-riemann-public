@@ -3,9 +3,9 @@
 Lean sources from the branch `atk/rh-material-decision-objects-20261001` of the private repository `ShantiDraconis/m-core-riemann`, commit `6325de7fd2a006bf0f758e140666252ccdc6521c` (2026-10-01T20:20:41+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 7 — closed 5, conditional 0, open 0, proof error 0, not reached 2, no result 0.
+* Theorems only on branches, in this branch: 7 — closed 5, conditional 0, open 0, proof error 0, not reached 0, no result 2.
 * History: 211 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `384749763c73e5509c77891674d147a827f40966486a8872bb1f970635a60c7c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-decision-objects-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `5d9ac4bdb2179dac10e7ea70c413a92c24d591a974c7c7960ce501868ead4f21`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-decision-objects-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
@@ -16,5 +16,5 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.RH.FinitePrefixFirewall.no_finite_zero_prefix_implies_uniform_tail_bound` | `lean/MCore/RH/R2/FinitePrefixFirewall.lean`:55 | fechado |
 | `MCore.RH.FinitePrefixFirewall.prefixZeroThenOne_agrees_on_prefix` | `lean/MCore/RH/R2/FinitePrefixFirewall.lean`:11 | fechado |
 | `MCore.RH.FinitePrefixFirewall.prefixZeroThenOne_tail` | `lean/MCore/RH/R2/FinitePrefixFirewall.lean`:17 | fechado |
-| `MCore.RH.MaterialDecision.OffCriticalZero.refutes_rh` | `lean/MCore/RH/R0/MaterialDecisionObjects.lean`:29 | nao_alcancado |
-| `MCore.RH.MaterialDecision.no_offCriticalZero_on_critical_line` | `lean/MCore/RH/R0/MaterialDecisionObjects.lean`:82 | nao_alcancado |
+| `MCore.RH.MaterialDecision.OffCriticalZero.refutes_rh` | `lean/MCore/RH/R0/MaterialDecisionObjects.lean`:29 | nao_checado |
+| `MCore.RH.MaterialDecision.no_offCriticalZero_on_critical_line` | `lean/MCore/RH/R0/MaterialDecisionObjects.lean`:82 | nao_checado |

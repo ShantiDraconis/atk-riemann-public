@@ -11,7 +11,6 @@ add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8  branches/m-cor
 b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6  branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/lean/MCore/RH/NB/Projection.lean
 cbcfd18eddc72d4b07a499462f2a6822ab383d35b1691a0c90b7ccacb42b3cb5  branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/lean/MCore/RH/NB/ZeroLimitFrontier.lean
 64f08cbc68d4359e17256cea73339eed15263a8d4c14f4d9b88db6c9e78a7393  branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/lean/MCore/RH/P02ClosedFrontierCertificate.lean
-f40d563065f195f20da099afcaf89540f2cc88d192ff00108b8d68578096dabd  branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/lean/MCore/RH/P02CriticalReflectionSymmetry.lean
 98f521489342816a624b61141ae91bbb41bf42b00666e3f2a2ad5be425fbefd8  branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/lean/MCore/RH/P02DeterministicRejectionZero.lean
 1166b2054d1ed8b7251da8c344b2187fc9f4f1af093f96041878c2f17578aff6  branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/lean/MCore/RH/P02ExternalEndpoint.lean
 b83a1417191b9cdb017eff5583309f80f6d6f0b45ea7fe88545c5d264023060c  branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/lean/MCore/RH/P02FinalGlobal.lean

@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1524,57 +1524,47 @@
    "name": "MCore.RH.NB.NBHilbertData.BCFExplicitLogBounds.K_nonneg",
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 47,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : 0 ≤ H.K"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.DNLimit_eq_zero_of_bcfThreeTerm",
    "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
    "line": 102,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) (hzero : D.ZeroResidueVanishing B) : D.DNLimit rho = 0"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.DNToZero_of_bcfThreeTerm",
    "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
    "line": 90,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) (hzero : D.ZeroResidueVanishing B) : D.DNToZero rho"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.FINAL_ROOT_of_explicit_bcf_bounds",
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 102,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : Final.FINAL_ROOT D rho"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.bcf_three_term_materializer",
    "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
    "line": 113,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) : D.ZeroResidueVanishing B → D.DNLimit rho = 0"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.dn_le_combined_log_majorant",
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) (N : ℕ) : D.DN rho N ≤ H.K / Real.log ((N : ℝ) + 2)"
   },
@@ -1582,7 +1572,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_ZETA_FORM",
    "file": "open_math/lean/RHD3Decomposition.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : residualEnergy c = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / (1 / 4 + t ^ 2)"
   },
@@ -1590,7 +1580,7 @@
    "name": "MCore.RH.R0.chi_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) : MellinConvergent chiRepresentativeC s"
   },
@@ -1598,7 +1588,7 @@
    "name": "MCore.RH.R0.fract_mellinConvergent_neg",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent fractRepresentativeC (-s)"
   },
@@ -1606,7 +1596,7 @@
    "name": "MCore.RH.R0.mellin_residual_critical",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLinePoint t) = (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / criticalLinePoint t"
   },
@@ -1614,7 +1604,7 @@
    "name": "MCore.RH.R0.recoveredAllNRate_iff_explicitGramRateTarget",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RecoveredAllNRate ↔ ExplicitGramRateTarget"
   },
@@ -1622,7 +1612,7 @@
    "name": "MCore.RH.R0.recoveredAllNRate_to_terminal",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : RecoveredAllNRate) : RiemannTerminalCertifies"
   },
@@ -1630,7 +1620,7 @@
    "name": "MCore.RH.R0.recoveredMaterialFrontier_to_terminal",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 78,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : recoveredMaterialFrontier) : RiemannTerminalCertifies"
   },
@@ -1638,7 +1628,7 @@
    "name": "MCore.RH.R0.recovered_terminal_of_bcfExplicitLogBounds",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(B : concreteNBData.BCFThreeTermMajorant concreteGeneratorFamily) (H : concreteNBData.BCFExplicitLogBounds B) : RiemannTerminalCertifies"
   },
@@ -1646,7 +1636,7 @@
    "name": "MCore.RH.R0.recovered_terminal_of_coefficient_error_tendsto_zero",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(c : ℕ → ℕ → ℝ) (hzero : Filter.Tendsto (fun N => ‖concreteNBData.chi - concreteNBData.finiteCoefficientApproximant concreteGeneratorFamily c N‖) Filter.atTop (nhds 0)) : RiemannTerminalCertifies"
   },
@@ -1654,7 +1644,7 @@
    "name": "MCore.RH.R0.recovered_terminal_of_explicitGramRate",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ExplicitGramRateTarget) : RiemannTerminalCertifies"
   },
@@ -1662,7 +1652,7 @@
    "name": "MCore.RH.R0.residualEnergy_eq_zeta_integral",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : residualEnergy c = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / (1 / 4 + t ^ 2)"
   },
@@ -1670,7 +1660,7 @@
    "name": "MCore.RH.R0.rhoBase_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (rhoRepresentativeC 0) s"
   },
@@ -1678,7 +1668,7 @@
    "name": "MCore.RH.R0.rho_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (rhoRepresentativeC n) s"
   },
@@ -1686,7 +1676,7 @@
    "name": "MCore.RH.R0.uniformLogDNBound_to_ConcreteCoefficientLogRate",
    "file": "lean/MCore/RH/R0/ExplicitCoefficientLogRate.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteUniformLogDNBound) : ConcreteCoefficientLogRate"
   },
@@ -1694,7 +1684,7 @@
    "name": "MCore.RH.R0.uniformLogDNBound_to_ConcreteGramLogRate",
    "file": "lean/MCore/RH/R0/ConcreteGramLogRate.lean",
    "line": 106,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteUniformLogDNBound) : ConcreteGramLogRate"
   },
@@ -1702,7 +1692,7 @@
    "name": "MCore.RH.R01.Audit.current_open_producer_iff_DNLimit_zero",
    "file": "audit/R01ConcreteAudit.lean",
    "line": 17,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CURRENT_OPEN_PRODUCER ↔ concreteNBData.DNLimit concreteGeneratorFamily = 0"
   },
@@ -1710,7 +1700,7 @@
    "name": "MCore.RH.R01.Audit.current_open_producer_iff_DNToZero",
    "file": "audit/R01ConcreteAudit.lean",
    "line": 22,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CURRENT_OPEN_PRODUCER ↔ concreteNBData.DNToZero concreteGeneratorFamily"
   },
@@ -1720,7 +1710,7 @@
    "line": 41,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(B : WeightedDecayBridge) : concreteNBData.DNLimit concreteGeneratorFamily = 0"
+   "statement": "MCore.RH.R01.WeightedDecayBridge → MCore.RH.R0.concreteNBData.DNLimit MCore.RH.R0.concreteGeneratorFamily = 0"
   },
   {
    "name": "MCore.RH.R01.DNToZero_of_weightedDecayBridge",
@@ -1728,7 +1718,7 @@
    "line": 49,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(B : WeightedDecayBridge) : concreteNBData.DNToZero concreteGeneratorFamily"
+   "statement": "MCore.RH.R01.WeightedDecayBridge → MCore.RH.R0.concreteNBData.DNToZero MCore.RH.R0.concreteGeneratorFamily"
   },
   {
    "name": "MCore.RH.R01.concreteProducer_iff_DNLimit_eq_zero",
@@ -1736,7 +1726,7 @@
    "line": 18,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ConcreteProducer ↔ concreteNBData.DNLimit concreteGeneratorFamily = 0"
+   "statement": "MCore.RH.R01.ConcreteProducer ↔ MCore.RH.R0.concreteNBData.DNLimit MCore.RH.R0.concreteGeneratorFamily = 0"
   },
   {
    "name": "MCore.RH.R01.concreteProducer_iff_DNToZero",
@@ -1744,12 +1734,11 @@
    "line": 25,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ConcreteProducer ↔ concreteNBData.DNToZero concreteGeneratorFamily"
+   "statement": "MCore.RH.R01.ConcreteProducer ↔ MCore.RH.R0.concreteNBData.DNToZero MCore.RH.R0.concreteGeneratorFamily"
   }
  ],
- "closed": 6,
+ "closed": 4,
  "files_sha256": {
-  "audit/R01ConcreteAudit.lean": "773c4273c4e479f8d4f096b588b7af0b74cadf181020722b103a87cfd3d10bb5",
   "lake-manifest.json": "2c4ab35b6c5ec42d2543a7a491bb921bc9c46d9c80b14e30b96d9c44536f50d9",
   "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
@@ -1772,6 +1761,6 @@
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-10-29T20:15:58Z",
- "certificate_sha256": "3ad03ca9bf4a43ce8cde5ed287da94c903e4eed57f8584fb14058aee3174c8c1"
+ "published_at": "2026-11-02T20:55:39Z",
+ "certificate_sha256": "4cd81528e4ae30e14fff79ae19b9a2666cc32cfdec775885d0edae89ce73793f"
 }

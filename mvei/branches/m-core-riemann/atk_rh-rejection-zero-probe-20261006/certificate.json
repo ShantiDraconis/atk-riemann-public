@@ -1023,7 +1023,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1039,7 +1039,7 @@
    "name": "MCore.GammaR_star",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 146,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) : Complex.Gammaℝ (starRingEnd ℂ s) = starRingEnd ℂ (Complex.Gammaℝ s)"
   },
@@ -1325,27 +1325,23 @@
    "name": "MCore.completedHurwitzZetaEven0_zero_star",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 136,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(s : ℂ) : HurwitzZeta.completedHurwitzZetaEven₀ 0 (star s) = star (HurwitzZeta.completedHurwitzZetaEven₀ 0 s)"
   },
   {
    "name": "MCore.completedRiemannZetaConjugationSymmetry_proved",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 175,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": ": CompletedRiemannZetaConjugationSymmetry"
   },
   {
    "name": "MCore.criticalLine_implies_orbitCollapse",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ProbeCriticalLineStatement) : CriticalOrbitCollapse"
   },
@@ -1361,7 +1357,7 @@
    "name": "MCore.criticalOrbitCollapse_of_material_rigidity",
    "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
    "line": 106,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(cert : RHMaterialRigidityCertificate) : CriticalOrbitCollapse"
   },
@@ -1369,7 +1365,7 @@
    "name": "MCore.criticalReflect_eq_star_functionalReflect",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 7,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) : criticalReflect s = starRingEnd ℂ (functionalReflect s)"
   },
@@ -1409,7 +1405,7 @@
    "name": "MCore.criticalReflect_zero_value_closed",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 46,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hconj : RiemannZetaConjugationZeroSymmetry) (hside : ProbeFunctionalSideConditions) {s : ℂ} (hs : ProbeNontrivialZetaZero s) : riemannZeta (criticalReflect s) = 0"
   },
@@ -1417,7 +1413,7 @@
    "name": "MCore.criticalReflect_zeta_zero_of_symmetries",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 26,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hconj : RiemannZetaConjugationZeroSymmetry) {s : ℂ} (hz : riemannZeta s = 0) (hneg : ∀ n : ℕ, s ≠ -(n : ℂ)) (h1 : s ≠ 1) : riemannZeta (criticalReflect s) = 0"
   },
@@ -1425,7 +1421,7 @@
    "name": "MCore.criticalReflectionZeroClosure_of_conjugation",
    "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hconj : RiemannZetaConjugationZeroSymmetry) : CriticalReflectionZeroClosure"
   },
@@ -1433,7 +1429,7 @@
    "name": "MCore.criticalReflectionZeroClosure_proved",
    "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalReflectionZeroClosure"
   },
@@ -1521,7 +1517,7 @@
    "name": "MCore.dual_endpoint_state_implies_payload",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": DUAL_ENDPOINT_STATE → RiemannMaterialPayload"
   },
@@ -1537,7 +1533,7 @@
    "name": "MCore.endpoint_iff_materialRH",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Endpoint ↔ RiemannHypothesisMaterial"
   },
@@ -1545,7 +1541,7 @@
    "name": "MCore.endpoint_of_material_rigidity",
    "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
    "line": 124,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(cert : RHMaterialRigidityCertificate) : Endpoint"
   },
@@ -1561,7 +1557,7 @@
    "name": "MCore.finalCertificate_iff_endpoint",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 135,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RiemannFinalCertificate ↔ Endpoint"
   },
@@ -1569,7 +1565,7 @@
    "name": "MCore.finalCertificate_iff_materialRH",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 127,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RiemannFinalCertificate ↔ RiemannHypothesisMaterial"
   },
@@ -1577,7 +1573,7 @@
    "name": "MCore.finalCertificate_of_material_rigidity",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 157,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(cert : RHMaterialRigidityCertificate) : Nonempty RiemannFinalCertificate"
   },
@@ -1667,7 +1663,7 @@
    "name": "MCore.hurwitzEvenFEPair_zero_Lambda0_star",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 124,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) : (HurwitzZeta.hurwitzEvenFEPair 0).Λ₀ (star s) = star ((HurwitzZeta.hurwitzEvenFEPair 0).Λ₀ s)"
   },
@@ -1675,7 +1671,7 @@
    "name": "MCore.hurwitzEvenFEPair_zero_f_modif_star_fixed",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 114,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : star ((HurwitzZeta.hurwitzEvenFEPair 0).f_modif t) = (HurwitzZeta.hurwitzEvenFEPair 0).f_modif t"
   },
@@ -1707,7 +1703,7 @@
    "name": "MCore.materialPromotion_iff_offLineReflectedPairExclusion",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 117,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RHMaterialPromotion ↔ OffLineReflectedPairExclusion"
   },
@@ -1715,7 +1711,7 @@
    "name": "MCore.material_gate_exact",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 139,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RiemannFinalCertificate ↔ (RiemannHypothesisMaterial ∧ DUAL_ENDPOINT_STATE)"
   },
@@ -1723,7 +1719,7 @@
    "name": "MCore.mellin_star_of_star_fixed",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 91,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) (hf : ∀ t : ℝ, star (f t) = f t) (s : ℂ) : mellin f (star s) = star (mellin f s)"
   },
@@ -1835,7 +1831,7 @@
    "name": "MCore.orbitCollapse_iff_materialRH",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalOrbitCollapse ↔ RiemannHypothesisMaterial"
   },
@@ -1843,7 +1839,7 @@
    "name": "MCore.payload_iff_endpoint",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RiemannMaterialPayload ↔ Endpoint"
   },
@@ -1851,7 +1847,7 @@
    "name": "MCore.payload_iff_materialRH",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RiemannMaterialPayload ↔ RiemannHypothesisMaterial"
   },
@@ -1859,7 +1855,7 @@
    "name": "MCore.payload_implies_dual_endpoint_state",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RiemannMaterialPayload → DUAL_ENDPOINT_STATE"
   },
@@ -1867,7 +1863,7 @@
    "name": "MCore.probeCriticalLine_of_material_rigidity",
    "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
    "line": 117,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(cert : RHMaterialRigidityCertificate) : ProbeCriticalLineStatement"
   },
@@ -1875,7 +1871,7 @@
    "name": "MCore.probeFunctionalSideConditions_proved",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 57,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ProbeFunctionalSideConditions"
   },
@@ -1883,7 +1879,7 @@
    "name": "MCore.promotedByMaterial_implies_endpoint",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 110,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : RHMaterialPromotion) : Endpoint"
   },
@@ -1891,7 +1887,7 @@
    "name": "MCore.promotedByMaterial_implies_materialRH",
    "file": "lean/MCore/RH/P02RiemannMaterialPayload.lean",
    "line": 104,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : RHMaterialPromotion) : RiemannHypothesisMaterial"
   },
@@ -1899,7 +1895,7 @@
    "name": "MCore.promotionInput_iff_offLineReflectedPairExclusion",
    "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
    "line": 97,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RHMaterialPromotionInput ↔ OffLineReflectedPairExclusion"
   },
@@ -2139,7 +2135,7 @@
    "name": "MCore.riemannZetaConjugationZeroSymmetry_of_completed",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 197,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcomp : CompletedRiemannZetaConjugationSymmetry) : RiemannZetaConjugationZeroSymmetry"
   },
@@ -2147,10 +2143,8 @@
    "name": "MCore.riemannZetaConjugationZeroSymmetry_proved",
    "file": "lean/MCore/RH/P02CriticalReflectionSymmetry.lean",
    "line": 190,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": ": RiemannZetaConjugationZeroSymmetry"
   },
   {
@@ -2229,7 +2223,7 @@
    "name": "MCore.rpa_full_of_material_rigidity",
    "file": "lean/MCore/RH/P02MaterialRigidityLaw.lean",
    "line": 131,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(cert : RHMaterialRigidityCertificate) : RPAFull"
   },
@@ -2410,7 +2404,7 @@
    "statement": "∀ (s : MCore.TerminalStage), MCore.wheelNext (MCore.wheelNext (MCore.wheelNext (MCore.wheelNext s))) = s"
   }
  ],
- "closed": 122,
+ "closed": 113,
  "files_sha256": {
   "lake-manifest.json": "540b4c0b2ac3940e08c26cff05ae0876ea7f91b311529b403b0db6574f62fde2",
   "lakefile.toml": "d9567b64513e9d2ebdd0b21f3da4e9d3a6829ead649bb00d6c6ef731c55d4b2d",
@@ -2425,7 +2419,6 @@
   "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
   "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "cbcfd18eddc72d4b07a499462f2a6822ab383d35b1691a0c90b7ccacb42b3cb5",
   "lean/MCore/RH/P02ClosedFrontierCertificate.lean": "64f08cbc68d4359e17256cea73339eed15263a8d4c14f4d9b88db6c9e78a7393",
-  "lean/MCore/RH/P02CriticalReflectionSymmetry.lean": "f40d563065f195f20da099afcaf89540f2cc88d192ff00108b8d68578096dabd",
   "lean/MCore/RH/P02DeterministicRejectionZero.lean": "98f521489342816a624b61141ae91bbb41bf42b00666e3f2a2ad5be425fbefd8",
   "lean/MCore/RH/P02ExternalEndpoint.lean": "1166b2054d1ed8b7251da8c344b2187fc9f4f1af093f96041878c2f17578aff6",
   "lean/MCore/RH/P02FinalGlobal.lean": "b83a1417191b9cdb017eff5583309f80f6d6f0b45ea7fe88545c5d264023060c",
@@ -2442,6 +2435,6 @@
   "lean/MCore/RH/P02TerminalTransition.lean": "6eaa2e9a1c79a281a4032f74a6f9b3934b2e701f00994a16fbbcc41b64b1f779",
   "lean/MCore/RH/P02TerminalWheel.lean": "5e660b4ca04a641b02a1ce59417c89b824e7d79a99b669e04514dce1d9c04502"
  },
- "published_at": "2026-10-29T20:15:58Z",
- "certificate_sha256": "6280bd98cf1c53e378bae40e3db4337fb0f0f634f5691653ce9852979250d52d"
+ "published_at": "2026-11-02T20:55:39Z",
+ "certificate_sha256": "626878c170a23bb2f2d72b71d14dc38c1d22ebd2d6a8c304ad148bba0703968c"
 }

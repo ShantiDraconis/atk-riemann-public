@@ -18,7 +18,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -138,14 +138,13 @@
    "name": "SDCore.indeterminate_invariance",
    "file": "experiments/indeterminate-transform/IndeterminateRiemann/MainProofBridgeVerbatim.lean",
    "line": 26,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(z : ℂ) (h : z ≠ 0) : IndeterminateTransform z = 1"
   }
  ],
- "closed": 14,
+ "closed": 13,
  "files_sha256": {
-  "experiments/indeterminate-transform/IndeterminateRiemann/MainProofBridgeVerbatim.lean": "82d1913183bc937a0fb975aa7eb67b24c946ad72e102e2b2ba29226b7df283cd",
   "experiments/indeterminate-transform/IndeterminateRiemann/RiemannTest.lean": "3ce579aaaced6c1ab1f84f4f386feb30a29ff90ddaad41bd2edc25ddd65c87c6",
   "experiments/indeterminate-transform/IndeterminateRiemann/Transform.lean": "959b74e3b5c80fc08fa68c54fdad01890aff65d409136b6df43bad100b3d89b4",
   "experiments/indeterminate-transform/IndeterminateRiemann/ZetaTwo.lean": "bbb5e4945cf587cebfa16e409c80e5e1893bb856caa5b8155e7787bfb4cfd120",
@@ -153,6 +152,6 @@
   "experiments/indeterminate-transform/lakefile.toml": "72cceab4dacf8202fe12ddf924a0e5138279b426cd9cb552e20c13f0f6327401",
   "experiments/indeterminate-transform/lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
  },
- "published_at": "2026-10-29T20:15:58Z",
- "certificate_sha256": "26017cf383962cea21ec2202a2abeb5817deb9f825c3ab5676f52dbbf3c679b6"
+ "published_at": "2026-11-02T20:55:39Z",
+ "certificate_sha256": "581c5f57261e44bfcee05fccdf860c453b5422dba6595bd6ba65680573de0a3b"
 }

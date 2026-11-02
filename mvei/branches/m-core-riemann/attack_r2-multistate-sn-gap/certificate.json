@@ -998,7 +998,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1014,27 +1014,23 @@
    "name": "MCore.RH.R2.SN_eq_sum_roses",
    "file": "lean/MCore/RH/R2/MultiStateSNGap.lean",
    "line": 104,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
-   "statement": "(D : WeightedModularBilinearData) (N : ℕ) : SN D N = ∑ d : Fin N, roseContribution D N d"
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.R2.WeightedModularBilinearData) (N : ℕ), MCore.RH.R2.SN D N = ∑ d, MCore.RH.R2.roseContribution D N d"
   },
   {
    "name": "MCore.RH.R2.SN_tendsto_zero_of_weighted_modular_bilinear_decay",
    "file": "lean/MCore/RH/R2/MultiStateSNGap.lean",
    "line": 125,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
-   "statement": "(D : WeightedModularBilinearData) (h : WeightedModularBilinearDecay D) : Filter.Tendsto (SN D) Filter.atTop (nhds 0)"
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.R2.WeightedModularBilinearData),   MCore.RH.R2.WeightedModularBilinearDecay D → Filter.Tendsto (MCore.RH.R2.SN D) Filter.atTop (nhds 0)"
   },
   {
    "name": "MCore.RH.R2.kfar_vanishes_of_weighted_modular_bilinear_decay",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(D : MultistateSNData) (hDecay : WeightedModularBilinearDecay D) : Filter.Tendsto D.S Filter.atTop (nhds 0)"
   },
@@ -1044,13 +1040,13 @@
    "line": 162,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": materialProducerGaps = 1"
+   "statement": "MCore.RH.R2.materialProducerGaps = 1"
   },
   {
    "name": "MCore.RH.R2.openBridge_of_weighted_modular_bilinear_decay",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 71,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(D : MultistateSNData) (hTransport : WeightedModularToOpenBridge D) (hDecay : WeightedModularBilinearDecay D) : OpenBridge"
   },
@@ -1058,7 +1054,7 @@
    "name": "MCore.RH.R2.tensioned_sn_certificate_closes_open_math",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 87,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(D : MultistateSNData) (C : TensionedSNClosureCertificate D) : OpenBridge"
   },
@@ -1066,28 +1062,26 @@
    "name": "MCore.RH.R2.weighted_modular_bilinear_decay_iff_SN_tendsto_zero",
    "file": "lean/MCore/RH/R2/MultiStateSNGap.lean",
    "line": 140,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
-   "statement": "(D : WeightedModularBilinearData) : WeightedModularBilinearDecay D ↔ Filter.Tendsto (SN D) Filter.atTop (nhds 0)"
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.RH.R2.WeightedModularBilinearData),   MCore.RH.R2.WeightedModularBilinearDecay D ↔ Filter.Tendsto (MCore.RH.R2.SN D) Filter.atTop (nhds 0)"
   },
   {
    "name": "MCore.RH.R2.weighted_modular_bilinear_decay_still_open",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 97,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": weightedModularBilinearDecayClosed = false"
   }
  ],
- "closed": 1,
+ "closed": 4,
  "files_sha256": {
   "lake-manifest.json": "2c4ab35b6c5ec42d2543a7a491bb921bc9c46d9c80b14e30b96d9c44536f50d9",
   "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/RH/R2/MultiStateSNGap.lean": "9a9fcead160483089bdda10d1fa3848e8860616c349277ab45a827fdb8d9ebe6"
  },
- "published_at": "2026-10-29T20:15:58Z",
- "certificate_sha256": "8c4bebfe887efb4e4a2e622af2dc177e715ce39b0276a41e3f336e147804854c"
+ "published_at": "2026-11-02T20:55:39Z",
+ "certificate_sha256": "bbe30b1006712ebd0fee385a4a2d415a71657241601b2a428471601a10f9b950"
 }

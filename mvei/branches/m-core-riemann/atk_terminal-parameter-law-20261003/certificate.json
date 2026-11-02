@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1532,7 +1532,7 @@
    "name": "MCore.RH.ClayDiscovery.A12_to_A3",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 154,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (h1 : Q_A1_L2ToMellinMoments N) (h2 : Q_A2_ExponentialUniqueness N) : Q_A3_GeneratorLinearIndependent N"
   },
@@ -1540,7 +1540,7 @@
    "name": "MCore.RH.ClayDiscovery.A3_to_B1",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 161,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (h : Q_A3_GeneratorLinearIndependent N) : Q_B1_GramPosDef N"
   },
@@ -1548,7 +1548,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_A1",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 169,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : Q_A1_L2ToMellinMoments N"
   },
@@ -1556,7 +1556,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_A2",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 174,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : Q_A2_ExponentialUniqueness N"
   },
@@ -1564,7 +1564,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_B2",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 178,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : Q_B2_OptimalInverseFormula N"
   },
@@ -1572,7 +1572,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_C1",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 182,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : Q_C1_TargetIntegral N i"
   },
@@ -1580,7 +1580,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_C2",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 186,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i j : Fin N) : Q_C2_GramIntegral N i j"
   },
@@ -1588,7 +1588,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_C3",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 190,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : Q_C3_TargetClosedForm N i"
   },
@@ -1596,7 +1596,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_C4",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 194,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i j : Fin N) : Q_C4_GramArithmeticKernel N i j"
   },
@@ -1604,7 +1604,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_D1",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 198,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Q_D1_MellinRhoBase"
   },
@@ -1612,7 +1612,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_D2",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 202,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Q_D2_MellinChi"
   },
@@ -1620,7 +1620,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_D3",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 206,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Q_D3_ResidualMellinPlancherel"
   },
@@ -1628,7 +1628,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_E1",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 210,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Q_E1_OffLineZeroWitness"
   },
@@ -1636,7 +1636,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_F1",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 214,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Q_F1_SpectralRealization"
   },
@@ -1644,7 +1644,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_H1",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 218,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Q_H1_GramInverseRate"
   },
@@ -1652,7 +1652,7 @@
    "name": "MCore.RH.ClayDiscovery.DISCOVER_H2",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 222,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Q_H2_UniformLogDN"
   },
@@ -1660,7 +1660,7 @@
    "name": "MCore.RH.ClayDiscovery.H2_to_H3",
    "file": "open_math/lean/RHClayQuestionTree.lean",
    "line": 166,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : Q_H2_UniformLogDN) : Q_H3_Terminal"
   },
@@ -1668,7 +1668,7 @@
    "name": "MCore.RH.Experimental.DISCOVER_cone_normal",
    "file": "open_math/lean/RHGeometryDiscovery.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": GeometryNormalCompatible coneAnsatz"
   },
@@ -1676,7 +1676,7 @@
    "name": "MCore.RH.Experimental.DISCOVER_geometry_log_rate",
    "file": "open_math/lean/RHGeometryDiscovery.lean",
    "line": 77,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : GeometryAnsatz) : Nonempty (GeometryLogCertificate G)"
   },
@@ -1684,7 +1684,7 @@
    "name": "MCore.RH.Experimental.DISCOVER_geometry_zero_relation",
    "file": "open_math/lean/RHGeometryDiscovery.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : GeometryAnsatz) : GeometryZeroWitnessCompatibility G"
   },
@@ -1692,7 +1692,7 @@
    "name": "MCore.RH.Experimental.DISCOVER_sphere_normal",
    "file": "open_math/lean/RHGeometryDiscovery.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": GeometryNormalCompatible sphereAnsatz"
   },
@@ -1700,7 +1700,7 @@
    "name": "MCore.RH.Experimental.DISCOVER_square_normal",
    "file": "open_math/lean/RHGeometryDiscovery.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": GeometryNormalCompatible squareAnsatz"
   },
@@ -1708,7 +1708,7 @@
    "name": "MCore.RH.Experimental.DISCOVER_torus_normal",
    "file": "open_math/lean/RHGeometryDiscovery.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": GeometryNormalCompatible torusAnsatz"
   },
@@ -1716,7 +1716,7 @@
    "name": "MCore.RH.Experimental.GeometryLogCertificate.toUniformLogDNBound",
    "file": "lean/MCore/RH/Experimental/GeometryAnsatz.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GeometryAnsatz} (h : GeometryLogCertificate G) : ConcreteUniformLogDNBound"
   },
@@ -1724,7 +1724,7 @@
    "name": "MCore.RH.Forced.forced_hard_frontier",
    "file": "open_math/forced/Forced.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": HardFrontierTarget"
   },
@@ -1732,7 +1732,7 @@
    "name": "MCore.RH.Forced.forced_terminal",
    "file": "open_math/forced/Forced.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RiemannTerminalCertifies"
   },
@@ -1740,7 +1740,7 @@
    "name": "MCore.RH.ForcedAll.DISCOVER_A2_ALL",
    "file": "open_math/lean/RHForcedAll.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ N : ℕ, ConcreteMomentUniqueness N"
   },
@@ -1748,7 +1748,7 @@
    "name": "MCore.RH.ForcedAll.DISCOVER_A3_FROM_A1",
    "file": "open_math/lean/RHForcedAll.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hA1 : ∀ N : ℕ, ConcreteMomentBridge N) : ∀ N : ℕ, LinearIndependent ℝ (fun i : Fin N => concreteGeneratorFamily i)"
   },
@@ -1756,7 +1756,7 @@
    "name": "MCore.RH.ForcedAll.DISCOVER_E1_OUTCOME",
    "file": "open_math/lean/RHForcedAll.lean",
    "line": 88,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(ρ : ℂ) : ExplicitOutcome (Nonempty (E1WitnessCertificate ρ))"
   },
@@ -1764,7 +1764,7 @@
    "name": "MCore.RH.ForcedAll.DISCOVER_GEOMETRY",
    "file": "open_math/lean/RHForcedAll.lean",
    "line": 94,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : GeometryAnsatz) : ExplicitOutcome (Nonempty (AuditedGeometryCertificate G))"
   },
@@ -1772,7 +1772,7 @@
    "name": "MCore.RH.ForcedAll.DISCOVER_H1",
    "file": "open_math/lean/RHForcedAll.lean",
    "line": 83,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty LogRateCertificate"
   },
@@ -1980,10 +1980,8 @@
    "name": "MCore.RH.NB.NBHilbertData.DNLimit_eq_zero_of_majorant",
    "file": "lean/MCore/RH/NB/DirectMajorantProducer.lean",
    "line": 18,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) (eps : ℕ → ℝ) (heps : Filter.Tendsto eps Filter.atTop (nhds 0)) (hbound : ∀ N, D.DN rho N ≤ eps N) : D.DNLimit rho = 0"
   },
   {
@@ -2014,10 +2012,8 @@
    "name": "MCore.RH.NB.NBHilbertData.DNToZero_of_majorant",
    "file": "lean/MCore/RH/NB/DirectMajorantProducer.lean",
    "line": 7,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) (eps : ℕ → ℝ) (heps : Filter.Tendsto eps Filter.atTop (nhds 0)) (hbound : ∀ N, D.DN rho N ≤ eps N) : D.DNToZero rho"
   },
   {
@@ -2040,7 +2036,7 @@
    "name": "MCore.RH.NB.NBHilbertData.V_mono",
    "file": "lean/MCore/RH/NB/DistanceAntitone.lean",
    "line": 15,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) : Monotone (fun N => D.V rho N)"
   },
@@ -2112,7 +2108,7 @@
    "name": "MCore.RH.NB.NBHilbertData.dN_antitone",
    "file": "lean/MCore/RH/NB/DistanceAntitone.lean",
    "line": 21,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) : Antitone (fun N => D.dN rho N)"
   },
@@ -2240,10 +2236,8 @@
    "name": "MCore.RH.NB.NBHilbertData.mem_V_orthogonal_of_forall_generator_inner_eq_zero",
    "file": "lean/MCore/RH/NB/OrthogonalWitnessObstruction.lean",
    "line": 8,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) (w : D.H) (hgen : ∀ n : ℕ, inner ℝ (rho n) w = 0) (N : ℕ) : w ∈ (D.V rho N)ᗮ"
   },
   {
@@ -2258,50 +2252,40 @@
    "name": "MCore.RH.NB.NBHilbertData.not_DNToZero_of_orthogonal_witness",
    "file": "lean/MCore/RH/NB/OrthogonalWitnessObstruction.lean",
    "line": 99,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) (w : D.H) (hw : w ≠ 0) (hchi : inner ℝ D.chi w ≠ 0) (hgen : ∀ n : ℕ, inner ℝ (rho n) w = 0) : ¬ D.DNToZero rho"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.orthogonalWitnessDelta_le_DN",
    "file": "lean/MCore/RH/NB/OrthogonalWitnessObstruction.lean",
    "line": 69,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) (w : D.H) (hw : w ≠ 0) (hgen : ∀ n : ℕ, inner ℝ (rho n) w = 0) : ∀ N : ℕ, D.orthogonalWitnessDelta w ≤ D.DN rho N"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.orthogonalWitnessDelta_nonneg",
    "file": "lean/MCore/RH/NB/OrthogonalWitnessObstruction.lean",
    "line": 64,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(w : D.H) : 0 ≤ D.orthogonalWitnessDelta w"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.orthogonalWitnessDelta_pos",
    "file": "lean/MCore/RH/NB/OrthogonalWitnessObstruction.lean",
    "line": 83,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(w : D.H) (hw : w ≠ 0) (hchi : inner ℝ D.chi w ≠ 0) : 0 < D.orthogonalWitnessDelta w"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.orthogonal_witness_lower_bound_mul",
    "file": "lean/MCore/RH/NB/OrthogonalWitnessObstruction.lean",
    "line": 27,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) (w : D.H) (hgen : ∀ n : ℕ, inner ℝ (rho n) w = 0) (N : ℕ) : |inner ℝ D.chi w| ^ 2 ≤ D.DN rho N * ‖w‖ ^ 2"
   },
   {
@@ -2492,17 +2476,15 @@
    "name": "MCore.RH.R0.A1_components_to_ConcreteMomentBridge",
    "file": "open_math/lean/RHA1Decomposition.lean",
    "line": 92,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (hae : A1_AEZeroBridge N) (hint : A1_WeightedIntegrability) (hlin : A1_WeightedIntegralLinearity N) (hscale : A1_RealMellinScaling) (hpos : A1_BaseMellinPositive) : ConcreteMomentBridge N"
   },
   {
    "name": "MCore.RH.R0.COPRIME_VASYUNIN_CLOSES_FULL",
    "file": "open_math/lean/RHVasyuninCoprimeChallenge.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcop : CoprimeVasyuninFormula) : VasyuninGramFormula"
   },
@@ -2534,7 +2516,7 @@
    "name": "MCore.RH.R0.CriticalIntegralLogRate.error_sq_le",
    "file": "lean/MCore/RH/R0/CriticalIntegralLogRate.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : CriticalLineMellinPlancherel) (h : CriticalIntegralLogRate) (N : ℕ) : ‖concreteNBData.chi - concreteNBData.coefficientApproximantAt concreteGeneratorFamily N (h.coeff N)‖ ^ 2 ≤ logMajorant h.K N"
   },
@@ -2542,7 +2524,7 @@
    "name": "MCore.RH.R0.CriticalIntegralLogRate.toUniformLogDNBound",
    "file": "lean/MCore/RH/R0/CriticalIntegralLogRate.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : CriticalLineMellinPlancherel) (h : CriticalIntegralLogRate) : ConcreteUniformLogDNBound"
   },
@@ -2558,7 +2540,7 @@
    "name": "MCore.RH.R0.DISCOVER_A1_AE_ZERO",
    "file": "open_math/lean/RHA1Decomposition.lean",
    "line": 67,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : A1_AEZeroBridge N"
   },
@@ -2566,7 +2548,7 @@
    "name": "MCore.RH.R0.DISCOVER_A1_BASE_POSITIVE",
    "file": "open_math/lean/RHA1Decomposition.lean",
    "line": 87,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": A1_BaseMellinPositive"
   },
@@ -2574,7 +2556,7 @@
    "name": "MCore.RH.R0.DISCOVER_A1_LINEARITY",
    "file": "open_math/lean/RHA1Decomposition.lean",
    "line": 77,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : A1_WeightedIntegralLinearity N"
   },
@@ -2582,7 +2564,7 @@
    "name": "MCore.RH.R0.DISCOVER_A1_REAL_SCALING",
    "file": "open_math/lean/RHA1Decomposition.lean",
    "line": 82,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": A1_RealMellinScaling"
   },
@@ -2590,7 +2572,7 @@
    "name": "MCore.RH.R0.DISCOVER_A1_WEIGHTED_INTEGRABLE",
    "file": "open_math/lean/RHA1Decomposition.lean",
    "line": 72,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": A1_WeightedIntegrability"
   },
@@ -2598,7 +2580,7 @@
    "name": "MCore.RH.R0.DISCOVER_COPRIME_VASYUNIN",
    "file": "open_math/lean/RHVasyuninCoprimeChallenge.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CoprimeVasyuninFormula"
   },
@@ -2606,7 +2588,7 @@
    "name": "MCore.RH.R0.DISCOVER_D1_ANALYTIC_CONTINUATION",
    "file": "open_math/lean/RHD1Decomposition.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D1_TailAnalyticContinuation"
   },
@@ -2614,7 +2596,7 @@
    "name": "MCore.RH.R0.DISCOVER_D1_FRACTIONAL_ZETA",
    "file": "open_math/lean/RHD1Decomposition.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FractionalZetaMellinIdentity"
   },
@@ -2622,7 +2604,7 @@
    "name": "MCore.RH.R0.DISCOVER_D1_NEAR_ZERO",
    "file": "open_math/lean/RHD1Decomposition.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D1_NearZeroIdentity"
   },
@@ -2630,7 +2612,7 @@
    "name": "MCore.RH.R0.DISCOVER_D1_TAIL_RIGHT",
    "file": "open_math/lean/RHD1Decomposition.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D1_TailFormulaRight"
   },
@@ -2638,7 +2620,7 @@
    "name": "MCore.RH.R0.DISCOVER_D1_TAIL_SERIES_BRIDGE",
    "file": "open_math/lean/RHD1Decomposition.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ComplexTailIntegralSeriesBridge"
   },
@@ -2646,7 +2628,7 @@
    "name": "MCore.RH.R0.DISCOVER_D1_TAIL_SERIES_CLOSED_FORM",
    "file": "open_math/lean/RHD1Decomposition.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ComplexTailSeriesClosedForm"
   },
@@ -2654,7 +2636,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_FOURIER_PLANCHEREL",
    "file": "open_math/lean/RHD3PlancherelDiscovery.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FourierPlancherelForLogPullback"
   },
@@ -2662,7 +2644,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_FOURIER_SCALED",
    "file": "open_math/lean/RHD3Decomposition.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_FourierScaledPlancherel"
   },
@@ -2670,7 +2652,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_GAUSSIAN_CONVOLUTION",
    "file": "open_math/lean/RHD3PlancherelDecomposition.lean",
    "line": 136,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_GaussianConvolutionIdentity"
   },
@@ -2678,7 +2660,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_HEAT_PAIRING_LIMIT",
    "file": "open_math/lean/RHD3PlancherelDecomposition.lean",
    "line": 148,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_HeatPairingLimit"
   },
@@ -2686,7 +2668,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_LOG_COORDINATE",
    "file": "open_math/lean/RHD3Decomposition.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_LogCoordinateL2"
   },
@@ -2694,7 +2676,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_LOG_L1",
    "file": "open_math/lean/RHD3PlancherelDecomposition.lean",
    "line": 126,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_LogPullbackIntegrable"
   },
@@ -2702,7 +2684,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_LOG_L2",
    "file": "open_math/lean/RHD3PlancherelDecomposition.lean",
    "line": 131,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_LogPullbackMemL2"
   },
@@ -2710,7 +2692,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_MELLIN_PLANCHEREL",
    "file": "open_math/lean/RHD3PlancherelDiscovery.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : FourierPlancherelForLogPullback) : MellinPlancherelProducer"
   },
@@ -2718,7 +2700,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_PLANCHEREL",
    "file": "open_math/lean/RHD3Decomposition.lean",
    "line": 80,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalLineMellinPlancherel"
   },
@@ -2726,7 +2708,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_REGULARIZED_ENERGY",
    "file": "open_math/lean/RHD3PlancherelDecomposition.lean",
    "line": 142,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_RegularizedEnergyIdentity"
   },
@@ -2734,7 +2716,7 @@
    "name": "MCore.RH.R0.DISCOVER_D3_REMOVE_GAUSSIAN_FREQ",
    "file": "open_math/lean/RHD3PlancherelDecomposition.lean",
    "line": 154,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_RemoveGaussianFrequency"
   },
@@ -2742,7 +2724,7 @@
    "name": "MCore.RH.R0.DISCOVER_E1_CAUCHY_REPRODUCING",
    "file": "open_math/lean/RHE1EvaluationDiscovery.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ z : RightStripZero, CriticalEvaluationReproducing z.rho"
   },
@@ -2750,7 +2732,7 @@
    "name": "MCore.RH.R0.DISCOVER_E1_CORRECT_WITNESS",
    "file": "open_math/lean/RHE1WitnessDecomposition.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": E1_CorrectWitnessProducer"
   },
@@ -2758,7 +2740,7 @@
    "name": "MCore.RH.R0.DISCOVER_E1_NEAR_ZERO",
    "file": "open_math/lean/RHE1WitnessDecomposition.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(β : ℝ) : E1_RawPowerNearZeroCondition β ↔ 1 / 2 < β"
   },
@@ -2766,7 +2748,7 @@
    "name": "MCore.RH.R0.DISCOVER_E1_SPECTRAL_TO_PHYSICAL",
    "file": "open_math/lean/RHE1EvaluationDiscovery.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": SpectralToPhysicalWitness"
   },
@@ -2774,7 +2756,7 @@
    "name": "MCore.RH.R0.DISCOVER_E1_TAIL",
    "file": "open_math/lean/RHE1WitnessDecomposition.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(β : ℝ) : E1_RawPowerTailCondition β ↔ β < 1 / 2"
   },
@@ -2782,7 +2764,7 @@
    "name": "MCore.RH.R0.DISCOVER_FINITE_VASYUNIN_RATE",
    "file": "open_math/lean/RHVasyuninDiscovery.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hV : VasyuninGramFormula) : FiniteVasyuninRateTarget"
   },
@@ -2790,7 +2772,7 @@
    "name": "MCore.RH.R0.DISCOVER_PINNED_FOURIER_PLANCHEREL",
    "file": "open_math/lean/RHD3PinnedPlancherel.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": PinnedFourierPlancherelGap"
   },
@@ -2798,7 +2780,7 @@
    "name": "MCore.RH.R0.DISCOVER_V2_UNIT_BLOCKS",
    "file": "open_math/lean/RHVasyuninCoprimeDecomposition.lean",
    "line": 89,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": V2_UnitBlockExpansion"
   },
@@ -2806,7 +2788,7 @@
    "name": "MCore.RH.R0.DISCOVER_V3_RESIDUE_CLASSES",
    "file": "open_math/lean/RHVasyuninCoprimeDecomposition.lean",
    "line": 95,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": V3_ResidueClassReduction"
   },
@@ -2814,7 +2796,7 @@
    "name": "MCore.RH.R0.DISCOVER_V4_COTANGENT",
    "file": "open_math/lean/RHVasyuninCoprimeDecomposition.lean",
    "line": 99,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": V4_CotangentEvaluation"
   },
@@ -2822,7 +2804,7 @@
    "name": "MCore.RH.R0.DISCOVER_VASYUNIN_GRAM_FORMULA",
    "file": "open_math/lean/RHVasyuninDiscovery.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": VasyuninGramFormula"
   },
@@ -2830,7 +2812,7 @@
    "name": "MCore.RH.R0.DISCOVER_explicit_gram_rate",
    "file": "open_math/lean/RHMaterialChallenge.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ExplicitGramRateTarget"
   },
@@ -2838,7 +2820,7 @@
    "name": "MCore.RH.R0.DISCOVER_hard_frontier",
    "file": "open_math/lean/RHMaterialChallenge.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": HardFrontierTarget"
   },
@@ -2846,7 +2828,7 @@
    "name": "MCore.RH.R0.DISCOVER_material_inhabitant",
    "file": "open_math/lean/RHMaterialChallenge.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ConcreteUniformLogDNBound"
   },
@@ -2854,7 +2836,7 @@
    "name": "MCore.RH.R0.DISCOVER_terminal",
    "file": "open_math/lean/RHMaterialChallenge.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RiemannTerminalCertifies"
   },
@@ -2862,7 +2844,7 @@
    "name": "MCore.RH.R0.E1WitnessCertificate.refutesUniformLogDN",
    "file": "lean/MCore/RH/R0/DiscoveryCertificates.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{ρ : ℂ} (h : E1WitnessCertificate ρ) : ¬ ConcreteUniformLogDNBound"
   },
@@ -2878,7 +2860,7 @@
    "name": "MCore.RH.R0.GAP_A1_L2_TO_MELLIN_MOMENTS",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : ConcreteMomentBridge N"
   },
@@ -2886,7 +2868,7 @@
    "name": "MCore.RH.R0.GAP_A2_EXPONENTIAL_UNIQUENESS",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : ConcreteMomentUniqueness N"
   },
@@ -2894,7 +2876,7 @@
    "name": "MCore.RH.R0.GAP_A3_GENERATOR_LINEAR_INDEPENDENCE",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : LinearIndependent ℝ (fun i : Fin N => concreteGeneratorFamily i)"
   },
@@ -2902,7 +2884,7 @@
    "name": "MCore.RH.R0.GAP_B1_GRAM_POSDEF",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : (concreteGramMatrix N).PosDef"
   },
@@ -2910,7 +2892,7 @@
    "name": "MCore.RH.R0.GAP_B2_OPTIMAL_IS_INV_MUL_TARGET",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : optimalGramCoeff N = (concreteGramMatrix N)⁻¹ *ᵥ concreteTargetVector N"
   },
@@ -2918,7 +2900,7 @@
    "name": "MCore.RH.R0.GAP_C1_TARGET_ENTRY_EXPLICIT",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : concreteTargetVector N i = @inner ℝ concreteNBData.H _ concreteNBData.chi (concreteGeneratorFamily i)"
   },
@@ -2926,7 +2908,7 @@
    "name": "MCore.RH.R0.GAP_C2_TARGET_AS_INTEGRAL",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 84,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : concreteTargetVector N i = ∫ x : ℝ in Set.Ioi 0, chiRepresentative x * rhoRepresentative i x"
   },
@@ -2934,7 +2916,7 @@
    "name": "MCore.RH.R0.GAP_C3_GRAM_AS_INTEGRAL",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 92,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i j : Fin N) : concreteGramMatrix N i j = ∫ x : ℝ in Set.Ioi 0, rhoRepresentative i x * rhoRepresentative j x"
   },
@@ -2942,7 +2924,7 @@
    "name": "MCore.RH.R0.GAP_C4_TARGET_CLOSED_FORM",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 100,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : concreteTargetVector N i = (Real.log ((rhoIndex i : ℕ) : ℝ) + 1 - Real.eulerMascheroniConstant) / (((rhoIndex i : ℕ) : ℝ))"
   },
@@ -2950,7 +2932,7 @@
    "name": "MCore.RH.R0.GAP_C5_GRAM_ARITHMETIC_KERNEL",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 109,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i j : Fin N) : concreteGramMatrix N i j = ∫ t : ℝ in Set.Ioi 0, (Int.fract (t / ((rhoIndex i : ℕ) : ℝ)) * Int.fract (t / ((rhoIndex j : ℕ) : ℝ))) / (t ^ 2)"
   },
@@ -2958,7 +2940,7 @@
    "name": "MCore.RH.R0.GAP_D1_MELLIN_RHO_BASE_ZETA",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 132,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (rhoRepresentativeC 0) s = - riemannZeta s / s"
   },
@@ -2966,7 +2948,7 @@
    "name": "MCore.RH.R0.GAP_D2_MELLIN_CHI",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 140,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) : mellin chiRepresentativeC s = 1 / s"
   },
@@ -2974,7 +2956,7 @@
    "name": "MCore.RH.R0.GAP_D3_MELLIN_PLANCHEREL",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 164,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ConcreteResidualMellinIdentity"
   },
@@ -2982,7 +2964,7 @@
    "name": "MCore.RH.R0.GAP_E1_OFFLINE_ZERO_WITNESS",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 186,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OffLineZeroWitnessProducer"
   },
@@ -2990,7 +2972,7 @@
    "name": "MCore.RH.R0.GAP_F1_GRAM_INVERSE_RATE",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 193,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∃ K : ℝ, 0 ≤ K ∧ ∀ N : ℕ, 1 - dotProduct (concreteTargetVector N) ((concreteGramMatrix N)⁻¹ *ᵥ concreteTargetVector N) ≤ logMajorant K N"
   },
@@ -2998,7 +2980,7 @@
    "name": "MCore.RH.R0.GAP_F2_UNIFORM_LOG_DN",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 206,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ConcreteUniformLogDNBound"
   },
@@ -3006,7 +2988,7 @@
    "name": "MCore.RH.R0.GAP_F3_TERMINAL",
    "file": "open_math/lean/RHAllGaps.lean",
    "line": 212,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RiemannTerminalCertifies"
   },
@@ -3064,7 +3046,7 @@
    "line": 69,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": chiRepresentativeC =O[atTop] (fun x : ℝ => x ^ (-1 : ℝ))"
+   "statement": "MCore.RH.R0.chiRepresentativeC =O[Filter.atTop] fun x => x ^ (-1)"
   },
   {
    "name": "MCore.RH.R0.chiRepresentativeC_isBigO_nhdsGT",
@@ -3078,10 +3060,8 @@
    "name": "MCore.RH.R0.chiRepresentativeC_locallyIntegrable",
    "file": "lean/MCore/RH/Analytic/MellinTargetConvergence.lean",
    "line": 8,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": ": LocallyIntegrableOn chiRepresentativeC (Ioi 0)"
   },
   {
@@ -3104,7 +3084,7 @@
    "name": "MCore.RH.R0.chiRepresentativeC_memLp_two",
    "file": "lean/MCore/RH/Analytic/ResidualL2.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MemLp chiRepresentativeC 2 zeroInfinityMeasure"
   },
@@ -3168,7 +3148,7 @@
    "name": "MCore.RH.R0.classicalFourierLocallyIntegrable_realized",
    "file": "lean/MCore/RH/Analytic/GenericFourierDecomposition.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ClassicalFourierLocallyIntegrable"
   },
@@ -3176,7 +3156,7 @@
    "name": "MCore.RH.R0.classicalFourierPlancherel_of_compatibility",
    "file": "lean/MCore/RH/Analytic/FourierPlancherelBridge.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcompat : FourierIntegralLpCompatibility) : ClassicalFourierPlancherel"
   },
@@ -3184,7 +3164,7 @@
    "name": "MCore.RH.R0.coefficientApproximantAt_eq_concreteFiniteCombination",
    "file": "lean/MCore/RH/Analytic/MellinResidualNormBridge.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : concreteNBData.coefficientApproximantAt concreteGeneratorFamily N c = concreteFiniteCombination c"
   },
@@ -3192,7 +3172,7 @@
    "name": "MCore.RH.R0.coefficient_gap_iff_material_gap",
    "file": "lean/MCore/RH/R0/FrontierExposure.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RHCoefficientMaterialGap ↔ RHMaterialGap"
   },
@@ -3200,7 +3180,7 @@
    "name": "MCore.RH.R0.complexFiniteCombination_measurable",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalL2.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Measurable (complexFiniteCombination c)"
   },
@@ -3208,7 +3188,7 @@
    "name": "MCore.RH.R0.complexFiniteCombination_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinResidualAlgebra.lean",
    "line": 84,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (complexFiniteCombination c) s"
   },
@@ -3216,7 +3196,7 @@
    "name": "MCore.RH.R0.complexFiniteCombination_memLp_two",
    "file": "lean/MCore/RH/Analytic/ResidualLp.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (complexFiniteCombination c) 2 zeroInfinityMeasure"
   },
@@ -3224,7 +3204,7 @@
    "name": "MCore.RH.R0.complexResidual_measurable",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalL2.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Measurable (complexResidual c)"
   },
@@ -3232,7 +3212,7 @@
    "name": "MCore.RH.R0.complexResidual_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinResidualAlgebra.lean",
    "line": 107,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (complexResidual c) s"
   },
@@ -3240,7 +3220,7 @@
    "name": "MCore.RH.R0.complexResidual_mellinConvergent_half",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalL1.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MellinConvergent (complexResidual c) ((1 / 2 : ℝ) : ℂ)"
   },
@@ -3248,7 +3228,7 @@
    "name": "MCore.RH.R0.complexResidual_memLp_two",
    "file": "lean/MCore/RH/Analytic/ResidualLp.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (complexResidual c) 2 zeroInfinityMeasure"
   },
@@ -3256,7 +3236,7 @@
    "name": "MCore.RH.R0.complexResidual_sq_integrableOn_Ioi",
    "file": "lean/MCore/RH/Analytic/ResidualLp.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : IntegrableOn (fun x : ℝ => ‖complexResidual c x‖ ^ 2) (Ioi 0) volume"
   },
@@ -3264,7 +3244,7 @@
    "name": "MCore.RH.R0.complexTailPartial_formula",
    "file": "lean/MCore/RH/Analytic/MellinTailPartial.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (s : ℂ) (hs0 : s ≠ 0) (hs1 : s ≠ 1) : complexTailPartial N s = (((N + 1 : ℕ) : ℂ) ^ (1 - s) - 1) / (1 - s) + (1 / s) * (((N : ℕ) : ℂ) * (((N + 1 : ℕ) : ℂ) ^ (-s)) - ∑ n ∈ Finset.range N, 1 / (((n + 1 : ℕ) : ℂ) ^ s))"
   },
@@ -3272,7 +3252,7 @@
    "name": "MCore.RH.R0.complexTailSeriesClosedForm_realized",
    "file": "lean/MCore/RH/Analytic/MellinTailSeriesLimit.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ComplexTailSeriesClosedForm"
   },
@@ -3280,7 +3260,7 @@
    "name": "MCore.RH.R0.complexTailTerm_formula",
    "file": "lean/MCore/RH/Analytic/MellinTailBlocks.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (hn : 0 < n) (s : ℂ) (hs0 : s ≠ 0) (hs1 : s ≠ 1) : complexTailTerm n s = ((n + 1 : ℂ) ^ (1 - s) - (n : ℂ) ^ (1 - s)) / (1 - s) - (n : ℂ) * (((n + 1 : ℂ) ^ (-s) - (n : ℂ) ^ (-s)) / (-s))"
   },
@@ -3320,7 +3300,7 @@
    "name": "MCore.RH.R0.concreteCombinationC_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/ResidualMellinAlgebra.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (concreteCombinationC c) s"
   },
@@ -3336,7 +3316,7 @@
    "name": "MCore.RH.R0.concreteDN_eq_explicitGramResidual",
    "file": "lean/MCore/RH/R0/ExplicitGramRate.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : concreteNBData.DN concreteGeneratorFamily N = explicitGramResidual N"
   },
@@ -3344,7 +3324,7 @@
    "name": "MCore.RH.R0.concreteDN_is_real_explicitGramResidual",
    "file": "lean/MCore/RH/R0/TransformInfraWrappers.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : concreteNBData.DN concreteGeneratorFamily N = explicitGramResidual N"
   },
@@ -3352,7 +3332,7 @@
    "name": "MCore.RH.R0.concreteDN_tendsto_zero_of_uniformLogBound",
    "file": "lean/MCore/RH/R0/TransformInfraWrappers.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteUniformLogDNBound) : Filter.Tendsto (fun N => concreteNBData.DN concreteGeneratorFamily N) Filter.atTop (nhds 0)"
   },
@@ -3360,7 +3340,7 @@
    "name": "MCore.RH.R0.concreteFiniteCombinationC_memLp_two",
    "file": "lean/MCore/RH/Analytic/D3LpPrerequisites.lean",
    "line": 86,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (concreteFiniteCombinationC c) 2 zeroInfinityMeasure"
   },
@@ -3432,10 +3412,8 @@
    "name": "MCore.RH.R0.concreteGramMatrix_eq_fractionalAutocorrelation",
    "file": "lean/MCore/RH/R0/GramAutocorrelation.lean",
    "line": 43,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i j : Fin N) : concreteGramMatrix N i j = (1 / (((rhoIndex i : ℕ) : ℝ))) * fractionalAutocorrelation ((((rhoIndex i : ℕ) : ℝ)) / (((rhoIndex j : ℕ) : ℝ)))"
   },
   {
@@ -3458,10 +3436,8 @@
    "name": "MCore.RH.R0.concreteGramMatrix_inversion",
    "file": "lean/MCore/RH/R0/GramAutocorrelation.lean",
    "line": 12,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i j : Fin N) : concreteGramMatrix N i j = ∫ t : ℝ in Ioi 0, (Int.fract (t / (((rhoIndex i : ℕ) : ℝ))) * Int.fract (t / (((rhoIndex j : ℕ) : ℝ)))) / (t ^ 2)"
   },
   {
@@ -3628,7 +3604,7 @@
    "name": "MCore.RH.R0.concreteResidualC_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/ResidualMellinAlgebra.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (concreteResidualC c) s"
   },
@@ -3636,7 +3612,7 @@
    "name": "MCore.RH.R0.concreteResidualC_memLp_two",
    "file": "lean/MCore/RH/Analytic/D3LpPrerequisites.lean",
    "line": 102,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (concreteResidualC c) 2 zeroInfinityMeasure"
   },
@@ -3644,7 +3620,7 @@
    "name": "MCore.RH.R0.concreteResidual_coeFn_ae",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : (concreteResidual c : ℝ → ℝ) =ᵐ[zeroInfinityMeasure] residualRepresentativeR c"
   },
@@ -3652,7 +3628,7 @@
    "name": "MCore.RH.R0.concreteResidual_norm_sq_eq_integral",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : ‖concreteResidual c‖ ^ 2 = ∫ x : ℝ in Ioi 0, Complex.normSq (residualRepresentativeC c x)"
   },
@@ -3668,7 +3644,7 @@
    "name": "MCore.RH.R0.concreteTargetVector_closed_form",
    "file": "lean/MCore/RH/R0/TargetClosedForm.lean",
    "line": 100,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : concreteTargetVector N i = (Real.log ((rhoIndex i : ℕ) : ℝ) + 1 - Real.eulerMascheroniConstant) / (((rhoIndex i : ℕ) : ℝ))"
   },
@@ -3692,7 +3668,7 @@
    "name": "MCore.RH.R0.concreteUniformLogDNBound_closes_terminal_without_skip",
    "file": "lean/MCore/RH/R0/TransformInfraWrappers.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteUniformLogDNBound) : RiemannTerminalCertifies"
   },
@@ -3772,7 +3748,7 @@
    "name": "MCore.RH.R0.continuedFractionalTail_analyticAt",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 81,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{s : ℂ} (hs : 0 < s.re) : AnalyticAt ℂ continuedFractionalTail s"
   },
@@ -3780,7 +3756,7 @@
    "name": "MCore.RH.R0.continuedFractionalTail_analyticOn",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuationReduction.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": AnalyticOnNhd ℂ continuedFractionalTail positiveHalfPlane"
   },
@@ -3788,7 +3764,7 @@
    "name": "MCore.RH.R0.continuedFractionalTail_eq_zeta",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 92,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{s : ℂ} (hs0 : s ≠ 0) (hs1 : s ≠ 1) : continuedFractionalTail s = 1 / (s - 1) - riemannZeta s / s"
   },
@@ -3796,7 +3772,7 @@
    "name": "MCore.RH.R0.coprimeVasyuninFormula_of_cotangentEvaluation",
    "file": "open_math/lean/RHVasyuninCoprimeDecomposition.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hV4 : V4_CotangentEvaluation) : CoprimeVasyuninFormula"
   },
@@ -3804,7 +3780,7 @@
    "name": "MCore.RH.R0.coprimeVasyuninFormula_of_residueTsum",
    "file": "lean/MCore/RH/R0/VasyuninCoprimeSeriesReduction.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hseries : VasyuninResidueTsumEvaluation) : CoprimeVasyuninFormula"
   },
@@ -3812,7 +3788,7 @@
    "name": "MCore.RH.R0.criticalDensity_integral_scaling",
    "file": "lean/MCore/RH/Analytic/D3FromFourierPlancherel.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : (1 / (2 * Real.pi)) * (∫ t : ℝ, residualCriticalDensity c t) = ∫ w : ℝ, ‖𝓕 (logPullback (residualRepresentativeC c)) w‖ ^ 2"
   },
@@ -3820,7 +3796,7 @@
    "name": "MCore.RH.R0.criticalEvaluationKernel_normSq",
    "file": "lean/MCore/RH/Analytic/CriticalEvaluationKernel.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(ρ : ℂ) (t : ℝ) : ‖criticalEvaluationKernel ρ t‖ ^ 2 = 1 / (criticalHalfPlaneDepth ρ ^ 2 + (t - ρ.im) ^ 2)"
   },
@@ -3828,7 +3804,7 @@
    "name": "MCore.RH.R0.criticalEvaluationKernel_normSq_integrable",
    "file": "lean/MCore/RH/Analytic/CriticalEvaluationKernel.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{ρ : ℂ} (hρ : 1 / 2 < ρ.re) : Integrable (fun t : ℝ => ‖criticalEvaluationKernel ρ t‖ ^ 2)"
   },
@@ -3836,7 +3812,7 @@
    "name": "MCore.RH.R0.criticalFrequencyScaling_realized",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelEasyLaws.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalFrequencyScaling"
   },
@@ -3844,7 +3820,7 @@
    "name": "MCore.RH.R0.criticalHalfPlaneDepth_pos",
    "file": "lean/MCore/RH/Analytic/CriticalEvaluationKernel.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{ρ : ℂ} (hρ : 1 / 2 < ρ.re) : 0 < criticalHalfPlaneDepth ρ"
   },
@@ -3852,7 +3828,7 @@
    "name": "MCore.RH.R0.criticalLineFrequencyScaling_realized",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelBridge.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalLineFrequencyScaling"
   },
@@ -3860,7 +3836,7 @@
    "name": "MCore.RH.R0.criticalLineMellinPlancherel_of_components",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelDecomposition.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h0 : D3_ResidualRepresentativeNormBridge) (h1 : D3_LogPullbackNormBridge) (h2 : D3_FourierPlancherelBridge) (h3 : D3_FrequencyRescaleBridge) : CriticalLineMellinPlancherel"
   },
@@ -3868,7 +3844,7 @@
    "name": "MCore.RH.R0.criticalLineMellinPlancherel_of_fourierIntegral",
    "file": "lean/MCore/RH/Analytic/D3FromFourierPlancherel.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : FourierIntegralPlancherelL1L2) : CriticalLineMellinPlancherel"
   },
@@ -3876,7 +3852,7 @@
    "name": "MCore.RH.R0.criticalLineMellinPlancherel_of_three_bridges",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelBridge.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hlog : ResidualLogL2Isometry) (hfourier : ResidualFourierPlancherel) (hscale : CriticalLineFrequencyScaling) : CriticalLineMellinPlancherel"
   },
@@ -3884,7 +3860,7 @@
    "name": "MCore.RH.R0.criticalLinePoint_im",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalLine.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : (criticalLinePoint t).im = t"
   },
@@ -3892,7 +3868,7 @@
    "name": "MCore.RH.R0.criticalLinePoint_ne_zero",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalLine.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : criticalLinePoint t ≠ 0"
   },
@@ -3900,7 +3876,7 @@
    "name": "MCore.RH.R0.criticalLinePoint_normSq",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelReduction.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : Complex.normSq (criticalLinePoint t) = (1 / 4 : ℝ) + t ^ 2"
   },
@@ -3908,7 +3884,7 @@
    "name": "MCore.RH.R0.criticalLinePoint_norm_sq",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : Complex.normSq (criticalLinePoint t) = (1 / 4 : ℝ) + t ^ 2"
   },
@@ -3916,7 +3892,7 @@
    "name": "MCore.RH.R0.criticalLinePoint_re",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : (criticalLinePoint t).re = 1 / 2"
   },
@@ -3924,7 +3900,7 @@
    "name": "MCore.RH.R0.criticalLinePoint_strip",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : 0 < (criticalLinePoint t).re ∧ (criticalLinePoint t).re < 1"
   },
@@ -3932,7 +3908,7 @@
    "name": "MCore.RH.R0.criticalLine_frequency_rescale",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelCoreReduction.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : (1 / (2 * Real.pi)) * (∫ t : ℝ, Complex.normSq (mellin (residualRepresentativeC c) (criticalLine t))) = ∫ y : ℝ, Complex.normSq (𝓕 (residualLogLift c) y)"
   },
@@ -3940,7 +3916,7 @@
    "name": "MCore.RH.R0.criticalLine_frequency_scale",
    "file": "lean/MCore/RH/Analytic/CriticalFrequencyScaling.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) : (1 / (2 * Real.pi)) * (∫ t : ℝ, ‖𝓕 (criticalLogTransport f) (t / (2 * Real.pi))‖ ^ 2) = ∫ y : ℝ, ‖𝓕 (criticalLogTransport f) y‖ ^ 2"
   },
@@ -3948,7 +3924,7 @@
    "name": "MCore.RH.R0.criticalLine_im",
    "file": "lean/MCore/RH/Analytic/CriticalLineBasic.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : (criticalLine t).im = t"
   },
@@ -3956,7 +3932,7 @@
    "name": "MCore.RH.R0.criticalLine_mellin_eq_fourier",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelDecomposition.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLine t) = 𝓕 (criticalLogPullback c) (t / (2 * Real.pi))"
   },
@@ -3964,7 +3940,7 @@
    "name": "MCore.RH.R0.criticalLine_normSq",
    "file": "lean/MCore/RH/Analytic/CriticalLineResidual.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : Complex.normSq (criticalLine t) = 1 / 4 + t ^ 2"
   },
@@ -3972,7 +3948,7 @@
    "name": "MCore.RH.R0.criticalLine_norm_sq",
    "file": "lean/MCore/RH/Analytic/CriticalLineBasic.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : ‖criticalLine t‖ ^ 2 = 1 / 4 + t ^ 2"
   },
@@ -3980,7 +3956,7 @@
    "name": "MCore.RH.R0.criticalLine_re",
    "file": "lean/MCore/RH/Analytic/CriticalLineBasic.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : (criticalLine t).re = 1 / 2"
   },
@@ -3988,7 +3964,7 @@
    "name": "MCore.RH.R0.criticalLine_re_lt_one",
    "file": "lean/MCore/RH/Analytic/CriticalLineResidual.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : (criticalLine t).re < 1"
   },
@@ -3996,7 +3972,7 @@
    "name": "MCore.RH.R0.criticalLine_re_pos",
    "file": "lean/MCore/RH/Analytic/CriticalLineResidual.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : 0 < (criticalLine t).re"
   },
@@ -4004,7 +3980,7 @@
    "name": "MCore.RH.R0.criticalLogIntegralIsometry_realized",
    "file": "lean/MCore/RH/Analytic/CriticalLogIsometry.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalLogIntegralIsometry"
   },
@@ -4012,7 +3988,7 @@
    "name": "MCore.RH.R0.criticalLogPullbackIntegrable_realized",
    "file": "lean/MCore/RH/Analytic/CriticalLogPullbackL2.lean",
    "line": 129,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalLogPullbackIntegrable"
   },
@@ -4020,7 +3996,7 @@
    "name": "MCore.RH.R0.criticalLogPullbackMemL2_realized",
    "file": "lean/MCore/RH/Analytic/CriticalLogPullbackL2.lean",
    "line": 144,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalLogPullbackMemL2"
   },
@@ -4028,7 +4004,7 @@
    "name": "MCore.RH.R0.criticalLogPullback_integrable",
    "file": "lean/MCore/RH/Analytic/CriticalLogPullbackL2.lean",
    "line": 82,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (criticalLogPullback c) volume"
   },
@@ -4036,7 +4012,7 @@
    "name": "MCore.RH.R0.criticalLogPullback_measurable",
    "file": "lean/MCore/RH/Analytic/CriticalLogPullbackL2.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Measurable (criticalLogPullback c)"
   },
@@ -4044,7 +4020,7 @@
    "name": "MCore.RH.R0.criticalLogPullback_memLp_two",
    "file": "lean/MCore/RH/Analytic/CriticalLogPullbackL2.lean",
    "line": 135,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (criticalLogPullback c) 2 volume"
   },
@@ -4052,7 +4028,7 @@
    "name": "MCore.RH.R0.criticalLogPullback_normSq",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 85,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (u : ℝ) : Complex.normSq (criticalLogPullback c u) = Real.exp (-u) * Complex.normSq (residualRepresentativeC c (Real.exp (-u)))"
   },
@@ -4060,7 +4036,7 @@
    "name": "MCore.RH.R0.criticalLogPullback_normSq_integrable",
    "file": "lean/MCore/RH/Analytic/CriticalLogPullbackL2.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (fun u : ℝ => Complex.normSq (criticalLogPullback c u))"
   },
@@ -4068,7 +4044,7 @@
    "name": "MCore.RH.R0.criticalLogTransport_complexResidual_integrable",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalL1.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (criticalLogTransport (complexResidual c)) volume"
   },
@@ -4076,7 +4052,7 @@
    "name": "MCore.RH.R0.criticalLogTransport_complexResidual_memLp_two",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalL2.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (criticalLogTransport (complexResidual c)) 2 volume"
   },
@@ -4084,7 +4060,7 @@
    "name": "MCore.RH.R0.criticalLogTransport_integral_norm_sq",
    "file": "lean/MCore/RH/Analytic/CriticalLogIsometry.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) : (∫ u : ℝ, ‖criticalLogTransport f u‖ ^ 2) = ∫ x : ℝ in Ioi 0, ‖f x‖ ^ 2"
   },
@@ -4092,7 +4068,7 @@
    "name": "MCore.RH.R0.criticalLogTransport_measurable",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalL2.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) (hf : Measurable f) : Measurable (criticalLogTransport f)"
   },
@@ -4100,7 +4076,7 @@
    "name": "MCore.RH.R0.criticalPullbackFourierPlancherel_of_pinned",
    "file": "lean/MCore/RH/Analytic/FourierPlancherelPinnedGap.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : PinnedFourierPlancherel) (hL1 : CriticalLogPullbackIntegrable) (hL2 : CriticalLogPullbackMemL2) : CriticalPullbackFourierPlancherel"
   },
@@ -4108,7 +4084,7 @@
    "name": "MCore.RH.R0.criticalPullback_L1_ready",
    "file": "open_math/lean/RHFourierPlancherelPinnedGap.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalLogPullbackIntegrable"
   },
@@ -4116,7 +4092,7 @@
    "name": "MCore.RH.R0.criticalPullback_L2_ready",
    "file": "open_math/lean/RHFourierPlancherelPinnedGap.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalLogPullbackMemL2"
   },
@@ -4124,7 +4100,7 @@
    "name": "MCore.RH.R0.critical_mellin_plancherel_of_fourier",
    "file": "lean/MCore/RH/Analytic/ResidualPlancherelReduction.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hFourier : FourierIntegralPlancherel) (f : ℝ → ℂ) (hL1 : Integrable (criticalLogTransport f) volume) (hL2 : MemLp (criticalLogTransport f) 2 volume) : (1 / (2 * Real.pi)) * (∫ t : ℝ, ‖mellin f ((1 / 2 : ℝ) + t * I)‖ ^ 2) = ∫ x : ℝ in Ioi 0, ‖f x‖ ^ 2"
   },
@@ -4132,7 +4108,7 @@
    "name": "MCore.RH.R0.d1_kernel_entry_continuation",
    "file": "lean/MCore/RH/Analytic/D1KernelEntry.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ s : ℂ, 0 < s.re → s ≠ 1 → fractionalTailComplex s = 1 / (s - 1) - riemannZeta s / s"
   },
@@ -4140,7 +4116,7 @@
    "name": "MCore.RH.R0.d1_kernel_entry_mellin",
    "file": "lean/MCore/RH/Analytic/D1KernelEntry.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TailMellinAnalytic"
   },
@@ -4148,7 +4124,7 @@
    "name": "MCore.RH.R0.d1_kernel_entry_rho_family",
    "file": "lean/MCore/RH/Analytic/D1KernelEntry.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (rhoRepresentativeC n) s = - (((rhoIndex n : ℕ) : ℂ) ^ (-s)) * riemannZeta s / s"
   },
@@ -4156,7 +4132,7 @@
    "name": "MCore.RH.R0.d1_kernel_entry_right",
    "file": "lean/MCore/RH/Analytic/D1KernelEntry.lean",
    "line": 6,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TailFormulaRight"
   },
@@ -4164,27 +4140,23 @@
    "name": "MCore.RH.R0.d1_nearZero_identity",
    "file": "lean/MCore/RH/Analytic/MellinNearZero.lean",
    "line": 6,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs : s.re < 1) : (∫ t : ℝ in Ioo 0 1, ((t : ℂ) ^ (-s - 1)) * (Int.fract t : ℂ)) = 1 / (1 - s)"
   },
   {
    "name": "MCore.RH.R0.d3GaussianMultiplierReal_coe",
    "file": "lean/MCore/RH/Analytic/D3GaussianKernel.lean",
    "line": 58,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{ε t : ℝ} : (d3GaussianMultiplierReal ε t : ℂ) = Complex.exp (-Real.pi * (ε : ℂ) * (t : ℂ) ^ 2)"
   },
   {
    "name": "MCore.RH.R0.d3ResidualSpectralIdentity_of_pinned_gap",
    "file": "lean/MCore/RH/Analytic/D3PinnedGap.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hF : PinnedFourierPlancherelGap) : D3ResidualSpectralIdentity"
   },
@@ -4192,7 +4164,7 @@
    "name": "MCore.RH.R0.d3_components_to_plancherel",
    "file": "open_math/lean/RHD3Decomposition.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hlog : D3_LogCoordinateL2) (hmf : D3_MellinFourierPointwise) (hfourier : D3_FourierScaledPlancherel) : CriticalLineMellinPlancherel"
   },
@@ -4200,7 +4172,7 @@
    "name": "MCore.RH.R0.d3_explicit_of_fourierIntegral",
    "file": "lean/MCore/RH/Analytic/D3FromFourierPlancherel.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : FourierIntegralPlancherelL1L2) {N : ℕ} (c : Fin N → ℝ) : (∫ x : ℝ in Set.Ioi 0, ‖residualRepresentativeC c x‖ ^ 2) = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -4208,7 +4180,7 @@
    "name": "MCore.RH.R0.d3_fourierPlancherel_from_library",
    "file": "open_math/lean/RHFourierPlancherelPinnedGap.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : PinnedLibraryFourierL2Gap) : ∀ {N : ℕ} (c : Fin N → ℝ), (∫ u : ℝ, Complex.normSq (criticalLogPullback c u)) = ∫ ξ : ℝ, Complex.normSq (𝓕 (criticalLogPullback c) ξ)"
   },
@@ -4216,7 +4188,7 @@
    "name": "MCore.RH.R0.d3_fourierPlancherel_of_pinned",
    "file": "lean/MCore/RH/Analytic/FourierPlancherelPinnedGap.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : PinnedFourierPlancherel) (hL1 : CriticalLogPullbackIntegrable) (hL2 : CriticalLogPullbackMemL2) : ∀ {N : ℕ} (c : Fin N → ℝ), (∫ u : ℝ, Complex.normSq (criticalLogPullback c u)) = ∫ ξ : ℝ, Complex.normSq (𝓕 (criticalLogPullback c) ξ)"
   },
@@ -4224,7 +4196,7 @@
    "name": "MCore.RH.R0.d3_fourierPlancherel_of_regularized",
    "file": "open_math/lean/RHD3PlancherelDecomposition.lean",
    "line": 103,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hreg : D3_RegularizedEnergyIdentity) (hspace : D3_HeatPairingLimit) (hfreq : D3_RemoveGaussianFrequency) : D3_FourierPlancherelBridge"
   },
@@ -4232,7 +4204,7 @@
    "name": "MCore.RH.R0.d3_fourierToMellinLine_realized",
    "file": "lean/MCore/RH/Analytic/FourierMellinCriticalLine.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ {N : ℕ} (c : Fin N → ℝ), (∫ ξ : ℝ, Complex.normSq (𝓕 (criticalLogPullback c) ξ)) = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (mellin (residualRepresentativeC c) (criticalLinePoint t))"
   },
@@ -4240,7 +4212,7 @@
    "name": "MCore.RH.R0.d3_frequencyRescale_realized",
    "file": "lean/MCore/RH/Analytic/MellinFrequencyRescale.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_FrequencyRescaleBridge"
   },
@@ -4248,7 +4220,7 @@
    "name": "MCore.RH.R0.d3_logPullbackIsometry_realized",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 125,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ {N : ℕ} (c : Fin N → ℝ), ‖concreteResidual c‖ ^ 2 = ∫ u : ℝ, Complex.normSq (criticalLogPullback c u)"
   },
@@ -4256,7 +4228,7 @@
    "name": "MCore.RH.R0.d3_logPullback_realized",
    "file": "lean/MCore/RH/Analytic/MellinLogPullback.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_LogPullbackNormBridge"
   },
@@ -4264,7 +4236,7 @@
    "name": "MCore.RH.R0.d3_log_isometry_closed",
    "file": "lean/MCore/RH/Analytic/D3FourierReduction.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualLogPullbackIsometry"
   },
@@ -4272,7 +4244,7 @@
    "name": "MCore.RH.R0.d3_mellinFourierPointwise_realized",
    "file": "open_math/lean/RHD3Decomposition.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_MellinFourierPointwise"
   },
@@ -4280,7 +4252,7 @@
    "name": "MCore.RH.R0.d3_of_residualMellinPlancherel",
    "file": "lean/MCore/RH/Analytic/D3Reduction.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ResidualMellinPlancherelBridge) {N : ℕ} (c : Fin N → ℝ) : ‖concreteNBData.chi - concreteFiniteCombination c‖ ^ 2 = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -4288,7 +4260,7 @@
    "name": "MCore.RH.R0.d3_reduced_to_fourier_plancherel",
    "file": "lean/MCore/RH/Analytic/D3ResidualCompleteReduction.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3OperatorGap → ∀ {N : ℕ} (c : Fin N → ℝ), (∫ x : ℝ in Ioi 0, ‖complexResidual c x‖ ^ 2) = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta ((1 / 2 : ℝ) + t * I) * concreteDirichletPolynomial c ((1 / 2 : ℝ) + t * I)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -4296,7 +4268,7 @@
    "name": "MCore.RH.R0.d3_residualRepresentativeNorm_realized",
    "file": "lean/MCore/RH/Analytic/MellinResidualNormBridge.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": D3_ResidualRepresentativeNormBridge"
   },
@@ -4304,7 +4276,7 @@
    "name": "MCore.RH.R0.d3_residual_identity_of_plancherel",
    "file": "lean/MCore/RH/Analytic/CriticalLineResidual.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : MellinPlancherelResidual) {N : ℕ} (c : Fin N → ℝ) : ‖concreteNBData.chi - concreteFiniteCombination c‖ ^ 2 = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / (1 / 4 + t ^ 2)"
   },
@@ -4312,7 +4284,7 @@
    "name": "MCore.RH.R0.explicitGramEntryNat_eq_residue_tsum",
    "file": "lean/MCore/RH/R0/VasyuninCoprimeSeriesReduction.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k : ℕ) (hh : 0 < h) (hk : 0 < k) : explicitGramEntryNat h k = (1 / (h : ℝ)) * (∑ r : ZMod k, ∑' q : ℕ, vasyuninUnitBlockCore h k (r.val + k * q))"
   },
@@ -4320,7 +4292,7 @@
    "name": "MCore.RH.R0.explicitGramEntryNat_mul_common",
    "file": "lean/MCore/RH/R0/VasyuninGCD.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d h k : ℕ) (hd : 0 < d) (hh : 0 < h) (hk : 0 < k) : explicitGramEntryNat (d * h) (d * k) = (1 / (d : ℝ)) * explicitGramEntryNat h k"
   },
@@ -4328,7 +4300,7 @@
    "name": "MCore.RH.R0.explicitGramMatrix_eq_concrete",
    "file": "lean/MCore/RH/R0/ExplicitGramRate.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : explicitGramMatrix N = concreteGramMatrix N"
   },
@@ -4336,7 +4308,7 @@
    "name": "MCore.RH.R0.explicitGramRateTarget_iff_uniformLogDNBound",
    "file": "lean/MCore/RH/R0/ExplicitGramRate.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ExplicitGramRateTarget ↔ ConcreteUniformLogDNBound"
   },
@@ -4344,7 +4316,7 @@
    "name": "MCore.RH.R0.explicitGramResidual_eq_vasyunin",
    "file": "lean/MCore/RH/R0/VasyuninFiniteGram.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hV : VasyuninGramFormula) (N : ℕ) : explicitGramResidual N = 1 - dotProduct (explicitTargetVector N) ((vasyuninGramMatrix N)⁻¹ *ᵥ explicitTargetVector N)"
   },
@@ -4352,7 +4324,7 @@
    "name": "MCore.RH.R0.explicitOptimalCoeff_eq_canonical",
    "file": "lean/MCore/RH/R0/ExplicitGramRate.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : explicitOptimalCoeff N = optimalGramCoeff N"
   },
@@ -4360,7 +4332,7 @@
    "name": "MCore.RH.R0.explicitTargetVector_eq_concrete",
    "file": "lean/MCore/RH/R0/ExplicitGramRate.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : explicitTargetVector N = concreteTargetVector N"
   },
@@ -4368,7 +4340,7 @@
    "name": "MCore.RH.R0.finiteGeneratorSum_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinResidual.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (fun x : ℝ => ∑ i : Fin N, (c i : ℂ) * rhoRepresentativeC i x) s"
   },
@@ -4384,7 +4356,7 @@
    "name": "MCore.RH.R0.finiteVasyuninRateTarget_iff_explicitGramRate",
    "file": "lean/MCore/RH/R0/VasyuninFiniteGram.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hV : VasyuninGramFormula) : FiniteVasyuninRateTarget ↔ ExplicitGramRateTarget"
   },
@@ -4392,7 +4364,7 @@
    "name": "MCore.RH.R0.finiteVasyuninRateTarget_iff_uniformLogDNBound_of_coprime",
    "file": "lean/MCore/RH/R0/VasyuninRateReduction.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcop : CoprimeVasyuninFormula) : FiniteVasyuninRateTarget ↔ ConcreteUniformLogDNBound"
   },
@@ -4400,7 +4372,7 @@
    "name": "MCore.RH.R0.fourierIntegralLpCompatibility_of_L1L2",
    "file": "lean/MCore/RH/Analytic/FourierCompatibilityReduction.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hmem : LogResidualL1L2Producer) (hcompat : L1L2FourierCompatibility) : FourierIntegralLpCompatibility"
   },
@@ -4408,7 +4380,7 @@
    "name": "MCore.RH.R0.fourierIntegralLpCompatibility_of_generic",
    "file": "lean/MCore/RH/Analytic/FourierCompatibilityRealization.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcompat : L1L2FourierCompatibility) : FourierIntegralLpCompatibility"
   },
@@ -4416,27 +4388,23 @@
    "name": "MCore.RH.R0.fourier_conj_eq_conj_fourierInv",
    "file": "lean/MCore/RH/Analytic/PinnedSchwartzPlancherel.lean",
    "line": 8,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{h : ℝ → ℂ} (hh : Integrable h) (ξ : ℝ) : 𝓕 (fun x : ℝ => conj (h x)) ξ = conj (𝓕⁻ h ξ)"
   },
   {
    "name": "MCore.RH.R0.fourier_d3HeatKernelC",
    "file": "lean/MCore/RH/Analytic/D3GaussianKernel.lean",
    "line": 40,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{ε : ℝ} (hε : 0 < ε) : 𝓕 (d3HeatKernelC ε) = fun t : ℝ => Complex.exp (-Real.pi * (ε : ℂ) * (t : ℂ) ^ 2)"
   },
   {
    "name": "MCore.RH.R0.fourier_energy_frequency_rescale",
    "file": "lean/MCore/RH/Analytic/FourierPlancherelReduction.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) : (1 / (2 * Real.pi)) * (∫ t : ℝ, Complex.normSq (𝓕 f (t / (2 * Real.pi)))) = ∫ y : ℝ, Complex.normSq (𝓕 f y)"
   },
@@ -4444,7 +4412,7 @@
    "name": "MCore.RH.R0.fourier_gaussian_inv_epsilon",
    "file": "lean/MCore/RH/Analytic/D3GaussianKernel.lean",
    "line": 24,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{ε : ℝ} (hε : 0 < ε) : (𝓕 fun x : ℝ => Complex.exp (-Real.pi * ((ε : ℂ)⁻¹) * (x : ℂ) ^ 2)) = fun t : ℝ => 1 / (((ε : ℂ)⁻¹) ^ (1 / 2 : ℂ)) * Complex.exp (-Real.pi / ((ε : ℂ)⁻¹) * (t : ℂ) ^ 2)"
   },
@@ -4452,7 +4420,7 @@
    "name": "MCore.RH.R0.fourier_integral_eq_mellin_line",
    "file": "lean/MCore/RH/Analytic/FourierMellinCriticalLine.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : (∫ ξ : ℝ, Complex.normSq (𝓕 (criticalLogPullback c) ξ)) = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (mellin (residualRepresentativeC c) (criticalLinePoint t))"
   },
@@ -4460,7 +4428,7 @@
    "name": "MCore.RH.R0.fract_eq_sub_nat_on_Ico",
    "file": "lean/MCore/RH/R0/FractionalTailBlocks.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(k : ℕ) (t : ℝ) (ht : t ∈ Ico (k : ℝ) (k + 1 : ℝ)) : Int.fract t = t - k"
   },
@@ -4468,7 +4436,7 @@
    "name": "MCore.RH.R0.fractionalAutocorrelation_eq_rationalIntegral",
    "file": "lean/MCore/RH/R0/VasyuninCoprimeBasics.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k : ℕ) : fractionalAutocorrelation ((h : ℝ) / (k : ℝ)) = ∫ t : ℝ in Ioi 0, rationalAutocorrelationIntegrand h k t"
   },
@@ -4476,7 +4444,7 @@
    "name": "MCore.RH.R0.fractionalAutocorrelation_eq_sum_residue_classes",
    "file": "lean/MCore/RH/R0/VasyuninResidueClasses.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k : ℕ) (hh : 0 < h) (hk : 0 < k) : fractionalAutocorrelation ((h : ℝ) / (k : ℝ)) = ∑ r : ZMod k, ∑' q : ℕ, vasyuninUnitBlockCore h k (r.val + k * q)"
   },
@@ -4484,7 +4452,7 @@
    "name": "MCore.RH.R0.fractionalAutocorrelation_reciprocity",
    "file": "lean/MCore/RH/R0/GramAutocorrelation.lean",
    "line": 99,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(r : ℝ) (hr : 0 < r) : fractionalAutocorrelation r = r * fractionalAutocorrelation (1 / r)"
   },
@@ -4492,7 +4460,7 @@
    "name": "MCore.RH.R0.fractionalTailComplex_analyticOn",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuationReduction.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TailMellinAnalytic) : AnalyticOnNhd ℂ fractionalTailComplex positiveHalfPlane"
   },
@@ -4500,7 +4468,7 @@
    "name": "MCore.RH.R0.fractionalTailComplex_differentiableAt",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 86,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{s : ℂ} (hs : 0 < s.re) : DifferentiableAt ℂ fractionalTailComplex s"
   },
@@ -4508,7 +4476,7 @@
    "name": "MCore.RH.R0.fractionalTailComplex_eq_mellin",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) : fractionalTailComplex s = mellin fractionalTailKernel (-s)"
   },
@@ -4516,7 +4484,7 @@
    "name": "MCore.RH.R0.fractionalTailEulerIdentity_realized",
    "file": "lean/MCore/RH/R0/FractionalTailEuler.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FractionalTailEulerIdentity"
   },
@@ -4524,7 +4492,7 @@
    "name": "MCore.RH.R0.fractionalTailIntegrand_integrableOn",
    "file": "lean/MCore/RH/R0/FractionalTailEuler.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": IntegrableOn fractionalTailIntegrand (Ioi 1) volume"
   },
@@ -4532,7 +4500,7 @@
    "name": "MCore.RH.R0.fractionalTailKernel_aestronglyMeasurable",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": AEStronglyMeasurable fractionalTailKernel"
   },
@@ -4540,7 +4508,7 @@
    "name": "MCore.RH.R0.fractionalTailKernel_eventually_zero_nhdsGT",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": fractionalTailKernel =ᶠ[𝓝[>] (0 : ℝ)] 0"
   },
@@ -4548,7 +4516,7 @@
    "name": "MCore.RH.R0.fractionalTailKernel_isBigO_atTop",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": fractionalTailKernel =O[atTop] (fun _ : ℝ => (1 : ℝ))"
   },
@@ -4556,7 +4524,7 @@
    "name": "MCore.RH.R0.fractionalTailKernel_isBigO_nhdsGT",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": fractionalTailKernel =O[𝓝[>] (0 : ℝ)] (fun t : ℝ => t ^ (0 : ℝ))"
   },
@@ -4564,7 +4532,7 @@
    "name": "MCore.RH.R0.fractionalTailKernel_locallyIntegrable",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": LocallyIntegrableOn fractionalTailKernel (Ioi 0)"
   },
@@ -4572,7 +4540,7 @@
    "name": "MCore.RH.R0.fractionalTailKernel_mellin_differentiableAt",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{z : ℂ} (hz : z.re < 0) : DifferentiableAt ℂ (mellin fractionalTailKernel) z"
   },
@@ -4580,7 +4548,7 @@
    "name": "MCore.RH.R0.fractionalTailKernel_norm_le_one",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : ‖fractionalTailKernel t‖ ≤ 1"
   },
@@ -4588,7 +4556,7 @@
    "name": "MCore.RH.R0.fractionalTail_block",
    "file": "lean/MCore/RH/R0/FractionalTailBlocks.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(k : ℕ) (hk : 1 ≤ k) : (∫ t : ℝ in Ioc (k : ℝ) (k + 1 : ℝ), Int.fract t / (t ^ 2)) = Real.log (((k + 1 : ℕ) : ℝ) / (k : ℝ)) - 1 / (((k + 1 : ℕ) : ℝ))"
   },
@@ -4596,7 +4564,7 @@
    "name": "MCore.RH.R0.fractionalTail_block_eq_zetaTerm",
    "file": "lean/MCore/RH/R0/FractionalTailEuler.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) : (∫ t : ℝ in (n + 1 : ℕ)..(n + 2 : ℕ), fractionalTailIntegrand t) = ZetaAsymptotics.term (n + 1) 1"
   },
@@ -4604,7 +4572,7 @@
    "name": "MCore.RH.R0.fractionalTail_complex_block",
    "file": "lean/MCore/RH/Analytic/MellinTailBlocks.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (hn : 0 < n) (s : ℂ) : (∫ t : ℝ in n..(n + 1), ((t : ℂ) ^ (-s - 1)) * (Int.fract t : ℂ)) = complexTailTerm n s"
   },
@@ -4612,7 +4580,7 @@
    "name": "MCore.RH.R0.fractionalTail_eq_continued",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuationReduction.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TailMellinAnalytic) : EqOn fractionalTailComplex continuedFractionalTail positiveHalfPlane"
   },
@@ -4620,7 +4588,7 @@
    "name": "MCore.RH.R0.fractionalTail_eventuallyEq_continued",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuationReduction.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": fractionalTailComplex =ᶠ[𝓝 (2 : ℂ)] continuedFractionalTail"
   },
@@ -4628,7 +4596,7 @@
    "name": "MCore.RH.R0.fractionalTail_partial_eq_termSum",
    "file": "lean/MCore/RH/R0/FractionalTailEuler.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : (∫ t : ℝ in (1 : ℝ)..(N + 1 : ℕ), fractionalTailIntegrand t) = ZetaAsymptotics.term_sum 1 N"
   },
@@ -4636,7 +4604,7 @@
    "name": "MCore.RH.R0.fractionalZetaMellinIdentity_realized",
    "file": "lean/MCore/RH/Analytic/MellinRhoClosedForm.lean",
    "line": 72,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FractionalZetaMellinIdentity"
   },
@@ -4644,7 +4612,7 @@
    "name": "MCore.RH.R0.fractional_mellin_nearZero_integrable",
    "file": "lean/MCore/RH/Analytic/MellinRhoClosedForm.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs1 : s.re < 1) : IntegrableOn (fun t : ℝ => ((t : ℂ) ^ (-s - 1)) * (Int.fract t : ℂ)) (Ioc 0 1)"
   },
@@ -4652,7 +4620,7 @@
    "name": "MCore.RH.R0.fractional_mellin_tail_integrable",
    "file": "lean/MCore/RH/Analytic/MellinRhoClosedForm.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) : IntegrableOn (fun t : ℝ => ((t : ℂ) ^ (-s - 1)) * (Int.fract t : ℂ)) (Ioi 1)"
   },
@@ -4660,7 +4628,7 @@
    "name": "MCore.RH.R0.gram_gap_iff_material_gap",
    "file": "lean/MCore/RH/R0/FrontierExposure.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RHGramMaterialGap ↔ RHMaterialGap"
   },
@@ -4668,7 +4636,7 @@
    "name": "MCore.RH.R0.hardFrontierTarget_implies_ConcreteUniformLogDNBound",
    "file": "lean/MCore/RH/R0/HardFrontierReduction.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : HardFrontierTarget) : ConcreteUniformLogDNBound"
   },
@@ -4676,7 +4644,7 @@
    "name": "MCore.RH.R0.hard_frontier_of_ConcreteGramLogRate",
    "file": "lean/MCore/RH/R0/HardFrontierReduction.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteGramLogRate) : HardFrontierTarget"
   },
@@ -4684,7 +4652,7 @@
    "name": "MCore.RH.R0.hard_frontier_of_CriticalLineWeightedErrorRate",
    "file": "lean/MCore/RH/R0/HardFrontierReduction.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : CriticalLineWeightedErrorRate) : HardFrontierTarget"
   },
@@ -4692,7 +4660,7 @@
    "name": "MCore.RH.R0.hasMellin_complexFiniteCombination",
    "file": "lean/MCore/RH/Analytic/MellinResidualAlgebra.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : HasMellin (complexFiniteCombination c) s (∑ i : Fin N, (c i : ℂ) * mellin (rhoRepresentativeC i) s)"
   },
@@ -4700,7 +4668,7 @@
    "name": "MCore.RH.R0.hasMellin_finset_rho",
    "file": "lean/MCore/RH/Analytic/MellinResidualAlgebra.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (S : Finset (Fin N)) (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : HasMellin (fun x : ℝ => ∑ i ∈ S, (c i : ℂ) * rhoRepresentativeC i x) s (∑ i ∈ S, (c i : ℂ) * mellin (rhoRepresentativeC i) s)"
   },
@@ -4708,7 +4676,7 @@
    "name": "MCore.RH.R0.integral_criticalEvaluationKernel_normSq",
    "file": "lean/MCore/RH/Analytic/CriticalEvaluationKernel.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{ρ : ℂ} (hρ : 1 / 2 < ρ.re) : (∫ t : ℝ, ‖criticalEvaluationKernel ρ t‖ ^ 2) = Real.pi / criticalHalfPlaneDepth ρ"
   },
@@ -4716,7 +4684,7 @@
    "name": "MCore.RH.R0.integral_exp_neg_comp",
    "file": "lean/MCore/RH/Analytic/CriticalLogIsometry.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ℝ → ℝ) : (∫ u : ℝ, Real.exp (-u) * h (Real.exp (-u))) = ∫ x : ℝ in Ioi 0, h x"
   },
@@ -4724,7 +4692,7 @@
    "name": "MCore.RH.R0.integral_frequency_scale_two_pi",
    "file": "lean/MCore/RH/Analytic/CriticalFrequencyScaling.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(F : ℝ → ℝ) : (1 / (2 * Real.pi)) * (∫ t : ℝ, F (t / (2 * Real.pi))) = ∫ y : ℝ, F y"
   },
@@ -4748,7 +4716,7 @@
    "name": "MCore.RH.R0.l1l2FourierCompatibility_of_core",
    "file": "lean/MCore/RH/Analytic/GenericFourierDecomposition.lean",
    "line": 63,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcore : D3GenericFourierCore) : L1L2FourierCompatibility"
   },
@@ -4756,7 +4724,7 @@
    "name": "MCore.RH.R0.l2FourierTemperedCompatibility_closed",
    "file": "lean/MCore/RH/Analytic/GenericFourierDecomposition.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(F : Lp ℂ 2 volume) : 𝓕 (F : 𝓢'(ℝ, ℂ)) = ((MeasureTheory.Lp.fourierTransformₗᵢ ℝ ℂ) F : Lp ℂ 2 volume)"
   },
@@ -4764,7 +4732,7 @@
    "name": "MCore.RH.R0.l2_toTemperedDistribution_injective",
    "file": "lean/MCore/RH/Analytic/FourierL1L2Bridge.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Function.Injective (MeasureTheory.Lp.toTemperedDistributionCLM ℂ volume 2 : Lp ℂ 2 volume →L[ℂ] SchwartzMap.TemperedDistribution ℝ ℂ)"
   },
@@ -4772,7 +4740,7 @@
    "name": "MCore.RH.R0.logPullbackIsometry_realized",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelEasyLaws.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": LogPullbackIsometry"
   },
@@ -4780,7 +4748,7 @@
    "name": "MCore.RH.R0.logPullback_normSq_integral",
    "file": "lean/MCore/RH/Analytic/LogPullbackL2.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) : (∫ u : ℝ, ‖logPullback f u‖ ^ 2) = ∫ x : ℝ in Ioi 0, ‖f x‖ ^ 2"
   },
@@ -4788,7 +4756,7 @@
    "name": "MCore.RH.R0.logPullback_norm_sq",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelEasyLaws.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) (u : ℝ) : ‖logPullback f u‖ ^ 2 = Real.exp (-u) * ‖f (Real.exp (-u))‖ ^ 2"
   },
@@ -4796,7 +4764,7 @@
    "name": "MCore.RH.R0.logResidualC_integrable",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 62,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (logResidualC c) volume"
   },
@@ -4804,7 +4772,7 @@
    "name": "MCore.RH.R0.logResidualC_memLp_two",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 122,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (logResidualC c) 2 volume"
   },
@@ -4812,7 +4780,7 @@
    "name": "MCore.RH.R0.logResidualC_normSq_integrable",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 96,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (fun u : ℝ => Complex.normSq (logResidualC c u)) volume"
   },
@@ -4820,7 +4788,7 @@
    "name": "MCore.RH.R0.logResidualIsometry_realized",
    "file": "lean/MCore/RH/Analytic/LogResidualIsometry.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": LogResidualIsometry"
   },
@@ -4828,7 +4796,7 @@
    "name": "MCore.RH.R0.logResidualL1L2Producer_realized",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 129,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": LogResidualL1L2Producer"
   },
@@ -4836,7 +4804,7 @@
    "name": "MCore.RH.R0.lp2_norm_sq_eq_integral_normSq",
    "file": "lean/MCore/RH/Analytic/FourierPlancherelBridge.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) (hf : MemLp f 2 volume) : ‖hf.toLp f‖ ^ 2 = ∫ x : ℝ, Complex.normSq (f x)"
   },
@@ -4844,7 +4812,7 @@
    "name": "MCore.RH.R0.lp2_norm_sq_eq_integral_norm_sq",
    "file": "lean/MCore/RH/Analytic/L2NormIntegral.lean",
    "line": 6,
-   "state": "erro",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : Lp ℂ 2 (volume : Measure ℝ)) : ‖f‖ ^ 2 = ∫ x : ℝ, ‖f x‖ ^ 2"
   },
@@ -4852,7 +4820,7 @@
    "name": "MCore.RH.R0.lpTwo_norm_sq_eq_integral_normSq_of_ae",
    "file": "lean/MCore/RH/Analytic/FourierLpCompatibility.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(F : Lp ℂ 2 volume) (g : ℝ → ℂ) (hfg : (F : ℝ → ℂ) =ᵐ[volume] g) : ‖F‖ ^ 2 = ∫ x : ℝ, Complex.normSq (g x)"
   },
@@ -4860,7 +4828,7 @@
    "name": "MCore.RH.R0.materialProducer_closes_all",
    "file": "lean/MCore/RH/R0/TransformInfraWrappers.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : RHMaterialProducer) : RHMaterialClosureConsequences"
   },
@@ -4868,7 +4836,7 @@
    "name": "MCore.RH.R0.material_gap_closes_terminal",
    "file": "lean/MCore/RH/R0/FrontierExposure.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : RHMaterialGap) : RiemannTerminalCertifies"
   },
@@ -4876,7 +4844,7 @@
    "name": "MCore.RH.R0.mellinHalf_convergent_implies_criticalLogIntegrable",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalL1.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) (hM : MellinConvergent f ((1 / 2 : ℝ) : ℂ)) : Integrable (criticalLogTransport f) volume"
   },
@@ -4884,7 +4852,7 @@
    "name": "MCore.RH.R0.mellinPlancherel_of_fourier_only",
    "file": "lean/MCore/RH/Analytic/D3SingleGap.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hfourier : FourierPlancherelForLogPullback) : MellinPlancherelProducer"
   },
@@ -4924,7 +4892,7 @@
    "name": "MCore.RH.R0.mellin_complexFiniteCombination",
    "file": "lean/MCore/RH/Analytic/MellinResidualAlgebra.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (complexFiniteCombination c) s = -(riemannZeta s / s) * concreteDirichletPolynomial c s"
   },
@@ -4932,7 +4900,7 @@
    "name": "MCore.RH.R0.mellin_complexResidual",
    "file": "lean/MCore/RH/Analytic/MellinResidualAlgebra.lean",
    "line": 91,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (complexResidual c) s = (1 + riemannZeta s * concreteDirichletPolynomial c s) / s"
   },
@@ -4940,7 +4908,7 @@
    "name": "MCore.RH.R0.mellin_concreteCombinationC",
    "file": "lean/MCore/RH/Analytic/ResidualMellinAlgebra.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (concreteCombinationC c) s = - riemannZeta s / s * concreteDirichletPolynomial c s"
   },
@@ -4948,7 +4916,7 @@
    "name": "MCore.RH.R0.mellin_concreteResidualC",
    "file": "lean/MCore/RH/Analytic/ResidualMellinAlgebra.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (concreteResidualC c) s = (1 + riemannZeta s * concreteDirichletPolynomial c s) / s"
   },
@@ -4956,7 +4924,7 @@
    "name": "MCore.RH.R0.mellin_concreteResidualC_criticalLine",
    "file": "lean/MCore/RH/Analytic/CriticalLineResidual.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (concreteResidualC c) (criticalLine t) = (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / criticalLine t"
   },
@@ -4964,7 +4932,7 @@
    "name": "MCore.RH.R0.mellin_criticalLine_eq_fourier",
    "file": "lean/MCore/RH/Analytic/FourierMellinCriticalLine.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLinePoint t) = 𝓕 (criticalLogPullback c) (t / (2 * Real.pi))"
   },
@@ -4972,7 +4940,7 @@
    "name": "MCore.RH.R0.mellin_critical_eq_fourier",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelEasyLaws.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) (t : ℝ) : mellin f (criticalLine t) = 𝓕 (logPullback f) (t / (2 * Real.pi))"
   },
@@ -4980,7 +4948,7 @@
    "name": "MCore.RH.R0.mellin_finiteGeneratorSum",
    "file": "lean/MCore/RH/Analytic/MellinResidual.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (fun x : ℝ => ∑ i : Fin N, (c i : ℂ) * rhoRepresentativeC i x) s = ∑ i : Fin N, (c i : ℂ) * mellin (rhoRepresentativeC i) s"
   },
@@ -4988,7 +4956,7 @@
    "name": "MCore.RH.R0.mellin_fract_split",
    "file": "lean/MCore/RH/Analytic/MellinRhoClosedForm.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin fractRepresentativeC (-s) = (∫ t : ℝ in Ioo 0 1, ((t : ℂ) ^ (-s - 1)) * (Int.fract t : ℂ)) + fractionalTailComplex s"
   },
@@ -4996,7 +4964,7 @@
    "name": "MCore.RH.R0.mellin_residual_closed_form",
    "file": "lean/MCore/RH/Analytic/MellinResidual.lean",
    "line": 82,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (residualRepresentativeC c) s = (1 + riemannZeta s * concreteDirichletPolynomial c s) / s"
   },
@@ -5004,7 +4972,7 @@
    "name": "MCore.RH.R0.mellin_residual_criticalLine",
    "file": "lean/MCore/RH/Analytic/MellinCriticalLine.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLine t) = (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / criticalLine t"
   },
@@ -5012,7 +4980,7 @@
    "name": "MCore.RH.R0.mellin_residual_critical_eq_fourier",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelBridges.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLine t) = 𝓕 (residualLogPullback c) (t / (2 * Real.pi))"
   },
@@ -5020,7 +4988,7 @@
    "name": "MCore.RH.R0.mellin_residual_eq_fourier",
    "file": "lean/MCore/RH/Analytic/MellinFourierBridge.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (concreteResidualC c) (criticalLine t) = 𝓕 (residualLogPullback c) (t / (2 * Real.pi))"
   },
@@ -5028,7 +4996,7 @@
    "name": "MCore.RH.R0.mellin_residual_on_critical_line",
    "file": "lean/MCore/RH/Analytic/D3Reduction.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (concreteResidualC c) (criticalLine t) = (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / (criticalLine t)"
   },
@@ -5052,7 +5020,7 @@
    "name": "MCore.RH.R0.mellin_rhoRepresentativeC_of_fractionalZeta",
    "file": "lean/MCore/RH/R0/ForensicMaterialAssembly.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hfrac : FractionalZetaMellinIdentity) (n : ℕ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (rhoRepresentativeC n) s = (((rhoIndex n : ℕ) : ℂ) ^ (-s)) * (-riemannZeta s / s)"
   },
@@ -5060,7 +5028,7 @@
    "name": "MCore.RH.R0.mellin_rhoRepresentativeC_zeta_formula",
    "file": "lean/MCore/RH/R0/ForensicMaterialAssembly.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hfrac : FractionalZetaMellinIdentity) (n : ℕ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (rhoRepresentativeC n) s = -((((rhoIndex n : ℕ) : ℂ) ^ (-s)) * riemannZeta s) / s"
   },
@@ -5076,7 +5044,7 @@
    "name": "MCore.RH.R0.mellin_rho_base_realized",
    "file": "lean/MCore/RH/Analytic/MellinRhoClosedForm.lean",
    "line": 87,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (rhoRepresentativeC 0) s = - riemannZeta s / s"
   },
@@ -5084,7 +5052,7 @@
    "name": "MCore.RH.R0.mellin_rho_realized",
    "file": "lean/MCore/RH/Analytic/MellinRhoClosedForm.lean",
    "line": 94,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : mellin (rhoRepresentativeC n) s = - (((rhoIndex n : ℕ) : ℂ) ^ (-s)) * riemannZeta s / s"
   },
@@ -5092,7 +5060,7 @@
    "name": "MCore.RH.R0.memLpTwo_norm_sq_eq_integral_normSq",
    "file": "lean/MCore/RH/Analytic/FourierLpCompatibility.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{f : ℝ → ℂ} (hf : MemLp f 2 volume) : ‖hf.toLp f‖ ^ 2 = ∫ x : ℝ, Complex.normSq (f x)"
   },
@@ -5100,7 +5068,7 @@
    "name": "MCore.RH.R0.memLp_two_norm_sq_eq_integral_normSq",
    "file": "lean/MCore/RH/Analytic/FourierPointwiseBridgeReduction.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{f : ℝ → ℂ} (hf : MemLp f 2 volume) : ‖hf.toLp f‖ ^ 2 = ∫ x : ℝ, normSq (f x)"
   },
@@ -5108,7 +5076,7 @@
    "name": "MCore.RH.R0.natFloor_cast_eq_sub_fract",
    "file": "lean/MCore/RH/Analytic/MellinTailRight.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{t : ℝ} (ht : 0 ≤ t) : (((⌊t⌋₊ : ℕ) : ℂ)) = (t : ℂ) - (Int.fract t : ℂ)"
   },
@@ -5116,7 +5084,7 @@
    "name": "MCore.RH.R0.no_ConcreteUniformLogDNBound_of_orthogonal_witness",
    "file": "lean/MCore/RH/R0/ConcreteZeroObstruction.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(w : concreteNBData.H) (hw : w ≠ 0) (hchi : inner ℝ concreteNBData.chi w ≠ 0) (hgen : ∀ n : ℕ, inner ℝ (concreteGeneratorFamily n) w = 0) : ¬ ConcreteUniformLogDNBound"
   },
@@ -5124,7 +5092,7 @@
    "name": "MCore.RH.R0.no_HardFrontierTarget_of_orthogonal_witness",
    "file": "lean/MCore/RH/R0/HardFrontierReduction.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(w : concreteNBData.H) (hw : w ≠ 0) (hchi : inner ℝ concreteNBData.chi w ≠ 0) (hgen : ∀ n : ℕ, inner ℝ (concreteGeneratorFamily n) w = 0) : ¬ HardFrontierTarget"
   },
@@ -5132,7 +5100,7 @@
    "name": "MCore.RH.R0.no_rawPower_global_L2_exponent",
    "file": "lean/MCore/RH/Analytic/RawPowerL2Obstruction.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(β : ℝ) : ¬ (IntegrableOn (fun x : ℝ => x ^ (2 * β - 2)) (Ioo 0 1) ∧ IntegrableOn (fun x : ℝ => x ^ (2 * β - 2)) (Ioi 1))"
   },
@@ -5148,7 +5116,7 @@
    "name": "MCore.RH.R0.normSq_criticalLinePoint",
    "file": "lean/MCore/RH/Analytic/ResidualCriticalLine.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(t : ℝ) : ‖criticalLinePoint t‖ ^ 2 = 1 / 4 + t ^ 2"
   },
@@ -5156,7 +5124,7 @@
    "name": "MCore.RH.R0.normSq_criticalLogPullback",
    "file": "lean/MCore/RH/Analytic/MellinLogPullback.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (u : ℝ) : Complex.normSq (criticalLogPullback c u) = Real.exp (-u) * Complex.normSq (residualRepresentativeC c (Real.exp (-u)))"
   },
@@ -5164,7 +5132,7 @@
    "name": "MCore.RH.R0.normSq_criticalLogTransport",
    "file": "lean/MCore/RH/Analytic/CriticalLogIsometry.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : ℝ → ℂ) (u : ℝ) : ‖criticalLogTransport f u‖ ^ 2 = Real.exp (-u) * ‖f (Real.exp (-u))‖ ^ 2"
   },
@@ -5172,7 +5140,7 @@
    "name": "MCore.RH.R0.normSq_mellin_concreteResidualC_criticalLine",
    "file": "lean/MCore/RH/Analytic/CriticalLineResidual.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : Complex.normSq (mellin (concreteResidualC c) (criticalLine t)) = Complex.normSq (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / (1 / 4 + t ^ 2)"
   },
@@ -5180,7 +5148,7 @@
    "name": "MCore.RH.R0.normSq_mellin_residual_criticalLine",
    "file": "lean/MCore/RH/Analytic/MellinCriticalLine.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : Complex.normSq (mellin (residualRepresentativeC c) (criticalLine t)) = Complex.normSq (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -5188,7 +5156,7 @@
    "name": "MCore.RH.R0.normSq_mellin_residual_eq_fourier",
    "file": "lean/MCore/RH/Analytic/MellinFourierBridge.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : Complex.normSq (mellin (concreteResidualC c) (criticalLine t)) = Complex.normSq (𝓕 (residualLogPullback c) (t / (2 * Real.pi)))"
   },
@@ -5196,7 +5164,7 @@
    "name": "MCore.RH.R0.normSq_residualLogPullback",
    "file": "lean/MCore/RH/Analytic/MellinLogIsometry.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (u : ℝ) : normSq (residualLogPullback c u) = Real.exp (-u) * (realResidualRepresentative c (Real.exp (-u))) ^ 2"
   },
@@ -5204,7 +5172,7 @@
    "name": "MCore.RH.R0.normSq_residualLogPullback_neg",
    "file": "lean/MCore/RH/Analytic/LogPullbackNorm.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (u : ℝ) : Complex.normSq (residualLogPullback c (-u)) = Real.exp u * Complex.normSq (residualRepresentativeC c (Real.exp u))"
   },
@@ -5212,7 +5180,7 @@
    "name": "MCore.RH.R0.normSq_residualLogTransform",
    "file": "lean/MCore/RH/Analytic/ResidualLogIsometry.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (u : ℝ) : Complex.normSq (residualLogTransform c u) = Real.exp (-u) * Complex.normSq (residualRepresentativeC c (Real.exp (-u)))"
   },
@@ -5228,7 +5196,7 @@
    "name": "MCore.RH.R0.offLineStripZero_to_physical_witness",
    "file": "lean/MCore/RH/Analytic/E1EvaluationReduction.lean",
    "line": 101,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hrep : ∀ z : RightStripZero, CriticalEvaluationReproducing z.rho) (htransport : SpectralToPhysicalWitness) (z : OffLineStripZero) : ∃ w : concreteNBData.H, w ≠ 0 ∧ inner ℝ concreteNBData.chi w ≠ 0 ∧ ∀ n : ℕ, inner ℝ (concreteGeneratorFamily n) w = 0"
   },
@@ -5236,7 +5204,7 @@
    "name": "MCore.RH.R0.offLineStripZero_to_right",
    "file": "lean/MCore/RH/Analytic/OffLineZeroReflection.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(z : OffLineStripZero) : RightStripZero"
   },
@@ -5244,7 +5212,7 @@
    "name": "MCore.RH.R0.one_partial_sum_bigO",
    "file": "lean/MCore/RH/Analytic/MellinTailRight.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (fun n : ℕ => ∑ k ∈ Icc 1 n, (1 : ℝ)) =O[atTop] fun n : ℕ => (n : ℝ) ^ (1 : ℝ)"
   },
@@ -5284,7 +5252,7 @@
    "name": "MCore.RH.R0.ordinaryFourier_locallyIntegrable",
    "file": "lean/MCore/RH/Analytic/FourierCompatibility.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{f : ℝ → ℂ} (h1 : MemLp f 1 volume) : LocallyIntegrable (fun y : ℝ => 𝓕 f y) volume"
   },
@@ -5292,7 +5260,7 @@
    "name": "MCore.RH.R0.orthogonal_witness_blocks_material_gap",
    "file": "lean/MCore/RH/R0/FrontierExposure.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(w : concreteNBData.H) (hw : w ≠ 0) (hchi : inner ℝ concreteNBData.chi w ≠ 0) (hgen : ∀ n : ℕ, inner ℝ (concreteGeneratorFamily n) w = 0) : ¬ RHMaterialGap"
   },
@@ -5300,7 +5268,7 @@
    "name": "MCore.RH.R0.pinned_schwartz_plancherel",
    "file": "lean/MCore/RH/Analytic/PinnedSchwartzPlancherel.lean",
    "line": 26,
-   "state": "erro",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(f : 𝓢(ℝ, ℂ)) : (∫ ξ : ℝ, Complex.normSq (𝓕 (f : ℝ → ℂ) ξ)) = ∫ x : ℝ, Complex.normSq (f x)"
   },
@@ -5308,7 +5276,7 @@
    "name": "MCore.RH.R0.pointwiseFourierLpBridge_of_aeBridge",
    "file": "lean/MCore/RH/Analytic/FourierAeBridgeReduction.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ResidualPointwiseFourierAeBridge) : ResidualPointwiseFourierLpBridge where memLpInput"
   },
@@ -5316,7 +5284,7 @@
    "name": "MCore.RH.R0.pointwiseFourier_memLp_of_aeBridge",
    "file": "lean/MCore/RH/Analytic/FourierAeBridgeReduction.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ResidualPointwiseFourierAeBridge) {N : ℕ} (c : Fin N → ℝ) : MemLp (fun ξ : ℝ => 𝓕 (residualLogPullback c) ξ) 2 volume"
   },
@@ -5324,7 +5292,7 @@
    "name": "MCore.RH.R0.pointwiseFourier_toLp_eq_of_aeBridge",
    "file": "lean/MCore/RH/Analytic/FourierAeBridgeReduction.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ResidualPointwiseFourierAeBridge) {N : ℕ} (c : Fin N → ℝ) : (pointwiseFourier_memLp_of_aeBridge h c).toLp (fun ξ : ℝ => 𝓕 (residualLogPullback c) ξ) = 𝓕 ((residualLogPullback_memLp c).toLp (residualLogPullback c))"
   },
@@ -5332,7 +5300,7 @@
    "name": "MCore.RH.R0.rationalAutocorrelationCutoff_pos",
    "file": "lean/MCore/RH/R0/VasyuninIntegrability.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k : ℕ) (hh : 0 < h) (hk : 0 < k) : 0 < rationalAutocorrelationCutoff h k"
   },
@@ -5340,7 +5308,7 @@
    "name": "MCore.RH.R0.rationalAutocorrelationIntegrable_realized",
    "file": "lean/MCore/RH/R0/VasyuninIntegrability.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RationalAutocorrelationIntegrable"
   },
@@ -5348,7 +5316,7 @@
    "name": "MCore.RH.R0.rationalAutocorrelationIntegrand_near_zero",
    "file": "lean/MCore/RH/R0/VasyuninIntegrability.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k : ℕ) (hh : 0 < h) (hk : 0 < k) {t : ℝ} (ht0 : 0 < t) (htδ : t ≤ rationalAutocorrelationCutoff h k) : rationalAutocorrelationIntegrand h k t = (h : ℝ) / (k : ℝ)"
   },
@@ -5356,7 +5324,7 @@
    "name": "MCore.RH.R0.rationalAutocorrelation_finite_blocks",
    "file": "lean/MCore/RH/R0/VasyuninCoprimeBasics.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k N : ℕ) (hint : IntegrableOn (rationalAutocorrelationIntegrand h k) (Ioi 0)) : (∫ t : ℝ in Ioc 0 N, rationalAutocorrelationIntegrand h k t) = ∑ n in Finset.range N, ∫ t : ℝ in Ioc (n : ℝ) (n + 1), rationalAutocorrelationIntegrand h k t"
   },
@@ -5364,7 +5332,7 @@
    "name": "MCore.RH.R0.rationalAutocorrelation_partial_tendsto",
    "file": "lean/MCore/RH/R0/VasyuninUnitBlocksReduction.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hint : RationalAutocorrelationIntegrable) (h k : ℕ) (hh : 0 < h) (hk : 0 < k) : Tendsto (fun N : ℕ => ∑ n in Finset.range N, ∫ t : ℝ in Ioc (n : ℝ) (n + 1), rationalAutocorrelationIntegrand h k t) atTop (𝓝 (fractionalAutocorrelation ((h : ℝ) / (k : ℝ))))"
   },
@@ -5372,7 +5340,7 @@
    "name": "MCore.RH.R0.rationalAutocorrelation_unitBlock_hasSum",
    "file": "lean/MCore/RH/R0/VasyuninUnitBlocksReduction.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hint : RationalAutocorrelationIntegrable) (h k : ℕ) (hh : 0 < h) (hk : 0 < k) : HasSum (fun n : ℕ => ∫ t : ℝ in Ioc (n : ℝ) (n + 1), rationalAutocorrelationIntegrand h k t) (fractionalAutocorrelation ((h : ℝ) / (k : ℝ)))"
   },
@@ -5380,7 +5348,7 @@
    "name": "MCore.RH.R0.rawPower_nearZero_iff",
    "file": "lean/MCore/RH/Analytic/RawPowerL2Obstruction.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(β : ℝ) : IntegrableOn (fun x : ℝ => x ^ (2 * β - 2)) (Ioo 0 1) ↔ 1 / 2 < β"
   },
@@ -5388,7 +5356,7 @@
    "name": "MCore.RH.R0.rawPower_tail_iff",
    "file": "lean/MCore/RH/Analytic/RawPowerL2Obstruction.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(β : ℝ) : IntegrableOn (fun x : ℝ => x ^ (2 * β - 2)) (Ioi 1) ↔ β < 1 / 2"
   },
@@ -5396,7 +5364,7 @@
    "name": "MCore.RH.R0.realResidualRepresentative_memLp",
    "file": "lean/MCore/RH/Analytic/ResidualLogPullbackLp.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (realResidualRepresentative c) 2 zeroInfinityMeasure"
   },
@@ -5404,7 +5372,7 @@
    "name": "MCore.RH.R0.realResidualRepresentative_sq_integrableOn",
    "file": "lean/MCore/RH/Analytic/ResidualLogPullbackLp.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : IntegrableOn (fun x : ℝ => (realResidualRepresentative c x) ^ 2) (Ioi 0) volume"
   },
@@ -5412,7 +5380,7 @@
    "name": "MCore.RH.R0.realResidual_sq_eq_complex_normSq",
    "file": "lean/MCore/RH/Analytic/ResidualL2Integral.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (x : ℝ) : (chiRepresentative x - ∑ i : Fin N, c i * rhoRepresentative i x) ^ 2 = Complex.normSq (residualRepresentativeC c x)"
   },
@@ -5420,7 +5388,7 @@
    "name": "MCore.RH.R0.reduced_indices_of_coprime",
    "file": "lean/MCore/RH/R0/VasyuninCoprimeBasics.lean",
    "line": 6,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k : ℕ) (hh : 0 < h) (hk : 0 < k) (hcop : Nat.Coprime h k) : reducedNumerator h k = h ∧ reducedDenominator h k = k"
   },
@@ -5428,7 +5396,7 @@
    "name": "MCore.RH.R0.reflect_left_strip_zero",
    "file": "lean/MCore/RH/Analytic/OffLineZeroReflection.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(z : OffLineStripZero) (hleft : z.rho.re < 1 / 2) : RightStripZero"
   },
@@ -5436,7 +5404,7 @@
    "name": "MCore.RH.R0.regularizedZeta_analytic",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ s : ℂ, AnalyticAt ℂ regularizedZeta s"
   },
@@ -5444,7 +5412,7 @@
    "name": "MCore.RH.R0.regularizedZeta_analyticAt",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{s : ℂ} (hs : s ≠ 1) : AnalyticAt ℂ regularizedZeta s"
   },
@@ -5452,7 +5420,7 @@
    "name": "MCore.RH.R0.regularizedZeta_analyticAt_one",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": AnalyticAt ℂ regularizedZeta 1"
   },
@@ -5460,7 +5428,7 @@
    "name": "MCore.RH.R0.regularizedZeta_continuousAt_one",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ContinuousAt regularizedZeta 1"
   },
@@ -5468,7 +5436,7 @@
    "name": "MCore.RH.R0.regularizedZeta_eq",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{s : ℂ} (hs : s ≠ 1) : regularizedZeta s = riemannZeta s - 1 / (s - 1)"
   },
@@ -5476,7 +5444,7 @@
    "name": "MCore.RH.R0.regularizedZeta_one",
    "file": "lean/MCore/RH/Analytic/RegularizedZeta.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": regularizedZeta 1 = (Real.eulerMascheroniConstant : ℂ)"
   },
@@ -5484,7 +5452,7 @@
    "name": "MCore.RH.R0.residualCriticalDensity_eq_fourier_scaled",
    "file": "lean/MCore/RH/Analytic/D3FromFourierPlancherel.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : residualCriticalDensity c t = ‖𝓕 (logPullback (residualRepresentativeC c)) (t / (2 * Real.pi))‖ ^ 2"
   },
@@ -5492,7 +5460,7 @@
    "name": "MCore.RH.R0.residualCriticalLinePlancherel_of_L1L2",
    "file": "lean/MCore/RH/Analytic/FourierL1L2AgreementReduction.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : L1L2FourierAgreement) : ResidualCriticalLinePlancherel"
   },
@@ -5500,7 +5468,7 @@
    "name": "MCore.RH.R0.residualCriticalLinePlancherel_of_aeBridge",
    "file": "lean/MCore/RH/Analytic/FourierAeBridgeReduction.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ResidualPointwiseFourierAeBridge) : ResidualCriticalLinePlancherel"
   },
@@ -5508,7 +5476,7 @@
    "name": "MCore.RH.R0.residualCriticalLinePlancherel_of_log_fourier",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelBridges.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hlog : ResidualLogPullbackIsometry) (hfourier : ResidualFourierPlancherel) (hscale : ResidualFrequencyScaling) : ResidualCriticalLinePlancherel"
   },
@@ -5516,7 +5484,7 @@
    "name": "MCore.RH.R0.residualCriticalLinePlancherel_of_pointwiseBridge",
    "file": "lean/MCore/RH/Analytic/FourierPointwiseBridgeReduction.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hbridge : ResidualPointwiseFourierLpBridge) : ResidualCriticalLinePlancherel"
   },
@@ -5524,7 +5492,7 @@
    "name": "MCore.RH.R0.residualCriticalLinePlancherel_of_two_bridges",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelBridges.lean",
    "line": 80,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hlog : ResidualLogPullbackIsometry) (hfourier : ResidualFourierPlancherel) : ResidualCriticalLinePlancherel"
   },
@@ -5532,7 +5500,7 @@
    "name": "MCore.RH.R0.residualCriticalMellinL1_realized",
    "file": "lean/MCore/RH/Analytic/D3LpPrerequisites.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualCriticalMellinL1"
   },
@@ -5540,7 +5508,7 @@
    "name": "MCore.RH.R0.residualFourierBridge_of_L1L2",
    "file": "lean/MCore/RH/Analytic/FourierL1L2Bridge.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : L1L2FourierCompatibility) : ResidualFourierRepresentativeBridge"
   },
@@ -5548,7 +5516,7 @@
    "name": "MCore.RH.R0.residualFourierL2Compatibility_realized",
    "file": "lean/MCore/RH/Analytic/FourierCompatibility.lean",
    "line": 100,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualFourierL2Compatibility"
   },
@@ -5556,7 +5524,7 @@
    "name": "MCore.RH.R0.residualFourierPlancherelScaled_of_unscaled",
    "file": "lean/MCore/RH/Analytic/FourierPlancherelReduction.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ResidualFourierPlancherel) : ResidualFourierPlancherelScaled"
   },
@@ -5564,7 +5532,7 @@
    "name": "MCore.RH.R0.residualFourierPlancherel_of_compatibility",
    "file": "lean/MCore/RH/Analytic/FourierLpCompatibility.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcompat : ∀ {N : ℕ} (c : Fin N → ℝ), ResidualFourierCompatibility c) : ResidualFourierPlancherel"
   },
@@ -5572,7 +5540,7 @@
    "name": "MCore.RH.R0.residualFourierPlancherel_of_pointwiseBridge",
    "file": "lean/MCore/RH/Analytic/FourierPointwiseBridgeReduction.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hbridge : ResidualPointwiseFourierLpBridge) : ResidualFourierPlancherel"
   },
@@ -5580,7 +5548,7 @@
    "name": "MCore.RH.R0.residualFourierTestPairingCompatibility_realized",
    "file": "lean/MCore/RH/Analytic/FourierCompatibility.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualFourierTestPairingCompatibility"
   },
@@ -5588,7 +5556,7 @@
    "name": "MCore.RH.R0.residualFrequencyScaling_realized",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelBridges.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualFrequencyScaling"
   },
@@ -5596,7 +5564,7 @@
    "name": "MCore.RH.R0.residualL2IntegralIdentity_realized",
    "file": "lean/MCore/RH/Analytic/ResidualL2Integral.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualL2IntegralIdentity"
   },
@@ -5604,7 +5572,7 @@
    "name": "MCore.RH.R0.residualLogL2Isometry_realized",
    "file": "lean/MCore/RH/Analytic/ResidualLogIsometry.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualLogL2Isometry"
   },
@@ -5612,7 +5580,7 @@
    "name": "MCore.RH.R0.residualLogLiftIsometry_realized",
    "file": "lean/MCore/RH/Analytic/D3LogLiftIsometry.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualLogLiftIsometry"
   },
@@ -5620,7 +5588,7 @@
    "name": "MCore.RH.R0.residualLogLift_normSq",
    "file": "lean/MCore/RH/Analytic/D3LogLiftIsometry.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (u : ℝ) : ‖residualLogLift c u‖ ^ 2 = Real.exp (-u) * ‖residualRepresentativeC c (Real.exp (-u))‖ ^ 2"
   },
@@ -5628,7 +5596,7 @@
    "name": "MCore.RH.R0.residualLogPullbackIsometry_realized",
    "file": "lean/MCore/RH/Analytic/MellinLogIsometry.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualLogPullbackIsometry"
   },
@@ -5636,7 +5604,7 @@
    "name": "MCore.RH.R0.residualLogPullbackMemL1_realized",
    "file": "lean/MCore/RH/Analytic/D3LpPrerequisites.lean",
    "line": 76,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualLogPullbackMemL1"
   },
@@ -5644,7 +5612,7 @@
    "name": "MCore.RH.R0.residualLogPullbackMemL2_realized",
    "file": "lean/MCore/RH/Analytic/D3LpPrerequisites.lean",
    "line": 145,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualLogPullbackMemL2"
   },
@@ -5652,7 +5620,7 @@
    "name": "MCore.RH.R0.residualLogPullbackNorm_realized",
    "file": "lean/MCore/RH/Analytic/LogPullbackNorm.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualLogPullbackNorm"
   },
@@ -5660,7 +5628,7 @@
    "name": "MCore.RH.R0.residualLogPullback_aestronglyMeasurable",
    "file": "lean/MCore/RH/Analytic/ResidualLogPullbackLp.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : AEStronglyMeasurable (residualLogPullback c) volume"
   },
@@ -5668,7 +5636,7 @@
    "name": "MCore.RH.R0.residualLogPullback_integrable",
    "file": "lean/MCore/RH/Analytic/D3LpPrerequisites.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (residualLogPullback c) volume"
   },
@@ -5676,7 +5644,7 @@
    "name": "MCore.RH.R0.residualLogPullback_memLp",
    "file": "lean/MCore/RH/Analytic/ResidualLogPullbackLp.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (residualLogPullback c) 2 volume"
   },
@@ -5684,7 +5652,7 @@
    "name": "MCore.RH.R0.residualLogPullback_normSq_integrable",
    "file": "lean/MCore/RH/Analytic/ResidualLogPullbackLp.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (fun u : ℝ => normSq (residualLogPullback c u)) volume"
   },
@@ -5692,7 +5660,7 @@
    "name": "MCore.RH.R0.residualLogPullback_sq_norm_integrable",
    "file": "lean/MCore/RH/Analytic/D3LpPrerequisites.lean",
    "line": 110,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (fun u : ℝ => ‖residualLogPullback c u‖ ^ 2) volume"
   },
@@ -5700,7 +5668,7 @@
    "name": "MCore.RH.R0.residualLp_coeFn_ae",
    "file": "lean/MCore/RH/Analytic/ResidualNormBridge.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : ((concreteNBData.chi - concreteFiniteCombination c : concreteNBData.H) : ℝ → ℝ) =ᵐ[zeroInfinityMeasure] (fun x : ℝ => chiRepresentative x - ∑ i : Fin N, c i * rhoRepresentative i x)"
   },
@@ -5708,7 +5676,7 @@
    "name": "MCore.RH.R0.residualMellinNormSq_explicit",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelReduction.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : Complex.normSq (mellin (residualRepresentativeC c) (criticalLinePoint t)) = Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -5716,7 +5684,7 @@
    "name": "MCore.RH.R0.residualMellinPlancherelCore_of_fourier",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelCoreReduction.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hF : ResidualFourierPlancherelCore) : ResidualMellinPlancherelCore"
   },
@@ -5724,7 +5692,7 @@
    "name": "MCore.RH.R0.residualMellinPlancherelExplicit_of_L1L2",
    "file": "lean/MCore/RH/Analytic/FourierL1L2AgreementReduction.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : L1L2FourierAgreement) {N : ℕ} (c : Fin N → ℝ) : ‖concreteNBData.chi - concreteFiniteCombination c‖ ^ 2 = (1 / (2 * Real.pi)) * ∫ t : ℝ, normSq (1 + riemannZeta (criticalLine t) * concreteDirichletPolynomial c (criticalLine t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -5732,7 +5700,7 @@
    "name": "MCore.RH.R0.residualMellinPlancherel_of_fourierPlancherel",
    "file": "lean/MCore/RH/Analytic/FourierPlancherelReduction.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ResidualFourierPlancherel) : ResidualMellinPlancherel"
   },
@@ -5740,7 +5708,7 @@
    "name": "MCore.RH.R0.residualMellinPlancherel_of_fourier_bridges",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelFourierReduction.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hlog : ResidualLogPullbackNorm) (hfourier : ResidualFourierPlancherelScaled) : ResidualMellinPlancherel"
   },
@@ -5748,7 +5716,7 @@
    "name": "MCore.RH.R0.residualMellinPlancherel_of_pinned_gap",
    "file": "lean/MCore/RH/Analytic/D3PinnedGap.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hF : PinnedFourierPlancherelGap) : ResidualMellinPlancherel"
   },
@@ -5756,7 +5724,7 @@
    "name": "MCore.RH.R0.residualPlancherel_of_fourier_only",
    "file": "lean/MCore/RH/Analytic/D3SingleGap.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hfourier : FourierPlancherelForLogPullback) : ResidualMellinPlancherel"
   },
@@ -5764,7 +5732,7 @@
    "name": "MCore.RH.R0.residualPointwiseFourierAeBridge_of_L1L2",
    "file": "lean/MCore/RH/Analytic/FourierL1L2AgreementReduction.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : L1L2FourierAgreement) : ResidualPointwiseFourierAeBridge where aeEq"
   },
@@ -5772,7 +5740,7 @@
    "name": "MCore.RH.R0.residualRepresentativeC_eq_ofReal",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (x : ℝ) : residualRepresentativeC c x = (residualRepresentativeR c x : ℂ)"
   },
@@ -5780,7 +5748,7 @@
    "name": "MCore.RH.R0.residualRepresentativeC_eq_real",
    "file": "lean/MCore/RH/Analytic/MellinLogIsometry.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (x : ℝ) : residualRepresentativeC c x = (realResidualRepresentative c x : ℂ)"
   },
@@ -5788,7 +5756,7 @@
    "name": "MCore.RH.R0.residualRepresentativeC_measurable",
    "file": "lean/MCore/RH/Analytic/CriticalLogPullbackL2.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Measurable (residualRepresentativeC c)"
   },
@@ -5796,7 +5764,7 @@
    "name": "MCore.RH.R0.residualRepresentativeC_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/ResidualMellin.lean",
    "line": 95,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (residualRepresentativeC c) s"
   },
@@ -5804,7 +5772,7 @@
    "name": "MCore.RH.R0.residualRepresentativeC_mellinConvergent_half",
    "file": "lean/MCore/RH/Analytic/ResidualLogPullbackL1.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MellinConvergent (residualRepresentativeC c) ((1 / 2 : ℝ) : ℂ)"
   },
@@ -5812,7 +5780,7 @@
    "name": "MCore.RH.R0.residualRepresentativeC_memLp_two",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (residualRepresentativeC c) 2 zeroInfinityMeasure"
   },
@@ -5820,7 +5788,7 @@
    "name": "MCore.RH.R0.residualRepresentativeNormBridge_realized",
    "file": "lean/MCore/RH/Analytic/ResidualNormBridge.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ResidualRepresentativeNormBridge"
   },
@@ -5828,7 +5796,7 @@
    "name": "MCore.RH.R0.residualRepresentativeR_memLp_two",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (residualRepresentativeR c) 2 zeroInfinityMeasure"
   },
@@ -5836,7 +5804,7 @@
    "name": "MCore.RH.R0.residual_fourier_integral_plancherel",
    "file": "lean/MCore/RH/Analytic/FourierIntegralPlancherelReduction.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : FourierIntegralPlancherelL1L2) {N : ℕ} (c : Fin N → ℝ) : (∫ t : ℝ, ‖𝓕 (logPullback (residualRepresentativeC c)) t‖ ^ 2) = ∫ x : ℝ in Set.Ioi 0, ‖residualRepresentativeC c x‖ ^ 2"
   },
@@ -5844,7 +5812,7 @@
    "name": "MCore.RH.R0.residual_half_weight_norm_integrableOn",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : IntegrableOn (fun x : ℝ => x ^ (-(1 / 2 : ℝ)) * ‖residualRepresentativeC c x‖) (Ioi 0) volume"
   },
@@ -5852,7 +5820,7 @@
    "name": "MCore.RH.R0.residual_integral_eq_logPullback",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 102,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : (∫ x : ℝ in Ioi 0, Complex.normSq (residualRepresentativeC c x)) = ∫ u : ℝ, Complex.normSq (criticalLogPullback c u)"
   },
@@ -5860,7 +5828,7 @@
    "name": "MCore.RH.R0.residual_logPullback_L1_L2",
    "file": "lean/MCore/RH/Analytic/FourierIntegralPlancherelReduction.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (logPullback (residualRepresentativeC c)) 1 volume ∧ MemLp (logPullback (residualRepresentativeC c)) 2 volume"
   },
@@ -5868,7 +5836,7 @@
    "name": "MCore.RH.R0.residual_logPullback_integrable",
    "file": "lean/MCore/RH/Analytic/LogPullbackL1.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (logPullback (residualRepresentativeC c)) volume"
   },
@@ -5876,7 +5844,7 @@
    "name": "MCore.RH.R0.residual_logPullback_measurable",
    "file": "lean/MCore/RH/Analytic/ResidualL2.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Measurable (logPullback (residualRepresentativeC c))"
   },
@@ -5884,7 +5852,7 @@
    "name": "MCore.RH.R0.residual_logPullback_memLp_one",
    "file": "lean/MCore/RH/Analytic/LogPullbackL1.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (logPullback (residualRepresentativeC c)) 1 volume"
   },
@@ -5892,7 +5860,7 @@
    "name": "MCore.RH.R0.residual_logPullback_memLp_two",
    "file": "lean/MCore/RH/Analytic/ResidualL2.lean",
    "line": 103,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (logPullback (residualRepresentativeC c)) 2 volume"
   },
@@ -5900,7 +5868,7 @@
    "name": "MCore.RH.R0.residual_logPullback_normSq_integrable",
    "file": "lean/MCore/RH/Analytic/ResidualL2.lean",
    "line": 76,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : Integrable (fun u : ℝ => ‖logPullback (residualRepresentativeC c) u‖ ^ 2) volume"
   },
@@ -5908,7 +5876,7 @@
    "name": "MCore.RH.R0.residual_logPullback_normSq_integral",
    "file": "lean/MCore/RH/Analytic/LogPullbackL2.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : (∫ u : ℝ, ‖logPullback (residualRepresentativeC c) u‖ ^ 2) = ∫ x : ℝ in Ioi 0, ‖residualRepresentativeC c x‖ ^ 2"
   },
@@ -5916,7 +5884,7 @@
    "name": "MCore.RH.R0.residual_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinResidual.lean",
    "line": 72,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (residualRepresentativeC c) s"
   },
@@ -5924,7 +5892,7 @@
    "name": "MCore.RH.R0.residual_mellin_critical_line",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLinePoint t) = (1 + riemannZeta (criticalLinePoint t) * residualDirichletPolynomial c (criticalLinePoint t)) / criticalLinePoint t"
   },
@@ -5932,7 +5900,7 @@
    "name": "MCore.RH.R0.residual_mellin_critical_sq",
    "file": "lean/MCore/RH/Analytic/MellinCriticalDensity.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : ‖mellin (residualRepresentativeC c) (criticalLine t)‖ ^ 2 = criticalResidualDensity c t"
   },
@@ -5940,7 +5908,7 @@
    "name": "MCore.RH.R0.residual_mellin_eq_fourierIntegral",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelBridge.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLinePoint t) = 𝓕 (residualLogTransform c) (t / (2 * Real.pi))"
   },
@@ -5948,7 +5916,7 @@
    "name": "MCore.RH.R0.residual_mellin_norm_sq",
    "file": "lean/MCore/RH/Analytic/ResidualPlancherelReduction.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : ‖mellin (complexResidual c) ((1 / 2 : ℝ) + t * I)‖ ^ 2 = Complex.normSq (1 + riemannZeta ((1 / 2 : ℝ) + t * I) * concreteDirichletPolynomial c ((1 / 2 : ℝ) + t * I)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -5956,7 +5924,7 @@
    "name": "MCore.RH.R0.residual_mellin_norm_sq_critical_line",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : ‖mellin (residualRepresentativeC c) (criticalLinePoint t)‖ ^ 2 = Complex.normSq (1 + riemannZeta (criticalLinePoint t) * residualDirichletPolynomial c (criticalLinePoint t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -5964,7 +5932,7 @@
    "name": "MCore.RH.R0.residual_mellin_plancherel_explicit",
    "file": "lean/MCore/RH/Analytic/MellinPlancherelReduction.lean",
    "line": 68,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : ‖concreteResidual c‖ ^ 2 = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -5972,7 +5940,7 @@
    "name": "MCore.RH.R0.residual_mellin_plancherel_integral",
    "file": "lean/MCore/RH/Analytic/ResidualPlancherelReduction.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hFourier : FourierIntegralPlancherel) {N : ℕ} (c : Fin N → ℝ) (hL1 : Integrable (criticalLogTransport (complexResidual c)) volume) (hL2 : MemLp (criticalLogTransport (complexResidual c)) 2 volume) : (∫ x : ℝ in Ioi 0, ‖complexResidual c x‖ ^ 2) = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta ((1 / 2 : ℝ) + t * I) * concreteDirichletPolynomial c ((1 / 2 : ℝ) + t * I)) / ((1 / 4 : "
   },
@@ -5980,7 +5948,7 @@
    "name": "MCore.RH.R0.residual_mellin_plancherel_of_fourier",
    "file": "lean/MCore/RH/Analytic/D3ResidualCompleteReduction.lean",
    "line": 6,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hFourier : FourierIntegralPlancherel) {N : ℕ} (c : Fin N → ℝ) : (∫ x : ℝ in Ioi 0, ‖complexResidual c x‖ ^ 2) = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta ((1 / 2 : ℝ) + t * I) * concreteDirichletPolynomial c ((1 / 2 : ℝ) + t * I)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -5988,7 +5956,7 @@
    "name": "MCore.RH.R0.residual_normSq_integrable",
    "file": "lean/MCore/RH/Analytic/ResidualL2.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : IntegrableOn (fun x : ℝ => ‖residualRepresentativeC c x‖ ^ 2) (Ioi 0)"
   },
@@ -5996,7 +5964,7 @@
    "name": "MCore.RH.R0.residual_normSq_integrableOn",
    "file": "lean/MCore/RH/Analytic/LogResidualMembership.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : IntegrableOn (fun x : ℝ => Complex.normSq (residualRepresentativeC c x)) (Ioi 0) volume"
   },
@@ -6004,7 +5972,7 @@
    "name": "MCore.RH.R0.residual_plancherel_explicit",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : (∫ x : ℝ in Ioi 0, ‖residualRepresentativeC c x‖ ^ 2) = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * residualDirichletPolynomial c (criticalLinePoint t)) / ((1 / 4 : ℝ) + t ^ 2)"
   },
@@ -6012,7 +5980,7 @@
    "name": "MCore.RH.R0.residueTsumEvaluation_iff_coprimeVasyuninFormula",
    "file": "lean/MCore/RH/R0/VasyuninCoprimeSeriesReduction.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": VasyuninResidueTsumEvaluation ↔ CoprimeVasyuninFormula"
   },
@@ -6020,7 +5988,7 @@
    "name": "MCore.RH.R0.residueTsum_of_coprimeVasyuninFormula",
    "file": "lean/MCore/RH/R0/VasyuninCoprimeSeriesReduction.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcop : CoprimeVasyuninFormula) : VasyuninResidueTsumEvaluation"
   },
@@ -6028,7 +5996,7 @@
    "name": "MCore.RH.R0.rexpNeg_hasDerivWithinAt",
    "file": "lean/MCore/RH/Analytic/LogResidualIsometry.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ u ∈ (Set.univ : Set ℝ), HasDerivWithinAt (fun v : ℝ => Real.exp (-v)) (- Real.exp (-u)) Set.univ u"
   },
@@ -6036,7 +6004,7 @@
    "name": "MCore.RH.R0.rexpNeg_image_univ",
    "file": "lean/MCore/RH/Analytic/LogResidualIsometry.lean",
    "line": 7,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (fun u : ℝ => Real.exp (-u)) '' Set.univ = Set.Ioi 0"
   },
@@ -6044,7 +6012,7 @@
    "name": "MCore.RH.R0.rexpNeg_injOn_univ",
    "file": "lean/MCore/RH/Analytic/LogResidualIsometry.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Set.univ.InjOn (fun u : ℝ => Real.exp (-u))"
   },
@@ -6052,7 +6020,7 @@
    "name": "MCore.RH.R0.rexp_neg_deriv",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 62,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ u ∈ (Set.univ : Set ℝ), HasDerivWithinAt (Real.exp ∘ Neg.neg) (-Real.exp (-u)) Set.univ u"
   },
@@ -6068,7 +6036,7 @@
    "name": "MCore.RH.R0.rexp_neg_image",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (Real.exp ∘ Neg.neg) '' (Set.univ : Set ℝ) = Ioi 0"
   },
@@ -6084,7 +6052,7 @@
    "name": "MCore.RH.R0.rexp_neg_injOn",
    "file": "lean/MCore/RH/Analytic/LogPullbackIsometry.lean",
    "line": 79,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (Set.univ : Set ℝ).InjOn (Real.exp ∘ Neg.neg)"
   },
@@ -6172,7 +6140,7 @@
    "name": "MCore.RH.R0.rhoCombinationC_memLp_two",
    "file": "lean/MCore/RH/Analytic/ResidualL2.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{N : ℕ} (c : Fin N → ℝ) : MemLp (rhoCombinationC c) 2 zeroInfinityMeasure"
   },
@@ -6244,7 +6212,7 @@
    "name": "MCore.RH.R0.rhoRepresentativeC_locallyIntegrable",
    "file": "lean/MCore/RH/Analytic/MellinRhoConvergence.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) : LocallyIntegrableOn (rhoRepresentativeC n) (Ioi 0)"
   },
@@ -6268,7 +6236,7 @@
    "name": "MCore.RH.R0.rhoRepresentativeC_memLp_two",
    "file": "lean/MCore/RH/Analytic/ResidualL2.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) : MemLp (rhoRepresentativeC n) 2 zeroInfinityMeasure"
   },
@@ -6428,7 +6396,7 @@
    "name": "MCore.RH.R0.riemannZeta_eq_floor_integral",
    "file": "lean/MCore/RH/Analytic/MellinTailRight.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs : 1 < s.re) : riemannZeta s = s * ∫ t : ℝ in Ioi 1, ((⌊t⌋₊ : ℕ) : ℂ) * (t : ℂ) ^ (-(s + 1))"
   },
@@ -6444,7 +6412,7 @@
    "name": "MCore.RH.R0.rightStripZero_to_physical_witness",
    "file": "lean/MCore/RH/Analytic/E1EvaluationReduction.lean",
    "line": 90,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hrep : ∀ z : RightStripZero, CriticalEvaluationReproducing z.rho) (htransport : SpectralToPhysicalWitness) (z : RightStripZero) : ∃ w : concreteNBData.H, w ≠ 0 ∧ inner ℝ concreteNBData.chi w ≠ 0 ∧ ∀ n : ℕ, inner ℝ (concreteGeneratorFamily n) w = 0"
   },
@@ -6460,7 +6428,7 @@
    "name": "MCore.RH.R0.spectralZeroWitness_of_reproducing",
    "file": "lean/MCore/RH/Analytic/E1EvaluationReduction.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(z : RightStripZero) (hrep : CriticalEvaluationReproducing z.rho) : SpectralZeroWitnessData z"
   },
@@ -6468,7 +6436,7 @@
    "name": "MCore.RH.R0.strip_point_ne_neg_nat",
    "file": "lean/MCore/RH/Analytic/OffLineZeroReflection.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{s : ℂ} (hs : 0 < s.re) : ∀ n : ℕ, s ≠ -n"
   },
@@ -6476,7 +6444,7 @@
    "name": "MCore.RH.R0.tailAnalyticContinuation_of_mellin",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuationReduction.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TailMellinAnalytic) : ∀ s : ℂ, 0 < s.re → s ≠ 1 → fractionalTailComplex s = 1 / (s - 1) - riemannZeta s / s"
   },
@@ -6484,7 +6452,7 @@
    "name": "MCore.RH.R0.tailAnalyticContinuation_realized",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 111,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ s : ℂ, 0 < s.re → s ≠ 1 → fractionalTailComplex s = 1 / (s - 1) - riemannZeta s / s"
   },
@@ -6492,7 +6460,7 @@
    "name": "MCore.RH.R0.tailFormulaRight_of_series",
    "file": "lean/MCore/RH/Analytic/MellinTailRightReduction.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hbridge : ComplexTailIntegralSeriesBridge) (hclosed : ComplexTailSeriesClosedForm) : TailFormulaRight"
   },
@@ -6500,7 +6468,7 @@
    "name": "MCore.RH.R0.tailFormulaRight_realized",
    "file": "lean/MCore/RH/Analytic/MellinTailRight.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TailFormulaRight"
   },
@@ -6508,7 +6476,7 @@
    "name": "MCore.RH.R0.tailMellinAnalytic_realized",
    "file": "lean/MCore/RH/Analytic/MellinTailContinuation.lean",
    "line": 99,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TailMellinAnalytic"
   },
@@ -6516,7 +6484,7 @@
    "name": "MCore.RH.R0.targetEntryTransform_realized",
    "file": "lean/MCore/RH/R0/TargetClosedForm.lean",
    "line": 76,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TargetEntryTransform"
   },
@@ -6524,7 +6492,7 @@
    "name": "MCore.RH.R0.target_closed_form_of_transform_tail",
    "file": "lean/MCore/RH/R0/TargetClosedFormReduction.lean",
    "line": 25,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(htransform : TargetEntryTransform) (htail : FractionalTailEulerIdentity) (N : ℕ) (i : Fin N) : concreteTargetVector N i = (Real.log ((rhoIndex i : ℕ) : ℝ) + 1 - Real.eulerMascheroniConstant) / (((rhoIndex i : ℕ) : ℝ))"
   },
@@ -6532,17 +6500,15 @@
    "name": "MCore.RH.R0.target_elementary_interval_identity_realized",
    "file": "lean/MCore/RH/R0/TargetClosedFormReduction.lean",
    "line": 56,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": ": TargetElementaryIntervalIdentity"
   },
   {
    "name": "MCore.RH.R0.target_entry_inversion",
    "file": "lean/MCore/RH/R0/TargetClosedForm.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : concreteTargetVector N i = ∫ x : ℝ in Ioi 1, Int.fract (x / (((rhoIndex i : ℕ) : ℝ))) / (x ^ 2)"
   },
@@ -6550,7 +6516,7 @@
    "name": "MCore.RH.R0.target_entry_scaled_tail",
    "file": "lean/MCore/RH/R0/TargetClosedForm.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : concreteTargetVector N i = (1 / (((rhoIndex i : ℕ) : ℝ))) * (∫ t : ℝ in Ioi (1 / (((rhoIndex i : ℕ) : ℝ))), fractionalTailIntegrand t)"
   },
@@ -6558,7 +6524,7 @@
    "name": "MCore.RH.R0.tendsto_nat_cpow_one_sub",
    "file": "lean/MCore/RH/Analytic/MellinTailSeriesLimit.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs : 1 < s.re) : Tendsto (fun N : ℕ => (((N + 1 : ℕ) : ℂ) ^ (1 - s))) atTop (𝓝 0)"
   },
@@ -6566,7 +6532,7 @@
    "name": "MCore.RH.R0.tendsto_nat_mul_cpow_neg",
    "file": "lean/MCore/RH/Analytic/MellinTailSeriesLimit.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs : 1 < s.re) : Tendsto (fun N : ℕ => ((N : ℕ) : ℂ) * (((N + 1 : ℕ) : ℂ) ^ (-s))) atTop (𝓝 0)"
   },
@@ -6574,7 +6540,7 @@
    "name": "MCore.RH.R0.tendsto_zeta_partial",
    "file": "lean/MCore/RH/Analytic/MellinTailSeriesLimit.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : ℂ) (hs : 1 < s.re) : Tendsto (fun N : ℕ => ∑ n ∈ Finset.range N, 1 / (((n + 1 : ℕ) : ℂ) ^ s)) atTop (𝓝 (riemannZeta s))"
   },
@@ -6582,7 +6548,7 @@
    "name": "MCore.RH.R0.terminal_of_concreteGramLogRate",
    "file": "lean/MCore/RH/R0/ForensicMaterialAssembly.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteGramLogRate) : RiemannTerminalCertifies"
   },
@@ -6598,7 +6564,7 @@
    "name": "MCore.RH.R0.terminal_of_criticalIntegralLogRate",
    "file": "lean/MCore/RH/R0/CriticalIntegralLogRate.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP : CriticalLineMellinPlancherel) (h : CriticalIntegralLogRate) : RiemannTerminalCertifies"
   },
@@ -6606,7 +6572,7 @@
    "name": "MCore.RH.R0.terminal_of_explicitGramRateTarget",
    "file": "lean/MCore/RH/R0/ForensicMaterialAssembly.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : ExplicitGramRateTarget) : RiemannTerminalCertifies"
   },
@@ -6614,7 +6580,7 @@
    "name": "MCore.RH.R0.terminal_of_finiteVasyuninRate",
    "file": "lean/MCore/RH/R0/VasyuninRateReduction.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcop : CoprimeVasyuninFormula) (hRate : FiniteVasyuninRateTarget) : RiemannTerminalCertifies"
   },
@@ -6622,7 +6588,7 @@
    "name": "MCore.RH.R0.terminal_of_forensic_quantitative_fragment",
    "file": "lean/MCore/RH/R0/ForensicMaterialAssembly.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : CriticalLineWeightedErrorRate ∨ ExplicitGramRateTarget ∨ Nonempty ConcreteGramLogRate) : RiemannTerminalCertifies"
   },
@@ -6630,7 +6596,7 @@
    "name": "MCore.RH.R0.terminal_of_weightedCriticalLineRate",
    "file": "lean/MCore/RH/R0/ForensicMaterialAssembly.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : CriticalLineWeightedErrorRate) : RiemannTerminalCertifies"
   },
@@ -6646,7 +6612,7 @@
    "name": "MCore.RH.R0.uniformLogDNBound_of_weightedCriticalLineRate",
    "file": "lean/MCore/RH/R0/ForensicMaterialAssembly.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : CriticalLineWeightedErrorRate) : ConcreteUniformLogDNBound"
   },
@@ -6670,7 +6636,7 @@
    "name": "MCore.RH.R0.vasyuninGCDReduction_realized",
    "file": "lean/MCore/RH/R0/VasyuninGCD.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": VasyuninGCDReduction"
   },
@@ -6678,7 +6644,7 @@
    "name": "MCore.RH.R0.vasyuninGramEntry_diag",
    "file": "lean/MCore/RH/R0/VasyuninStructural.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (hn : 0 < n) : vasyuninGramEntry n n = (Real.log (2 * Real.pi) - Real.eulerMascheroniConstant) / n"
   },
@@ -6686,7 +6652,7 @@
    "name": "MCore.RH.R0.vasyuninGramEntry_mul_common",
    "file": "lean/MCore/RH/R0/VasyuninGCD.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d h k : ℕ) (hd : 0 < d) (hh : 0 < h) (hk : 0 < k) (hcop : Nat.Coprime h k) : vasyuninGramEntry (d * h) (d * k) = (1 / (d : ℝ)) * vasyuninGramEntry h k"
   },
@@ -6694,7 +6660,7 @@
    "name": "MCore.RH.R0.vasyuninGramEntry_symm",
    "file": "lean/MCore/RH/R0/VasyuninStructural.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p q : ℕ) (hp : 0 < p) (hq : 0 < q) : vasyuninGramEntry p q = vasyuninGramEntry q p"
   },
@@ -6702,7 +6668,7 @@
    "name": "MCore.RH.R0.vasyuninGramFormula_of_coprime",
    "file": "lean/MCore/RH/R0/VasyuninGCD.lean",
    "line": 91,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcop : CoprimeVasyuninFormula) : VasyuninGramFormula"
   },
@@ -6710,7 +6676,7 @@
    "name": "MCore.RH.R0.vasyuninGramFormula_of_coprime_and_gcd",
    "file": "lean/MCore/RH/R0/VasyuninFormulaReduction.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hcop : CoprimeVasyuninFormula) (hred : VasyuninGCDReduction) : VasyuninGramFormula"
   },
@@ -6718,7 +6684,7 @@
    "name": "MCore.RH.R0.vasyuninGramMatrix_diag",
    "file": "lean/MCore/RH/R0/VasyuninStructural.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) (i : Fin N) : vasyuninGramMatrix N i i = (Real.log (2 * Real.pi) - Real.eulerMascheroniConstant) / (((rhoIndex i : ℕ) : ℝ))"
   },
@@ -6726,7 +6692,7 @@
    "name": "MCore.RH.R0.vasyuninGramMatrix_symm",
    "file": "lean/MCore/RH/R0/VasyuninStructural.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : ℕ) : (vasyuninGramMatrix N).IsHermitian"
   },
@@ -6734,7 +6700,7 @@
    "name": "MCore.RH.R0.vasyuninSum_one_one",
    "file": "lean/MCore/RH/R0/VasyuninStructural.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": vasyuninSum 1 1 = 0"
   },
@@ -6742,7 +6708,7 @@
    "name": "MCore.RH.R0.vasyuninUnitBlockCore_summable",
    "file": "lean/MCore/RH/R0/VasyuninResidueClasses.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h k : ℕ) (hh : 0 < h) (hk : 0 < k) : Summable (fun n : ℕ => vasyuninUnitBlockCore h k n)"
   },
@@ -6758,7 +6724,7 @@
    "name": "MCore.RH.R2.C_div_log_nat_add_two_tendsto_zero",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 191,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(C : ℝ) : Filter.Tendsto (fun N : ℕ => C / Real.log ((N : ℝ) + 2)) Filter.atTop (nhds 0)"
   },
@@ -6774,7 +6740,7 @@
    "name": "MCore.RH.R2.FinalExternal.finalRoot",
    "file": "research/r2/FinalExternal.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : FinalExternal) : FinalStatement"
   },
@@ -6790,7 +6756,7 @@
    "name": "MCore.RH.R2.eventuallyVanishingUpperCertificate_iff_finalStatement_of_r1",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 172,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hR1 : R1ExternalBridge) : EventuallyVanishingUpperCertificate ↔ FinalStatement"
   },
@@ -6798,7 +6764,7 @@
    "name": "MCore.RH.R2.eventuallyVanishingUpperCertificate_iff_openBridge",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 152,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EventuallyVanishingUpperCertificate ↔ OpenBridge"
   },
@@ -6806,7 +6772,7 @@
    "name": "MCore.RH.R2.falseEndpoint_iff_noVanishingUpperCertificate",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 292,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FalseEndpoint ↔ ¬ VanishingUpperCertificate"
   },
@@ -6814,7 +6780,7 @@
    "name": "MCore.RH.R2.falseEndpoint_iff_not_finalStatement_of_r1",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 345,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hR1 : R1ExternalBridge) : FalseEndpoint ↔ ¬ FinalStatement"
   },
@@ -6822,7 +6788,7 @@
    "name": "MCore.RH.R2.falseEndpoint_iff_not_openBridge",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 278,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FalseEndpoint ↔ ¬ OpenBridge"
   },
@@ -6830,7 +6796,7 @@
    "name": "MCore.RH.R2.falseEndpoint_witnesses_CLog_failure",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 328,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hfalse : FalseEndpoint) (C : ℝ) : ∃ N : ℕ, C / Real.log ((N : ℝ) + 2) < MCore.RH.R0.concreteNBData.DN MCore.RH.R0.concreteGeneratorFamily N"
   },
@@ -6838,7 +6804,7 @@
    "name": "MCore.RH.R2.falseEndpoint_witnesses_majorant_failure",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 303,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hfalse : FalseEndpoint) (eps : ℕ → ℝ) (heps : Filter.Tendsto eps Filter.atTop (nhds 0)) : ∃ N : ℕ, eps N < MCore.RH.R0.concreteNBData.DN MCore.RH.R0.concreteGeneratorFamily N"
   },
@@ -6846,7 +6812,7 @@
    "name": "MCore.RH.R2.materialFrontier_iff_openBridge",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 361,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MaterialFrontier ↔ OpenBridge"
   },
@@ -6854,7 +6820,7 @@
    "name": "MCore.RH.R2.not_compressedEndpoint_iff_falseEndpoint",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 262,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (¬ CompressedEndpoint) ↔ FalseEndpoint"
   },
@@ -6862,7 +6828,7 @@
    "name": "MCore.RH.R2.openBridge_iff_compressedEndpoint",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 42,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenBridge ↔ CompressedEndpoint"
   },
@@ -6870,7 +6836,7 @@
    "name": "MCore.RH.R2.openBridge_iff_finalStatement_of_r1",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 53,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hR1 : R1ExternalBridge) : OpenBridge ↔ FinalStatement"
   },
@@ -6878,7 +6844,7 @@
    "name": "MCore.RH.R2.openBridge_of_CLogUpperCertificate",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 245,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(C : ℝ) (hC : CLogUpperCertificate C) : OpenBridge"
   },
@@ -6886,7 +6852,7 @@
    "name": "MCore.RH.R2.openBridge_of_eventuallyCLogUpperCertificate",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 223,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(C : ℝ) (hC : EventuallyCLogUpperCertificate C) : OpenBridge"
   },
@@ -6894,7 +6860,7 @@
    "name": "MCore.RH.R2.openBridge_of_upper_tendsto_zero",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 65,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(eps : ℕ → ℝ) (hupper : ∀ N : ℕ, MCore.RH.R0.concreteNBData.DN MCore.RH.R0.concreteGeneratorFamily N ≤ eps N) (heps : Filter.Tendsto eps Filter.atTop (nhds 0)) : OpenBridge"
   },
@@ -6910,7 +6876,7 @@
    "name": "MCore.RH.R2.vanishingUpperCertificate_iff_finalStatement_of_r1",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 130,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hR1 : R1ExternalBridge) : VanishingUpperCertificate ↔ FinalStatement"
   },
@@ -6918,7 +6884,7 @@
    "name": "MCore.RH.R2.vanishingUpperCertificate_iff_openBridge",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 105,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": VanishingUpperCertificate ↔ OpenBridge"
   },
@@ -6926,7 +6892,7 @@
    "name": "MCore.RH.R2.vanishingUpperCertificate_of_CLogUpperCertificate",
    "file": "research/r2/BackwardDenseEndpoint.lean",
    "line": 233,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(C : ℝ) (hC : CLogUpperCertificate C) : VanishingUpperCertificate"
   },
@@ -6950,7 +6916,7 @@
    "name": "MCore.endpoint_of_step7_step8",
    "file": "lean/MCore/RH/K9_ZetaBridge.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sys : MCoreSystem) (reg : RegularizedMCoreSystem) (h7 : Step7Certificate sys reg) (h8 : Step8Certificate sys reg) : RiemannHypothesis"
   },
@@ -6982,7 +6948,7 @@
    "name": "MCore.k9_preserves_k8_firewall",
    "file": "lean/MCore/K9.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ Nonempty (ProofCertificate k6_dependency.target)"
   },
@@ -6990,12 +6956,12 @@
    "name": "MCore.mcore_riemann_hypothesis_of_certificate",
    "file": "lean/MCore/RH/K9_RiemannHypothesis.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(cert : MCoreRHCertificate) : RiemannHypothesis"
   }
  ],
- "closed": 238,
+ "closed": 210,
  "files_sha256": {
   "lake-manifest.json": "ef7d26cee1b8685e7eba6c7670fdde946893c82f99e2782c2dad68fc187e3eb3",
   "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
@@ -7012,7 +6978,6 @@
   "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
   "lean/MCore/K7.lean": "dc30a95bb67d2aae8977ec188bf406caa1ac2f9e5659de3ddfbfba3ad91abdd3",
   "lean/MCore/K8.lean": "e531b14f463c5791e9ab4b48b9bf0a1b74c8d7411a4d6d52ff15d442644bbbb2",
-  "lean/MCore/RH/Analytic/D3GaussianKernel.lean": "5fdb62896b6fd9d429423f0deb39026bf801beff1aabf305a70264b3f319a28e",
   "lean/MCore/RH/Analytic/MellinConcrete.lean": "9857f1894030c87ca0d14736b1b51227215b26b1ea0658d49543aa3b5ef01f8e",
   "lean/MCore/RH/Analytic/MellinNearZero.lean": "844127a89a409ed18f0dd1a658d6691ff27feb8f4155decd120aae4651a1e657",
   "lean/MCore/RH/Analytic/MellinRhoClosedForm.lean": "40c3639632fc00596c2e9583ca26021e74d01e51847addcc0dbbbb86bec523b9",
@@ -7034,7 +6999,6 @@
   "lean/MCore/RH/NB/CoefficientPythagoras.lean": "73518a8c81ca9e0f91630c5209d783b1b3aaff0baf1a2270a2a94413300a57aa",
   "lean/MCore/RH/NB/CoefficientRealization.lean": "e7ffbc2f4d4095c8edb9126d819c516db8c9409de4f114fd2731e42768762190",
   "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
-  "lean/MCore/RH/NB/DistanceAntitone.lean": "97f03a29dfb41378aee26e899973a260c9e883342ce97f0d8c0b5c371de5230c",
   "lean/MCore/RH/NB/ExactFinalProducer.lean": "d22680dfb222477e46929edd39097cdb30e3a59b53ddd0a431433aae356bc96a",
   "lean/MCore/RH/NB/ExplicitCoefficientProducer.lean": "56ec763b62c548b2862eae93c7b50dbdad35c7604896b8c01ea35f7c2b6d1001",
   "lean/MCore/RH/NB/FinalExternal.lean": "62efe595ae55422667d196b3bb8148b173e2fd7f877d72eca18c23f04d1757eb",
@@ -7073,7 +7037,6 @@
   "lean/MCore/RH/R0/ExplicitCoefficientLogRate.lean": "8e5c717ca2c017f7e27c0ce1a4ae57ceb8ec0d573b58d4d5e43afc9a0407a8b4",
   "lean/MCore/RH/R0/ExponentialUniqueness.lean": "126845a7ebc559cf9c10aadaed96cf34c31870ad114bd1313c9fdcdb6e3fd699",
   "lean/MCore/RH/R0/FinalKernelComposition.lean": "a48d492ed0a9056d052cacc6254f417edce3c554f0d6465f711adc33e913cfdc",
-  "lean/MCore/RH/R0/GramAutocorrelation.lean": "430ebbf3746fb267db0ca8a9cacd047627baa24992eb82d2477d20a0bc40b0fe",
   "lean/MCore/RH/R0/GramExplicit.lean": "e1f114a84ba6723e8b55c33c3db02dd79597e66115898e6649bfe83508dc0fdd",
   "lean/MCore/RH/R0/GramIntegral.lean": "9b627542b324d7249d8bd74e395de50e67865840389ea8d30e89cf136726268b",
   "lean/MCore/RH/R0/GramInverse.lean": "98b86758eba28a8018942316e581213efc38df12d7ae9f9050c16e037c8c582c",
@@ -7086,16 +7049,13 @@
   "lean/MCore/RH/R0/RHKernelEntry.lean": "3366bce1bcf7030ec5db41294752312973846f204c3b3f8dcc273d72bcbaca97",
   "lean/MCore/RH/R0/RhoBasicFacts.lean": "bf42d7cc4fd81631155b86de08c46dee0ffcb015a29ae3e667f1dc28e46b8dea",
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
-  "lean/MCore/RH/R0/TargetClosedFormReduction.lean": "b169bcab6e6b6ea37543020213f5b69f97e01db85f46d9b5eb49d2ca53646513",
   "lean/MCore/RH/R0/TerminalLaw.lean": "4b9efb0e9a893c35e0382cf39ca0227ee49e6fe830f9d43de5b86b1521868714",
   "lean/MCore/RH/R0/WeightedIntegrability.lean": "93bb52668667dd555def02432b7080adc923534cf9f0a636d47bc05e64e3f239",
   "lean/MCore/RH/R0/WeightedIntegralLinearity.lean": "431a69cce01e471821a03fd530d8b09a9c808072e58b2afec4564320b6f7a688",
   "lean/MCore/RH/R0/WeightedScaling.lean": "8045dbd5393919c660191cf8742dd2e701bec3786f3f6e4627e1ac91c0ce0443",
   "lean/MCore/RH/R2/FinalExternal.lean": "e85d5483e9fd7ef361837777a28899e028b48ba5cc1f0e696608471988f23397",
-  "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2",
-  "open_math/lean/RHA1Decomposition.lean": "c62606a4bc8b45b077243a09f3a20535f435fba2b982835f0bfb1f506f69121d",
-  "research/r2/BackwardDenseEndpoint.lean": "60e3a34aa6cb954492ac54cc7140784263e94536ec517422c69a447d2d76960f"
+  "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-10-29T20:15:58Z",
- "certificate_sha256": "20589c7463ac373a8abb46b576375be2b14978e50f3cf809881042b33e183290"
+ "published_at": "2026-11-02T20:55:39Z",
+ "certificate_sha256": "5dfda70c92da7e3715f250d48b4f2df86e56371a15fc1c0e8bc23c348b2e061a"
 }

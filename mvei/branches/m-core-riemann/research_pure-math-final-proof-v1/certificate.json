@@ -1063,7 +1063,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1091,6 +1091,6 @@
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a"
  },
- "published_at": "2026-10-29T20:16:16Z",
- "certificate_sha256": "172d04bab6f2428e056e5b7cbe6b37ea3227ebaf44d28853d40517fe1673ed2d"
+ "published_at": "2026-11-02T20:55:58Z",
+ "certificate_sha256": "957aa2418e1ca3629516c04a5357dc240b69e1d084cdd090123ba011b11e60cd"
 }

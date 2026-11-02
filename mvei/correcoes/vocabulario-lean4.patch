@@ -1,0 +1,20 @@
+--- a/audit/FinalEndpoint.lean
++++ b/audit/FinalEndpoint.lean
+@@ -1,5 +1,7 @@
+ import Mathlib
+ 
++noncomputable section
++
+ namespace MCore.Audit
+ 
+ /--
+--- a/lean/MCore/Material/Closure.lean
++++ b/lean/MCore/Material/Closure.lean
+@@ -1,4 +1,7 @@
+ import MCore
++import Mathlib.Tactic
++
++noncomputable section
+ namespace MCore.Material
+ structure RHClosure (DN : Nat → Real) where
+   K0 : Real

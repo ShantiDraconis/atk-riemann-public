@@ -1343,7 +1343,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1396,6 +1396,6 @@
   "lean/MCore/RH/NB/SplitLogMajorantProducer.lean": "a5f6de9191f254e414ac93ace4ccc42bf665df94ac4d890b8ad1b4379376c8c1",
   "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "093ef0b0fc6f7f527339bde19965c6aa3964fac35211a49e49c7b99f0b4f7ef7"
  },
- "published_at": "2026-10-29T20:16:16Z",
- "certificate_sha256": "822756cb2e2c306e259ac9aa70a56acd261c160a5a639cd6da5ac5cae2c8d076"
+ "published_at": "2026-11-02T20:55:57Z",
+ "certificate_sha256": "d030203f3fac4721ed38202261c9fc540ca36a354c4b7e8a213dfa9c7d9ab557"
 }
