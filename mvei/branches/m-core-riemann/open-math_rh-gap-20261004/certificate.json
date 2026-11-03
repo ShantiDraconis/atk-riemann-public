@@ -1503,7 +1503,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1519,15 +1519,17 @@
    "name": "MCore.RH.NB.Final.FINAL_ROOT_of_coefficient_logMajorant",
    "file": "lean/MCore/RH/NB/CoefficientLogMajorantProducer.lean",
    "line": 48,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "MCore.RH.NB.Final.FINAL_ROOT_of_coefficient_logMajorant"
+   ],
    "statement": "(D : NBHilbertData) (rho : D.GeneratorFamily) (C : CoefficientLogMajorantCertificate D rho) : FINAL_ROOT D rho"
   },
   {
    "name": "MCore.RH.NB.Final.coefficientLogMajorant_to_logMajorant",
    "file": "lean/MCore/RH/NB/CoefficientLogMajorantProducer.lean",
    "line": 26,
-   "state": "nao_checado",
+   "state": "erro",
    "axioms_beyond_standard": [],
    "statement": "(D : NBHilbertData) (rho : D.GeneratorFamily) (C : CoefficientLogMajorantCertificate D rho) : LogMajorantCertificate D rho"
   },
@@ -1657,6 +1659,6 @@
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
   "lean/RH/DampedMobius316Pressure.lean": "3de9319f77d2cd6fab43c83fb426b71d3b84018df76a27073dbf556b940eb3df"
  },
- "published_at": "2026-11-02T20:55:39Z",
- "certificate_sha256": "261c729e1d301fa30f1988201709a0298cb5f457505a349405295c7a4e9b1c51"
+ "published_at": "2026-11-03T11:28:06Z",
+ "certificate_sha256": "7f808340f3cbb4a0467d78843b0cbe3dbed070c06696286ce1edad9a2a7a045c"
 }

@@ -1,0 +1,291 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-riemann",
+ "branch": "atk/euler-audit-20261016",
+ "branch_state": "em andamento",
+ "head_commit": "0181fbb3fb2a401f2ccd0cee20c4ff3b88be3d46",
+ "head_commit_date": "2026-10-16T10:47:13+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "0181fbb3fb2a401f2ccd0cee20c4ff3b88be3d46",
+   "date": "2026-10-16T10:47:13+02:00",
+   "subject": "ATK RH: archive Lean project files (unverified)"
+  },
+  {
+   "commit": "abddce64cb20f4b4acecf83f2eb1fdcb32d8e3bd",
+   "date": "2026-10-16T10:47:11+02:00",
+   "subject": "ATK RH: archive Lean project files (unverified)"
+  },
+  {
+   "commit": "ab488b20c9c73d3f786504963e963a2af014d613",
+   "date": "2026-10-16T10:47:09+02:00",
+   "subject": "ATK RH: archive Lean project files (unverified)"
+  },
+  {
+   "commit": "35c9ffdd74339544be7521574c2f5ed047c0678f",
+   "date": "2026-10-16T10:47:07+02:00",
+   "subject": "ATK RH: archive Lean project files (unverified)"
+  },
+  {
+   "commit": "4f57272538655aa4669ff5145455116cd0b5ef4b",
+   "date": "2026-10-16T10:47:05+02:00",
+   "subject": "ATK RH: archive Lean project files (unverified)"
+  },
+  {
+   "commit": "3ab07675a45be90a81228613d844080a82f08342",
+   "date": "2026-10-16T10:46:39+02:00",
+   "subject": "ATK RH: archive Euler audit sources and unverified numerical reports"
+  },
+  {
+   "commit": "b1b405e9ffb235008240fa3be87927fc1ec9a59f",
+   "date": "2026-10-16T10:46:35+02:00",
+   "subject": "ATK RH: archive Euler audit sources and unverified numerical reports"
+  },
+  {
+   "commit": "1e9ffac4a3f5bd66dd877c44b2398ade68f9dcf8",
+   "date": "2026-10-16T10:46:32+02:00",
+   "subject": "ATK RH: archive Euler audit sources and unverified numerical reports"
+  },
+  {
+   "commit": "59b6e888c5b99d8665b6033cfc9f6d4c9ec5c5cb",
+   "date": "2026-10-16T10:46:28+02:00",
+   "subject": "ATK RH: archive Euler audit sources and unverified numerical reports"
+  },
+  {
+   "commit": "5b8fe03288cb0bfdd33fff98694d136b7d3af56f",
+   "date": "2026-10-16T10:46:24+02:00",
+   "subject": "ATK RH: archive Euler audit sources and unverified numerical reports"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-03T08:19:01+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.34.1",
+   "leanprover/lean4:v4.35.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.Discovery.bounded_tail_strict",
+   "file": "ATK/EulerAudit20261016/ATK_TailLaws.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{x y δ : ℝ} (dx : TailDecomposition x) (dy : TailDecomposition y) (hδ : 0 < δ) (hx0 : 0 ≤ dx.tail) (hxδ : dx.tail < δ) (hy0 : 0 ≤ dy.tail) (hyδ : dy.tail < δ) (hgap : δ ≤ dy.head - dx.head) : x < y"
+  },
+  {
+   "name": "ATK.Discovery.p01_exact_counterexample",
+   "file": "ATK/EulerAudit20261016/ATK_TailLaws.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ ((1 : ℕ) < 1)"
+  },
+  {
+   "name": "ATK.Discovery.reconstruct_difference",
+   "file": "ATK/EulerAudit20261016/ATK_TailLaws.lean",
+   "line": 9,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{x y : ℝ} (dx : TailDecomposition x) (dy : TailDecomposition y) : y - x = (dy.head - dx.head) + (dy.tail - dx.tail)"
+  },
+  {
+   "name": "ATK.Discovery.strict_iff_tail_balance",
+   "file": "ATK/EulerAudit20261016/ATK_TailLaws.lean",
+   "line": 15,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{x y : ℝ} (dx : TailDecomposition x) (dy : TailDecomposition y) : (x < y ↔ dx.head - dy.head < dy.tail - dx.tail)"
+  },
+  {
+   "name": "ATK.Discovery.strict_of_equal_heads",
+   "file": "ATK/EulerAudit20261016/ATK_TailLaws.lean",
+   "line": 21,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{x y : ℝ} (dx : TailDecomposition x) (dy : TailDecomposition y) (h : dx.head = dy.head) : (x < y ↔ dx.tail < dy.tail)"
+  },
+  {
+   "name": "ATK.Discovery.zero_tail_of_exact_head",
+   "file": "ATK/EulerAudit20261016/ATK_TailLaws.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{x : ℝ} (d : TailDecomposition x) (h : d.head = x) : d.tail = 0"
+  },
+  {
+   "name": "ATK.RH.normalized_bound_iff",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Euler_Audit.lean",
+   "line": 58,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(E B : ℕ → ℝ) (n : ℕ) (hn : 0 < n) : E n / (n : ℝ) ≤ B n ↔ E n ≤ (n : ℝ) * B n"
+  },
+  {
+   "name": "ATK.RH.reported_23_below_double",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Euler_Audit.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": reportedE23 < 2 * reportedBound23"
+  },
+  {
+   "name": "ATK.RH.reported_24_above_double",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Euler_Audit.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": 2 * reportedBound24 < reportedE24"
+  },
+  {
+   "name": "ATK.RH.reported_24_exceeds_bound",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Euler_Audit.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": reportedBound24 < reportedE24"
+  },
+  {
+   "name": "ATK.RH.reported_E24_is_recorded",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Euler_Audit.lean",
+   "line": 111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": reportedError 24 = some (155508423 / 10000000000 : ℚ)"
+  },
+  {
+   "name": "ATK.RH.violates_of_violates100",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Euler_Audit.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E B : ℕ → ℝ) (n : ℕ) (hB : 0 < B n) (hn : 0 < n) (h : violates100 E B n) : violates E B n"
+  },
+  {
+   "name": "ATK.constant_positive_defect_example",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 110,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": (∀ n : ℕ, (1 / 4 : ℝ) - (1 / 4 : ℝ) = 0) ∧ (0 < (1 / 4 : ℝ))"
+  },
+  {
+   "name": "ATK.equal_projection_comparison",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 29,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(P : ℝ → ℝ) (a b : ℝ) (h : P a = P b) : a < b ↔ tail P a < tail P b"
+  },
+  {
+   "name": "ATK.exact_lt_iff",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : ℝ → ℝ) (a b : ℝ) : a < b ↔ P a - P b < tail P b - tail P a"
+  },
+  {
+   "name": "ATK.gain_implies_contraction",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : ℕ → ℝ) (n : ℕ) (alpha : ℝ) (hgain : alpha * D n ≤ improvement D n) : D (n + 1) ≤ (1 - alpha) * D n"
+  },
+  {
+   "name": "ATK.improvement_nonneg",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : ℕ → ℝ) (hmono : ∀ n, D (n + 1) ≤ D n) (n : ℕ) : 0 ≤ improvement D n"
+  },
+  {
+   "name": "ATK.projection_add_tail",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : ℝ → ℝ) (x : ℝ) : P x + tail P x = x"
+  },
+  {
+   "name": "ATK.quadratic_error_complete_square",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(G b c : ℝ) (hG : G ≠ 0) : 1 - 2 * c * b + G * c ^ 2 = 1 - b ^ 2 / G + G * (c - b / G) ^ 2"
+  },
+  {
+   "name": "ATK.quadratic_error_lower_bound",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(G b c : ℝ) (hG : 0 < G) : 1 - b ^ 2 / G ≤ 1 - 2 * c * b + G * c ^ 2"
+  },
+  {
+   "name": "ATK.squaredError_nonneg",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H] (target candidate : H) : 0 ≤ squaredError target candidate"
+  },
+  {
+   "name": "ATK.squaredError_self",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H] (target : H) : squaredError target target = 0"
+  },
+  {
+   "name": "ATK.telescoping_improvements",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 86,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(D : ℕ → ℝ) (N M : ℕ) (hNM : N ≤ M) : (∑ n ∈ Finset.Ico N M, improvement D n) = D N - D M"
+  },
+  {
+   "name": "ATK.zero_of_arbitrarily_small",
+   "file": "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : ℝ) (hd : 0 ≤ d) (hsmall : ∀ ε : ℝ, 0 < ε → d < ε) : d = 0"
+  }
+ ],
+ "closed": 18,
+ "files_sha256": {
+  "ATK/EulerAudit20261016/ATK_RH_Euler_Audit.lean": "a86128235967de8354ae61a9406d165d7d7e76964abc0f65d9ffaa1a1a91f209",
+  "ATK/EulerAudit20261016/ATK_RH_Lemmas.lean": "0d2f96c05b7ed342fcef8e22ac02d25fc09d5e7cc8c84f8ff4554c0e6f0a0947",
+  "ATK/EulerAudit20261016/ATK_TailLaws.lean": "7d9c96fae1cdf3d72bddce4169d389d134c74b2009dee7f1380dc2ee4a66709c",
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "bab668b3643dcfe580a867f0d817f1b4c131f81ae4afb2eb65b5c197642637c0",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+ },
+ "published_at": "2026-11-03T11:28:06Z",
+ "certificate_sha256": "f770b0a6f4c6981c7fe3a6046021e4dfcee6b67ec632bc5e18705eead114ed24"
+}

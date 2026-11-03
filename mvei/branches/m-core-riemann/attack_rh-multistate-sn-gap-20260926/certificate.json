@@ -18,7 +18,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -71,6 +71,6 @@
   "lean/MCore/Frontier/MultistateSN.lean": "42509fbec31b33928f5b1ac943601f9e88980101ef5f2bf6bd62b2a4a4b3b7bf",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-11-02T20:55:57Z",
- "certificate_sha256": "ec0e7e78e329f67342d7142ff41183e965d677e3fe829fcfc6a19463534dd938"
+ "published_at": "2026-11-03T11:28:25Z",
+ "certificate_sha256": "8035d52a6490e1935b88a75a60f84aeeb9b9b4f5a0083ff6f1bf2480a6c1dc76"
 }

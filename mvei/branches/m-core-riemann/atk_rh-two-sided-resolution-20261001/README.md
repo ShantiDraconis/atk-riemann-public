@@ -5,7 +5,7 @@ Lean sources from the branch `atk/rh-two-sided-resolution-20261001` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 3, conditional 0, open 0, proof error 3, not reached 0, no result 0.
 * History: 208 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `6a8f9485aec23b457dfadf84adf6398faf278b708174b8b6bad0ca691651939b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-two-sided-resolution-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `3dfbc7451d074d3cf5760f5d3163d281856c218765a88e9cfd9d80e6e11a70e1`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-two-sided-resolution-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

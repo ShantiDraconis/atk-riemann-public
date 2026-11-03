@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1524,47 +1524,57 @@
    "name": "MCore.RH.NB.NBHilbertData.BCFExplicitLogBounds.K_nonneg",
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 47,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : 0 ≤ H.K"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.DNLimit_eq_zero_of_bcfThreeTerm",
    "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
    "line": 102,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) (hzero : D.ZeroResidueVanishing B) : D.DNLimit rho = 0"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.DNToZero_of_bcfThreeTerm",
    "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
    "line": 90,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) (hzero : D.ZeroResidueVanishing B) : D.DNToZero rho"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.FINAL_ROOT_of_explicit_bcf_bounds",
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 102,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) : Final.FINAL_ROOT D rho"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.bcf_three_term_materializer",
    "file": "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean",
    "line": 113,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{rho : D.GeneratorFamily} (B : BCFThreeTermMajorant D rho) : D.ZeroResidueVanishing B → D.DNLimit rho = 0"
   },
   {
    "name": "MCore.RH.NB.NBHilbertData.dn_le_combined_log_majorant",
    "file": "lean/MCore/RH/NB/BCFExplicitLogBounds.lean",
    "line": 55,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{rho : D.GeneratorFamily} {B : BCFThreeTermMajorant D rho} (H : BCFExplicitLogBounds D B) (N : ℕ) : D.DN rho N ≤ H.K / Real.log ((N : ℝ) + 2)"
   },
@@ -1572,71 +1582,87 @@
    "name": "MCore.RH.R0.DISCOVER_D3_ZETA_FORM",
    "file": "open_math/lean/RHD3Decomposition.lean",
    "line": 20,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : residualEnergy c = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / (1 / 4 + t ^ 2)"
   },
   {
    "name": "MCore.RH.R0.chi_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 45,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) : MellinConvergent chiRepresentativeC s"
   },
   {
    "name": "MCore.RH.R0.fract_mellinConvergent_neg",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 7,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent fractRepresentativeC (-s)"
   },
   {
    "name": "MCore.RH.R0.mellin_residual_critical",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 37,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{N : ℕ} (c : Fin N → ℝ) (t : ℝ) : mellin (residualRepresentativeC c) (criticalLinePoint t) = (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / criticalLinePoint t"
   },
   {
    "name": "MCore.RH.R0.recoveredAllNRate_iff_explicitGramRateTarget",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 61,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": RecoveredAllNRate ↔ ExplicitGramRateTarget"
   },
   {
    "name": "MCore.RH.R0.recoveredAllNRate_to_terminal",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 65,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : RecoveredAllNRate) : RiemannTerminalCertifies"
   },
   {
    "name": "MCore.RH.R0.recoveredMaterialFrontier_to_terminal",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 78,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : recoveredMaterialFrontier) : RiemannTerminalCertifies"
   },
   {
    "name": "MCore.RH.R0.recovered_terminal_of_bcfExplicitLogBounds",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 22,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(B : concreteNBData.BCFThreeTermMajorant concreteGeneratorFamily) (H : concreteNBData.BCFExplicitLogBounds B) : RiemannTerminalCertifies"
   },
   {
    "name": "MCore.RH.R0.recovered_terminal_of_coefficient_error_tendsto_zero",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 33,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(c : ℕ → ℕ → ℝ) (hzero : Filter.Tendsto (fun N => ‖concreteNBData.chi - concreteNBData.finiteCoefficientApproximant concreteGeneratorFamily c N‖) Filter.atTop (nhds 0)) : RiemannTerminalCertifies"
   },
@@ -1644,39 +1670,47 @@
    "name": "MCore.RH.R0.recovered_terminal_of_explicitGramRate",
    "file": "lean/MCore/RH/R0/MaterialRecovery.lean",
    "line": 11,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : ExplicitGramRateTarget) : RiemannTerminalCertifies"
   },
   {
    "name": "MCore.RH.R0.residualEnergy_eq_zeta_integral",
    "file": "lean/MCore/RH/Analytic/D3PlancherelReduction.lean",
    "line": 50,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hP : CriticalLineMellinPlancherel) {N : ℕ} (c : Fin N → ℝ) : residualEnergy c = (1 / (2 * Real.pi)) * ∫ t : ℝ, Complex.normSq (1 + riemannZeta (criticalLinePoint t) * concreteDirichletPolynomial c (criticalLinePoint t)) / (1 / 4 + t ^ 2)"
   },
   {
    "name": "MCore.RH.R0.rhoBase_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 19,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (rhoRepresentativeC 0) s"
   },
   {
    "name": "MCore.RH.R0.rho_mellinConvergent",
    "file": "lean/MCore/RH/Analytic/MellinStripConvergence.lean",
    "line": 35,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(n : ℕ) (s : ℂ) (hs0 : 0 < s.re) (hs1 : s.re < 1) : MellinConvergent (rhoRepresentativeC n) s"
   },
   {
    "name": "MCore.RH.R0.uniformLogDNBound_to_ConcreteCoefficientLogRate",
    "file": "lean/MCore/RH/R0/ExplicitCoefficientLogRate.lean",
    "line": 36,
-   "state": "nao_checado",
+   "state": "nao_alcancado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteUniformLogDNBound) : ConcreteCoefficientLogRate"
   },
@@ -1684,7 +1718,7 @@
    "name": "MCore.RH.R0.uniformLogDNBound_to_ConcreteGramLogRate",
    "file": "lean/MCore/RH/R0/ConcreteGramLogRate.lean",
    "line": 106,
-   "state": "nao_checado",
+   "state": "nao_alcancado",
    "axioms_beyond_standard": [],
    "statement": "(h : ConcreteUniformLogDNBound) : ConcreteGramLogRate"
   },
@@ -1692,7 +1726,7 @@
    "name": "MCore.RH.R01.Audit.current_open_producer_iff_DNLimit_zero",
    "file": "audit/R01ConcreteAudit.lean",
    "line": 17,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": CURRENT_OPEN_PRODUCER ↔ concreteNBData.DNLimit concreteGeneratorFamily = 0"
   },
@@ -1700,7 +1734,7 @@
    "name": "MCore.RH.R01.Audit.current_open_producer_iff_DNToZero",
    "file": "audit/R01ConcreteAudit.lean",
    "line": 22,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": CURRENT_OPEN_PRODUCER ↔ concreteNBData.DNToZero concreteGeneratorFamily"
   },
@@ -1737,30 +1771,72 @@
    "statement": "MCore.RH.R01.ConcreteProducer ↔ MCore.RH.R0.concreteNBData.DNToZero MCore.RH.R0.concreteGeneratorFamily"
   }
  ],
- "closed": 4,
+ "closed": 8,
  "files_sha256": {
+  "audit/R01ConcreteAudit.lean": "773c4273c4e479f8d4f096b588b7af0b74cadf181020722b103a87cfd3d10bb5",
   "lake-manifest.json": "2c4ab35b6c5ec42d2543a7a491bb921bc9c46d9c80b14e30b96d9c44536f50d9",
   "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/Frontier/MultistateSN.lean": "31526d095cd8a5088ac9344f80cb81b8140bdc97a28521b36b1cbe5715fd39e6",
   "lean/MCore/Frontier/R01Concrete.lean": "8fe7d07c069abadbb7301aea02a4b0de574ee30c0b08588f3e4d528536233fda",
+  "lean/MCore/RH/Analytic/MellinConcrete.lean": "9857f1894030c87ca0d14736b1b51227215b26b1ea0658d49543aa3b5ef01f8e",
   "lean/MCore/RH/NB/Antitone.lean": "2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb",
+  "lean/MCore/RH/NB/BCFExplicitLogBounds.lean": "debd9213ef8051c80d7ace9832f97ee6e5777c50c18deb7e54171a6173da59cb",
+  "lean/MCore/RH/NB/BCFThreeTermMaterializer.lean": "4bd140f55709aa6f0f591319efdc640aac5e5f72145107febdae9358cf7ac6ad",
+  "lean/MCore/RH/NB/CoefficientEndpoint.lean": "ae0a66dbbe255457e37ebc8ac45df731859379984f13498a6066c73bfcdd88a1",
+  "lean/MCore/RH/NB/CoefficientRealization.lean": "e7ffbc2f4d4095c8edb9126d819c516db8c9409de4f114fd2731e42768762190",
   "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
+  "lean/MCore/RH/NB/ExactFinalProducer.lean": "d22680dfb222477e46929edd39097cdb30e3a59b53ddd0a431433aae356bc96a",
+  "lean/MCore/RH/NB/ExplicitCoefficientProducer.lean": "56ec763b62c548b2862eae93c7b50dbdad35c7604896b8c01ea35f7c2b6d1001",
+  "lean/MCore/RH/NB/FinalExternal.lean": "62efe595ae55422667d196b3bb8148b173e2fd7f877d72eca18c23f04d1757eb",
   "lean/MCore/RH/NB/FiniteSpan.lean": "97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe",
+  "lean/MCore/RH/NB/GramEndpoint.lean": "5bde508db131885673dd42c5b16af3026877dbffbd2755b19af4cc4bbd6f0464",
+  "lean/MCore/RH/NB/GramEnergy.lean": "a005ce947bf61dde32170487036c566b8bc0771854653e2958464ee1618cf93c",
+  "lean/MCore/RH/NB/GramNormalEquations.lean": "71e14cdd76a5025686e3cd0a867bb0257f0bbe389bf41217f33c5c0deb341e3d",
   "lean/MCore/RH/NB/HilbertData.lean": "0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134",
   "lean/MCore/RH/NB/Limit.lean": "9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c",
+  "lean/MCore/RH/NB/LogMajorantFinalProducer.lean": "3c44c9c4be9d050aa2c74d67048c22afd546d148969ac3168fbd74e764334684",
   "lean/MCore/RH/NB/Nesting.lean": "922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31",
   "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
+  "lean/MCore/RH/NB/QuantitativeUpperBound.lean": "e7c92675fd8a52e2d73ec3754096d2082dd9aadf0d51f7890d6957bfc8a2f26f",
   "lean/MCore/RH/NB/Total.lean": "e8e9378dd63ce7756367a5fb85234471ddade0ecc0e3a289b88d937fdb23aa06",
   "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "093ef0b0fc6f7f527339bde19965c6aa3964fac35211a49e49c7b99f0b4f7ef7",
   "lean/MCore/RH/R0/AmbientCarrier.lean": "44d846b4df5f9dcce3c984712a7c4287b60828f88cff30efec810d2dc9a73c02",
+  "lean/MCore/RH/R0/BaseMellinPositive.lean": "af18e3b17f00e1b80127c2f5d7fe0e1e9f82040d53e2dd16d997b8e2508d8c0f",
   "lean/MCore/RH/R0/ChiL2.lean": "a98f4c80636f8657dbfcb35df4fe94dd51247269d54ef690a4f3e30fbe3cdd66",
   "lean/MCore/RH/R0/ChiMemLp.lean": "4aca9740f108cd1ac5d3e02bade0f2c34dd9c162c67b208ea94de4f1f6a45a28",
+  "lean/MCore/RH/R0/ChiNorm.lean": "c58b2de9f9e433b452da3f48a00dc69a3912ccb8834b04e41e059f712e0e29ce",
   "lean/MCore/RH/R0/ConcreteDomain.lean": "024ea8d747ac5d33974ca04cd6633e8bb8dbfccccddd03663d98a405b13d303e",
+  "lean/MCore/RH/R0/ConcreteFinalProducer.lean": "5ecd01f26c660e36013475b4f626221499e18c5603daeed54983bf3b6690e628",
+  "lean/MCore/RH/R0/ConcreteGramClosure.lean": "86231f67299efb8d7909508743b510dbc38c01494edbf157fd939d03b89c6994",
+  "lean/MCore/RH/R0/ConcreteGramEndpoint.lean": "e6f7d8692ddaaa3af159cc14e2175ddb381a4b583eb0ffc852f7a53ae0461067",
+  "lean/MCore/RH/R0/ConcreteGramLogRate.lean": "4dddee2622de23a6423be7dde9cd409b557255a0b72dd53d541083e6b8fd2109",
+  "lean/MCore/RH/R0/ConcreteLogMajorantProducer.lean": "7c9082fb381b0f95abe70a45d82a9c44e0302083d060cc74749b471dfc6407b9",
+  "lean/MCore/RH/R0/ConcreteVanishingProducer.lean": "d71d95f058ba95bc17e650870f15589861fb1f213d17a72d0072eff25fc52c4a",
+  "lean/MCore/RH/R0/ExplicitGramRate.lean": "b5a25954864f038cda16767b5095ac36b0a51ac45453f5d30f8673e5da865538",
+  "lean/MCore/RH/R0/ExponentialUniqueness.lean": "1e29fa1256bcef81c4a874e43e83a8b78bf405133cfc95a1f4e38b8c848edf45",
+  "lean/MCore/RH/R0/FractionalTailEuler.lean": "de96e7d0449b7512ca1a382d85d1f445c18792520ec547f45c2b34addde1f0be",
+  "lean/MCore/RH/R0/GramAutocorrelation.lean": "cd1843c848ba3f6f24d65f1b684fbf8dbc2e475660e825b2333821669904953b",
+  "lean/MCore/RH/R0/GramExplicit.lean": "d885f0b1a7c4cf219e87e835f0a05050c4abfa26d65bfd180638c4fb012354fa",
+  "lean/MCore/RH/R0/GramIntegral.lean": "8af4d2c1fb7513f4860ec0a2e7844368954ece48a67c4aacaa781738d2d08180",
+  "lean/MCore/RH/R0/GramInverse.lean": "e9a23c570760b657842ade31e0fa0dcf7443d06cad13c89a4caec837034f4de1",
+  "lean/MCore/RH/R0/GramTerminalLink.lean": "00cc9c3d191414684bab61df4f09a9a6b3f39a8e9a3e980f695cb94d2e0c0bc8",
+  "lean/MCore/RH/R0/HardFrontier.lean": "9ed9607c9ab2e07d2daf44a5ff8d304d658ad674acfe25d089c351727faf2110",
+  "lean/MCore/RH/R0/LinearIndependent.lean": "76921d096d2bcefcb0851fa20ab6e4347ddc0b9553751980b7dc5bf1b606a8ec",
+  "lean/MCore/RH/R0/LinearIndependentReduction.lean": "afa4e5a948038d80245d8f32f4904e2b9455226c8d164958c4129d5558df9605",
+  "lean/MCore/RH/R0/LpToAE.lean": "afe5f86a18174f7d6096013cbaafd7c326d57e8aac8df409bcfe9a64abf03e30",
+  "lean/MCore/RH/R0/MaterialRecovery.lean": "11df50cc449696e5acda8c76ebd6398cc36131c1f2b0dc66345d02018c59ea86",
   "lean/MCore/RH/R0/Normalization.lean": "adf9ce850347d9b1baf653c4b7276b97507357ee1002a7df119880edf7c7220c",
+  "lean/MCore/RH/R0/RhoBasicFacts.lean": "bf42d7cc4fd81631155b86de08c46dee0ffcb015a29ae3e667f1dc28e46b8dea",
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2",
+  "lean/MCore/RH/R0/TargetClosedForm.lean": "bf5b6a85e5f1125a8a90248943138218933cdc0086111f1526ab4a3fc132b328",
+  "lean/MCore/RH/R0/TargetClosedFormReduction.lean": "e939d3c20051482a44706a118a985b616d4115ed5a096bbfd0cdb0637aa90676",
+  "lean/MCore/RH/R0/TerminalLaw.lean": "4b9efb0e9a893c35e0382cf39ca0227ee49e6fe830f9d43de5b86b1521868714",
+  "lean/MCore/RH/R0/WeightedIntegrability.lean": "c895c12c9b18f3ba3cbce3ccb7cb91855e445b273ca0ff868fa31440ae725c3e",
+  "lean/MCore/RH/R0/WeightedIntegralLinearity.lean": "3a9cb7af357cb50f820de7776c8da016331c4e9d064a900f64bb0f86c11075ec",
+  "lean/MCore/RH/R0/WeightedScaling.lean": "f4e338cd4c40cb7ae17ca35587f54670db4066b80a11ae2dc2ffbc7009d090a9",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-11-02T20:55:39Z",
- "certificate_sha256": "4cd81528e4ae30e14fff79ae19b9a2666cc32cfdec775885d0edae89ce73793f"
+ "published_at": "2026-11-03T11:28:06Z",
+ "certificate_sha256": "4d5446a082312e9b63a5f4b88c73b850880150fc56e36d15e970de6616123f1d"
 }

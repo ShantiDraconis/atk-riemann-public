@@ -3,16 +3,16 @@
 Lean sources from the branch `open-math/rh-gap-20261004` of the private repository `ShantiDraconis/m-core-riemann`, commit `5c80ca19713c1bd09f8e14493fdcae5829ffc066` (2026-10-04T13:47:24+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 13 — closed 11, conditional 0, open 0, proof error 0, not reached 0, no result 2.
+* Theorems only on branches, in this branch: 13 — closed 11, conditional 0, open 0, proof error 2, not reached 0, no result 0.
 * History: 299 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `261c729e1d301fa30f1988201709a0298cb5f457505a349405295c7a4e9b1c51`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/open-math_rh-gap-20261004/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `7f808340f3cbb4a0467d78843b0cbe3dbed070c06696286ce1edad9a2a7a045c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/open-math_rh-gap-20261004/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
 | Theorem | File | State |
 |---|---|---|
-| `MCore.RH.NB.Final.FINAL_ROOT_of_coefficient_logMajorant` | `lean/MCore/RH/NB/CoefficientLogMajorantProducer.lean`:48 | nao_checado |
-| `MCore.RH.NB.Final.coefficientLogMajorant_to_logMajorant` | `lean/MCore/RH/NB/CoefficientLogMajorantProducer.lean`:26 | nao_checado |
+| `MCore.RH.NB.Final.FINAL_ROOT_of_coefficient_logMajorant` | `lean/MCore/RH/NB/CoefficientLogMajorantProducer.lean`:48 | erro |
+| `MCore.RH.NB.Final.coefficientLogMajorant_to_logMajorant` | `lean/MCore/RH/NB/CoefficientLogMajorantProducer.lean`:26 | erro |
 | `MCore.RH.R0.chiLpConcrete_norm` | `lean/MCore/RH/R0/ChiNorm.lean`:24 | fechado |
 | `MCore.RH.R0.chiLpConcrete_norm_sq` | `lean/MCore/RH/R0/ChiNorm.lean`:42 | fechado |
 | `MCore.RH.R0.concreteLogMajorant_to_FINAL_ROOT` | `lean/MCore/RH/R0/ConcreteLogMajorant.lean`:13 | fechado |

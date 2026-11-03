@@ -3,15 +3,15 @@
 Lean sources from the branch `atk/rh-rejection-zero-probe-20261006` of the private repository `ShantiDraconis/m-core-riemann`, commit `af05dfd9f29754c967e78fb51f595db05a742c97` (2026-10-07T06:47:32+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 166 — closed 113, conditional 20, open 0, proof error 0, not reached 0, no result 33.
+* Theorems only on branches, in this branch: 166 — closed 141, conditional 20, open 3, proof error 2, not reached 0, no result 0.
 * History: 203 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `626878c170a23bb2f2d72b71d14dc38c1d22ebd2d6a8c304ad148bba0703968c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9064fed9e141b04f094a29282d6132c7a65986e391426c4ee383deeea0879ae9`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-rejection-zero-probe-20261006/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
 | Theorem | File | State |
 |---|---|---|
-| `MCore.GammaR_star` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:146 | nao_checado |
+| `MCore.GammaR_star` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:146 | fechado |
 | `MCore.OpenMath.RH.close_DNToZero_from_first_real_open_math` | `lean/MCore/OpenMath/ForcingKernel.lean`:10 | fechado |
 | `MCore.all_three_ways_close` | `lean/MCore/RH/P02TerminalThreeWay.lean`:47 | fechado |
 | `MCore.bernoulli_two_mul_ne_zero_of_zeta` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:118 | fechado |
@@ -42,20 +42,20 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.closedMath_self_identity` | `lean/MCore/RH/P02TerminalIdentityAudit.lean`:14 | fechado |
 | `MCore.closed_status_is_not_endpoint` | `lean/MCore/RH/P02TerminalTransition.lean`:30 | fechado |
 | `MCore.complete_lattice_14` | `lean/MCore/RH/P02RPAEndpointLattice.lean`:190 | condicional |
-| `MCore.completedHurwitzZetaEven0_zero_star` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:136 | nao_checado |
-| `MCore.completedRiemannZetaConjugationSymmetry_proved` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:175 | nao_checado |
-| `MCore.criticalLine_implies_orbitCollapse` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:22 | nao_checado |
+| `MCore.completedHurwitzZetaEven0_zero_star` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:136 | erro |
+| `MCore.completedRiemannZetaConjugationSymmetry_proved` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:175 | aberto-sorry |
+| `MCore.criticalLine_implies_orbitCollapse` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:22 | fechado |
 | `MCore.criticalOrbitCollapse_implies_probeCriticalLine` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:155 | fechado |
-| `MCore.criticalOrbitCollapse_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:106 | nao_checado |
-| `MCore.criticalReflect_eq_star_functionalReflect` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:7 | nao_checado |
+| `MCore.criticalOrbitCollapse_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:106 | fechado |
+| `MCore.criticalReflect_eq_star_functionalReflect` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:7 | fechado |
 | `MCore.criticalReflect_fixed_iff` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:45 | fechado |
 | `MCore.criticalReflect_involutive` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:31 | fechado |
 | `MCore.criticalReflect_preserves_defect_abs` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:63 | fechado |
 | `MCore.criticalReflect_preserves_im` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:59 | fechado |
-| `MCore.criticalReflect_zero_value_closed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:46 | nao_checado |
-| `MCore.criticalReflect_zeta_zero_of_symmetries` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:26 | nao_checado |
-| `MCore.criticalReflectionZeroClosure_of_conjugation` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:23 | nao_checado |
-| `MCore.criticalReflectionZeroClosure_proved` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:57 | nao_checado |
+| `MCore.criticalReflect_zero_value_closed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:46 | fechado |
+| `MCore.criticalReflect_zeta_zero_of_symmetries` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:26 | fechado |
+| `MCore.criticalReflectionZeroClosure_of_conjugation` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:23 | fechado |
+| `MCore.criticalReflectionZeroClosure_proved` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:57 | aberto-sorry |
 | `MCore.criticalWheelTerminalClosure_iff_orbitCollapse` | `lean/MCore/RH/P02TerminalWheel.lean`:51 | fechado |
 | `MCore.criticalWheelTerminalClosure_implies_endpoint` | `lean/MCore/RH/P02TerminalWheel.lean`:59 | fechado |
 | `MCore.criticalWheel_add_two` | `lean/MCore/RH/P02TerminalWheel.lean`:27 | fechado |
@@ -66,14 +66,14 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.criticalWheel_zero` | `lean/MCore/RH/P02TerminalWheel.lean`:15 | fechado |
 | `MCore.distinct_stages_can_share_same_prop` | `lean/MCore/RH/P02TerminalIdentityAudit.lean`:45 | fechado |
 | `MCore.dual_endpoint_state_iff_both` | `lean/MCore/RH/P02RPADualCertificate.lean`:62 | fechado |
-| `MCore.dual_endpoint_state_implies_payload` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:59 | nao_checado |
+| `MCore.dual_endpoint_state_implies_payload` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:59 | fechado |
 | `MCore.endpoint_gap_habitant_inhabitant_same_type` | `lean/MCore/RH/P02TerminalThreeWay.lean`:60 | fechado |
-| `MCore.endpoint_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:34 | nao_checado |
-| `MCore.endpoint_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:124 | nao_checado |
+| `MCore.endpoint_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:34 | fechado |
+| `MCore.endpoint_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:124 | fechado |
 | `MCore.endpoint_to_gap` | `lean/MCore/RH/P02TerminalWheel.lean`:72 | fechado |
-| `MCore.finalCertificate_iff_endpoint` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:135 | nao_checado |
-| `MCore.finalCertificate_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:127 | nao_checado |
-| `MCore.finalCertificate_of_material_rigidity` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:157 | nao_checado |
+| `MCore.finalCertificate_iff_endpoint` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:135 | fechado |
+| `MCore.finalCertificate_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:127 | fechado |
+| `MCore.finalCertificate_of_material_rigidity` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:157 | fechado |
 | `MCore.full_chain_exact` | `lean/MCore/RH/P02RPAEndpointLattice.lean`:227 | fechado |
 | `MCore.full_is_dual_endpoint_state` | `lean/MCore/RH/P02RPAEndpointLattice.lean`:209 | fechado |
 | `MCore.full_is_final_root` | `lean/MCore/RH/P02RPAEndpointLattice.lean`:215 | fechado |
@@ -84,14 +84,14 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.functionalReflect_zero_closed_of_not_neg_nat` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:108 | fechado |
 | `MCore.gap_to_habitant` | `lean/MCore/RH/P02TerminalWheel.lean`:74 | fechado |
 | `MCore.habitant_to_inhabitant` | `lean/MCore/RH/P02TerminalWheel.lean`:75 | fechado |
-| `MCore.hurwitzEvenFEPair_zero_Lambda0_star` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:124 | nao_checado |
-| `MCore.hurwitzEvenFEPair_zero_f_modif_star_fixed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:114 | nao_checado |
+| `MCore.hurwitzEvenFEPair_zero_Lambda0_star` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:124 | fechado |
+| `MCore.hurwitzEvenFEPair_zero_f_modif_star_fixed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:114 | fechado |
 | `MCore.inhabitant_to_endpoint` | `lean/MCore/RH/P02TerminalWheel.lean`:76 | fechado |
 | `MCore.involution_and_flip_do_not_force_zero_defect` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:88 | fechado |
 | `MCore.lastBit_endpoint_of_terminal` | `lean/MCore/RH/P02LastOpenMath.lean`:35 | fechado |
-| `MCore.materialPromotion_iff_offLineReflectedPairExclusion` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:117 | nao_checado |
-| `MCore.material_gate_exact` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:139 | nao_checado |
-| `MCore.mellin_star_of_star_fixed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:91 | nao_checado |
+| `MCore.materialPromotion_iff_offLineReflectedPairExclusion` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:117 | aberto-sorry |
+| `MCore.material_gate_exact` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:139 | fechado |
+| `MCore.mellin_star_of_star_fixed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:91 | fechado |
 | `MCore.not_closedMath_ne_itself` | `lean/MCore/RH/P02TerminalIdentityAudit.lean`:22 | fechado |
 | `MCore.not_openMath_ne_itself` | `lean/MCore/RH/P02TerminalIdentityAudit.lean`:17 | fechado |
 | `MCore.observedDefect_criticalReflect` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:40 | fechado |
@@ -105,15 +105,15 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.open_eq_closed_is_impossible` | `lean/MCore/RH/P02OpenClosedDuality.lean`:27 | fechado |
 | `MCore.open_status_is_endpoint` | `lean/MCore/RH/P02TerminalTransition.lean`:27 | fechado |
 | `MCore.open_tends_to_closed` | `lean/MCore/RH/P02TerminalTransition.lean`:23 | fechado |
-| `MCore.orbitCollapse_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:28 | nao_checado |
-| `MCore.payload_iff_endpoint` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:48 | nao_checado |
-| `MCore.payload_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:40 | nao_checado |
-| `MCore.payload_implies_dual_endpoint_state` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:52 | nao_checado |
-| `MCore.probeCriticalLine_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:117 | nao_checado |
-| `MCore.probeFunctionalSideConditions_proved` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:57 | nao_checado |
-| `MCore.promotedByMaterial_implies_endpoint` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:110 | nao_checado |
-| `MCore.promotedByMaterial_implies_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:104 | nao_checado |
-| `MCore.promotionInput_iff_offLineReflectedPairExclusion` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:97 | nao_checado |
+| `MCore.orbitCollapse_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:28 | fechado |
+| `MCore.payload_iff_endpoint` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:48 | fechado |
+| `MCore.payload_iff_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:40 | fechado |
+| `MCore.payload_implies_dual_endpoint_state` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:52 | fechado |
+| `MCore.probeCriticalLine_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:117 | fechado |
+| `MCore.probeFunctionalSideConditions_proved` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:57 | fechado |
+| `MCore.promotedByMaterial_implies_endpoint` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:110 | fechado |
+| `MCore.promotedByMaterial_implies_materialRH` | `lean/MCore/RH/P02RiemannMaterialPayload.lean`:104 | fechado |
+| `MCore.promotionInput_iff_offLineReflectedPairExclusion` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:97 | fechado |
 | `MCore.raw_closed_closed_closed` | `lean/MCore/RH/P02RPAEndpointLattice.lean`:117 | fechado |
 | `MCore.raw_closed_closed_open` | `lean/MCore/RH/P02RPAEndpointLattice.lean`:135 | fechado |
 | `MCore.raw_closed_open_closed` | `lean/MCore/RH/P02RPAEndpointLattice.lean`:132 | fechado |
@@ -143,8 +143,8 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.rh_terminal_reflection_involutive` | `lean/MCore/RH/P02TerminalFreeze.lean`:21 | fechado |
 | `MCore.rh_terminal_signature` | `lean/MCore/RH/P02TerminalFreeze.lean`:16 | fechado |
 | `MCore.rh_terminal_statement_exact` | `lean/MCore/RH/P02LastOpenMath.lean`:16 | fechado |
-| `MCore.riemannZetaConjugationZeroSymmetry_of_completed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:197 | nao_checado |
-| `MCore.riemannZetaConjugationZeroSymmetry_proved` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:190 | nao_checado |
+| `MCore.riemannZetaConjugationZeroSymmetry_of_completed` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:197 | fechado |
+| `MCore.riemannZetaConjugationZeroSymmetry_proved` | `lean/MCore/RH/P02CriticalReflectionSymmetry.lean`:190 | erro |
 | `MCore.riemannZeta_neg_odd_ne_zero_of_pos_even` | `lean/MCore/RH/P02DeterministicRejectionZero.lean`:129 | fechado |
 | `MCore.rpa_bridges_form_dual_state` | `lean/MCore/RH/P02RPADualCertificate.lean`:76 | fechado |
 | `MCore.rpa_certificate_iff_dual_endpoint_state` | `lean/MCore/RH/P02RPADualCertificate.lean`:90 | fechado |
@@ -154,7 +154,7 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.rpa_dual_chain_exact` | `lean/MCore/RH/P02RPADualCertificate.lean`:112 | fechado |
 | `MCore.rpa_endpoint_positions_distinct` | `lean/MCore/RH/P02RPADualCertificate.lean`:18 | fechado |
 | `MCore.rpa_final_root_global_external_same` | `lean/MCore/RH/P02RPADualCertificate.lean`:87 | fechado |
-| `MCore.rpa_full_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:131 | nao_checado |
+| `MCore.rpa_full_of_material_rigidity` | `lean/MCore/RH/P02MaterialRigidityLaw.lean`:131 | fechado |
 | `MCore.rpa_math_final_root_same` | `lean/MCore/RH/P02RPADualCertificate.lean`:84 | fechado |
 | `MCore.rpa_open_bridge_same` | `lean/MCore/RH/P02RPADualCertificate.lean`:70 | fechado |
 | `MCore.rpa_open_closed_same_identity` | `lean/MCore/RH/P02RPADualCertificate.lean`:59 | fechado |

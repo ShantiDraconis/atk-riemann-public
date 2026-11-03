@@ -998,7 +998,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1030,7 +1030,7 @@
    "name": "MCore.RH.R2.kfar_vanishes_of_weighted_modular_bilinear_decay",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 53,
-   "state": "nao_checado",
+   "state": "nao_alcancado",
    "axioms_beyond_standard": [],
    "statement": "(D : MultistateSNData) (hDecay : WeightedModularBilinearDecay D) : Filter.Tendsto D.S Filter.atTop (nhds 0)"
   },
@@ -1046,7 +1046,7 @@
    "name": "MCore.RH.R2.openBridge_of_weighted_modular_bilinear_decay",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 71,
-   "state": "nao_checado",
+   "state": "nao_alcancado",
    "axioms_beyond_standard": [],
    "statement": "(D : MultistateSNData) (hTransport : WeightedModularToOpenBridge D) (hDecay : WeightedModularBilinearDecay D) : OpenBridge"
   },
@@ -1054,7 +1054,7 @@
    "name": "MCore.RH.R2.tensioned_sn_certificate_closes_open_math",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 87,
-   "state": "nao_checado",
+   "state": "nao_alcancado",
    "axioms_beyond_standard": [],
    "statement": "(D : MultistateSNData) (C : TensionedSNClosureCertificate D) : OpenBridge"
   },
@@ -1070,7 +1070,7 @@
    "name": "MCore.RH.R2.weighted_modular_bilinear_decay_still_open",
    "file": "research/r2/MultistateSNGap.lean",
    "line": 97,
-   "state": "nao_checado",
+   "state": "nao_alcancado",
    "axioms_beyond_standard": [],
    "statement": ": weightedModularBilinearDecayClosed = false"
   }
@@ -1082,6 +1082,6 @@
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/RH/R2/MultiStateSNGap.lean": "9a9fcead160483089bdda10d1fa3848e8860616c349277ab45a827fdb8d9ebe6"
  },
- "published_at": "2026-11-02T20:55:39Z",
- "certificate_sha256": "bbe30b1006712ebd0fee385a4a2d415a71657241601b2a428471601a10f9b950"
+ "published_at": "2026-11-03T11:28:06Z",
+ "certificate_sha256": "7e089f347203e541ec5822a3118357f888c8d0ebc5252ceb059094f7584ccc8b"
 }
