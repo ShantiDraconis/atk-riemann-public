@@ -5,7 +5,7 @@ Lean sources from the branch `attack/r01-quantitative-zero-criterion-20260921` o
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 11 — closed 11, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 206 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `cf45917ffe925a7d61790729d7fb91760ce5e0c2167326fbc131cb962a692c86`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `c41794853ab4a24cbc40536acce2cae25c8d5c514fbd426f261290bdca632f25`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_r01-quantitative-zero-criterion-20260921/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

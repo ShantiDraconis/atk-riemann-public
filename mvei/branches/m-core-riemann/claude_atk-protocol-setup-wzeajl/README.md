@@ -5,7 +5,7 @@ Lean sources from the branch `claude/atk-protocol-setup-wzeajl` of the private r
 * Branch state: em andamento (not in the default branch).
 * Theorems only on branches, in this branch: 46 — closed 46, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 11 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `da1fd1820cb9a82a1769415e979de1b657e99f53140ff752dc7ece8bd8295f20`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `083582856653508e51be82012385ccf928e6037b0d449f677736dba797c850a4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

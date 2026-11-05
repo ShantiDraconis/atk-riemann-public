@@ -63,7 +63,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0",
    "leanprover/lean4:v4.34.1"
@@ -461,6 +461,6 @@
   "atk-kernel/lakefile.toml": "139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d",
   "atk-kernel/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
  },
- "published_at": "2026-11-03T11:28:06Z",
- "certificate_sha256": "da1fd1820cb9a82a1769415e979de1b657e99f53140ff752dc7ece8bd8295f20"
+ "published_at": "2026-11-05T17:43:04Z",
+ "certificate_sha256": "083582856653508e51be82012385ccf928e6037b0d449f677736dba797c850a4"
 }

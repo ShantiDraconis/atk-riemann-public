@@ -78,7 +78,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -96,7 +96,7 @@
    "line": 32,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.A = .pending"
+   "statement": "MCore.Audit8x5.sigma0.A = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.HC_pending",
@@ -104,7 +104,7 @@
    "line": 25,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.HC = .pending"
+   "statement": "MCore.Audit8x5.sigma0.HC = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.K_pending",
@@ -112,7 +112,7 @@
    "line": 31,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.K = .pending"
+   "statement": "MCore.Audit8x5.sigma0.K = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.Q_pending",
@@ -120,7 +120,7 @@
    "line": 29,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.Q = .pending"
+   "statement": "MCore.Audit8x5.sigma0.Q = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.S_pending",
@@ -128,7 +128,7 @@
    "line": 30,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.S = .pending"
+   "statement": "MCore.Audit8x5.sigma0.S = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.no_placebo_generic",
@@ -136,19 +136,20 @@
    "line": 21,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ¬ Nonempty (ProofCertificate k6_dependency.target)"
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
   },
   {
    "name": "MultistateAudit.Riemann.Gates.fullyAudited_elim",
    "file": "audit/20_BACKWARD_ELIMINATION/MassiveGateArchitecture.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(A : DecisiveAudit) (h : FullyAudited A) : A.provenanceLock ∧ A.hypothesisConclusionMatch ∧ A.quantifierMatch ∧ A.scalingConstantMatch ∧ A.axiomNoncircularity ∧ A.proofSearchDischarged ∧ A.falsificationSearchDischarged ∧ A.leanBuildAndAxiomsAudited"
   }
  ],
- "closed": 6,
+ "closed": 7,
  "files_sha256": {
+  "audit/20_BACKWARD_ELIMINATION/MassiveGateArchitecture.lean": "3adb2905b56a55f77e79505e2ca391c1c66430a29a98ef18aea0fdbc981ade36",
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "bab668b3643dcfe580a867f0d817f1b4c131f81ae4afb2eb65b5c197642637c0",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
@@ -163,6 +164,6 @@
   "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-11-03T11:28:17Z",
- "certificate_sha256": "214f097ea1f5608a1dc83d8dcf24d9b0e134a8020a4cbbaeb81ca18256ab3522"
+ "published_at": "2026-11-05T17:43:14Z",
+ "certificate_sha256": "18d0651ec09f36882e472f7257d09a784735d44abe29f6ad5c51666088a50ab6"
 }

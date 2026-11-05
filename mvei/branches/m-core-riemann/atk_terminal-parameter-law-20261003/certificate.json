@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -7627,6 +7627,6 @@
   "open_math/lean/RHForcedAll.lean": "139c4f3fd427c2e48c6902f2be88fde06f415a82cddf70d9af7b2a1c7b72cf9d",
   "research/r2/BackwardDenseEndpoint.lean": "60e3a34aa6cb954492ac54cc7140784263e94536ec517422c69a447d2d76960f"
  },
- "published_at": "2026-11-03T11:28:06Z",
- "certificate_sha256": "732c41730d9a77e956a50d9a6c14b38a77c1f6dcf1cc11742527a1c5be6292a4"
+ "published_at": "2026-11-05T17:43:04Z",
+ "certificate_sha256": "b228e413510e09ec508a61e1e3b0082f108572b085fa6c28aaffbb317d3bcf34"
 }

@@ -618,7 +618,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -634,7 +634,7 @@
    "name": "MCore.RH.R0.abs_rhoRepresentative_le_one",
    "file": "lean/MCore/RH/R0/RhoConcrete.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (x : BaseDomain) : |rhoRepresentative n x| ≤ 1"
   },
@@ -642,7 +642,7 @@
    "name": "MCore.RH.R0.rhoRepresentative_eq_reciprocal_of_tail",
    "file": "lean/MCore/RH/R0/RhoConcrete.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : ℕ) (hn : 0 < n) (x : BaseDomain) (hx : (1 : ℝ) / (n : ℝ) < x) : rhoRepresentative n x = 1 / ((n : ℝ) * x)"
   },
@@ -650,7 +650,7 @@
    "name": "MCore.RH.R0.rhoRepresentative_zero",
    "file": "lean/MCore/RH/R0/RhoConcrete.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(x : BaseDomain) : rhoRepresentative 0 x = 0"
   },
@@ -663,7 +663,7 @@
    "statement": "∀ {P : Prop}, MCore.AdapterObligations P → P"
   }
  ],
- "closed": 1,
+ "closed": 4,
  "files_sha256": {
   "lake-manifest.json": "1d09d137d2ad0fba6ad55259078942424158f161df88eaf4339c9432048fb7a9",
   "lakefile.toml": "d9567b64513e9d2ebdd0b21f3da4e9d3a6829ead649bb00d6c6ef731c55d4b2d",
@@ -678,8 +678,23 @@
   "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
   "lean/MCore/K7.lean": "dc30a95bb67d2aae8977ec188bf406caa1ac2f9e5659de3ddfbfba3ad91abdd3",
   "lean/MCore/K8.lean": "622bc77bcc69a22482f7c346e9b7b2389ca7ad585f5399970436aabe50723288",
+  "lean/MCore/RH/NB/Antitone.lean": "2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb",
+  "lean/MCore/RH/NB/Distance.lean": "add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8",
+  "lean/MCore/RH/NB/FiniteSpan.lean": "97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe",
+  "lean/MCore/RH/NB/HilbertData.lean": "0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134",
+  "lean/MCore/RH/NB/Limit.lean": "9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c",
+  "lean/MCore/RH/NB/Nesting.lean": "922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31",
+  "lean/MCore/RH/NB/Projection.lean": "b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6",
+  "lean/MCore/RH/NB/Total.lean": "e8e9378dd63ce7756367a5fb85234471ddade0ecc0e3a289b88d937fdb23aa06",
+  "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "c1c88007b2989252e311dcf2a90590346f47dcdf2b09c03ee89a31ba874f91da",
+  "lean/MCore/RH/R0/AmbientCarrier.lean": "44d846b4df5f9dcce3c984712a7c4287b60828f88cff30efec810d2dc9a73c02",
+  "lean/MCore/RH/R0/ChiL2.lean": "a98f4c80636f8657dbfcb35df4fe94dd51247269d54ef690a4f3e30fbe3cdd66",
+  "lean/MCore/RH/R0/ChiMemLp.lean": "4aca9740f108cd1ac5d3e02bade0f2c34dd9c162c67b208ea94de4f1f6a45a28",
+  "lean/MCore/RH/R0/ConcreteDomain.lean": "024ea8d747ac5d33974ca04cd6633e8bb8dbfccccddd03663d98a405b13d303e",
+  "lean/MCore/RH/R0/Normalization.lean": "adf9ce850347d9b1baf653c4b7276b97507357ee1002a7df119880edf7c7220c",
+  "lean/MCore/RH/R0/RhoConcrete.lean": "94f2840727a9851e1c0971ae9778eee06318ed93116237a346b0a38392b0117b",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-11-03T11:28:25Z",
- "certificate_sha256": "d07fee405d10d65103a118d35c7abe110a49795465480e70df3ff36e58779d06"
+ "published_at": "2026-11-05T17:43:21Z",
+ "certificate_sha256": "093d6bda04c6e0f8f8d85d97776a3b6f1968242aceeb3bf2f81437ec6e4e021b"
 }

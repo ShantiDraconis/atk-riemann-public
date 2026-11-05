@@ -5,7 +5,7 @@ Lean sources from the branch `atk/terminal-parameter-law-20261003` of the privat
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 680 — closed 292, conditional 0, open 69, proof error 15, not reached 295, no result 9.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `732c41730d9a77e956a50d9a6c14b38a77c1f6dcf1cc11742527a1c5be6292a4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_terminal-parameter-law-20261003/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `b228e413510e09ec508a61e1e3b0082f108572b085fa6c28aaffbb317d3bcf34`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_terminal-parameter-law-20261003/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

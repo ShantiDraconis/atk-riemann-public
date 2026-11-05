@@ -5,7 +5,7 @@ Lean sources from the branch `atk/rh-tristate-material-hardening-20261001` of th
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 33 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `28d5b91c259a697e95160d3c0189797226f11035998154801b8662a7d42e2e3b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-tristate-material-hardening-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `ccd4ef64055d607305776b6b37c5edcec8d825e4740c02817b327872bac74e10`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-tristate-material-hardening-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

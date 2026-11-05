@@ -43,7 +43,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -59,7 +59,7 @@
    "name": "MCore.BackwardAudit.classical_semantic_adapter_still_open",
    "file": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": classicalSemanticAdapterClosed = false"
   },
@@ -67,7 +67,7 @@
    "name": "MCore.BackwardAudit.cross_problem_endpoint_is_typed",
    "file": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": endpointPropositionTyped = true"
   },
@@ -75,7 +75,7 @@
    "name": "MCore.BackwardAudit.endpoint_proposition_is_typed",
    "file": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": endpointPropositionTyped = true"
   },
@@ -88,16 +88,19 @@
    "statement": "(S : EndpointSemantics) (A : ClassicalZetaAdapter S) (h : FinalEndpoint S) : ∀ s : A.ConcretePoint, A.isClassicalNontrivialZero s → A.isClassicalCriticalLine s"
   }
  ],
- "closed": 1,
+ "closed": 4,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "bab668b3643dcfe580a867f0d817f1b4c131f81ae4afb2eb65b5c197642637c0",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean": "5c343abfc6552ee3bacd4d967e01948ed169e5fb00a821e51337142d367b6dd5",
+  "lean/MCore/BackwardAudit/EndpointTypeResidue.lean": "b094c51ccc6917bdf43c88552a89646fac07fe7f699f53af0a0693ac25ac3b88",
   "lean/MCore/BackwardAudit/FinalEndpoint.lean": "bc02c971ec36a9a827b03ff4b52f453e2f2f1d211821b0bb352f440ac9dcd933",
   "lean/MCore/Boundary.lean": "7aa951d700e2c61aad427bf691a9fd8d1d24b76ed7d3a36489390413e3587c15",
   "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "7cf01faef3e724a674e0507d147f1513b8e0f663d1d595c5cf0596dcdba95af2",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-11-03T11:28:25Z",
- "certificate_sha256": "bd7382ff681375431d164ce9ab1f810c5d2f23ab89ce3b95e912a55089f96339"
+ "published_at": "2026-11-05T17:43:21Z",
+ "certificate_sha256": "54d5e3d08f5f7f1bb460b62dc454ca481c366671e53ac51ca4fc8eacf0294232"
 }

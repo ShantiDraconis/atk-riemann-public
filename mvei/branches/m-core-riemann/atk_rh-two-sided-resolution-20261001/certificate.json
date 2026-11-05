@@ -1048,7 +1048,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1088,7 +1088,7 @@
    "name": "MCore.RH.NB.NBHilbertData.DN_positive_and_negative_routes_contradict",
    "file": "lean/MCore/RH/NB/TwoSidedResolution.lean",
    "line": 58,
-   "state": "erro",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(rho : D.GeneratorFamily) (hp : Nonempty (VanishingUpperBound D rho)) (hn : Nonempty (PersistentPositiveLowerBound D rho)) : False"
   },
@@ -1113,7 +1113,7 @@
    "statement": "(hp : Nonempty ConcretePositiveDNProducer) (hn : Nonempty ConcreteNegativeDNProducer) : False"
   }
  ],
- "closed": 3,
+ "closed": 4,
  "files_sha256": {
   "lake-manifest.json": "2c4ab35b6c5ec42d2543a7a491bb921bc9c46d9c80b14e30b96d9c44536f50d9",
   "lakefile.toml": "fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f",
@@ -1136,6 +1136,6 @@
   "lean/MCore/RH/R0/Normalization.lean": "adf9ce850347d9b1baf653c4b7276b97507357ee1002a7df119880edf7c7220c",
   "lean/MCore/RH/R0/RhoConcrete.lean": "7fbba2698cd4e855c306ceeed5eb5023dde9ef8eba357df38b1fdc0da3fce3c2"
  },
- "published_at": "2026-11-03T11:28:17Z",
- "certificate_sha256": "3dfbc7451d074d3cf5760f5d3163d281856c218765a88e9cfd9d80e6e11a70e1"
+ "published_at": "2026-11-05T17:43:14Z",
+ "certificate_sha256": "e570902e964a120af2b5b881465d7215a2232a985ae0dcd976e2f6917d37aaa5"
 }

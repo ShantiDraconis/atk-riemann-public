@@ -18,7 +18,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -42,12 +42,12 @@
    "name": "MCore.RiemannMultistate.legacy_decay_is_structurally_trivial",
    "file": "lean/MCore/Frontier/MultistateSNFirewall.lean",
    "line": 23,
-   "state": "erro",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{Scalar : Type} (s : Nat → Scalar) : ∃ d : WeightedModularBilinearDecay Scalar, d.sequence = s"
   }
  ],
- "closed": 1,
+ "closed": 2,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "bab668b3643dcfe580a867f0d817f1b4c131f81ae4afb2eb65b5c197642637c0",
@@ -56,6 +56,6 @@
   "lean/MCore/Frontier/MultistateSNFirewall.lean": "2a91726d11fdb92d7b067a4abed579ce3207c8d16d2ee9f21f2cb2344fc616ed",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-11-03T11:28:25Z",
- "certificate_sha256": "e6564300f17a6a9fbb27a8faf69a1fa32b7cc55f3952de499cbc7961e39aa984"
+ "published_at": "2026-11-05T17:43:21Z",
+ "certificate_sha256": "86ab9b02b332768efc06fc2b70790abb5b777313cbfb5ef08065638d2256e793"
 }

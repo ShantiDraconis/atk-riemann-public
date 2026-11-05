@@ -5,7 +5,7 @@ Lean sources from the branch `attack/kfar-weighted-bilinear-decay-20260926` of t
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 6, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 216 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `75394e98bcc8a90c7fdfc486be576db1d58ed4b047449baa8bb790f84bcabc59`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_kfar-weighted-bilinear-decay-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `2bd6dc5cebb4de41393da00ff758d4b29138c4fa4ed726ab022566c508af24cb`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_kfar-weighted-bilinear-decay-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

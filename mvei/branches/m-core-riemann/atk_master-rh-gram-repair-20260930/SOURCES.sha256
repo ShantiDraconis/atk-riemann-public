@@ -1,4 +1,16 @@
 1a85a499b3e4f934a94a26d8d7a0b2dd95efc0a10e23e432a1fd29823590df2f  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lake-manifest.json
 fab0febf0be90236288acb7aff0b435b39896a0848caea7c546b457a44c3323f  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lakefile.toml
 55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean-toolchain
+2b2d7a3a78682b8b90db2c2f9965a0a5adda50aad1c176f71cf408dc054d10eb  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/Antitone.lean
+ae0a66dbbe255457e37ebc8ac45df731859379984f13498a6066c73bfcdd88a1  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/CoefficientEndpoint.lean
+e7ffbc2f4d4095c8edb9126d819c516db8c9409de4f114fd2731e42768762190  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/CoefficientRealization.lean
+add33867ed8efba336f1f33e79b4bf35f7854d8a3e67e7a32b7e6b1ca0c47cf8  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/Distance.lean
+97e81f1204e142862fa001c84a4995f1316831d81a54cf3a70f298bd65f37dfe  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/FiniteSpan.lean
+71e14cdd76a5025686e3cd0a867bb0257f0bbe389bf41217f33c5c0deb341e3d  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/GramNormalEquations.lean
+a36c81df365d94144dc1b89892a73141a0b53e2f79c7a91c6d477fdeddc729dd  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/GramQuadratic.lean
+0f334f0892bcd8ee64f5b16ceeea708cb155e757cf2663a0ac735aaf3a30f134  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/HilbertData.lean
+9ebc4c58d76404b9ffd5c27acd5c2a6e7ca1e846faec7a6cf537b691b016dd3c  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/Limit.lean
+922bdff4751e05d2d033d7fff5fd702aee7d959365600a5ba30de81efeac3a31  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/Nesting.lean
+b6d0a772b1087b3ba9f0456ee8d4c105be0d777e6d59b551f65cb536044551d6  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/Projection.lean
+093ef0b0fc6f7f527339bde19965c6aa3964fac35211a49e49c7b99f0b4f7ef7  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/NB/ZeroLimitFrontier.lean
 ff1211678beeaa474b7dd97ef7298cd972bfe4a98ce3fa597371482b971e0b3e  branches/m-core-riemann/atk_master-rh-gram-repair-20260930/lean/MCore/RH/R2/MobiusDivisorKernel.lean
