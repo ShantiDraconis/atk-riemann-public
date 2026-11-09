@@ -5,7 +5,7 @@ Lean sources from the branch `atk/rh-material-recovery-20261007` of the private 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 27 — closed 8, conditional 0, open 12, proof error 0, not reached 7, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e4904bbf3d556ad58394a3ffc3752409e924356fd38253bc81a8e4ff1cdb022e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-recovery-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9043ab32b17df3f353caa92ebad90f852ca646ce1ce9e40b6e46ad3e4c9f499c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_rh-material-recovery-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

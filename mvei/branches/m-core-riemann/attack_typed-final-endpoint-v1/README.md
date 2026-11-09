@@ -5,7 +5,7 @@ Lean sources from the branch `attack/typed-final-endpoint-v1` of the private rep
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 7 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `54d5e3d08f5f7f1bb460b62dc454ca481c366671e53ac51ca4fc8eacf0294232`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_typed-final-endpoint-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `aa912fb00449de28a0b718fe83c414d238c3f72324a04ebd70862b81db403730`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/attack_typed-final-endpoint-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

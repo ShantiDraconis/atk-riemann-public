@@ -1038,7 +1038,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1155,6 +1155,6 @@
   "lean/MCore/RH/NB/QuantitativeZeroCriterion.lean": "ea0197b259f3434fbc42c9c00ab987f10820d29f9a29b82772177662337435d3",
   "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "c1c88007b2989252e311dcf2a90590346f47dcdf2b09c03ee89a31ba874f91da"
  },
- "published_at": "2026-11-05T17:43:05Z",
- "certificate_sha256": "c41794853ab4a24cbc40536acce2cae25c8d5c514fbd426f261290bdca632f25"
+ "published_at": "2026-11-09T23:13:01Z",
+ "certificate_sha256": "aedbb25cebe5a383f57adf875665d4fdf87a39bbb56b68de37864ebaa427fe23"
 }

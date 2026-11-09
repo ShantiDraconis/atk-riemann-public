@@ -18,7 +18,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -56,6 +56,6 @@
   "lean/MCore/Frontier/MultistateSNFirewall.lean": "2a91726d11fdb92d7b067a4abed579ce3207c8d16d2ee9f21f2cb2344fc616ed",
   "lean/MCore/Signature.lean": "454a8e93beab7748d13594d52eaba9c5fba714c2fe85d1ea1f4fc1c3acdd63f2"
  },
- "published_at": "2026-11-05T17:43:21Z",
- "certificate_sha256": "86ab9b02b332768efc06fc2b70790abb5b777313cbfb5ef08065638d2256e793"
+ "published_at": "2026-11-09T23:13:19Z",
+ "certificate_sha256": "fea74513d0717192e84c49debb56c18687f3d7e09e901ce87fa24b272848e907"
 }
