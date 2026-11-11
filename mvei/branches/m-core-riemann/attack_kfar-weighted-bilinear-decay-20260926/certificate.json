@@ -1088,7 +1088,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1167,6 +1167,6 @@
   "lean/MCore/RH/NB/WeightedModularMultiStateGap.lean": "7b27e12d2325308eedc66c6469c96f49bc2867ab9e37f3cef770cd6f18f0aca5",
   "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "c1c88007b2989252e311dcf2a90590346f47dcdf2b09c03ee89a31ba874f91da"
  },
- "published_at": "2026-11-09T23:13:11Z",
- "certificate_sha256": "0aef14d43de0eff818f333561a8dc2b42630c99620a962c0febaffba48125042"
+ "published_at": "2026-11-11T15:17:22Z",
+ "certificate_sha256": "9a9eee6089190a79bb29dfe2bf50b9ab3b9b49b938c577862e14576c576197d7"
 }

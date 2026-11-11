@@ -5,7 +5,7 @@ Lean sources from the branch `atk/riemann-indeterminate-transform-test-20261011`
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 14 — closed 14, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `7b15985707405d219aef34f3979ccef8b8b0dc5994640f09b2c4a4fc118ada40`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_riemann-indeterminate-transform-test-20261011/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `e843fd736f65cc1bc5b463537f64bfcdaec17d4e91f8707a9627532e2c42c418`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_riemann-indeterminate-transform-test-20261011/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

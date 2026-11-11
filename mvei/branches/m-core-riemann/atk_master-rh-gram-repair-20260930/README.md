@@ -5,7 +5,7 @@ Lean sources from the branch `atk/master-rh-gram-repair-20260930` of the private
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 6, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 24 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `207db100e3cdf9717c2e583e0e8ec20cd9e8a72b59918ebe0d0f435385d27c35`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_master-rh-gram-repair-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `dcd1a751e76d3f803bf446697fb43f81de4d592e9403c16cb26844987b6410ce`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-riemann/atk_master-rh-gram-repair-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

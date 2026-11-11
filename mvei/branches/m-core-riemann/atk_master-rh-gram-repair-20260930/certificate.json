@@ -128,7 +128,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -208,6 +208,6 @@
   "lean/MCore/RH/NB/ZeroLimitFrontier.lean": "093ef0b0fc6f7f527339bde19965c6aa3964fac35211a49e49c7b99f0b4f7ef7",
   "lean/MCore/RH/R2/MobiusDivisorKernel.lean": "ff1211678beeaa474b7dd97ef7298cd972bfe4a98ce3fa597371482b971e0b3e"
  },
- "published_at": "2026-11-09T23:13:11Z",
- "certificate_sha256": "207db100e3cdf9717c2e583e0e8ec20cd9e8a72b59918ebe0d0f435385d27c35"
+ "published_at": "2026-11-11T15:17:22Z",
+ "certificate_sha256": "dcd1a751e76d3f803bf446697fb43f81de4d592e9403c16cb26844987b6410ce"
 }
