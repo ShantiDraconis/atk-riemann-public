@@ -31,4 +31,27 @@ theorem mathlib_rh_of_concrete_certificates (h : ArbitrarilySmallUpperCertificat
     RiemannHypothesis :=
   rh_of_dInf_eq_zero (concrete_inf_zero h)
 
+/-- Uniform quantitative R01 for the concrete ATK distances, including N = 0. -/
+def ConcreteLogRate : Prop :=
+  ∃ K : ℝ, 0 ≤ K ∧ ∀ N : ℕ, DN N ≤ K / Real.log ((N : ℝ) + 2)
+
+/-- The quantitative premise gives a finite witness for every positive tolerance. -/
+theorem certificates_of_log_rate (rate : ConcreteLogRate) :
+    ArbitrarilySmallUpperCertificates DN := by
+  obtain ⟨K, _, hK⟩ := rate
+  intro ε hε
+  obtain ⟨N, hN⟩ := exists_nat_gt (Real.exp (K / ε))
+  have harg : Real.exp (K / ε) < (N : ℝ) + 2 := by linarith
+  have hlog := Real.log_lt_log (Real.exp_pos (K / ε)) harg
+  rw [Real.log_exp] at hlog
+  have hpos : 0 < Real.log ((N : ℝ) + 2) :=
+    Real.log_pos (by linarith [Nat.cast_nonneg (α := ℝ) N])
+  refine ⟨N, (hK N).trans_lt ((div_lt_iff₀ hpos).mpr ?_)⟩
+  simpa only [mul_comm] using (div_lt_iff₀ hε).mp hlog
+
+theorem concrete_closure_of_log_rate (rate : ConcreteLogRate) :
+    dInf = 0 ∧ RiemannHypothesis := by
+  have h := certificates_of_log_rate rate
+  exact ⟨concrete_inf_zero h, mathlib_rh_of_concrete_certificates h⟩
+
 end R01
