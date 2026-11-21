@@ -1,0 +1,9 @@
+# Alcance do certificado Claude na avaliação do R01
+
+O certificado da revisão `c21f9a9fb43489ff7f526f394392734e523cd98a` registra `branch_state = "em andamento"`, `closed = 46` e verificação em 10/11/2026 às 04:38:10 UTC. O campo numérico conta declarações. O documento consultado não contém os campos `OPEN_MATH=false` ou `CLOSED_MATH=true`. [Certificado fixado por revisão](https://github.com/ShantiDraconis/atk-riemann-public/blob/cc848f56029f099a770bddc334fb711a712eb67b/mvei/branches/m-core-riemann/claude_atk-protocol-setup-wzeajl/certificate.json).
+
+A identidade de transporte permite uma composição concreta: dadas funções com F̃ ∘ Φ = F e uma prova de F̃(Φ(s)) ≠ 0, segue F(s) ≠ 0 por substituição. Para aplicar esta dedução à zeta seria preciso identificar F com a zeta e produzir a prova de não anulação no ponto transportado. A auditoria nominal da branch documenta o alcance dos resultados certificados. [Auditoria](../r01-claude-branches/README.md).
+
+No endpoint quantitativo, as entradas são a transferência da perda truncada para o resíduo concreto e uma família cuja perda é limitada por C/log(N+2) uniformemente em N. A identidade de transporte sozinha não fornece nenhuma das duas desigualdades. O mínimo em seis células na fatia de um multiplicador é 1/6 + 1/20 + 1/42 = 101/420, e com os dois multiplicadores livres é 233/3682. [Endpoint](2026-11-21-modular-multipliers.md) · [Seis células](2026-11-21-multiple-links.md).
+
+Esta nota documenta a correspondência entre os enunciados e os horários de verificação registrados. A avaliação tem veredito FINAL_FAIL e o alvo incondicional segue OPEN_MATH. A data de verificação da branch não estabelece prioridade científica sobre a cota uniforme. Nenhum novo build foi executado. [Decisão da revisão](2026-11-21-minimum-to-endpoint.md).
