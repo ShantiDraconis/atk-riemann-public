@@ -59,6 +59,36 @@ theorem critical_strip_of_right_exclusion
   · exact he
   · exact False.elim (hright s hr h1 hz)
 
+/-- The functional equation reflects a zero in the open critical strip. -/
+theorem reflect_strip_zero {s : ℂ} (h0 : 0 < s.re) (h1 : s.re < 1)
+    (hz : riemannZeta s = 0) : riemannZeta (1 - s) = 0 := by
+  have hnat : ∀ n : ℕ, s ≠ -(n : ℂ) := by
+    intro n he
+    rw [he] at h0
+    have hn : (0 : ℝ) ≤ (n : ℝ) := Nat.cast_nonneg n
+    have hn' : (0 : ℝ) < -(n : ℝ) := by simpa using h0
+    linarith
+  have hone : s ≠ 1 := by
+    intro he
+    rw [he] at h1
+    simp at h1
+  rw [riemannZeta_one_sub hnat hone, hz, mul_zero]
+
+/-- Apply the Mellin obstruction and reflection with no separate symmetry premise. -/
+theorem strip_of_mellin_certificates
+    (D : ℕ → ℝ) (lower : ℂ → ℝ)
+    (hcert : ArbitrarilySmallUpperCertificates D)
+    (hpos : ∀ s : ℂ, 1 / 2 < s.re → s.re < 1 → 0 < lower s)
+    (hmellin : ∀ s : ℂ, 1 / 2 < s.re → s.re < 1 →
+      riemannZeta s = 0 → ∀ N : ℕ, lower s ≤ D N) :
+    ∀ s : ℂ, 0 < s.re → s.re < 1 → riemannZeta s = 0 → s.re = 1 / 2 := by
+  apply critical_strip_of_right_exclusion (no_right_strip_zeros D lower hcert hpos hmellin)
+  intro s h0 hhalf hz
+  exact reflect_strip_zero h0 (by linarith) hz
+
+#print axioms reflect_strip_zero
+#print axioms strip_of_mellin_certificates
+
 #print axioms PointState.u_eq_zero
 #print axioms PointState.v_eq_zero
 #print axioms no_right_strip_zeros
