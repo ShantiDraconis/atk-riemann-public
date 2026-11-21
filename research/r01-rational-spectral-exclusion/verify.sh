@@ -31,6 +31,8 @@ import Exclusion
 #print axioms R01.concrete_strip_of_certificates
 #print axioms R01.concrete_inf_zero
 #print axioms R01.mathlib_rh_of_concrete_certificates
+#print axioms R01.certificates_of_log_rate
+#print axioms R01.concrete_closure_of_log_rate
 LEAN
 lake env lean AuditR01.lean | tee "$tmp/report"
 python3 - "$tmp/report" <<'PY'
@@ -38,7 +40,8 @@ import pathlib, re, sys
 report = pathlib.Path(sys.argv[1]).read_text()
 allowed = {"propext", "Classical.choice", "Quot.sound"}
 for name in ("concrete_exclusion", "concrete_strip_of_certificates",
-             "concrete_inf_zero", "mathlib_rh_of_concrete_certificates"):
+             "concrete_inf_zero", "mathlib_rh_of_concrete_certificates",
+             "certificates_of_log_rate", "concrete_closure_of_log_rate"):
     label = re.escape("'R01." + name + "'")
     matches = re.findall(label + r"\s+(?:depends on axioms:\s*\[([^\]]*)\]|does not depend on any axioms)", report)
     if len(matches) != 1:
