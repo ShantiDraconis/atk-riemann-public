@@ -302,7 +302,7 @@ theorem multiplier_tail_series_bound {N M : ℕ} (v : ℕ → ℝ) {B : ℝ}
     have hx1 : 0 < x+1 := by linarith
     have hid : B^2 / (x*(x+1)) = B^2/x - B^2/(x+1) := by
       field_simp
-      <;> ring
+      ring
     unfold term cellWeight
     push_cast
     exact (div_le_div_of_nonneg_right hs (mul_pos hx hx1).le).trans_eq hid
@@ -314,11 +314,33 @@ theorem multiplier_tail_series_bound {N M : ℕ} (v : ℕ → ℝ) {B : ℝ}
       rw [sum_range_succ]
       push_cast
       have h := add_le_add ih (hstep n)
-      convert h using 1 <;> ring
+      convert h using 1
+      ring
   have hcap (n : ℕ) : ∑ i ∈ range n, term i ≤ B^2/((M : ℝ)+1) :=
     (hpart n).trans (sub_le_self _ (by positivity))
   exact ⟨summable_of_sum_range_le hnon hcap, Real.tsum_le_of_sum_range_le hnon hcap⟩
 
 #print axioms multiplier_tail_series_bound
+
+
+/-- Coefficients indexed from one for the zero-tail approximant. -/
+theorem harmonic_tail_coeff_sum_eq_zero {N : ℕ} (hN : 1 ≤ N) (v : ℕ → ℝ) :
+    ∑ k ∈ Icc 1 N, (if k = 1 then ∑ m ∈ Icc 2 N, v m else -(k : ℝ)*v k) / (k : ℝ) = 0 := by
+  have he : Icc 1 N = insert 1 (Icc 2 N) := by
+    ext k
+    simp only [mem_Icc, mem_insert]
+    omega
+  have hrest (k : ℕ) (hk : k ∈ Icc 2 N) :
+      (if k = 1 then ∑ m ∈ Icc 2 N, v m else -(k : ℝ)*v k) / (k : ℝ) = -v k := by
+    have hk2 := (mem_Icc.mp hk).1
+    have hne : k ≠ 1 := by omega
+    have hpos : (0 : ℝ) < k := by exact_mod_cast (by omega : 0 < k)
+    rw [ite_eq_right hne]
+    apply (div_eq_iff hpos.ne').mpr
+    ring
+  rw [he, sum_insert (by simp), sum_congr rfl hrest, sum_neg_distrib]
+  simp
+
+#print axioms harmonic_tail_coeff_sum_eq_zero
 
 end R01
