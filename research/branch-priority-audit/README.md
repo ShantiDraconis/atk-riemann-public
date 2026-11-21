@@ -26,3 +26,15 @@ Auditoria de 21/11/2026. Consultei cinco índices públicos, totalizando 211 par
 Fontes externas: [OpenAI — Navier–Stokes](https://openai.com/index/navier-stokes-solution/) · [OpenAI — QCD, ETH e Kakeya](https://openai.com/index/building-scientific-understanding-with-academic-communities/) · [Anthropic — formalização de Fermat](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
 
 A evidência publicada consiste em enunciados selecionados, datas, referências e fontes Lean já públicas. Os estados de prova dos repositórios continuam os registrados em seus próprios certificados.
+
+## Cadeia de evidência para a formalização de Riemann
+
+| Marco no histórico do M-Core, em UTC | Declaração no espelho público | Git blob no espelho e na revisão auditada |
+|---|---|---|
+| 13/10/2026 às 22:08:29, `9e27bb5` | [`ATK.BaezDuarteBridge.baezDuarteCriterion`](https://github.com/ShantiDraconis/atk-math-core-public/blob/751835c6e1aa915d261828e5a120345bc5d2462c/imports/M-Core/atk-kernel/ATK/BaezDuarteBridge.lean#L370), DN → 0 implica a RH do Mathlib. | `39b2e11ba86c1e1e27444f3d04edb41d9c41e586` |
+| 27/10/2026 às 04:10:01, `7ccfb30` | [`ATK.ZeroClasses.VonKochRH.rh_iff_psi`](https://github.com/ShantiDraconis/atk-math-core-public/blob/751835c6e1aa915d261828e5a120345bc5d2462c/imports/M-Core/atk-kernel/ATK/ZeroClasses/VonKochRH.lean#L721), equivalência clássica com a estimativa para ψ. | `99259efe3f9ed19e2d69cb95e6983522e6b75e1d` |
+| 27/10/2026 às 11:47:02, `b7f1672` | [`ATK.ZeroClasses.Unilateral.semZeros_of_psi_le`](https://github.com/ShantiDraconis/atk-math-core-public/blob/751835c6e1aa915d261828e5a120345bc5d2462c/imports/M-Core/atk-kernel/ATK/ZeroClasses/Unilateral.lean#L818), de uma cota unilateral global para uma região sem zeros. | `a574ffa6cecbd39b2d21ae3cccf3b943520ab77d` |
+
+No Git, cada blob identifica o arquivo completo. Os três arquivos públicos têm os mesmos blobs da revisão `390e3781109fa42e977d143caa9204ed94166a7b`. O [relatório MVEI](https://github.com/ShantiDraconis/atk-math-core-public/blob/751835c6e1aa915d261828e5a120345bc5d2462c/mvei/README.md) registra um build do projeto `atk-kernel` com Lean 4.34.1 em 11/11/2026 às 21:46:03 UTC. As datas dos commits acima identificam marcos de desenvolvimento, e a data do relatório identifica a verificação registrada. Nenhuma delas, isoladamente, determina quando o código foi disponibilizado pela primeira vez a terceiros.
+
+A ponte de Báez-Duarte é uma redução clássica formalizada e sua hipótese de densidade permanece aberta no R01. A região fixa Re(s) > 7/8 da [formalização da OpenAI](https://github.com/openai/math/blob/main/lean/docs/003.md) é um resultado distinto das implicações condicionais listadas acima. A comparação com Alpöge sustenta anterioridade em relação ao anúncio público para esses marcos documentados, sem estabelecer primazia mundial ou uma prova anterior da RH.
