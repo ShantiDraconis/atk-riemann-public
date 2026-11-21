@@ -5,14 +5,18 @@ sources=$(cd "$(dirname "$0")" && pwd)
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
 revision=751835c6e1aa915d261828e5a120345bc5d2462c
+if [[ -n "${ATK_CHECKOUT:-}" ]]; then
+  git -C "$ATK_CHECKOUT" archive "$revision" imports/M-Core/atk-kernel | tar -x -C "$tmp"
+else
 git -C "$tmp" init -q
 git -C "$tmp" fetch -q --depth=1 https://github.com/ShantiDraconis/atk-math-core-public "$revision"
 git -C "$tmp" checkout -q --detach FETCH_HEAD
 test "$(git -C "$tmp" rev-parse HEAD)" = "$revision"
+fi
 cd "$tmp/imports/M-Core/atk-kernel"
 lake --version
 lean --version
-lake exe cache get
+lake exe cache get Mathlib
 lake build ATK.BarreiraZero
 mkdir -p "$tmp/modules"
 export LEAN_PATH="$tmp/modules${LEAN_PATH:+:$LEAN_PATH}"
