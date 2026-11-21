@@ -281,4 +281,44 @@ theorem truncation_amplitude_cost {N : ℕ} (hN : 1 ≤ N) :
 #print axioms normalization_tolerance
 #print axioms truncation_amplitude_cost
 
+
+/-- The omitted series begins at cell M+1. Its finite partial sums telescope
+against the same cell weights as multiplierLoss. -/
+theorem multiplier_tail_series_bound {N M : ℕ} (v : ℕ → ℝ) {B : ℝ}
+    (hamp : ∀ j : ℕ, M < j → |multiplierValue N 1 v j| ≤ B) :
+    let term := fun i : ℕ =>
+      multiplierValue N 1 v (M+i+1)^2 / cellWeight (M+i+1)
+    Summable term ∧ (∑' i, term i) ≤ B^2 / ((M : ℝ)+1) := by
+  let term := fun i : ℕ => multiplierValue N 1 v (M+i+1)^2 / cellWeight (M+i+1)
+  change Summable term ∧ (∑' i, term i) ≤ _
+  have hnon (i : ℕ) : 0 ≤ term i := by unfold term cellWeight; positivity
+  have hstep (i : ℕ) : term i ≤ B^2 / ((M : ℝ)+i+1) - B^2 / ((M : ℝ)+i+1+1) := by
+    have ha := abs_le.mp (hamp (M+i+1) (by omega))
+    have hs : multiplierValue N 1 v (M+i+1)^2 ≤ B^2 := by
+      nlinarith only [mul_nonneg (sub_nonneg.mpr ha.2) (by linarith [ha.1] :
+        0 ≤ B + multiplierValue N 1 v (M+i+1))]
+    let x : ℝ := (M : ℝ)+i+1
+    have hx : 0 < x := by dsimp [x]; positivity
+    have hx1 : 0 < x+1 := by linarith
+    have hid : B^2 / (x*(x+1)) = B^2/x - B^2/(x+1) := by
+      field_simp
+      <;> ring
+    unfold term cellWeight
+    push_cast
+    exact (div_le_div_of_nonneg_right hs (mul_pos hx hx1).le).trans_eq hid
+  have hpart (n : ℕ) : ∑ i ∈ range n, term i ≤
+      B^2/((M : ℝ)+1) - B^2/((M : ℝ)+n+1) := by
+    induction n with
+    | zero => simp
+    | succ n ih =>
+      rw [sum_range_succ]
+      push_cast
+      have h := add_le_add ih (hstep n)
+      convert h using 1 <;> ring
+  have hcap (n : ℕ) : ∑ i ∈ range n, term i ≤ B^2/((M : ℝ)+1) :=
+    (hpart n).trans (sub_le_self _ (by positivity))
+  exact ⟨summable_of_sum_range_le hnon hcap, Real.tsum_le_of_sum_range_le hnon hcap⟩
+
+#print axioms multiplier_tail_series_bound
+
 end R01
