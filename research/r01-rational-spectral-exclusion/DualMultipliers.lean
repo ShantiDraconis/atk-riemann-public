@@ -240,4 +240,45 @@ theorem two_cell_coefficient_floor {N M : ℕ} (hN : 2 ≤ N) (hM : 2 ≤ M)
 
 #print axioms two_cell_coefficient_floor
 
+
+/-- The first cell determines a necessary normalization of the multiplier sum. -/
+theorem first_cell_normalization_floor {N M : ℕ} (hM : 1 ≤ M) (v : ℕ → ℝ) :
+    (1 + ∑ k ∈ Icc 2 N, v k)^2 / 2 ≤ multiplierLoss N M 1 v := by
+  have hterm (k : ℕ) (hk : k ∈ Icc 2 N) : v k * ((1 % k : ℕ) : ℝ) = v k := by
+    have hk2 := (mem_Icc.mp hk).1
+    simp [Nat.mod_eq_of_lt (by omega : 1 < k)]
+  have hv : multiplierValue N 1 v 1 = 1 + ∑ k ∈ Icc 2 N, v k := by
+    unfold multiplierValue
+    rw [sum_congr rfl hterm]
+  have hpos (j : ℕ) (_ : j ∈ Icc 1 M) :
+      0 ≤ multiplierValue N 1 v j ^ 2 / cellWeight j := by
+    unfold cellWeight
+    positivity
+  have hp : 1 ∈ Icc 1 M := mem_Icc.mpr ⟨le_rfl, hM⟩
+  have h := single_le_sum hpos hp
+  change multiplierValue N 1 v 1 ^ 2 / cellWeight 1 ≤ multiplierLoss N M 1 v at h
+  rw [hv] at h
+  norm_num [cellWeight] at h ⊢
+  exact h
+
+theorem normalization_tolerance {N M : ℕ} (hM : 1 ≤ M) (v : ℕ → ℝ) {C : ℝ}
+    (hb : multiplierLoss N M 1 v ≤ C / Real.log ((N : ℝ)+2)) :
+    |1 + ∑ k ∈ Icc 2 N, v k| ≤ Real.sqrt (2*C / Real.log ((N : ℝ)+2)) := by
+  have h := (first_cell_normalization_floor hM v).trans hb
+  have hs : (1 + ∑ k ∈ Icc 2 N, v k)^2 ≤ 2*C / Real.log ((N : ℝ)+2) := by
+    rw [mul_div_assoc]
+    linarith
+  simpa only [Real.sqrt_sq_eq_abs] using Real.sqrt_le_sqrt hs
+
+/-- Arithmetic cost of truncation once the amplitude bound has been established. -/
+theorem truncation_amplitude_cost {N : ℕ} (hN : 1 ≤ N) :
+    (10*(N : ℝ)^2)^2 / (100*(N : ℝ)^5+1) < 1/(N : ℝ) := by
+  have hn : (0 : ℝ) < N := by exact_mod_cast (by omega : 0 < N)
+  apply (div_lt_div_iff₀ (by positivity) hn).mpr
+  nlinarith only
+
+#print axioms first_cell_normalization_floor
+#print axioms normalization_tolerance
+#print axioms truncation_amplitude_cost
+
 end R01
