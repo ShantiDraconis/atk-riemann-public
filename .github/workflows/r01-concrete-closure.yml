@@ -1,0 +1,21 @@
+name: R01 concrete conditional theorems
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'research/r01-rational-spectral-exclusion/**'
+      - '.github/workflows/r01-concrete-closure.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y elan
+      - name: Compile and check the transitive axiom reports
+        run: bash research/r01-rational-spectral-exclusion/verify.sh
