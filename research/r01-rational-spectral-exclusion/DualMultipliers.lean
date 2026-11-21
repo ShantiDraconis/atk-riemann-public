@@ -213,7 +213,7 @@ theorem two_cell_coefficient_floor {N M : ℕ} (hN : 2 ≤ N) (hM : 2 ≤ M)
       by_cases he : k = 2
       · subst k
         norm_num
-      · rw [if_neg he, Nat.mod_eq_of_lt (by omega : 2 < k),
+      · rw [ite_eq_right he, Nat.mod_eq_of_lt (by omega : 2 < k),
             Nat.mod_eq_of_lt (by omega : 1 < k)]
         push_cast
         ring
