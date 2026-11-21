@@ -1,4 +1,5 @@
 import Closure
+import DualMultipliers
 import ATK.BarreiraZero
 
 namespace R01
@@ -53,5 +54,45 @@ theorem concrete_closure_of_log_rate (rate : ConcreteLogRate) :
     dInf = 0 ∧ RiemannHypothesis := by
   have h := certificates_of_log_rate rate
   exact ⟨concrete_inf_zero h, mathlib_rh_of_concrete_certificates h⟩
+
+
+/-- Transfer the finite multiplier loss at the fixed cutoff to the concrete R01.
+The two premises are the truncation comparison and the uniform witness bound. -/
+theorem closure_of_modular_multipliers (C : ℝ) (hC : 0 ≤ C) (v : ℕ → ℕ → ℝ)
+    (htransfer : ∀ N : ℕ, 2 ≤ N →
+      DN N ≤ multiplierLoss N (100*N^5) 1 (v N) + 1/(N : ℝ))
+    (hwitness : ∀ N : ℕ, 2 ≤ N →
+      multiplierLoss N (100*N^5) 1 (v N) ≤ C / Real.log ((N : ℝ)+2)) :
+    ConcreteLogRate ∧ dInf = 0 ∧ RiemannHypothesis := by
+  let K := max (Real.log 3) (C+1)
+  have rate : ConcreteLogRate := by
+    refine ⟨K, le_trans (by linarith : 0 ≤ C+1) (le_max_right _ _), ?_⟩
+    intro N
+    have hn : (0 : ℝ) ≤ N := Nat.cast_nonneg N
+    have hp : 0 < Real.log ((N : ℝ)+2) := Real.log_pos (by linarith)
+    by_cases hN : 2 ≤ N
+    · have hn2 : (2 : ℝ) ≤ N := by exact_mod_cast hN
+      have he : Real.log ((N : ℝ)+2) ≤ N := by
+        have hhalf : 0 < ((N : ℝ)+2)/2 := by linarith
+        have h := Real.log_le_sub_one_of_pos hhalf
+        rw [Real.log_div (by linarith : (N : ℝ)+2 ≠ 0) (by norm_num)] at h
+        have htwo := Real.log_le_sub_one_of_pos (by norm_num : (0 : ℝ)<2)
+        linarith
+      have htail : 1/(N : ℝ) ≤ 1/Real.log ((N : ℝ)+2) :=
+        one_div_le_one_div_of_le hp he
+      calc
+        DN N ≤ _ := htransfer N hN
+        _ ≤ C/Real.log ((N : ℝ)+2) + 1/Real.log ((N : ℝ)+2) :=
+          add_le_add (hwitness N hN) htail
+        _ = (C+1)/Real.log ((N : ℝ)+2) := (add_div _ _ _).symm
+        _ ≤ K/Real.log ((N : ℝ)+2) := div_le_div_of_nonneg_right (le_max_right _ _) hp.le
+    · have hi : N ≤ 1 := by omega
+      have hi' : (N : ℝ) ≤ 1 := by exact_mod_cast hi
+      have hl : Real.log ((N : ℝ)+2) ≤ Real.log 3 :=
+        Real.log_le_log (by linarith) (by linarith)
+      apply (DN_le_one N).trans
+      apply (le_div_iff₀ hp).mpr
+      simpa only [one_mul] using hl.trans (le_max_left _ (C+1))
+  exact ⟨rate, concrete_closure_of_log_rate rate⟩
 
 end R01
