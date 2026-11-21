@@ -10,7 +10,7 @@ def cellEnergy (M : ℕ) (d : ℕ → ℝ) : ℝ :=
 def multiplierValue (N : ℕ) (a : ℝ) (v : ℕ → ℝ) (j : ℕ) : ℝ :=
   a + ∑ k ∈ Icc 2 N, v k * (j % k : ℕ)
 
-def multiplierLoss (N M : ℕ) (a : ℝ) (v : ℕ → ℝ) : ℝ :=
+noncomputable def multiplierLoss (N M : ℕ) (a : ℝ) (v : ℕ → ℝ) : ℝ :=
   ∑ j ∈ Icc 1 M, multiplierValue N a v j ^ 2 / cellWeight j
 
 theorem multiplier_pairing {N M : ℕ} {d : ℕ → ℝ} (a : ℝ) (v : ℕ → ℝ)
@@ -20,7 +20,8 @@ theorem multiplier_pairing {N M : ℕ} {d : ℕ → ℝ} (a : ℝ) (v : ℕ → 
   simp only [multiplierValue, add_mul, sum_add_distrib, sum_mul]
   rw [← mul_sum, hn, mul_one, sum_comm]
   simp only [mul_assoc, ← mul_sum]
-  simp [hz]
+  simp only [add_eq_left]
+  exact sum_eq_zero fun k hk => by rw [hz k hk, mul_zero]
 
 /-- Complete the square for every cell and sum. Choosing the scale a/loss
 gives the weighted Cauchy-Schwarz certificate without extracting square roots. -/
