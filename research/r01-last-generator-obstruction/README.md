@@ -9,7 +9,7 @@ O interpolante com correção no último gerador é
 
 A igualdade intermediária segue de N S_N = N S_(N−1)+μ(N).
 B_N é exatamente a sequência definida na equação (1.18) de
-[L. Báez–Duarte, New versions of the Nyman–Beurling criterion (2002)](https://www2.math.ethz.ch/EMIS/journals/IJMMS/2002/235616.pdf).
+[L. Báez–Duarte, New versions of the Nyman–Beurling criterion (2002)](https://doi.org/10.1155/S0161171202013248).
 A [cópia do artigo](https://www2.math.ethz.ch/EMIS/journals/HOA/IJMMS/Volume31_7/242719.pdf)
 contém a Proposição 4.13, que demonstra que B_N não converge em L².
 Portanto não há K global que dê taxa 1/log(N+2) para o erro de g_N.
