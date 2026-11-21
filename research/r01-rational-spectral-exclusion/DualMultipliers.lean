@@ -197,4 +197,47 @@ theorem common_multiple_rejects_log_witness {N P : ℕ} (v : ℕ → ℝ) (C : �
 #print axioms common_multiple_cell_floor
 #print axioms common_multiple_rejects_log_witness
 
+
+/-- The first two cells constrain the coefficient at modulus two, even with
+arbitrarily many other active moduli. -/
+theorem two_cell_coefficient_floor {N M : ℕ} (hN : 2 ≤ N) (hM : 2 ≤ M)
+    (v : ℕ → ℝ) :
+    (1 + 2 * v 2)^2 / 14 ≤ multiplierLoss N M 1 v := by
+  let s := Icc 2 N
+  have hlin : multiplierValue N 1 v 2 - 2 * multiplierValue N 1 v 1 =
+      -(1 + 2 * v 2) := by
+    have hterm (k : ℕ) (hk : k ∈ s) :
+        v k * ((2 % k : ℕ) : ℝ) - 2 * (v k * ((1 % k : ℕ) : ℝ)) =
+        if k = 2 then -(2 * v 2) else 0 := by
+      have hk2 := (mem_Icc.mp hk).1
+      by_cases he : k = 2
+      · subst k
+        norm_num
+      · rw [if_neg he, Nat.mod_eq_of_lt (by omega : 2 < k),
+            Nat.mod_eq_of_lt (by omega : 1 < k)]
+        push_cast
+        ring
+    have hs := sum_congr rfl hterm
+    rw [sum_sub_distrib, ← mul_sum] at hs
+    have hmem : 2 ∈ s := mem_Icc.mpr ⟨le_rfl, hN⟩
+    simp [hmem] at hs
+    unfold multiplierValue
+    dsimp [s] at hs
+    linarith
+  let f := multiplierValue N 1 v
+  have hsub : ({1, 2} : Finset ℕ) ⊆ Icc 1 M := by
+    intro j hj
+    simp only [mem_insert, mem_singleton] at hj
+    rcases hj with rfl | rfl <;> exact mem_Icc.mpr ⟨by decide, by omega⟩
+  have hpart := sum_le_sum_of_subset_of_nonneg (f := fun j => f j ^ 2 / cellWeight j)
+    hsub (fun j _ _ => by unfold cellWeight; positivity)
+  change _ ≤ multiplierLoss N M 1 v at hpart
+  norm_num [cellWeight] at hpart
+  change f 2 - 2 * f 1 = _ at hlin
+  have he : (1 + 2 * v 2)^2 = (f 2 - 2 * f 1)^2 := by rw [hlin]; ring
+  rw [he]
+  nlinarith only [hpart, sq_nonneg (3 * f 1 + 2 * f 2)]
+
+#print axioms two_cell_coefficient_floor
+
 end R01
