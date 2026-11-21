@@ -23,7 +23,8 @@ theorem PointState.v_eq_zero (state : PointState) :
   constructor
   · intro h
     have hn : ‖riemannZeta state.point‖ = 0 := by
-      exact (pow_eq_zero h)
+      by_contra hne
+      exact (pow_ne_zero 2 hne) h
     exact norm_eq_zero.mp hn
   · intro h
     simp [h]
