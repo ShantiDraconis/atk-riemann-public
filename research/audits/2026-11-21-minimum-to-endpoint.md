@@ -1,5 +1,13 @@
 # R01 · Da perda mínima ao teorema concreto
 
+## Decisão final da rodada de 21/11/2026
+
+**Gate R01 desta rodada: `FINAL_FAIL`. Alvo matemático: `OPEN_MATH`.**
+
+O critério de aprovação exigia uma prova incondicional compilada para o resíduo concreto. Na revisão avaliada, o teorema de fechamento recebe duas hipóteses. A transferência do sanduíche para o resíduo concreto ainda requer prova no kernel. A limitação de $L_N\log(N+2)$ por uma constante independente de $N$ ainda requer demonstração. A decisão encerra a avaliação desta revisão por insuficiência de prova. A validade da estimativa permanece em aberto.
+
+[Revisão avaliada](https://github.com/ShantiDraconis/atk-riemann-public/commit/c963adf8642ef2999dd2737fa07d50efa154f1a4).
+
 **Estado em 21/11/2026.** O fechamento condicional passou pelo kernel. A estimativa uniforme para o mínimo modular permanece em OPEN_MATH.
 
 ## Como usar uma família de teste
