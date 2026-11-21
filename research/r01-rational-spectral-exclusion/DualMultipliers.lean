@@ -161,4 +161,40 @@ theorem six_cell_exact_loss :
 #print axioms six_cell_gap
 #print axioms six_cell_exact_loss
 
+
+/-- Every active modulus dividing P leaves the residual at that cell equal to one. -/
+theorem common_multiple_cell_floor {N M P : ℕ} (v : ℕ → ℝ)
+    (hp : P ∈ Icc 1 M) (hs : ∀ k ∈ Icc 2 N, v k ≠ 0 → k ∣ P) :
+    1 / cellWeight P ≤ multiplierLoss N M 1 v := by
+  have hsum : ∑ k ∈ Icc 2 N, v k * ((P % k : ℕ) : ℝ) = 0 := by
+    apply sum_eq_zero
+    intro k hk
+    by_cases hz : v k = 0
+    · simp [hz]
+    · simp [Nat.mod_eq_zero_of_dvd (hs k hk hz)]
+  have hval : multiplierValue N 1 v P = 1 := by
+    simp [multiplierValue, hsum]
+  have hcell (j : ℕ) (_hj : j ∈ Icc 1 M) :
+      0 ≤ multiplierValue N 1 v j ^ 2 / cellWeight j := by
+    unfold cellWeight
+    positivity
+  have h := single_le_sum hcell hp
+  simpa only [hval, one_pow, multiplierLoss] using h
+
+/-- Above this threshold the common-multiple floor refutes the witness premise. -/
+theorem common_multiple_rejects_log_witness {N P : ℕ} (v : ℕ → ℝ) (C : ℝ)
+    (hp : P ∈ Icc 1 (100*N^5)) (hs : ∀ k ∈ Icc 2 N, v k ≠ 0 → k ∣ P)
+    (ht : C * cellWeight P < Real.log ((N : ℝ)+2)) :
+    ¬ multiplierLoss N (100*N^5) 1 v ≤ C / Real.log ((N : ℝ)+2) := by
+  have hnat : 0 < P := (mem_Icc.mp hp).1
+  have hw : 0 < cellWeight P := by unfold cellWeight; positivity
+  have hl : 0 < Real.log ((N : ℝ)+2) :=
+    Real.log_pos (by linarith [Nat.cast_nonneg (α := ℝ) N])
+  intro hb
+  have h := (div_le_div_iff₀ hw hl).mp ((common_multiple_cell_floor v hp hs).trans hb)
+  linarith
+
+#print axioms common_multiple_cell_floor
+#print axioms common_multiple_rejects_log_witness
+
 end R01
