@@ -89,7 +89,7 @@ theorem sum_multiple_tails (d : ℕ → ℝ) {k : ℕ} (hk : 0 < k) (M : ℕ) :
   have he : (Icc 1 (M/k)).filter (fun r => k*r ≤ j) = Icc 1 (j/k) := by
     ext r
     simp only [mem_filter, mem_Icc]
-    have hdiv := Nat.div_le_div_right (k := k) (mem_Icc.mp hj).2
+    have hdiv : j/k ≤ M/k := Nat.div_le_div_right (mem_Icc.mp hj).2
     have hiff : r ≤ j/k ↔ k*r ≤ j := by
       rw [Nat.le_div_iff_mul_le hk, Nat.mul_comm]
     omega
@@ -134,5 +134,30 @@ theorem dual_energy_from_multiple_links {N M : ℕ} (hM : 1 ≤ M)
 #print axioms sum_multiple_tails
 #print axioms multiple_link_identity
 #print axioms dual_energy_from_multiple_links
+
+
+/-- Exact two-generator optimum over six cells, in the sign convention of multiplierLoss. -/
+theorem six_cell_gap (x y : ℝ) :
+    multiplierLoss 3 6 1 (fun k => if k = 2 then -x else -y) - 233/3682 =
+      (37/60) * ((x-1059/1841) + (34/37)*(y-851/1841))^2 +
+      (1841/2220) * (y-851/1841)^2 := by
+  norm_num [multiplierLoss, multiplierValue, cellWeight,
+    show Icc 1 6 = ({1,2,3,4,5,6} : Finset ℕ) by decide,
+    show Icc 2 3 = ({2,3} : Finset ℕ) by decide] <;> ring
+
+theorem six_cell_exact_loss :
+    IsLeast {q : ℝ | ∃ x y : ℝ,
+      q = multiplierLoss 3 6 1 (fun k => if k = 2 then -x else -y)} (233/3682) := by
+  constructor
+  · refine ⟨1059/1841, 851/1841, ?_⟩
+    have h := six_cell_gap (1059/1841) (851/1841)
+    linarith only [h]
+  · rintro q ⟨x, y, rfl⟩
+    have h := six_cell_gap x y
+    nlinarith only [h, sq_nonneg ((x-1059/1841) + (34/37)*(y-851/1841)),
+      sq_nonneg (y-851/1841)]
+
+#print axioms six_cell_gap
+#print axioms six_cell_exact_loss
 
 end R01
