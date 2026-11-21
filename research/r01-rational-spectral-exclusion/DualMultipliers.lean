@@ -143,7 +143,8 @@ theorem six_cell_gap (x y : ℝ) :
       (1841/2220) * (y-851/1841)^2 := by
   norm_num [multiplierLoss, multiplierValue, cellWeight,
     show Icc 1 6 = ({1,2,3,4,5,6} : Finset ℕ) by decide,
-    show Icc 2 3 = ({2,3} : Finset ℕ) by decide] <;> ring
+    show Icc 2 3 = ({2,3} : Finset ℕ) by decide]
+  ring
 
 theorem six_cell_exact_loss :
     IsLeast {q : ℝ | ∃ x y : ℝ,
