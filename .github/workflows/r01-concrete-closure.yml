@@ -22,6 +22,6 @@ jobs:
           git clone --depth 1 --branch v4.34.1 https://github.com/leanprover-community/mathlib4 "$RUNNER_TEMP/mathlib"
           cd "$RUNNER_TEMP/mathlib"
           lake exe cache get Mathlib
-          for name in Closure Exclusion; do
+          for name in Closure Exclusion DualMultipliers; do
             lake env lean -DwarningAsError=true "$GITHUB_WORKSPACE/research/r01-rational-spectral-exclusion/$name.lean"
           done
