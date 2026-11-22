@@ -10,6 +10,19 @@ Related publication: https://doi.org/10.5281/zenodo.15164501 (historical publica
 
 Do not add confidential data or third-party code without checking its license and attribution.
 
+## R01 em revisão pública
+
+A autoria deste projeto está registrada em nome de **Tiago Paschoalatto Fagliari**. Para citar uma contribuição específica, indique também o nome da declaração Lean e o commit que examinou. [Dados de citação](CITATION.cff)
+
+| Para quem quer | Onde começar |
+|---|---|
+| Ler a demonstração modular | [Lei dos multiplicadores](research/r01-rational-spectral-exclusion/DualMultipliers.lean) e [teorema de fechamento condicional](research/r01-rational-spectral-exclusion/ConcreteClosure.lean) |
+| Conferir uma alegação | [Enunciados e alcance de cada resultado](research/audits/external-certificates/CLAIMS.md) e [protocolo de reprodução](research/audits/external-certificates/REPRODUCE.md) |
+| Examinar o que falta | [Registro das obrigações abertas](research/audits/2026-11-22-r01-public-gap-register.md) |
+| Discutir ou contestar um passo | [Discussão pública na issue #5](https://github.com/ShantiDraconis/atk-riemann-public/issues/5) |
+
+A pergunta matemática para revisão é se existe uma família de multiplicadores e **uma mesma constante** que dê a cota logarítmica para todo índice a partir de 2. O teorema de fechamento recebe essa estimativa e a transferência para a distância concreta como hipóteses. Uma contribuição à discussão pode identificar o passo que resolve, o enunciado exato e uma demonstração ou um contraexemplo que outros leitores possam conferir.
+
 <!-- mvei:start -->
 ## Lean sources and kernel check (MVEI)
 
