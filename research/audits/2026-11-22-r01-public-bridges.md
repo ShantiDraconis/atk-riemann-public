@@ -28,10 +28,10 @@ A linha de aplicação é **condicional** até existirem termos fechados para os
 
 | Fonte pública | Declaração | Premissa efetiva | Próximo teste |
 |---|---|---|---|
-| [MaterialRecovery.lean](../branches/m-core-riemann/atk_rh-material-recovery-20261007/lean/MCore/RH/R0/MaterialRecovery.lean) | `recovered_terminal_of_explicitGramRate` | `ExplicitGramRateTarget` | Localizar termo incondicional deste alvo |
+| [MaterialRecovery.lean](../../branches/m-core-riemann/atk_rh-material-recovery-20261007/lean/MCore/RH/R0/MaterialRecovery.lean) | `recovered_terminal_of_explicitGramRate` | `ExplicitGramRateTarget` | Localizar termo incondicional deste alvo |
 | Mesmo módulo | `recovered_terminal_of_bcfExplicitLogBounds` | `BCFExplicitLogBounds` | Construir constantes e provar as três desigualdades |
 | Mesmo módulo | `recovered_terminal_of_coefficient_error_tendsto_zero` | Convergência de erro L² | Localizar coeficientes concretos e prova de convergência |
-| [BCFExplicitLogBounds.lean](../branches/m-core-riemann/atk_rh-material-recovery-20261007/lean/MCore/RH/NB/BCFExplicitLogBounds.lean) | `dn_le_combined_log_majorant` | `H : BCFExplicitLogBounds D B` | Não confundir a combinação com a produção de `H` |
+| [BCFExplicitLogBounds.lean](../../branches/m-core-riemann/atk_rh-material-recovery-20261007/lean/MCore/RH/NB/BCFExplicitLogBounds.lean) | `dn_le_combined_log_majorant` | `H : BCFExplicitLogBounds D B` | Não confundir a combinação com a produção de `H` |
 | Mesmo módulo | `FINAL_ROOT_of_explicit_bcf_bounds` | `H : BCFExplicitLogBounds D B` | Inspecionar tipo completo e axiomas |
 
 **Atenção:** os símbolos `DN` e `explicitGramResidual` vivem em formalizações diferentes. Uma ponte entre eles exige uma igualdade ou estimativa formalizada, com o mesmo espaço de Hilbert, geradores, índices, normalização e definição da distância. Nomes semelhantes não autorizam substituição.
