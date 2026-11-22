@@ -1,0 +1,50 @@
+{
+  "schema": "atk-external-evidence-ledger-v1",
+  "generated_on": "2026-11-22",
+  "review_status": "not_submitted_for_peer_review",
+  "external_independent_certification": "none_verified",
+  "unconditional_mathematical_closure": false,
+  "OPEN_MATH": true,
+  "CLOSED_MATH": false,
+  "records": [
+    {
+      "id": "RH-MVEI-20261003",
+      "kind": "historical_project_generated_branch_certificate",
+      "source_repo": "ShantiDraconis/m-core-riemann",
+      "branch": "atk/terminal-parameter-law-20261003",
+      "head_commit": "c114452706e06317fbb46a46eda14747cfc0cf2d",
+      "public_certificate": "mvei/branches/m-core-riemann/atk_terminal-parameter-law-20261003/certificate.json",
+      "replayed_now": false,
+      "external_independent": false
+    },
+    {
+      "id": "RH-MVEI-20261007",
+      "kind": "historical_project_generated_branch_certificate",
+      "source_repo": "ShantiDraconis/m-core-riemann",
+      "branch": "atk/rh-material-recovery-20261007",
+      "head_commit": "fb8481724749868ed6badb3a8acb98df998c55a2",
+      "public_certificate": "mvei/branches/m-core-riemann/atk_rh-material-recovery-20261007/certificate.json",
+      "replayed_now": false,
+      "external_independent": false
+    },
+    {
+      "id": "ATK-STATUS-20261022",
+      "kind": "historical_local_audit",
+      "source_repo": "ShantiDraconis/M-Core",
+      "source_path": "atk-kernel/audits/status_calculado.json",
+      "reported_checked_theorems": 7135,
+      "reported_material_terminal_producers": 0,
+      "reported_total_terminal_lines": 7,
+      "replayed_now": false,
+      "external_independent": false
+    }
+  ],
+  "verification_requirements": [
+    "pin toolchain and dependency SHA",
+    "inspect exact elaborated canonical endpoint types",
+    "compile full import graph in clean environment",
+    "check axioms and all implicit/explicit parameters",
+    "audit witness construction and Classical.choose source",
+    "verify mathematical fidelity and external independent reproduction"
+  ]
+}
