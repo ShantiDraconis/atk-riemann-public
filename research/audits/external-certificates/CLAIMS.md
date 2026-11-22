@@ -24,8 +24,8 @@
 
 - [Verified subset and limitations](../../r01-verified/README.md)
 - [Public R01 closure](../../r01-rational-spectral-exclusion/ConcreteClosure.lean)
-- [Historical forensic assembly](../../branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/ForensicMaterialAssembly.lean)
-- [Historical material recovery](../../branches/m-core-riemann/atk_rh-material-recovery-20261007/lean/MCore/RH/R0/MaterialRecovery.lean)
+- [Historical forensic assembly](../../../branches/m-core-riemann/atk_terminal-parameter-law-20261003/lean/MCore/RH/R0/ForensicMaterialAssembly.lean)
+- [Historical material recovery](../../../branches/m-core-riemann/atk_rh-material-recovery-20261007/lean/MCore/RH/R0/MaterialRecovery.lean)
 - [Unified master witness (public mirror)](https://github.com/ShantiDraconis/atk-math-core-public/blob/main/branches/M-Core/attack_universal-multistate-signature/lean/MCore/FinalFail/UnifiedOpenMathClosure.lean)
 - [M-Core historical status](https://github.com/ShantiDraconis/M-Core/blob/main/atk-kernel/audits/status_calculado.json)
 
