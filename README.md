@@ -23,6 +23,25 @@ A autoria deste projeto está registrada em nome de **Tiago Paschoalatto Fagliar
 
 A pergunta matemática para revisão é se existe uma família de multiplicadores e **uma mesma constante** que dê a cota logarítmica para todo índice a partir de 2. O teorema de fechamento recebe essa estimativa e a transferência para a distância concreta como hipóteses. Uma contribuição à discussão pode identificar o passo que resolve, o enunciado exato e uma demonstração ou um contraexemplo que outros leitores possam conferir.
 
+### Reprodução sem acesso ao M-Core
+
+A [execução pública 44964241044](https://github.com/ShantiDraconis/atk-riemann-public/actions/runs/44964241044/job/137029554513) compilou `Closure.lean`, `Exclusion.lean` e `DualMultipliers.lean` com avisos tratados como erros. O [workflow daquela revisão](https://github.com/ShantiDraconis/atk-riemann-public/blob/2e7e193258fa8077e93688818dedbdbb3ca5119b/.github/workflows/r01-concrete-closure.yml) identifica exatamente os três módulos. Com Git e elan instalados, execute em um diretório vazio:
+
+```bash
+set -eu
+git clone https://github.com/ShantiDraconis/atk-riemann-public r01
+git -C r01 checkout --detach 2e7e193258fa8077e93688818dedbdbb3ca5119b
+sources="$(pwd)/r01/research/r01-rational-spectral-exclusion"
+git clone --depth 1 --branch v4.34.1 https://github.com/leanprover-community/mathlib4 mathlib
+cd mathlib
+lake exe cache get Mathlib
+for module in Closure Exclusion DualMultipliers; do
+  lake env lean -DwarningAsError=true "$sources/$module.lean"
+done
+```
+
+Para `ConcreteClosure.lean`, o [script integral](research/r01-rational-spectral-exclusion/verify.sh) requer também o snapshot ATK `751835c6`. Em 22/11/2026, o repositório que fornece esse snapshot exigia acesso privado. A execução pública acima cobre os três módulos enumerados.
+
 <!-- mvei:start -->
 ## Lean sources and kernel check (MVEI)
 
